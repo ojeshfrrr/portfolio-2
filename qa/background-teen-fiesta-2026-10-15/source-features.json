@@ -1,0 +1,65 @@
+{
+  "method": "Read-only local static export; native browser section capture; no content altered",
+  "rect": {
+    "x": 0,
+    "y": 77.78125,
+    "width": 1850,
+    "height": 1036.1875
+  },
+  "film": {
+    "controls": true,
+    "readyState": 4,
+    "played": true
+  },
+  "gallerySelection": {
+    "images": [
+      {
+        "src": "/media/red-room-poster.jpg",
+        "alt": "Official Teen Fiesta RED ROOM poster for Mansion Agra, 31 October 2026."
+      },
+      {
+        "src": "/media/hero-campaign.jpg",
+        "alt": "A dancer in crimson light from an earlier Teen Fiesta campaign."
+      },
+      {
+        "src": "/media/red-room-dj.jpg",
+        "alt": "RED ROOM campaign announcement projected over a bar in red light."
+      },
+      {
+        "src": "/media/red-room-poster.jpg",
+        "alt": ""
+      },
+      {
+        "src": "/media/hero-campaign.jpg",
+        "alt": ""
+      },
+      {
+        "src": "/media/red-room-dj.jpg",
+        "alt": ""
+      },
+      {
+        "src": "/media/record-campaign.jpg",
+        "alt": ""
+      },
+      {
+        "src": "/media/halloween-poster.jpg",
+        "alt": ""
+      },
+      {
+        "src": "/media/sunset-poster.jpg",
+        "alt": ""
+      },
+      {
+        "src": "/media/interior-poster.jpg",
+        "alt": ""
+      },
+      {
+        "src": "/media/coming-soon.jpg",
+        "alt": ""
+      }
+    ],
+    "selected": [
+      "View image 2: In the red light"
+    ]
+  }
+}

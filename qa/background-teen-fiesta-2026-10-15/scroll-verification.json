@@ -1,0 +1,40 @@
+{
+  "errors": [],
+  "checks": [
+    {
+      "name": "normal motion has one cinematic pin",
+      "pass": true
+    },
+    {
+      "name": "native wheel advances pinned scene",
+      "pass": true
+    },
+    {
+      "name": "scroll reaches about continuation",
+      "pass": true
+    },
+    {
+      "name": "reverse scroll restores opening scene",
+      "pass": true
+    },
+    {
+      "name": "normal animated gallery settles on image 02",
+      "pass": true
+    },
+    {
+      "name": "work archive contains four corrected projects",
+      "pass": true
+    }
+  ],
+  "reverse": {
+    "away": {
+      "y": 2766,
+      "opacity": "0"
+    },
+    "returned": {
+      "y": 0,
+      "opacity": "0.9932"
+    },
+    "method": "Native wheel forward/backward; wait for scrollY <2 and rendered opacity >.99, allowing the existing scrub to settle. Earlier strict opacity===1 assertion was premature."
+  }
+}

@@ -1,0 +1,289 @@
+[
+  {
+    "path": "D:/projects/second_pf/qa/case-study-quality-pass-2026-10-15/baseline-desktop-teen-fiesta.png",
+    "width": 1440,
+    "height": 900,
+    "purpose": "Retained pre-change browser capture",
+    "inspected": true
+  },
+  {
+    "path": "D:/projects/second_pf/qa/case-study-quality-pass-2026-10-15/baseline-mobile-arcus-390-gallery-next.png",
+    "width": 390,
+    "height": 844,
+    "purpose": "Retained pre-change browser capture",
+    "inspected": true
+  },
+  {
+    "path": "D:/projects/second_pf/qa/case-study-quality-pass-2026-10-15/comparison-desktop-teen-fiesta.png",
+    "width": 1440,
+    "height": 490,
+    "purpose": "Labeled before/after composite of real captures",
+    "inspected": true
+  },
+  {
+    "path": "D:/projects/second_pf/qa/case-study-quality-pass-2026-10-15/comparison-mobile-arcus-390-gallery-next.png",
+    "width": 780,
+    "height": 884,
+    "purpose": "Labeled before/after composite of real captures",
+    "inspected": true
+  },
+  {
+    "path": "D:/projects/second_pf/qa/case-study-quality-pass-2026-10-15/desktop-about-practice.png",
+    "width": 1440,
+    "height": 900,
+    "purpose": "Actual rendered route viewport",
+    "inspected": true
+  },
+  {
+    "path": "D:/projects/second_pf/qa/case-study-quality-pass-2026-10-15/desktop-about.png",
+    "width": 1440,
+    "height": 900,
+    "purpose": "Actual rendered route viewport",
+    "inspected": true
+  },
+  {
+    "path": "D:/projects/second_pf/qa/case-study-quality-pass-2026-10-15/desktop-arcus-details.png",
+    "width": 1440,
+    "height": 900,
+    "purpose": "Case-study narrative or contact details",
+    "inspected": true
+  },
+  {
+    "path": "D:/projects/second_pf/qa/case-study-quality-pass-2026-10-15/desktop-arcus-gallery-next.png",
+    "width": 1440,
+    "height": 900,
+    "purpose": "Selected second gallery image with caption/counter",
+    "inspected": true
+  },
+  {
+    "path": "D:/projects/second_pf/qa/case-study-quality-pass-2026-10-15/desktop-arcus.png",
+    "width": 1440,
+    "height": 900,
+    "purpose": "Actual rendered route viewport",
+    "inspected": true
+  },
+  {
+    "path": "D:/projects/second_pf/qa/case-study-quality-pass-2026-10-15/desktop-contact-draft.png",
+    "width": 1440,
+    "height": 900,
+    "purpose": "Synthetic local email draft; no sending",
+    "inspected": true
+  },
+  {
+    "path": "D:/projects/second_pf/qa/case-study-quality-pass-2026-10-15/desktop-contact.png",
+    "width": 1440,
+    "height": 900,
+    "purpose": "Actual rendered route viewport",
+    "inspected": true
+  },
+  {
+    "path": "D:/projects/second_pf/qa/case-study-quality-pass-2026-10-15/desktop-home-mid-scroll.png",
+    "width": 1440,
+    "height": 900,
+    "purpose": "Existing cinematic transition",
+    "inspected": true
+  },
+  {
+    "path": "D:/projects/second_pf/qa/case-study-quality-pass-2026-10-15/desktop-home-regression.png",
+    "width": 1440,
+    "height": 900,
+    "purpose": "Actual rendered route viewport",
+    "inspected": true
+  },
+  {
+    "path": "D:/projects/second_pf/qa/case-study-quality-pass-2026-10-15/desktop-index-regression.png",
+    "width": 1440,
+    "height": 900,
+    "purpose": "Open project index",
+    "inspected": true
+  },
+  {
+    "path": "D:/projects/second_pf/qa/case-study-quality-pass-2026-10-15/desktop-lane-details.png",
+    "width": 1440,
+    "height": 900,
+    "purpose": "Case-study narrative or contact details",
+    "inspected": true
+  },
+  {
+    "path": "D:/projects/second_pf/qa/case-study-quality-pass-2026-10-15/desktop-lane-gallery-next.png",
+    "width": 1440,
+    "height": 900,
+    "purpose": "Selected second gallery image with caption/counter",
+    "inspected": true
+  },
+  {
+    "path": "D:/projects/second_pf/qa/case-study-quality-pass-2026-10-15/desktop-lane.png",
+    "width": 1440,
+    "height": 900,
+    "purpose": "Actual rendered route viewport",
+    "inspected": true
+  },
+  {
+    "path": "D:/projects/second_pf/qa/case-study-quality-pass-2026-10-15/desktop-rewatch-details.png",
+    "width": 1440,
+    "height": 900,
+    "purpose": "Case-study narrative or contact details",
+    "inspected": true
+  },
+  {
+    "path": "D:/projects/second_pf/qa/case-study-quality-pass-2026-10-15/desktop-rewatch-gallery-next.png",
+    "width": 1440,
+    "height": 900,
+    "purpose": "Selected second gallery image with caption/counter",
+    "inspected": true
+  },
+  {
+    "path": "D:/projects/second_pf/qa/case-study-quality-pass-2026-10-15/desktop-rewatch.png",
+    "width": 1440,
+    "height": 900,
+    "purpose": "Actual rendered route viewport",
+    "inspected": true
+  },
+  {
+    "path": "D:/projects/second_pf/qa/case-study-quality-pass-2026-10-15/desktop-teen-fiesta-details.png",
+    "width": 1440,
+    "height": 900,
+    "purpose": "Case-study narrative or contact details",
+    "inspected": true
+  },
+  {
+    "path": "D:/projects/second_pf/qa/case-study-quality-pass-2026-10-15/desktop-teen-fiesta-gallery-next.png",
+    "width": 1440,
+    "height": 900,
+    "purpose": "Selected second gallery image with caption/counter",
+    "inspected": true
+  },
+  {
+    "path": "D:/projects/second_pf/qa/case-study-quality-pass-2026-10-15/desktop-teen-fiesta.png",
+    "width": 1440,
+    "height": 900,
+    "purpose": "Actual rendered route viewport",
+    "inspected": true
+  },
+  {
+    "path": "D:/projects/second_pf/qa/case-study-quality-pass-2026-10-15/image-failure-fallback.png",
+    "width": 1280,
+    "height": 800,
+    "purpose": "Deliberately injected failure fallback",
+    "inspected": true
+  },
+  {
+    "path": "D:/projects/second_pf/qa/case-study-quality-pass-2026-10-15/mobile-arcus-320-gallery-next.png",
+    "width": 320,
+    "height": 740,
+    "purpose": "Selected second gallery image with caption/counter",
+    "inspected": true
+  },
+  {
+    "path": "D:/projects/second_pf/qa/case-study-quality-pass-2026-10-15/mobile-arcus-320.png",
+    "width": 320,
+    "height": 740,
+    "purpose": "Actual rendered route viewport",
+    "inspected": true
+  },
+  {
+    "path": "D:/projects/second_pf/qa/case-study-quality-pass-2026-10-15/mobile-arcus-390-gallery-next.png",
+    "width": 390,
+    "height": 844,
+    "purpose": "Selected second gallery image with caption/counter",
+    "inspected": true
+  },
+  {
+    "path": "D:/projects/second_pf/qa/case-study-quality-pass-2026-10-15/mobile-arcus-390.png",
+    "width": 390,
+    "height": 844,
+    "purpose": "Actual rendered route viewport",
+    "inspected": true
+  },
+  {
+    "path": "D:/projects/second_pf/qa/case-study-quality-pass-2026-10-15/mobile-arcus-details.png",
+    "width": 390,
+    "height": 844,
+    "purpose": "Case-study narrative or contact details",
+    "inspected": true
+  },
+  {
+    "path": "D:/projects/second_pf/qa/case-study-quality-pass-2026-10-15/mobile-contact-320.png",
+    "width": 320,
+    "height": 740,
+    "purpose": "Synthetic local email draft; no sending",
+    "inspected": true
+  },
+  {
+    "path": "D:/projects/second_pf/qa/case-study-quality-pass-2026-10-15/mobile-contact-390.png",
+    "width": 390,
+    "height": 844,
+    "purpose": "Synthetic local email draft; no sending",
+    "inspected": true
+  },
+  {
+    "path": "D:/projects/second_pf/qa/case-study-quality-pass-2026-10-15/mobile-home-regression.png",
+    "width": 390,
+    "height": 844,
+    "purpose": "Actual rendered route viewport",
+    "inspected": true
+  },
+  {
+    "path": "D:/projects/second_pf/qa/case-study-quality-pass-2026-10-15/mobile-lane-390.png",
+    "width": 390,
+    "height": 844,
+    "purpose": "Actual rendered route viewport",
+    "inspected": true
+  },
+  {
+    "path": "D:/projects/second_pf/qa/case-study-quality-pass-2026-10-15/mobile-lane-details.png",
+    "width": 390,
+    "height": 844,
+    "purpose": "Case-study narrative or contact details",
+    "inspected": true
+  },
+  {
+    "path": "D:/projects/second_pf/qa/case-study-quality-pass-2026-10-15/mobile-rewatch-390.png",
+    "width": 390,
+    "height": 844,
+    "purpose": "Actual rendered route viewport",
+    "inspected": true
+  },
+  {
+    "path": "D:/projects/second_pf/qa/case-study-quality-pass-2026-10-15/mobile-rewatch-details.png",
+    "width": 390,
+    "height": 844,
+    "purpose": "Case-study narrative or contact details",
+    "inspected": true
+  },
+  {
+    "path": "D:/projects/second_pf/qa/case-study-quality-pass-2026-10-15/mobile-teen-fiesta-390.png",
+    "width": 390,
+    "height": 844,
+    "purpose": "Actual rendered route viewport",
+    "inspected": true
+  },
+  {
+    "path": "D:/projects/second_pf/qa/case-study-quality-pass-2026-10-15/mobile-teen-fiesta-details.png",
+    "width": 390,
+    "height": 844,
+    "purpose": "Case-study narrative or contact details",
+    "inspected": true
+  },
+  {
+    "path": "D:/projects/second_pf/qa/case-study-quality-pass-2026-10-15/reduced-motion-gallery.png",
+    "width": 1440,
+    "height": 900,
+    "purpose": "Browser emulated reduced motion before navigation",
+    "inspected": true
+  },
+  {
+    "path": "D:/projects/second_pf/qa/case-study-quality-pass-2026-10-15/reduced-motion-home.png",
+    "width": 1440,
+    "height": 900,
+    "purpose": "Browser emulated reduced motion before navigation",
+    "inspected": true
+  },
+  {
+    "path": "D:/projects/second_pf/qa/case-study-quality-pass-2026-10-15/webgl-failure-fallback.png",
+    "width": 1440,
+    "height": 900,
+    "purpose": "Deliberately injected failure fallback",
+    "inspected": true
+  }
+]

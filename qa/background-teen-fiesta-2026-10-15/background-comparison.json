@@ -1,0 +1,56 @@
+{
+  "backgrounds": [
+    {
+      "path": "/",
+      "noiseRemoved": true,
+      "baseUnchanged": true,
+      "ambientUnchanged": true,
+      "heroGradientUnchanged": true,
+      "allImagesUnfiltered": true
+    },
+    {
+      "path": "/about",
+      "noiseRemoved": true,
+      "baseUnchanged": true,
+      "ambientUnchanged": true,
+      "heroGradientUnchanged": true,
+      "allImagesUnfiltered": true
+    },
+    {
+      "path": "/contact",
+      "noiseRemoved": true,
+      "baseUnchanged": true,
+      "ambientUnchanged": true,
+      "heroGradientUnchanged": true,
+      "allImagesUnfiltered": true
+    },
+    {
+      "path": "/work/lane",
+      "noiseRemoved": true,
+      "baseUnchanged": true,
+      "ambientUnchanged": true,
+      "heroGradientUnchanged": true,
+      "allImagesUnfiltered": true
+    },
+    {
+      "path": "/work/teen-fiesta",
+      "noiseRemoved": true,
+      "baseUnchanged": true,
+      "ambientUnchanged": true,
+      "heroGradientUnchanged": true,
+      "allImagesUnfiltered": true
+    }
+  ],
+  "pixels": [
+    {
+      "stage": "before",
+      "method": "mean absolute horizontal neighbor RGB difference in same empty 320x150 about-background crop at 900,200",
+      "meanDifference": 0.38185997910135844
+    },
+    {
+      "stage": "after",
+      "method": "mean absolute horizontal neighbor RGB difference in same empty 320x150 about-background crop at 900,200",
+      "meanDifference": 0.22115639150121907
+    }
+  ]
+}

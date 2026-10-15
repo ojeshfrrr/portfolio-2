@@ -1,0 +1,1550 @@
+{
+  "mode": "baseline",
+  "base": "http://127.0.0.1:3001",
+  "checks": [
+    {
+      "name": "lane: previous returns cover",
+      "status": "passed"
+    },
+    {
+      "name": "lane: keyboard right selects second",
+      "status": "passed"
+    },
+    {
+      "name": "lane: rapid navigation stays synchronized",
+      "status": "passed",
+      "data": {
+        "scrollY": 417,
+        "viewport": [
+          1440,
+          900
+        ],
+        "scrollWidth": 1440,
+        "clip": "inset(0px 0% 0px 0px)",
+        "frame": {
+          "top": 100.21875,
+          "width": 1319.0625,
+          "height": 832
+        },
+        "navigation": {
+          "top": 945.015625,
+          "bottom": 985.015625,
+          "visible": false
+        },
+        "image": {
+          "src": "/_next/image?url=%2Fwork%2Flane-archive.png&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-archive.png&w=1200&q=75",
+          "sizes": "(max-width: 800px) 92vw, 78vw",
+          "loading": "lazy",
+          "naturalWidth": 1123,
+          "naturalHeight": 1023,
+          "alt": "",
+          "loaded": true
+        },
+        "caption": "Seven campaign chapters in one archive",
+        "counter": "03 / 03"
+      }
+    },
+    {
+      "name": "lane: narrative and next project exist",
+      "status": "passed"
+    },
+    {
+      "name": "arcus: previous returns cover",
+      "status": "passed"
+    },
+    {
+      "name": "arcus: keyboard right selects second",
+      "status": "passed"
+    },
+    {
+      "name": "arcus: rapid navigation stays synchronized",
+      "status": "passed",
+      "data": {
+        "scrollY": 441,
+        "viewport": [
+          1440,
+          900
+        ],
+        "scrollWidth": 1440,
+        "clip": "inset(0px 0% 0px 0px)",
+        "frame": {
+          "top": 76.21875,
+          "width": 1319.0625,
+          "height": 832
+        },
+        "navigation": {
+          "top": 921.015625,
+          "bottom": 961.015625,
+          "visible": false
+        },
+        "image": {
+          "src": "/_next/image?url=%2Fwork%2Farcus-mobile.webp&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-mobile.webp&w=1200&q=75",
+          "sizes": "(max-width: 800px) 92vw, 78vw",
+          "loading": "lazy",
+          "naturalWidth": 351,
+          "naturalHeight": 760,
+          "alt": "",
+          "loaded": true
+        },
+        "caption": "The same session-first view on mobile",
+        "counter": "02 / 02"
+      }
+    },
+    {
+      "name": "arcus: narrative and next project exist",
+      "status": "passed"
+    },
+    {
+      "name": "teen-fiesta: previous returns cover",
+      "status": "passed"
+    },
+    {
+      "name": "teen-fiesta: keyboard right selects second",
+      "status": "passed"
+    },
+    {
+      "name": "teen-fiesta: rapid navigation stays synchronized",
+      "status": "passed",
+      "data": {
+        "scrollY": 579,
+        "viewport": [
+          1440,
+          900
+        ],
+        "scrollWidth": 1440,
+        "clip": "inset(0px 0% 0px 0px)",
+        "frame": {
+          "top": 95.453125,
+          "width": 1319.0625,
+          "height": 832
+        },
+        "navigation": {
+          "top": 940.25,
+          "bottom": 980.25,
+          "visible": false
+        },
+        "image": {
+          "src": "/_next/image?url=%2Fwork%2Fred-room-dj.jpg&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Fred-room-dj.jpg&w=1200&q=75",
+          "sizes": "(max-width: 800px) 92vw, 78vw",
+          "loading": "lazy",
+          "naturalWidth": 599,
+          "naturalHeight": 1063,
+          "alt": "",
+          "loaded": true
+        },
+        "caption": "RED ROOM / event footage frame",
+        "counter": "03 / 03"
+      }
+    },
+    {
+      "name": "teen-fiesta: narrative and next project exist",
+      "status": "passed"
+    },
+    {
+      "name": "rewatch: previous returns cover",
+      "status": "passed"
+    },
+    {
+      "name": "rewatch: keyboard right selects second",
+      "status": "passed"
+    },
+    {
+      "name": "rewatch: rapid navigation stays synchronized",
+      "status": "passed",
+      "data": {
+        "scrollY": 441,
+        "viewport": [
+          1440,
+          900
+        ],
+        "scrollWidth": 1440,
+        "clip": "inset(0px 0% 0px 0px)",
+        "frame": {
+          "top": 76.21875,
+          "width": 1319.0625,
+          "height": 832
+        },
+        "navigation": {
+          "top": 921.015625,
+          "bottom": 961.015625,
+          "visible": false
+        },
+        "image": {
+          "src": "/_next/image?url=%2Fwork%2Frewatch-mobile.webp&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Frewatch-mobile.webp&w=1200&q=75",
+          "sizes": "(max-width: 800px) 92vw, 78vw",
+          "loading": "lazy",
+          "naturalWidth": 351,
+          "naturalHeight": 760,
+          "alt": "",
+          "loaded": true
+        },
+        "caption": "A compact mobile layout",
+        "counter": "02 / 02"
+      }
+    },
+    {
+      "name": "rewatch: narrative and next project exist",
+      "status": "passed"
+    },
+    {
+      "name": "lane: no overflow at 390px",
+      "status": "passed",
+      "data": 390
+    },
+    {
+      "name": "arcus: no overflow at 390px",
+      "status": "passed",
+      "data": 390
+    },
+    {
+      "name": "teen-fiesta: no overflow at 390px",
+      "status": "passed",
+      "data": 390
+    },
+    {
+      "name": "rewatch: no overflow at 390px",
+      "status": "passed",
+      "data": 390
+    },
+    {
+      "name": "lane: no overflow at 320px",
+      "status": "passed",
+      "data": 320
+    },
+    {
+      "name": "arcus: no overflow at 320px",
+      "status": "passed",
+      "data": 320
+    },
+    {
+      "name": "teen-fiesta: no overflow at 320px",
+      "status": "passed",
+      "data": 320
+    },
+    {
+      "name": "rewatch: no overflow at 320px",
+      "status": "passed",
+      "data": 320
+    }
+  ],
+  "errors": [
+    {
+      "label": "deliberate-image-failure",
+      "type": "http",
+      "status": 503,
+      "url": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-mobile.webp&w=96&q=75"
+    },
+    {
+      "label": "deliberate-image-failure",
+      "type": "error",
+      "message": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+    },
+    {
+      "label": "deliberate-image-failure",
+      "type": "http",
+      "status": 503,
+      "url": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-mobile.webp&w=1080&q=75"
+    },
+    {
+      "label": "deliberate-image-failure",
+      "type": "error",
+      "message": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+    }
+  ],
+  "routes": [
+    {
+      "route": "/work/lane",
+      "status": 200,
+      "initial": {
+        "scrollY": 0,
+        "viewport": [
+          1440,
+          900
+        ],
+        "scrollWidth": 1440,
+        "clip": "inset(0px 23.6111% 0px 0px)",
+        "frame": {
+          "top": 517.21875,
+          "width": 1319.0625,
+          "height": 733.4375
+        },
+        "navigation": {
+          "top": 1263.453125,
+          "bottom": 1303.453125,
+          "visible": false
+        },
+        "image": {
+          "src": "/_next/image?url=%2Fwork%2Flane-desktop.png&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-desktop.png&w=1200&q=75",
+          "sizes": "(max-width: 800px) 92vw, 78vw",
+          "loading": "eager",
+          "naturalWidth": 1123,
+          "naturalHeight": 624,
+          "alt": "",
+          "loaded": true
+        },
+        "caption": "The HEAT campaign on the LANE homepage",
+        "counter": "01 / 03"
+      }
+    },
+    {
+      "route": "/work/arcus",
+      "status": 200,
+      "initial": {
+        "scrollY": 0,
+        "viewport": [
+          1440,
+          900
+        ],
+        "scrollWidth": 1440,
+        "clip": "inset(0px 23.6111% 0px 0px)",
+        "frame": {
+          "top": 517.21875,
+          "width": 1319.0625,
+          "height": 824.921875
+        },
+        "navigation": {
+          "top": 1354.9375,
+          "bottom": 1394.9375,
+          "visible": false
+        },
+        "image": {
+          "src": "/_next/image?url=%2Fwork%2Farcus-desktop.webp&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-desktop.webp&w=1200&q=75",
+          "sizes": "(max-width: 800px) 92vw, 78vw",
+          "loading": "eager",
+          "naturalWidth": 1123,
+          "naturalHeight": 702,
+          "alt": "",
+          "loaded": true
+        },
+        "caption": "ARCUS Training public dashboard capture",
+        "counter": "01 / 02"
+      }
+    },
+    {
+      "route": "/work/teen-fiesta",
+      "status": 200,
+      "initial": {
+        "scrollY": 0,
+        "viewport": [
+          1440,
+          900
+        ],
+        "scrollWidth": 1440,
+        "clip": "inset(0px 67.2222% 0px 0px)",
+        "frame": {
+          "top": 674.453125,
+          "width": 1319.0625,
+          "height": 678.0625
+        },
+        "navigation": {
+          "top": 1365.3125,
+          "bottom": 1405.3125,
+          "visible": false
+        },
+        "image": {
+          "src": "/_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&w=1200&q=75",
+          "sizes": "(max-width: 800px) 92vw, 78vw",
+          "loading": "eager",
+          "naturalWidth": 1123,
+          "naturalHeight": 577,
+          "alt": "",
+          "loaded": true
+        },
+        "caption": "Teen Fiesta homepage / featured RED ROOM campaign",
+        "counter": "01 / 03"
+      }
+    },
+    {
+      "route": "/work/rewatch",
+      "status": 200,
+      "initial": {
+        "scrollY": 0,
+        "viewport": [
+          1440,
+          900
+        ],
+        "scrollWidth": 1440,
+        "clip": "inset(0px 23.6111% 0px 0px)",
+        "frame": {
+          "top": 517.21875,
+          "width": 1319.0625,
+          "height": 824.921875
+        },
+        "navigation": {
+          "top": 1354.9375,
+          "bottom": 1394.9375,
+          "visible": false
+        },
+        "image": {
+          "src": "/_next/image?url=%2Fwork%2Frewatch-desktop.webp&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Frewatch-desktop.webp&w=1200&q=75",
+          "sizes": "(max-width: 800px) 92vw, 78vw",
+          "loading": "eager",
+          "naturalWidth": 1123,
+          "naturalHeight": 702,
+          "alt": "",
+          "loaded": true
+        },
+        "caption": "Rewatch public homepage capture",
+        "counter": "01 / 02"
+      }
+    }
+  ],
+  "screenshots": [
+    "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\ovio-case-study-quality-baseline\\desktop-lane.png",
+    "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\ovio-case-study-quality-baseline\\desktop-lane-gallery-next.png",
+    "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\ovio-case-study-quality-baseline\\desktop-lane-details.png",
+    "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\ovio-case-study-quality-baseline\\desktop-arcus.png",
+    "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\ovio-case-study-quality-baseline\\desktop-arcus-gallery-next.png",
+    "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\ovio-case-study-quality-baseline\\desktop-arcus-details.png",
+    "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\ovio-case-study-quality-baseline\\desktop-teen-fiesta.png",
+    "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\ovio-case-study-quality-baseline\\desktop-teen-fiesta-gallery-next.png",
+    "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\ovio-case-study-quality-baseline\\desktop-teen-fiesta-details.png",
+    "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\ovio-case-study-quality-baseline\\desktop-rewatch.png",
+    "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\ovio-case-study-quality-baseline\\desktop-rewatch-gallery-next.png",
+    "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\ovio-case-study-quality-baseline\\desktop-rewatch-details.png",
+    "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\ovio-case-study-quality-baseline\\mobile-lane-390.png",
+    "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\ovio-case-study-quality-baseline\\mobile-arcus-390.png",
+    "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\ovio-case-study-quality-baseline\\mobile-arcus-390-gallery-next.png",
+    "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\ovio-case-study-quality-baseline\\mobile-teen-fiesta-390.png",
+    "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\ovio-case-study-quality-baseline\\mobile-rewatch-390.png",
+    "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\ovio-case-study-quality-baseline\\mobile-arcus-320.png",
+    "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\ovio-case-study-quality-baseline\\mobile-arcus-320-gallery-next.png"
+  ],
+  "galleries": {
+    "lane": {
+      "count": 3,
+      "imageBefore": {
+        "scrollY": 417,
+        "viewport": [
+          1440,
+          900
+        ],
+        "scrollWidth": 1440,
+        "clip": "inset(0px 0% 0px 0px)",
+        "frame": {
+          "top": 100.21875,
+          "width": 1319.0625,
+          "height": 733.4375
+        },
+        "navigation": {
+          "top": 846.453125,
+          "bottom": 886.453125,
+          "visible": true
+        },
+        "image": {
+          "src": "/_next/image?url=%2Fwork%2Flane-desktop.png&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-desktop.png&w=1200&q=75",
+          "sizes": "(max-width: 800px) 92vw, 78vw",
+          "loading": "eager",
+          "naturalWidth": 1123,
+          "naturalHeight": 624,
+          "alt": "",
+          "loaded": true
+        },
+        "caption": "The HEAT campaign on the LANE homepage",
+        "counter": "01 / 03"
+      },
+      "next": {
+        "scrollY": 417,
+        "viewport": [
+          1440,
+          900
+        ],
+        "scrollWidth": 1440,
+        "clip": "inset(0px 0% 0px 0px)",
+        "frame": {
+          "top": 100.21875,
+          "width": 1319.0625,
+          "height": 741.96875
+        },
+        "navigation": {
+          "top": 854.984375,
+          "bottom": 894.984375,
+          "visible": true
+        },
+        "image": {
+          "src": "/_next/image?url=%2Fwork%2Flane-home.png&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-home.png&w=1200&q=75",
+          "sizes": "(max-width: 800px) 92vw, 78vw",
+          "loading": "lazy",
+          "naturalWidth": 1123,
+          "naturalHeight": 631,
+          "alt": "",
+          "loaded": true
+        },
+        "caption": "AFTER dark / a different campaign identity",
+        "counter": "02 / 03"
+      },
+      "last": {
+        "scrollY": 966,
+        "viewport": [
+          1440,
+          900
+        ],
+        "scrollWidth": 1440,
+        "clip": "inset(0px 0% 0px 0px)",
+        "frame": {
+          "top": -448.78125,
+          "width": 1319.0625,
+          "height": 832
+        },
+        "navigation": {
+          "top": 396.015625,
+          "bottom": 436.015625,
+          "visible": true
+        },
+        "image": {
+          "src": "/_next/image?url=%2Fwork%2Flane-archive.png&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-archive.png&w=1200&q=75",
+          "sizes": "(max-width: 800px) 92vw, 78vw",
+          "loading": "lazy",
+          "naturalWidth": 1123,
+          "naturalHeight": 1023,
+          "alt": "",
+          "loaded": true
+        },
+        "caption": "Seven campaign chapters in one archive",
+        "counter": "03 / 03"
+      }
+    },
+    "arcus": {
+      "count": 2,
+      "imageBefore": {
+        "scrollY": 417,
+        "viewport": [
+          1440,
+          900
+        ],
+        "scrollWidth": 1440,
+        "clip": "inset(0px 0% 0px 0px)",
+        "frame": {
+          "top": 100.21875,
+          "width": 1319.0625,
+          "height": 824.921875
+        },
+        "navigation": {
+          "top": 937.9375,
+          "bottom": 977.9375,
+          "visible": false
+        },
+        "image": {
+          "src": "/_next/image?url=%2Fwork%2Farcus-desktop.webp&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-desktop.webp&w=1200&q=75",
+          "sizes": "(max-width: 800px) 92vw, 78vw",
+          "loading": "eager",
+          "naturalWidth": 1123,
+          "naturalHeight": 702,
+          "alt": "",
+          "loaded": true
+        },
+        "caption": "ARCUS Training public dashboard capture",
+        "counter": "01 / 02"
+      },
+      "next": {
+        "scrollY": 877,
+        "viewport": [
+          1440,
+          900
+        ],
+        "scrollWidth": 1440,
+        "clip": "inset(0px 0% 0px 0px)",
+        "frame": {
+          "top": -359.78125,
+          "width": 1319.0625,
+          "height": 832
+        },
+        "navigation": {
+          "top": 485.015625,
+          "bottom": 525.015625,
+          "visible": true
+        },
+        "image": {
+          "src": "/_next/image?url=%2Fwork%2Farcus-mobile.webp&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-mobile.webp&w=1200&q=75",
+          "sizes": "(max-width: 800px) 92vw, 78vw",
+          "loading": "lazy",
+          "naturalWidth": 351,
+          "naturalHeight": 760,
+          "alt": "",
+          "loaded": true
+        },
+        "caption": "The same session-first view on mobile",
+        "counter": "02 / 02"
+      },
+      "last": {
+        "scrollY": 966,
+        "viewport": [
+          1440,
+          900
+        ],
+        "scrollWidth": 1440,
+        "clip": "inset(0px 0% 0px 0px)",
+        "frame": {
+          "top": -448.78125,
+          "width": 1319.0625,
+          "height": 832
+        },
+        "navigation": {
+          "top": 396.015625,
+          "bottom": 436.015625,
+          "visible": true
+        },
+        "image": {
+          "src": "/_next/image?url=%2Fwork%2Farcus-mobile.webp&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-mobile.webp&w=1200&q=75",
+          "sizes": "(max-width: 800px) 92vw, 78vw",
+          "loading": "lazy",
+          "naturalWidth": 351,
+          "naturalHeight": 760,
+          "alt": "",
+          "loaded": true
+        },
+        "caption": "The same session-first view on mobile",
+        "counter": "02 / 02"
+      }
+    },
+    "teen-fiesta": {
+      "count": 3,
+      "imageBefore": {
+        "scrollY": 574,
+        "viewport": [
+          1440,
+          900
+        ],
+        "scrollWidth": 1440,
+        "clip": "inset(0px 0% 0px 0px)",
+        "frame": {
+          "top": 100.453125,
+          "width": 1319.0625,
+          "height": 678.0625
+        },
+        "navigation": {
+          "top": 791.3125,
+          "bottom": 831.3125,
+          "visible": true
+        },
+        "image": {
+          "src": "/_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&w=1200&q=75",
+          "sizes": "(max-width: 800px) 92vw, 78vw",
+          "loading": "eager",
+          "naturalWidth": 1123,
+          "naturalHeight": 577,
+          "alt": "",
+          "loaded": true
+        },
+        "caption": "Teen Fiesta homepage / featured RED ROOM campaign",
+        "counter": "01 / 03"
+      },
+      "next": {
+        "scrollY": 574,
+        "viewport": [
+          1440,
+          900
+        ],
+        "scrollWidth": 1440,
+        "clip": "inset(0px 0% 0px 0px)",
+        "frame": {
+          "top": 100.453125,
+          "width": 1319.0625,
+          "height": 832
+        },
+        "navigation": {
+          "top": 945.25,
+          "bottom": 985.25,
+          "visible": false
+        },
+        "image": {
+          "src": "/_next/image?url=%2Fwork%2Fred-room-poster.jpg&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Fred-room-poster.jpg&w=1200&q=75",
+          "sizes": "(max-width: 800px) 92vw, 78vw",
+          "loading": "lazy",
+          "naturalWidth": 1048,
+          "naturalHeight": 1317,
+          "alt": "",
+          "loaded": true
+        },
+        "caption": "RED ROOM / Teen Fiesta campaign announcement",
+        "counter": "02 / 03"
+      },
+      "last": {
+        "scrollY": 1123,
+        "viewport": [
+          1440,
+          900
+        ],
+        "scrollWidth": 1440,
+        "clip": "inset(0px 0% 0px 0px)",
+        "frame": {
+          "top": -448.546875,
+          "width": 1319.0625,
+          "height": 832
+        },
+        "navigation": {
+          "top": 396.25,
+          "bottom": 436.25,
+          "visible": true
+        },
+        "image": {
+          "src": "/_next/image?url=%2Fwork%2Fred-room-dj.jpg&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Fred-room-dj.jpg&w=1200&q=75",
+          "sizes": "(max-width: 800px) 92vw, 78vw",
+          "loading": "lazy",
+          "naturalWidth": 599,
+          "naturalHeight": 1063,
+          "alt": "",
+          "loaded": true
+        },
+        "caption": "RED ROOM / event footage frame",
+        "counter": "03 / 03"
+      }
+    },
+    "rewatch": {
+      "count": 2,
+      "imageBefore": {
+        "scrollY": 417,
+        "viewport": [
+          1440,
+          900
+        ],
+        "scrollWidth": 1440,
+        "clip": "inset(0px 0% 0px 0px)",
+        "frame": {
+          "top": 100.21875,
+          "width": 1319.0625,
+          "height": 824.921875
+        },
+        "navigation": {
+          "top": 937.9375,
+          "bottom": 977.9375,
+          "visible": false
+        },
+        "image": {
+          "src": "/_next/image?url=%2Fwork%2Frewatch-desktop.webp&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Frewatch-desktop.webp&w=1200&q=75",
+          "sizes": "(max-width: 800px) 92vw, 78vw",
+          "loading": "eager",
+          "naturalWidth": 1123,
+          "naturalHeight": 702,
+          "alt": "",
+          "loaded": true
+        },
+        "caption": "Rewatch public homepage capture",
+        "counter": "01 / 02"
+      },
+      "next": {
+        "scrollY": 877,
+        "viewport": [
+          1440,
+          900
+        ],
+        "scrollWidth": 1440,
+        "clip": "inset(0px 0% 0px 0px)",
+        "frame": {
+          "top": -359.78125,
+          "width": 1319.0625,
+          "height": 832
+        },
+        "navigation": {
+          "top": 485.015625,
+          "bottom": 525.015625,
+          "visible": true
+        },
+        "image": {
+          "src": "/_next/image?url=%2Fwork%2Frewatch-mobile.webp&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Frewatch-mobile.webp&w=1200&q=75",
+          "sizes": "(max-width: 800px) 92vw, 78vw",
+          "loading": "lazy",
+          "naturalWidth": 351,
+          "naturalHeight": 760,
+          "alt": "",
+          "loaded": true
+        },
+        "caption": "A compact mobile layout",
+        "counter": "02 / 02"
+      },
+      "last": {
+        "scrollY": 966,
+        "viewport": [
+          1440,
+          900
+        ],
+        "scrollWidth": 1440,
+        "clip": "inset(0px 0% 0px 0px)",
+        "frame": {
+          "top": -448.78125,
+          "width": 1319.0625,
+          "height": 832
+        },
+        "navigation": {
+          "top": 396.015625,
+          "bottom": 436.015625,
+          "visible": true
+        },
+        "image": {
+          "src": "/_next/image?url=%2Fwork%2Frewatch-mobile.webp&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Frewatch-mobile.webp&w=1200&q=75",
+          "sizes": "(max-width: 800px) 92vw, 78vw",
+          "loading": "lazy",
+          "naturalWidth": 351,
+          "naturalHeight": 760,
+          "alt": "",
+          "loaded": true
+        },
+        "caption": "A compact mobile layout",
+        "counter": "02 / 02"
+      }
+    }
+  },
+  "performance": [
+    {
+      "route": "/work/lane",
+      "cache": "browser cache disabled; server optimizer may already be warm",
+      "lcp": [
+        {
+          "time": 1480,
+          "size": 100350,
+          "tag": "H1",
+          "text": "LANE",
+          "url": ""
+        },
+        {
+          "time": 1744,
+          "size": 417455,
+          "tag": "IMG",
+          "text": "",
+          "url": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-desktop.png&w=1200&q=75"
+        }
+      ],
+      "cls": 0.0018498371056241427,
+      "longTasks": [],
+      "navigation": [
+        {
+          "ttfb": 1020.2000000029802,
+          "domContentLoaded": 1137.6000000014901,
+          "load": 1164.1000000014901
+        }
+      ],
+      "images": [
+        {
+          "name": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-desktop.png&w=96&q=75",
+          "start": 1126.1000000014901,
+          "duration": 5.199999999254942,
+          "transfer": 862,
+          "decoded": 562
+        },
+        {
+          "name": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-home.png&w=96&q=75",
+          "start": 1126.2000000029802,
+          "duration": 4.799999997019768,
+          "transfer": 1244,
+          "decoded": 944
+        },
+        {
+          "name": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-archive.png&w=96&q=75",
+          "start": 1126.300000000745,
+          "duration": 5,
+          "transfer": 1380,
+          "decoded": 1080
+        }
+      ],
+      "preloadCount": 1
+    },
+    {
+      "route": "/work/arcus",
+      "cache": "browser cache disabled; server optimizer may already be warm",
+      "lcp": [
+        {
+          "time": 1280,
+          "size": 417500,
+          "tag": "IMG",
+          "text": "",
+          "url": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-desktop.webp&w=1200&q=75"
+        }
+      ],
+      "cls": 0.001848088134430727,
+      "longTasks": [],
+      "navigation": [
+        {
+          "ttfb": 942.6999999992549,
+          "domContentLoaded": 957.1999999992549,
+          "load": 1078.1000000014901
+        }
+      ],
+      "images": [
+        {
+          "name": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-desktop.webp&w=96&q=75",
+          "start": 1024.6000000014901,
+          "duration": 4.199999999254942,
+          "transfer": 938,
+          "decoded": 638
+        },
+        {
+          "name": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-mobile.webp&w=96&q=75",
+          "start": 1024.6000000014901,
+          "duration": 4.699999999254942,
+          "transfer": 2486,
+          "decoded": 2186
+        }
+      ],
+      "preloadCount": 1
+    },
+    {
+      "route": "/work/teen-fiesta",
+      "cache": "browser cache disabled; server optimizer may already be warm",
+      "lcp": [
+        {
+          "time": 324,
+          "size": 245574,
+          "tag": "IMG",
+          "text": "",
+          "url": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&w=1200&q=75"
+        }
+      ],
+      "cls": 0.0028887431412894377,
+      "longTasks": [],
+      "navigation": [
+        {
+          "ttfb": 18.300000000745058,
+          "domContentLoaded": 113.70000000298023,
+          "load": 153.90000000223517
+        }
+      ],
+      "images": [
+        {
+          "name": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&w=96&q=75",
+          "start": 96.30000000074506,
+          "duration": 4.900000002235174,
+          "transfer": 1132,
+          "decoded": 832
+        },
+        {
+          "name": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Fred-room-poster.jpg&w=96&q=75",
+          "start": 96.40000000223517,
+          "duration": 5,
+          "transfer": 1218,
+          "decoded": 918
+        },
+        {
+          "name": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Fred-room-dj.jpg&w=96&q=75",
+          "start": 96.40000000223517,
+          "duration": 5.199999999254942,
+          "transfer": 2132,
+          "decoded": 1832
+        }
+      ],
+      "preloadCount": 1
+    },
+    {
+      "route": "/work/rewatch",
+      "cache": "browser cache disabled; server optimizer may already be warm",
+      "lcp": [
+        {
+          "time": 1240,
+          "size": 417500,
+          "tag": "IMG",
+          "text": "",
+          "url": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Frewatch-desktop.webp&w=1200&q=75"
+        }
+      ],
+      "cls": 0.005363198588806906,
+      "longTasks": [],
+      "navigation": [
+        {
+          "ttfb": 949.6000000014901,
+          "domContentLoaded": 1034,
+          "load": 1067.5
+        }
+      ],
+      "images": [
+        {
+          "name": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Frewatch-desktop.webp&w=96&q=75",
+          "start": 1021.8999999985099,
+          "duration": 4.100000001490116,
+          "transfer": 1062,
+          "decoded": 762
+        },
+        {
+          "name": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Frewatch-mobile.webp&w=96&q=75",
+          "start": 1022,
+          "duration": 4.199999999254942,
+          "transfer": 2964,
+          "decoded": 2664
+        }
+      ],
+      "preloadCount": 1
+    }
+  ],
+  "mobile": [
+    {
+      "slug": "lane",
+      "width": 390,
+      "before": {
+        "scrollY": 0,
+        "viewport": [
+          390,
+          844
+        ],
+        "scrollWidth": 390,
+        "clip": "inset(0px 23.0769% 0px 0px)",
+        "frame": {
+          "top": 482.75,
+          "width": 354.8125,
+          "height": 197.28125
+        },
+        "navigation": {
+          "top": 724.953125,
+          "bottom": 764.953125,
+          "visible": true
+        },
+        "image": {
+          "src": "/_next/image?url=%2Fwork%2Flane-desktop.png&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-desktop.png&w=640&q=75",
+          "sizes": "(max-width: 800px) 92vw, 78vw",
+          "loading": "eager",
+          "naturalWidth": 358,
+          "naturalHeight": 199,
+          "alt": "",
+          "loaded": true
+        },
+        "caption": "The HEAT campaign on the LANE homepage",
+        "counter": "01 / 03"
+      },
+      "after": {
+        "scrollY": 0,
+        "viewport": [
+          390,
+          844
+        ],
+        "scrollWidth": 390,
+        "clip": "inset(0px 23.0769% 0px 0px)",
+        "frame": {
+          "top": 482.75,
+          "width": 354.8125,
+          "height": 199.578125
+        },
+        "navigation": {
+          "top": 727.25,
+          "bottom": 767.25,
+          "visible": true
+        },
+        "image": {
+          "src": "/_next/image?url=%2Fwork%2Flane-home.png&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-home.png&w=640&q=75",
+          "sizes": "(max-width: 800px) 92vw, 78vw",
+          "loading": "lazy",
+          "naturalWidth": 358,
+          "naturalHeight": 201,
+          "alt": "",
+          "loaded": true
+        },
+        "caption": "AFTER dark / a different campaign identity",
+        "counter": "02 / 03"
+      }
+    },
+    {
+      "slug": "arcus",
+      "width": 390,
+      "before": {
+        "scrollY": 0,
+        "viewport": [
+          390,
+          844
+        ],
+        "scrollWidth": 390,
+        "clip": "inset(0px 23.0769% 0px 0px)",
+        "frame": {
+          "top": 482.75,
+          "width": 354.8125,
+          "height": 221.890625
+        },
+        "navigation": {
+          "top": 749.5625,
+          "bottom": 789.5625,
+          "visible": true
+        },
+        "image": {
+          "src": "/_next/image?url=%2Fwork%2Farcus-desktop.webp&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-desktop.webp&w=640&q=75",
+          "sizes": "(max-width: 800px) 92vw, 78vw",
+          "loading": "eager",
+          "naturalWidth": 358,
+          "naturalHeight": 224,
+          "alt": "",
+          "loaded": true
+        },
+        "caption": "ARCUS Training public dashboard capture",
+        "counter": "01 / 02"
+      },
+      "after": {
+        "scrollY": 0,
+        "viewport": [
+          390,
+          844
+        ],
+        "scrollWidth": 390,
+        "clip": "inset(0px 23.0769% 0px 0px)",
+        "frame": {
+          "top": 482.75,
+          "width": 354.8125,
+          "height": 544
+        },
+        "navigation": {
+          "top": 1071.671875,
+          "bottom": 1111.671875,
+          "visible": false
+        },
+        "image": {
+          "src": "/_next/image?url=%2Fwork%2Farcus-mobile.webp&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-mobile.webp&w=640&q=75",
+          "sizes": "(max-width: 800px) 92vw, 78vw",
+          "loading": "lazy",
+          "naturalWidth": 210,
+          "naturalHeight": 455,
+          "alt": "",
+          "loaded": true
+        },
+        "caption": "The same session-first view on mobile",
+        "counter": "02 / 02"
+      }
+    },
+    {
+      "slug": "teen-fiesta",
+      "width": 390,
+      "before": {
+        "scrollY": 0,
+        "viewport": [
+          390,
+          844
+        ],
+        "scrollWidth": 390,
+        "clip": "inset(0px 23.0769% 0px 0px)",
+        "frame": {
+          "top": 482.75,
+          "width": 354.8125,
+          "height": 182.390625
+        },
+        "navigation": {
+          "top": 710.0625,
+          "bottom": 750.0625,
+          "visible": true
+        },
+        "image": {
+          "src": "/_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&w=640&q=75",
+          "sizes": "(max-width: 800px) 92vw, 78vw",
+          "loading": "eager",
+          "naturalWidth": 358,
+          "naturalHeight": 184,
+          "alt": "",
+          "loaded": true
+        },
+        "caption": "Teen Fiesta homepage / featured RED ROOM campaign",
+        "counter": "01 / 03"
+      },
+      "after": {
+        "scrollY": 0,
+        "viewport": [
+          390,
+          844
+        ],
+        "scrollWidth": 390,
+        "clip": "inset(0px 23.0769% 0px 0px)",
+        "frame": {
+          "top": 482.75,
+          "width": 354.8125,
+          "height": 446.296875
+        },
+        "navigation": {
+          "top": 973.96875,
+          "bottom": 1013.96875,
+          "visible": false
+        },
+        "image": {
+          "src": "/_next/image?url=%2Fwork%2Fred-room-poster.jpg&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Fred-room-poster.jpg&w=640&q=75",
+          "sizes": "(max-width: 800px) 92vw, 78vw",
+          "loading": "lazy",
+          "naturalWidth": 358,
+          "naturalHeight": 451,
+          "alt": "",
+          "loaded": true
+        },
+        "caption": "RED ROOM / Teen Fiesta campaign announcement",
+        "counter": "02 / 03"
+      }
+    },
+    {
+      "slug": "rewatch",
+      "width": 390,
+      "before": {
+        "scrollY": 0,
+        "viewport": [
+          390,
+          844
+        ],
+        "scrollWidth": 390,
+        "clip": "inset(0px 23.0769% 0px 0px)",
+        "frame": {
+          "top": 482.75,
+          "width": 354.8125,
+          "height": 221.890625
+        },
+        "navigation": {
+          "top": 749.5625,
+          "bottom": 789.5625,
+          "visible": true
+        },
+        "image": {
+          "src": "/_next/image?url=%2Fwork%2Frewatch-desktop.webp&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Frewatch-desktop.webp&w=640&q=75",
+          "sizes": "(max-width: 800px) 92vw, 78vw",
+          "loading": "eager",
+          "naturalWidth": 358,
+          "naturalHeight": 224,
+          "alt": "",
+          "loaded": true
+        },
+        "caption": "Rewatch public homepage capture",
+        "counter": "01 / 02"
+      },
+      "after": {
+        "scrollY": 0,
+        "viewport": [
+          390,
+          844
+        ],
+        "scrollWidth": 390,
+        "clip": "inset(0px 23.0769% 0px 0px)",
+        "frame": {
+          "top": 482.75,
+          "width": 354.8125,
+          "height": 544
+        },
+        "navigation": {
+          "top": 1071.671875,
+          "bottom": 1111.671875,
+          "visible": false
+        },
+        "image": {
+          "src": "/_next/image?url=%2Fwork%2Frewatch-mobile.webp&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Frewatch-mobile.webp&w=640&q=75",
+          "sizes": "(max-width: 800px) 92vw, 78vw",
+          "loading": "lazy",
+          "naturalWidth": 210,
+          "naturalHeight": 455,
+          "alt": "",
+          "loaded": true
+        },
+        "caption": "A compact mobile layout",
+        "counter": "02 / 02"
+      }
+    },
+    {
+      "slug": "lane",
+      "width": 320,
+      "before": {
+        "scrollY": 26,
+        "viewport": [
+          320,
+          740
+        ],
+        "scrollWidth": 320,
+        "clip": "inset(0px 47.973% 0px 0px)",
+        "frame": {
+          "top": 496.921875,
+          "width": 284.8125,
+          "height": 158.359375
+        },
+        "navigation": {
+          "top": 700.203125,
+          "bottom": 740.203125,
+          "visible": false
+        },
+        "image": {
+          "src": "/_next/image?url=%2Fwork%2Flane-desktop.png&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-desktop.png&w=640&q=75",
+          "sizes": "(max-width: 800px) 92vw, 78vw",
+          "loading": "eager",
+          "naturalWidth": 294,
+          "naturalHeight": 163,
+          "alt": "",
+          "loaded": true
+        },
+        "caption": "The HEAT campaign on the LANE homepage",
+        "counter": "01 / 03"
+      },
+      "after": {
+        "scrollY": 26,
+        "viewport": [
+          320,
+          740
+        ],
+        "scrollWidth": 320,
+        "clip": "inset(0px 47.973% 0px 0px)",
+        "frame": {
+          "top": 496.921875,
+          "width": 284.8125,
+          "height": 160.203125
+        },
+        "navigation": {
+          "top": 702.046875,
+          "bottom": 742.046875,
+          "visible": false
+        },
+        "image": {
+          "src": "/_next/image?url=%2Fwork%2Flane-home.png&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-home.png&w=640&q=75",
+          "sizes": "(max-width: 800px) 92vw, 78vw",
+          "loading": "lazy",
+          "naturalWidth": 294,
+          "naturalHeight": 165,
+          "alt": "",
+          "loaded": true
+        },
+        "caption": "AFTER dark / a different campaign identity",
+        "counter": "02 / 03"
+      }
+    },
+    {
+      "slug": "arcus",
+      "width": 320,
+      "before": {
+        "scrollY": 5,
+        "viewport": [
+          320,
+          740
+        ],
+        "scrollWidth": 320,
+        "clip": "inset(0px 40.8784% 0px 0px)",
+        "frame": {
+          "top": 476.65625,
+          "width": 284.8125,
+          "height": 178.109375
+        },
+        "navigation": {
+          "top": 699.6875,
+          "bottom": 739.6875,
+          "visible": true
+        },
+        "image": {
+          "src": "/_next/image?url=%2Fwork%2Farcus-desktop.webp&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-desktop.webp&w=640&q=75",
+          "sizes": "(max-width: 800px) 92vw, 78vw",
+          "loading": "eager",
+          "naturalWidth": 294,
+          "naturalHeight": 184,
+          "alt": "",
+          "loaded": true
+        },
+        "caption": "ARCUS Training public dashboard capture",
+        "counter": "01 / 02"
+      },
+      "after": {
+        "scrollY": 5,
+        "viewport": [
+          320,
+          740
+        ],
+        "scrollWidth": 320,
+        "clip": "inset(0px 40.8784% 0px 0px)",
+        "frame": {
+          "top": 476.65625,
+          "width": 284.8125,
+          "height": 503.1875
+        },
+        "navigation": {
+          "top": 1024.765625,
+          "bottom": 1064.765625,
+          "visible": false
+        },
+        "image": {
+          "src": "/_next/image?url=%2Fwork%2Farcus-mobile.webp&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-mobile.webp&w=640&q=75",
+          "sizes": "(max-width: 800px) 92vw, 78vw",
+          "loading": "lazy",
+          "naturalWidth": 172,
+          "naturalHeight": 373,
+          "alt": "",
+          "loaded": true
+        },
+        "caption": "The same session-first view on mobile",
+        "counter": "02 / 02"
+      }
+    },
+    {
+      "slug": "teen-fiesta",
+      "width": 320,
+      "before": {
+        "scrollY": 353,
+        "viewport": [
+          320,
+          740
+        ],
+        "scrollWidth": 320,
+        "clip": "inset(0px 0% 0px 0px)",
+        "frame": {
+          "top": 206.21875,
+          "width": 284.8125,
+          "height": 146.40625
+        },
+        "navigation": {
+          "top": 397.546875,
+          "bottom": 437.546875,
+          "visible": true
+        },
+        "image": {
+          "src": "/_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&w=640&q=75",
+          "sizes": "(max-width: 800px) 92vw, 78vw",
+          "loading": "eager",
+          "naturalWidth": 294,
+          "naturalHeight": 151,
+          "alt": "",
+          "loaded": true
+        },
+        "caption": "Teen Fiesta homepage / featured RED ROOM campaign",
+        "counter": "01 / 03"
+      },
+      "after": {
+        "scrollY": 353,
+        "viewport": [
+          320,
+          740
+        ],
+        "scrollWidth": 320,
+        "clip": "inset(0px 0% 0px 0px)",
+        "frame": {
+          "top": 206.21875,
+          "width": 284.8125,
+          "height": 358.25
+        },
+        "navigation": {
+          "top": 609.390625,
+          "bottom": 649.390625,
+          "visible": true
+        },
+        "image": {
+          "src": "/_next/image?url=%2Fwork%2Fred-room-poster.jpg&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Fred-room-poster.jpg&w=640&q=75",
+          "sizes": "(max-width: 800px) 92vw, 78vw",
+          "loading": "lazy",
+          "naturalWidth": 294,
+          "naturalHeight": 370,
+          "alt": "",
+          "loaded": true
+        },
+        "caption": "RED ROOM / Teen Fiesta campaign announcement",
+        "counter": "02 / 03"
+      }
+    },
+    {
+      "slug": "rewatch",
+      "width": 320,
+      "before": {
+        "scrollY": 348,
+        "viewport": [
+          320,
+          740
+        ],
+        "scrollWidth": 320,
+        "clip": "inset(0px 0% 0px 0px)",
+        "frame": {
+          "top": 174.921875,
+          "width": 284.8125,
+          "height": 178.109375
+        },
+        "navigation": {
+          "top": 397.953125,
+          "bottom": 437.953125,
+          "visible": true
+        },
+        "image": {
+          "src": "/_next/image?url=%2Fwork%2Frewatch-desktop.webp&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Frewatch-desktop.webp&w=640&q=75",
+          "sizes": "(max-width: 800px) 92vw, 78vw",
+          "loading": "eager",
+          "naturalWidth": 294,
+          "naturalHeight": 184,
+          "alt": "",
+          "loaded": true
+        },
+        "caption": "Rewatch public homepage capture",
+        "counter": "01 / 02"
+      },
+      "after": {
+        "scrollY": 348,
+        "viewport": [
+          320,
+          740
+        ],
+        "scrollWidth": 320,
+        "clip": "inset(0px 0% 0px 0px)",
+        "frame": {
+          "top": 174.921875,
+          "width": 284.8125,
+          "height": 503.1875
+        },
+        "navigation": {
+          "top": 723.03125,
+          "bottom": 763.03125,
+          "visible": false
+        },
+        "image": {
+          "src": "/_next/image?url=%2Fwork%2Frewatch-mobile.webp&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Frewatch-mobile.webp&w=640&q=75",
+          "sizes": "(max-width: 800px) 92vw, 78vw",
+          "loading": "lazy",
+          "naturalWidth": 172,
+          "naturalHeight": 373,
+          "alt": "",
+          "loaded": true
+        },
+        "caption": "A compact mobile layout",
+        "counter": "02 / 02"
+      }
+    }
+  ],
+  "imageFailure": {
+    "frame": {
+      "scrollY": 805,
+      "viewport": [
+        1280,
+        800
+      ],
+      "scrollWidth": 1280,
+      "clip": "inset(0px 0% 0px 0px)",
+      "frame": {
+        "top": -318.046875,
+        "width": 1172.5,
+        "height": 793.59375
+      },
+      "navigation": {
+        "top": 488.34375,
+        "bottom": 528.34375,
+        "visible": true
+      },
+      "image": {
+        "src": "/_next/image?url=%2Fwork%2Farcus-mobile.webp&w=3840&q=75",
+        "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-mobile.webp&w=1080&q=75",
+        "sizes": "(max-width: 800px) 92vw, 78vw",
+        "loading": "lazy",
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "alt": "",
+        "loaded": false
+      },
+      "caption": "The same session-first view on mobile",
+      "counter": "02 / 02"
+    },
+    "fallbackText": ""
+  }
+}

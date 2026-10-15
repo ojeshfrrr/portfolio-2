@@ -1,0 +1,30 @@
+{
+  "browser": "Google Chrome",
+  "url": "http://127.0.0.1:3000/",
+  "baseline": {
+    "matches": false,
+    "sceneReady": true,
+    "canvasCount": 1,
+    "fallbackHidden": true,
+    "pinSpacers": 1,
+    "heroPosition": "fixed"
+  },
+  "reducedMotion": {
+    "matches": true,
+    "sceneReady": true,
+    "canvasCount": 1,
+    "fallbackHidden": true,
+    "pinSpacers": 0,
+    "heroPosition": "relative",
+    "afterScroll": {
+      "scrollY": 620,
+      "heroTop": -620,
+      "pinSpacers": 0
+    },
+    "enabledFromInitialLoad": true,
+    "sceneAvailableForFairComparison": true,
+    "pinSuppressedComparedToBaseline": true,
+    "naturalScrollWorks": true
+  },
+  "errors": []
+}

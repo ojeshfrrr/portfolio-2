@@ -1,0 +1,61 @@
+{
+  "baseline": {
+    "lint": "passed",
+    "typescript": "passed",
+    "productionBuild": "passed"
+  },
+  "final": {
+    "lint": "passed",
+    "typescript": "passed",
+    "productionBuild": "passed",
+    "generatedPages": 13,
+    "galleryChecks": {
+      "passed": 52,
+      "failed": 0
+    },
+    "reliabilityChecks": {
+      "passed": 54,
+      "failed": 0
+    },
+    "requiredScreenshots": {
+      "present": 17,
+      "missing": []
+    },
+    "temporaryScriptsRemaining": []
+  },
+  "environment": {
+    "productionBase": "http://127.0.0.1:3001",
+    "method": "Installed Chrome with bundled Playwright; no permanent dependency added",
+    "gitMetadataPresent": false,
+    "physicalDeviceTested": false
+  },
+  "external": [
+    {
+      "url": "https://thelane.vercel.app/",
+      "status": 200,
+      "final": "https://thelane.vercel.app/"
+    },
+    {
+      "url": "https://thearcus.vercel.app/",
+      "status": 200,
+      "final": "https://thearcus.vercel.app/home"
+    },
+    {
+      "url": "https://theteenfiesta.vercel.app/",
+      "status": 404,
+      "final": "https://theteenfiesta.vercel.app/"
+    },
+    {
+      "url": "https://rewatch.cc/",
+      "status": 200,
+      "final": "https://rewatch.cc/"
+    }
+  ],
+  "limitations": [
+    "TEEN FIESTA public deployment returns 404 DEPLOYMENT_NOT_FOUND",
+    "No physical-device or real-GPU/Safari/Firefox performance test",
+    "No external signed-in/offline/product flow testing",
+    "No mail app launched or email sent",
+    "No direct private GSAP timeline enumeration"
+  ]
+}

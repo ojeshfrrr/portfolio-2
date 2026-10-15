@@ -1,0 +1,1908 @@
+{
+  "mode": "final",
+  "base": "http://127.0.0.1:3001",
+  "checks": [
+    {
+      "name": "lane: opening image is unmasked",
+      "status": "passed",
+      "data": "none"
+    },
+    {
+      "name": "lane: correct eager cover and meaningful alt",
+      "status": "passed",
+      "data": {
+        "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-desktop.png&w=3840&q=75",
+        "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-desktop.png&w=1920&q=75",
+        "sizes": "(max-width: 760px) calc(100vw - 2.2rem), (min-width: 2096px) calc(100vw - 11rem), 91.6vw",
+        "loading": "eager",
+        "naturalWidth": 1319,
+        "naturalHeight": 733,
+        "alt": "LANE homepage with a metallic sculpture, HEAT campaign artwork and editorial typography.",
+        "loaded": true
+      }
+    },
+    {
+      "name": "lane: gallery touch targets at least 44px",
+      "status": "passed",
+      "data": [
+        {
+          "width": 44,
+          "height": 44
+        },
+        {
+          "width": 44,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "lane: previous returns cover",
+      "status": "passed"
+    },
+    {
+      "name": "lane: keyboard right selects second",
+      "status": "passed"
+    },
+    {
+      "name": "lane: viewer keyboard focus is visible",
+      "status": "passed"
+    },
+    {
+      "name": "lane: rapid navigation stays synchronized",
+      "status": "passed",
+      "data": {
+        "scrollY": 375,
+        "viewport": [
+          1440,
+          900
+        ],
+        "scrollWidth": 1440,
+        "clip": "none",
+        "frame": {
+          "top": 199.015625,
+          "width": 1319.0625,
+          "height": 652
+        },
+        "navigation": {
+          "top": 142.21875,
+          "bottom": 186.21875,
+          "visible": true
+        },
+        "image": {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-archive.png&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-archive.png&w=1920&q=75",
+          "sizes": "(max-width: 760px) calc(100vw - 2.2rem), (min-width: 2096px) calc(100vw - 11rem), 91.6vw",
+          "loading": "lazy",
+          "naturalWidth": 1055,
+          "naturalHeight": 961,
+          "alt": "LANE campaign archive with a selector beside a full portrait poster.",
+          "loaded": true
+        },
+        "caption": "Image 3 of 3. The campaign archive / Teen Soirée selected from seven chapters",
+        "counter": "03 / 03"
+      }
+    },
+    {
+      "name": "lane: narrative and next project exist",
+      "status": "passed"
+    },
+    {
+      "name": "arcus: opening image is unmasked",
+      "status": "passed",
+      "data": "none"
+    },
+    {
+      "name": "arcus: correct eager cover and meaningful alt",
+      "status": "passed",
+      "data": {
+        "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-desktop.webp&w=3840&q=75",
+        "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-desktop.webp&w=1920&q=75",
+        "sizes": "(max-width: 760px) calc(100vw - 2.2rem), (min-width: 2096px) calc(100vw - 11rem), 91.6vw",
+        "loading": "eager",
+        "naturalWidth": 978,
+        "naturalHeight": 612,
+        "alt": "ARCUS Training dashboard with the next-session prompt and weekly training overview.",
+        "loaded": true
+      }
+    },
+    {
+      "name": "arcus: gallery touch targets at least 44px",
+      "status": "passed",
+      "data": [
+        {
+          "width": 44,
+          "height": 44
+        },
+        {
+          "width": 44,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "arcus: previous returns cover",
+      "status": "passed"
+    },
+    {
+      "name": "arcus: keyboard right selects second",
+      "status": "passed"
+    },
+    {
+      "name": "arcus: viewer keyboard focus is visible",
+      "status": "passed"
+    },
+    {
+      "name": "arcus: rapid navigation stays synchronized",
+      "status": "passed",
+      "data": {
+        "scrollY": 375,
+        "viewport": [
+          1440,
+          900
+        ],
+        "scrollWidth": 1440,
+        "clip": "none",
+        "frame": {
+          "top": 199.015625,
+          "width": 1319.0625,
+          "height": 652
+        },
+        "navigation": {
+          "top": 142.21875,
+          "bottom": 186.21875,
+          "visible": true
+        },
+        "image": {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-mobile.webp&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-mobile.webp&w=640&q=75",
+          "sizes": "(max-width: 760px) calc(100vw - 2.2rem), (min-height: 1000px) 42rem, 34rem",
+          "loading": "lazy",
+          "naturalWidth": 318,
+          "naturalHeight": 690,
+          "alt": "ARCUS mobile dashboard with the next-session prompt and training summary.",
+          "loaded": true
+        },
+        "caption": "Image 2 of 2. Mobile / the same session prompt with bottom navigation",
+        "counter": "02 / 02"
+      }
+    },
+    {
+      "name": "arcus: narrative and next project exist",
+      "status": "passed"
+    },
+    {
+      "name": "TEEN FIESTA: unavailable live deployment is disclosed without dead Visit CTA",
+      "status": "passed"
+    },
+    {
+      "name": "teen-fiesta: opening image is unmasked",
+      "status": "passed",
+      "data": "none"
+    },
+    {
+      "name": "teen-fiesta: correct eager cover and meaningful alt",
+      "status": "passed",
+      "data": {
+        "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&w=3840&q=75",
+        "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&w=1920&q=75",
+        "sizes": "(max-width: 760px) calc(100vw - 2.2rem), (min-width: 2096px) calc(100vw - 11rem), 91.6vw",
+        "loading": "eager",
+        "naturalWidth": 1270,
+        "naturalHeight": 653,
+        "alt": "Teen Fiesta website with expressive typography, a metallic sculpture and event artwork.",
+        "loaded": true
+      }
+    },
+    {
+      "name": "teen-fiesta: gallery touch targets at least 44px",
+      "status": "passed",
+      "data": [
+        {
+          "width": 44,
+          "height": 44
+        },
+        {
+          "width": 44,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "teen-fiesta: previous returns cover",
+      "status": "passed"
+    },
+    {
+      "name": "teen-fiesta: keyboard right selects second",
+      "status": "passed"
+    },
+    {
+      "name": "teen-fiesta: viewer keyboard focus is visible",
+      "status": "passed"
+    },
+    {
+      "name": "teen-fiesta: rapid navigation stays synchronized",
+      "status": "passed",
+      "data": {
+        "scrollY": 532,
+        "viewport": [
+          1440,
+          900
+        ],
+        "scrollWidth": 1440,
+        "clip": "none",
+        "frame": {
+          "top": 199.25,
+          "width": 1319.0625,
+          "height": 652
+        },
+        "navigation": {
+          "top": 142.453125,
+          "bottom": 186.453125,
+          "visible": true
+        },
+        "image": {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Fred-room-dj.jpg&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Fred-room-dj.jpg&w=640&q=75",
+          "sizes": "(max-width: 760px) calc(100vw - 2.2rem), (min-height: 1000px) 42rem, 34rem",
+          "loading": "lazy",
+          "naturalWidth": 544,
+          "naturalHeight": 965,
+          "alt": "Supplied RED ROOM promotional still showing the campaign announcement over a bar in red light.",
+          "loaded": true
+        },
+        "caption": "Image 3 of 3. RED ROOM / supplied promotional still",
+        "counter": "03 / 03"
+      }
+    },
+    {
+      "name": "teen-fiesta: narrative and next project exist",
+      "status": "passed"
+    },
+    {
+      "name": "rewatch: opening image is unmasked",
+      "status": "passed",
+      "data": "none"
+    },
+    {
+      "name": "rewatch: correct eager cover and meaningful alt",
+      "status": "passed",
+      "data": {
+        "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Frewatch-desktop.webp&w=3840&q=75",
+        "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Frewatch-desktop.webp&w=1920&q=75",
+        "sizes": "(max-width: 760px) calc(100vw - 2.2rem), (min-width: 2096px) calc(100vw - 11rem), 91.6vw",
+        "loading": "eager",
+        "naturalWidth": 978,
+        "naturalHeight": 612,
+        "alt": "Rewatch homepage introducing its film, series, anime, and music catalog.",
+        "loaded": true
+      }
+    },
+    {
+      "name": "rewatch: gallery touch targets at least 44px",
+      "status": "passed",
+      "data": [
+        {
+          "width": 44,
+          "height": 44
+        },
+        {
+          "width": 44,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "rewatch: previous returns cover",
+      "status": "passed"
+    },
+    {
+      "name": "rewatch: keyboard right selects second",
+      "status": "passed"
+    },
+    {
+      "name": "rewatch: viewer keyboard focus is visible",
+      "status": "passed"
+    },
+    {
+      "name": "rewatch: rapid navigation stays synchronized",
+      "status": "passed",
+      "data": {
+        "scrollY": 375,
+        "viewport": [
+          1440,
+          900
+        ],
+        "scrollWidth": 1440,
+        "clip": "none",
+        "frame": {
+          "top": 199.015625,
+          "width": 1319.0625,
+          "height": 652
+        },
+        "navigation": {
+          "top": 142.21875,
+          "bottom": 186.21875,
+          "visible": true
+        },
+        "image": {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Frewatch-mobile.webp&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Frewatch-mobile.webp&w=640&q=75",
+          "sizes": "(max-width: 760px) calc(100vw - 2.2rem), (min-height: 1000px) 42rem, 34rem",
+          "loading": "lazy",
+          "naturalWidth": 318,
+          "naturalHeight": 690,
+          "alt": "Rewatch homepage adapted to a mobile viewport.",
+          "loaded": true
+        },
+        "caption": "Image 2 of 2. Mobile / account actions and fixed bottom navigation",
+        "counter": "02 / 02"
+      }
+    },
+    {
+      "name": "rewatch: narrative and next project exist",
+      "status": "passed"
+    },
+    {
+      "name": "lane: no overflow at 390px",
+      "status": "passed",
+      "data": 390
+    },
+    {
+      "name": "lane: controls stay visible after selection at 390px",
+      "status": "passed",
+      "data": {
+        "before": {
+          "top": 513.953125,
+          "bottom": 557.953125,
+          "visible": true
+        },
+        "after": {
+          "top": 513.953125,
+          "bottom": 557.953125,
+          "visible": true
+        }
+      }
+    },
+    {
+      "name": "arcus: no overflow at 390px",
+      "status": "passed",
+      "data": 390
+    },
+    {
+      "name": "arcus: controls stay visible after selection at 390px",
+      "status": "passed",
+      "data": {
+        "before": {
+          "top": 513.953125,
+          "bottom": 557.953125,
+          "visible": true
+        },
+        "after": {
+          "top": 513.953125,
+          "bottom": 557.953125,
+          "visible": true
+        }
+      }
+    },
+    {
+      "name": "teen-fiesta: no overflow at 390px",
+      "status": "passed",
+      "data": 390
+    },
+    {
+      "name": "teen-fiesta: controls stay visible after selection at 390px",
+      "status": "passed",
+      "data": {
+        "before": {
+          "top": 508.453125,
+          "bottom": 552.453125,
+          "visible": true
+        },
+        "after": {
+          "top": 508.453125,
+          "bottom": 552.453125,
+          "visible": true
+        }
+      }
+    },
+    {
+      "name": "rewatch: no overflow at 390px",
+      "status": "passed",
+      "data": 390
+    },
+    {
+      "name": "rewatch: controls stay visible after selection at 390px",
+      "status": "passed",
+      "data": {
+        "before": {
+          "top": 513.953125,
+          "bottom": 557.953125,
+          "visible": true
+        },
+        "after": {
+          "top": 513.953125,
+          "bottom": 557.953125,
+          "visible": true
+        }
+      }
+    },
+    {
+      "name": "lane: no overflow at 320px",
+      "status": "passed",
+      "data": 320
+    },
+    {
+      "name": "lane: controls stay visible after selection at 320px",
+      "status": "passed",
+      "data": {
+        "before": {
+          "top": 554.125,
+          "bottom": 598.125,
+          "visible": true
+        },
+        "after": {
+          "top": 554.125,
+          "bottom": 598.125,
+          "visible": true
+        }
+      }
+    },
+    {
+      "name": "arcus: no overflow at 320px",
+      "status": "passed",
+      "data": 320
+    },
+    {
+      "name": "arcus: controls stay visible after selection at 320px",
+      "status": "passed",
+      "data": {
+        "before": {
+          "top": 512.859375,
+          "bottom": 556.859375,
+          "visible": true
+        },
+        "after": {
+          "top": 512.859375,
+          "bottom": 556.859375,
+          "visible": true
+        }
+      }
+    },
+    {
+      "name": "teen-fiesta: no overflow at 320px",
+      "status": "passed",
+      "data": 320
+    },
+    {
+      "name": "teen-fiesta: controls stay visible after selection at 320px",
+      "status": "passed",
+      "data": {
+        "before": {
+          "top": 584.921875,
+          "bottom": 628.921875,
+          "visible": true
+        },
+        "after": {
+          "top": 584.921875,
+          "bottom": 628.921875,
+          "visible": true
+        }
+      }
+    },
+    {
+      "name": "rewatch: no overflow at 320px",
+      "status": "passed",
+      "data": 320
+    },
+    {
+      "name": "rewatch: controls stay visible after selection at 320px",
+      "status": "passed",
+      "data": {
+        "before": {
+          "top": 554.125,
+          "bottom": 598.125,
+          "visible": true
+        },
+        "after": {
+          "top": 554.125,
+          "bottom": 598.125,
+          "visible": true
+        }
+      }
+    },
+    {
+      "name": "controlled missing image shows useful fallback",
+      "status": "passed",
+      "data": {
+        "frame": {
+          "scrollY": 0,
+          "viewport": [
+            1280,
+            800
+          ],
+          "scrollWidth": 1280,
+          "clip": "none",
+          "frame": {
+            "top": 543.75,
+            "width": 1172.5,
+            "height": 552
+          },
+          "navigation": {
+            "top": 486.953125,
+            "bottom": 530.953125,
+            "visible": true
+          },
+          "image": null,
+          "caption": "Image 2 of 2. Mobile / the same session prompt with bottom navigation",
+          "counter": "02 / 02"
+        },
+        "fallbackText": "This image is unavailable.\n\nTry again or choose another image.\n\nRetry image"
+      }
+    },
+    {
+      "name": "image retry recovers with keyboard focus preserved",
+      "status": "passed",
+      "data": {
+        "scrollY": 387,
+        "viewport": [
+          1280,
+          800
+        ],
+        "scrollWidth": 1280,
+        "clip": "none",
+        "frame": {
+          "top": 156.75,
+          "width": 1172.5,
+          "height": 552
+        },
+        "navigation": {
+          "top": 99.953125,
+          "bottom": 143.953125,
+          "visible": true
+        },
+        "image": {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-mobile.webp&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-mobile.webp&w=640&q=75",
+          "sizes": "(max-width: 760px) calc(100vw - 2.2rem), (min-height: 1000px) 42rem, 34rem",
+          "loading": "lazy",
+          "naturalWidth": 318,
+          "naturalHeight": 690,
+          "alt": "ARCUS mobile dashboard with the next-session prompt and training summary.",
+          "loaded": true
+        },
+        "caption": "Image 2 of 2. Mobile / the same session prompt with bottom navigation",
+        "counter": "02 / 02"
+      }
+    },
+    {
+      "name": "gallery remains navigable after recovery",
+      "status": "passed"
+    }
+  ],
+  "errors": [
+    {
+      "label": "deliberate-image-failure",
+      "type": "http",
+      "status": 503,
+      "url": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-mobile.webp&w=96&q=75"
+    },
+    {
+      "label": "deliberate-image-failure",
+      "type": "error",
+      "message": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+    },
+    {
+      "label": "deliberate-image-failure",
+      "type": "http",
+      "status": 503,
+      "url": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-mobile.webp&w=96&q=75"
+    },
+    {
+      "label": "deliberate-image-failure",
+      "type": "error",
+      "message": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+    },
+    {
+      "label": "deliberate-image-failure",
+      "type": "http",
+      "status": 503,
+      "url": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-mobile.webp&w=640&q=75"
+    },
+    {
+      "label": "deliberate-image-failure",
+      "type": "error",
+      "message": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+    }
+  ],
+  "routes": [
+    {
+      "route": "/work/lane",
+      "status": 200,
+      "initial": {
+        "scrollY": 0,
+        "viewport": [
+          1440,
+          900
+        ],
+        "scrollWidth": 1440,
+        "clip": "none",
+        "frame": {
+          "top": 574.015625,
+          "width": 1319.0625,
+          "height": 652
+        },
+        "navigation": {
+          "top": 517.21875,
+          "bottom": 561.21875,
+          "visible": true
+        },
+        "image": {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-desktop.png&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-desktop.png&w=1920&q=75",
+          "sizes": "(max-width: 760px) calc(100vw - 2.2rem), (min-width: 2096px) calc(100vw - 11rem), 91.6vw",
+          "loading": "eager",
+          "naturalWidth": 1319,
+          "naturalHeight": 733,
+          "alt": "LANE homepage with a metallic sculpture, HEAT campaign artwork and editorial typography.",
+          "loaded": true
+        },
+        "caption": "Image 1 of 3. HEAT / sculptural homepage and campaign poster",
+        "counter": "01 / 03"
+      }
+    },
+    {
+      "route": "/work/arcus",
+      "status": 200,
+      "initial": {
+        "scrollY": 0,
+        "viewport": [
+          1440,
+          900
+        ],
+        "scrollWidth": 1440,
+        "clip": "none",
+        "frame": {
+          "top": 574.015625,
+          "width": 1319.0625,
+          "height": 652
+        },
+        "navigation": {
+          "top": 517.21875,
+          "bottom": 561.21875,
+          "visible": true
+        },
+        "image": {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-desktop.webp&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-desktop.webp&w=1920&q=75",
+          "sizes": "(max-width: 760px) calc(100vw - 2.2rem), (min-width: 2096px) calc(100vw - 11rem), 91.6vw",
+          "loading": "eager",
+          "naturalWidth": 978,
+          "naturalHeight": 612,
+          "alt": "ARCUS Training dashboard with the next-session prompt and weekly training overview.",
+          "loaded": true
+        },
+        "caption": "Image 1 of 2. Desktop / next-session action, weekly totals and persistent sidebar",
+        "counter": "01 / 02"
+      }
+    },
+    {
+      "route": "/work/teen-fiesta",
+      "status": 200,
+      "initial": {
+        "scrollY": 0,
+        "viewport": [
+          1440,
+          900
+        ],
+        "scrollWidth": 1440,
+        "clip": "none",
+        "frame": {
+          "top": 731.25,
+          "width": 1319.0625,
+          "height": 652
+        },
+        "navigation": {
+          "top": 674.453125,
+          "bottom": 718.453125,
+          "visible": true
+        },
+        "image": {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&w=1920&q=75",
+          "sizes": "(max-width: 760px) calc(100vw - 2.2rem), (min-width: 2096px) calc(100vw - 11rem), 91.6vw",
+          "loading": "eager",
+          "naturalWidth": 1270,
+          "naturalHeight": 653,
+          "alt": "Teen Fiesta website with expressive typography, a metallic sculpture and event artwork.",
+          "loaded": true
+        },
+        "caption": "Image 1 of 3. TEEN FIESTA / website introducing the RED ROOM campaign",
+        "counter": "01 / 03"
+      }
+    },
+    {
+      "route": "/work/rewatch",
+      "status": 200,
+      "initial": {
+        "scrollY": 0,
+        "viewport": [
+          1440,
+          900
+        ],
+        "scrollWidth": 1440,
+        "clip": "none",
+        "frame": {
+          "top": 574.015625,
+          "width": 1319.0625,
+          "height": 652
+        },
+        "navigation": {
+          "top": 517.21875,
+          "bottom": 561.21875,
+          "visible": true
+        },
+        "image": {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Frewatch-desktop.webp&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Frewatch-desktop.webp&w=1920&q=75",
+          "sizes": "(max-width: 760px) calc(100vw - 2.2rem), (min-width: 2096px) calc(100vw - 11rem), 91.6vw",
+          "loading": "eager",
+          "naturalWidth": 978,
+          "naturalHeight": 612,
+          "alt": "Rewatch homepage introducing its film, series, anime, and music catalog.",
+          "loaded": true
+        },
+        "caption": "Image 1 of 2. Desktop / search, media categories and a catalog preview",
+        "counter": "01 / 02"
+      }
+    }
+  ],
+  "screenshots": [
+    "D:\\projects\\second_pf\\qa\\case-study-quality-pass-2026-10-15\\desktop-lane.png",
+    "D:\\projects\\second_pf\\qa\\case-study-quality-pass-2026-10-15\\desktop-lane-gallery-next.png",
+    "D:\\projects\\second_pf\\qa\\case-study-quality-pass-2026-10-15\\desktop-lane-details.png",
+    "D:\\projects\\second_pf\\qa\\case-study-quality-pass-2026-10-15\\desktop-arcus.png",
+    "D:\\projects\\second_pf\\qa\\case-study-quality-pass-2026-10-15\\desktop-arcus-gallery-next.png",
+    "D:\\projects\\second_pf\\qa\\case-study-quality-pass-2026-10-15\\desktop-arcus-details.png",
+    "D:\\projects\\second_pf\\qa\\case-study-quality-pass-2026-10-15\\desktop-teen-fiesta.png",
+    "D:\\projects\\second_pf\\qa\\case-study-quality-pass-2026-10-15\\desktop-teen-fiesta-gallery-next.png",
+    "D:\\projects\\second_pf\\qa\\case-study-quality-pass-2026-10-15\\desktop-teen-fiesta-details.png",
+    "D:\\projects\\second_pf\\qa\\case-study-quality-pass-2026-10-15\\desktop-rewatch.png",
+    "D:\\projects\\second_pf\\qa\\case-study-quality-pass-2026-10-15\\desktop-rewatch-gallery-next.png",
+    "D:\\projects\\second_pf\\qa\\case-study-quality-pass-2026-10-15\\desktop-rewatch-details.png",
+    "D:\\projects\\second_pf\\qa\\case-study-quality-pass-2026-10-15\\mobile-lane-390.png",
+    "D:\\projects\\second_pf\\qa\\case-study-quality-pass-2026-10-15\\mobile-arcus-390.png",
+    "D:\\projects\\second_pf\\qa\\case-study-quality-pass-2026-10-15\\mobile-arcus-390-gallery-next.png",
+    "D:\\projects\\second_pf\\qa\\case-study-quality-pass-2026-10-15\\mobile-teen-fiesta-390.png",
+    "D:\\projects\\second_pf\\qa\\case-study-quality-pass-2026-10-15\\mobile-rewatch-390.png",
+    "D:\\projects\\second_pf\\qa\\case-study-quality-pass-2026-10-15\\mobile-arcus-320.png",
+    "D:\\projects\\second_pf\\qa\\case-study-quality-pass-2026-10-15\\mobile-arcus-320-gallery-next.png",
+    "D:\\projects\\second_pf\\qa\\case-study-quality-pass-2026-10-15\\image-failure-fallback.png"
+  ],
+  "galleries": {
+    "lane": {
+      "count": 3,
+      "imageBefore": {
+        "scrollY": 417,
+        "viewport": [
+          1440,
+          900
+        ],
+        "scrollWidth": 1440,
+        "clip": "none",
+        "frame": {
+          "top": 157.015625,
+          "width": 1319.0625,
+          "height": 652
+        },
+        "navigation": {
+          "top": 100.21875,
+          "bottom": 144.21875,
+          "visible": true
+        },
+        "image": {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-desktop.png&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-desktop.png&w=1920&q=75",
+          "sizes": "(max-width: 760px) calc(100vw - 2.2rem), (min-width: 2096px) calc(100vw - 11rem), 91.6vw",
+          "loading": "eager",
+          "naturalWidth": 1319,
+          "naturalHeight": 733,
+          "alt": "LANE homepage with a metallic sculpture, HEAT campaign artwork and editorial typography.",
+          "loaded": true
+        },
+        "caption": "Image 1 of 3. HEAT / sculptural homepage and campaign poster",
+        "counter": "01 / 03"
+      },
+      "next": {
+        "scrollY": 417,
+        "viewport": [
+          1440,
+          900
+        ],
+        "scrollWidth": 1440,
+        "clip": "none",
+        "frame": {
+          "top": 157.015625,
+          "width": 1319.0625,
+          "height": 652
+        },
+        "navigation": {
+          "top": 100.21875,
+          "bottom": 144.21875,
+          "visible": true
+        },
+        "image": {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-home.png&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-home.png&w=1920&q=75",
+          "sizes": "(max-width: 760px) calc(100vw - 2.2rem), (min-width: 2096px) calc(100vw - 11rem), 91.6vw",
+          "loading": "lazy",
+          "naturalWidth": 1055,
+          "naturalHeight": 593,
+          "alt": "Alternate LANE homepage with AFTER dark typography and the original HEAT poster.",
+          "loaded": true
+        },
+        "caption": "Image 2 of 3. HEAT / alternate homepage layout led by the original artwork",
+        "counter": "02 / 03"
+      },
+      "last": {
+        "scrollY": 411,
+        "viewport": [
+          1440,
+          900
+        ],
+        "scrollWidth": 1440,
+        "clip": "none",
+        "frame": {
+          "top": 163.015625,
+          "width": 1319.0625,
+          "height": 652
+        },
+        "navigation": {
+          "top": 106.21875,
+          "bottom": 150.21875,
+          "visible": true
+        },
+        "image": {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-archive.png&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-archive.png&w=1920&q=75",
+          "sizes": "(max-width: 760px) calc(100vw - 2.2rem), (min-width: 2096px) calc(100vw - 11rem), 91.6vw",
+          "loading": "lazy",
+          "naturalWidth": 1055,
+          "naturalHeight": 961,
+          "alt": "LANE campaign archive with a selector beside a full portrait poster.",
+          "loaded": true
+        },
+        "caption": "Image 3 of 3. The campaign archive / Teen Soirée selected from seven chapters",
+        "counter": "03 / 03"
+      }
+    },
+    "arcus": {
+      "count": 2,
+      "imageBefore": {
+        "scrollY": 417,
+        "viewport": [
+          1440,
+          900
+        ],
+        "scrollWidth": 1440,
+        "clip": "none",
+        "frame": {
+          "top": 157.015625,
+          "width": 1319.0625,
+          "height": 652
+        },
+        "navigation": {
+          "top": 100.21875,
+          "bottom": 144.21875,
+          "visible": true
+        },
+        "image": {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-desktop.webp&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-desktop.webp&w=1920&q=75",
+          "sizes": "(max-width: 760px) calc(100vw - 2.2rem), (min-width: 2096px) calc(100vw - 11rem), 91.6vw",
+          "loading": "eager",
+          "naturalWidth": 978,
+          "naturalHeight": 612,
+          "alt": "ARCUS Training dashboard with the next-session prompt and weekly training overview.",
+          "loaded": true
+        },
+        "caption": "Image 1 of 2. Desktop / next-session action, weekly totals and persistent sidebar",
+        "counter": "01 / 02"
+      },
+      "next": {
+        "scrollY": 417,
+        "viewport": [
+          1440,
+          900
+        ],
+        "scrollWidth": 1440,
+        "clip": "none",
+        "frame": {
+          "top": 157.015625,
+          "width": 1319.0625,
+          "height": 652
+        },
+        "navigation": {
+          "top": 100.21875,
+          "bottom": 144.21875,
+          "visible": true
+        },
+        "image": {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-mobile.webp&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-mobile.webp&w=640&q=75",
+          "sizes": "(max-width: 760px) calc(100vw - 2.2rem), (min-height: 1000px) 42rem, 34rem",
+          "loading": "lazy",
+          "naturalWidth": 318,
+          "naturalHeight": 690,
+          "alt": "ARCUS mobile dashboard with the next-session prompt and training summary.",
+          "loaded": true
+        },
+        "caption": "Image 2 of 2. Mobile / the same session prompt with bottom navigation",
+        "counter": "02 / 02"
+      },
+      "last": {
+        "scrollY": 411,
+        "viewport": [
+          1440,
+          900
+        ],
+        "scrollWidth": 1440,
+        "clip": "none",
+        "frame": {
+          "top": 163.015625,
+          "width": 1319.0625,
+          "height": 652
+        },
+        "navigation": {
+          "top": 106.21875,
+          "bottom": 150.21875,
+          "visible": true
+        },
+        "image": {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-mobile.webp&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-mobile.webp&w=640&q=75",
+          "sizes": "(max-width: 760px) calc(100vw - 2.2rem), (min-height: 1000px) 42rem, 34rem",
+          "loading": "lazy",
+          "naturalWidth": 318,
+          "naturalHeight": 690,
+          "alt": "ARCUS mobile dashboard with the next-session prompt and training summary.",
+          "loaded": true
+        },
+        "caption": "Image 2 of 2. Mobile / the same session prompt with bottom navigation",
+        "counter": "02 / 02"
+      }
+    },
+    "teen-fiesta": {
+      "count": 3,
+      "imageBefore": {
+        "scrollY": 574,
+        "viewport": [
+          1440,
+          900
+        ],
+        "scrollWidth": 1440,
+        "clip": "none",
+        "frame": {
+          "top": 157.25,
+          "width": 1319.0625,
+          "height": 652
+        },
+        "navigation": {
+          "top": 100.453125,
+          "bottom": 144.453125,
+          "visible": true
+        },
+        "image": {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&w=1920&q=75",
+          "sizes": "(max-width: 760px) calc(100vw - 2.2rem), (min-width: 2096px) calc(100vw - 11rem), 91.6vw",
+          "loading": "eager",
+          "naturalWidth": 1270,
+          "naturalHeight": 653,
+          "alt": "Teen Fiesta website with expressive typography, a metallic sculpture and event artwork.",
+          "loaded": true
+        },
+        "caption": "Image 1 of 3. TEEN FIESTA / website introducing the RED ROOM campaign",
+        "counter": "01 / 03"
+      },
+      "next": {
+        "scrollY": 574,
+        "viewport": [
+          1440,
+          900
+        ],
+        "scrollWidth": 1440,
+        "clip": "none",
+        "frame": {
+          "top": 157.25,
+          "width": 1319.0625,
+          "height": 652
+        },
+        "navigation": {
+          "top": 100.453125,
+          "bottom": 144.453125,
+          "visible": true
+        },
+        "image": {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Fred-room-poster.jpg&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Fred-room-poster.jpg&w=640&q=75",
+          "sizes": "(max-width: 760px) calc(100vw - 2.2rem), (min-height: 1000px) 42rem, 34rem",
+          "loading": "lazy",
+          "naturalWidth": 544,
+          "naturalHeight": 684,
+          "alt": "Teen Fiesta RED ROOM announcement for Mansion Agra, 31 October 2026, 5–9 PM.",
+          "loaded": true
+        },
+        "caption": "Image 2 of 3. RED ROOM / supplied announcement poster, 31 October 2026",
+        "counter": "02 / 03"
+      },
+      "last": {
+        "scrollY": 568,
+        "viewport": [
+          1440,
+          900
+        ],
+        "scrollWidth": 1440,
+        "clip": "none",
+        "frame": {
+          "top": 163.25,
+          "width": 1319.0625,
+          "height": 652
+        },
+        "navigation": {
+          "top": 106.453125,
+          "bottom": 150.453125,
+          "visible": true
+        },
+        "image": {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Fred-room-dj.jpg&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Fred-room-dj.jpg&w=640&q=75",
+          "sizes": "(max-width: 760px) calc(100vw - 2.2rem), (min-height: 1000px) 42rem, 34rem",
+          "loading": "lazy",
+          "naturalWidth": 544,
+          "naturalHeight": 965,
+          "alt": "Supplied RED ROOM promotional still showing the campaign announcement over a bar in red light.",
+          "loaded": true
+        },
+        "caption": "Image 3 of 3. RED ROOM / supplied promotional still",
+        "counter": "03 / 03"
+      }
+    },
+    "rewatch": {
+      "count": 2,
+      "imageBefore": {
+        "scrollY": 417,
+        "viewport": [
+          1440,
+          900
+        ],
+        "scrollWidth": 1440,
+        "clip": "none",
+        "frame": {
+          "top": 157.015625,
+          "width": 1319.0625,
+          "height": 652
+        },
+        "navigation": {
+          "top": 100.21875,
+          "bottom": 144.21875,
+          "visible": true
+        },
+        "image": {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Frewatch-desktop.webp&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Frewatch-desktop.webp&w=1920&q=75",
+          "sizes": "(max-width: 760px) calc(100vw - 2.2rem), (min-width: 2096px) calc(100vw - 11rem), 91.6vw",
+          "loading": "eager",
+          "naturalWidth": 978,
+          "naturalHeight": 612,
+          "alt": "Rewatch homepage introducing its film, series, anime, and music catalog.",
+          "loaded": true
+        },
+        "caption": "Image 1 of 2. Desktop / search, media categories and a catalog preview",
+        "counter": "01 / 02"
+      },
+      "next": {
+        "scrollY": 417,
+        "viewport": [
+          1440,
+          900
+        ],
+        "scrollWidth": 1440,
+        "clip": "none",
+        "frame": {
+          "top": 157.015625,
+          "width": 1319.0625,
+          "height": 652
+        },
+        "navigation": {
+          "top": 100.21875,
+          "bottom": 144.21875,
+          "visible": true
+        },
+        "image": {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Frewatch-mobile.webp&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Frewatch-mobile.webp&w=640&q=75",
+          "sizes": "(max-width: 760px) calc(100vw - 2.2rem), (min-height: 1000px) 42rem, 34rem",
+          "loading": "lazy",
+          "naturalWidth": 318,
+          "naturalHeight": 690,
+          "alt": "Rewatch homepage adapted to a mobile viewport.",
+          "loaded": true
+        },
+        "caption": "Image 2 of 2. Mobile / account actions and fixed bottom navigation",
+        "counter": "02 / 02"
+      },
+      "last": {
+        "scrollY": 411,
+        "viewport": [
+          1440,
+          900
+        ],
+        "scrollWidth": 1440,
+        "clip": "none",
+        "frame": {
+          "top": 163.015625,
+          "width": 1319.0625,
+          "height": 652
+        },
+        "navigation": {
+          "top": 106.21875,
+          "bottom": 150.21875,
+          "visible": true
+        },
+        "image": {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Frewatch-mobile.webp&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Frewatch-mobile.webp&w=640&q=75",
+          "sizes": "(max-width: 760px) calc(100vw - 2.2rem), (min-height: 1000px) 42rem, 34rem",
+          "loading": "lazy",
+          "naturalWidth": 318,
+          "naturalHeight": 690,
+          "alt": "Rewatch homepage adapted to a mobile viewport.",
+          "loaded": true
+        },
+        "caption": "Image 2 of 2. Mobile / account actions and fixed bottom navigation",
+        "counter": "02 / 02"
+      }
+    }
+  },
+  "performance": [
+    {
+      "route": "/work/lane",
+      "cache": "browser cache disabled; server optimizer may already be warm",
+      "lcp": [
+        {
+          "time": 1472,
+          "size": 100350,
+          "tag": "H1",
+          "text": "LANE",
+          "url": ""
+        },
+        {
+          "time": 1744,
+          "size": 379581,
+          "tag": "IMG",
+          "text": "",
+          "url": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-desktop.png&w=1920&q=75"
+        }
+      ],
+      "cls": 0.0018498371056241427,
+      "longTasks": [],
+      "navigation": [
+        {
+          "ttfb": 993.8000000007451,
+          "domContentLoaded": 1114.699999999255,
+          "load": 1141.699999999255
+        }
+      ],
+      "images": [
+        {
+          "name": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-desktop.png&w=96&q=75",
+          "start": 1102.800000000745,
+          "duration": 5,
+          "transfer": 862,
+          "decoded": 562
+        },
+        {
+          "name": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-home.png&w=96&q=75",
+          "start": 1102.9000000022352,
+          "duration": 5,
+          "transfer": 1244,
+          "decoded": 944
+        },
+        {
+          "name": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-archive.png&w=96&q=75",
+          "start": 1102.9000000022352,
+          "duration": 5.199999999254942,
+          "transfer": 1380,
+          "decoded": 1080
+        }
+      ],
+      "preloadCount": 1
+    },
+    {
+      "route": "/work/arcus",
+      "cache": "browser cache disabled; server optimizer may already be warm",
+      "lcp": [
+        {
+          "time": 1232,
+          "size": 337983,
+          "tag": "IMG",
+          "text": "",
+          "url": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-desktop.webp&w=1920&q=75"
+        }
+      ],
+      "cls": 0.001848088134430727,
+      "longTasks": [],
+      "navigation": [
+        {
+          "ttfb": 929.1999999992549,
+          "domContentLoaded": 1012.5999999977648,
+          "load": 1055
+        }
+      ],
+      "images": [
+        {
+          "name": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-mobile.webp&w=96&q=75",
+          "start": 1000.5999999977648,
+          "duration": 4.100000001490116,
+          "transfer": 2486,
+          "decoded": 2186
+        },
+        {
+          "name": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-desktop.webp&w=96&q=75",
+          "start": 1000.5999999977648,
+          "duration": 4.400000002235174,
+          "transfer": 938,
+          "decoded": 638
+        }
+      ],
+      "preloadCount": 1
+    },
+    {
+      "route": "/work/teen-fiesta",
+      "cache": "browser cache disabled; server optimizer may already be warm",
+      "lcp": [
+        {
+          "time": 368,
+          "size": 218886,
+          "tag": "H1",
+          "text": "TEEN FIESTA",
+          "url": ""
+        }
+      ],
+      "cls": 0.0028866255144032924,
+      "longTasks": [],
+      "navigation": [
+        {
+          "ttfb": 3.199999999254942,
+          "domContentLoaded": 119.09999999776483,
+          "load": 165.69999999925494
+        }
+      ],
+      "images": [
+        {
+          "name": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&w=96&q=75",
+          "start": 100.39999999850988,
+          "duration": 6.199999999254942,
+          "transfer": 1132,
+          "decoded": 832
+        },
+        {
+          "name": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Fred-room-dj.jpg&w=96&q=75",
+          "start": 100.5,
+          "duration": 6,
+          "transfer": 2132,
+          "decoded": 1832
+        },
+        {
+          "name": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Fred-room-poster.jpg&w=96&q=75",
+          "start": 100.5,
+          "duration": 6.099999997764826,
+          "transfer": 1218,
+          "decoded": 918
+        }
+      ],
+      "preloadCount": 1
+    },
+    {
+      "route": "/work/rewatch",
+      "cache": "browser cache disabled; server optimizer may already be warm",
+      "lcp": [
+        {
+          "time": 364,
+          "size": 141075,
+          "tag": "H1",
+          "text": "Rewatch",
+          "url": ""
+        },
+        {
+          "time": 592,
+          "size": 337983,
+          "tag": "IMG",
+          "text": "",
+          "url": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Frewatch-desktop.webp&w=1920&q=75"
+        }
+      ],
+      "cls": 0.005363198588806906,
+      "longTasks": [],
+      "navigation": [
+        {
+          "ttfb": 7.199999999254942,
+          "domContentLoaded": 124.69999999925494,
+          "load": 167
+        }
+      ],
+      "images": [
+        {
+          "name": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Frewatch-desktop.webp&w=96&q=75",
+          "start": 111.5,
+          "duration": 4,
+          "transfer": 1062,
+          "decoded": 762
+        },
+        {
+          "name": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Frewatch-mobile.webp&w=96&q=75",
+          "start": 111.60000000149012,
+          "duration": 4.099999997764826,
+          "transfer": 2964,
+          "decoded": 2664
+        }
+      ],
+      "preloadCount": 1
+    }
+  ],
+  "mobile": [
+    {
+      "slug": "lane",
+      "width": 390,
+      "before": {
+        "scrollY": 0,
+        "viewport": [
+          390,
+          844
+        ],
+        "scrollWidth": 390,
+        "clip": "none",
+        "frame": {
+          "top": 570.75,
+          "width": 354.8125,
+          "height": 197.28125
+        },
+        "navigation": {
+          "top": 513.953125,
+          "bottom": 557.953125,
+          "visible": true
+        },
+        "image": {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-desktop.png&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-desktop.png&w=384&q=75",
+          "sizes": "(max-width: 760px) calc(100vw - 2.2rem), (min-width: 2096px) calc(100vw - 11rem), 91.6vw",
+          "loading": "eager",
+          "naturalWidth": 354,
+          "naturalHeight": 197,
+          "alt": "LANE homepage with a metallic sculpture, HEAT campaign artwork and editorial typography.",
+          "loaded": true
+        },
+        "caption": "Image 1 of 3. HEAT / sculptural homepage and campaign poster",
+        "counter": "01 / 03"
+      },
+      "after": {
+        "scrollY": 0,
+        "viewport": [
+          390,
+          844
+        ],
+        "scrollWidth": 390,
+        "clip": "none",
+        "frame": {
+          "top": 570.75,
+          "width": 354.8125,
+          "height": 199.578125
+        },
+        "navigation": {
+          "top": 513.953125,
+          "bottom": 557.953125,
+          "visible": true
+        },
+        "image": {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-home.png&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-home.png&w=384&q=75",
+          "sizes": "(max-width: 760px) calc(100vw - 2.2rem), (min-width: 2096px) calc(100vw - 11rem), 91.6vw",
+          "loading": "lazy",
+          "naturalWidth": 354,
+          "naturalHeight": 199,
+          "alt": "Alternate LANE homepage with AFTER dark typography and the original HEAT poster.",
+          "loaded": true
+        },
+        "caption": "Image 2 of 3. HEAT / alternate homepage layout led by the original artwork",
+        "counter": "02 / 03"
+      }
+    },
+    {
+      "slug": "arcus",
+      "width": 390,
+      "before": {
+        "scrollY": 0,
+        "viewport": [
+          390,
+          844
+        ],
+        "scrollWidth": 390,
+        "clip": "none",
+        "frame": {
+          "top": 570.75,
+          "width": 354.8125,
+          "height": 221.890625
+        },
+        "navigation": {
+          "top": 513.953125,
+          "bottom": 557.953125,
+          "visible": true
+        },
+        "image": {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-desktop.webp&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-desktop.webp&w=384&q=75",
+          "sizes": "(max-width: 760px) calc(100vw - 2.2rem), (min-width: 2096px) calc(100vw - 11rem), 91.6vw",
+          "loading": "eager",
+          "naturalWidth": 354,
+          "naturalHeight": 221,
+          "alt": "ARCUS Training dashboard with the next-session prompt and weekly training overview.",
+          "loaded": true
+        },
+        "caption": "Image 1 of 2. Desktop / next-session action, weekly totals and persistent sidebar",
+        "counter": "01 / 02"
+      },
+      "after": {
+        "scrollY": 0,
+        "viewport": [
+          390,
+          844
+        ],
+        "scrollWidth": 390,
+        "clip": "none",
+        "frame": {
+          "top": 570.75,
+          "width": 354.8125,
+          "height": 544
+        },
+        "navigation": {
+          "top": 513.953125,
+          "bottom": 557.953125,
+          "visible": true
+        },
+        "image": {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-mobile.webp&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-mobile.webp&w=384&q=75",
+          "sizes": "(max-width: 760px) calc(100vw - 2.2rem), (min-height: 1000px) 42rem, 34rem",
+          "loading": "lazy",
+          "naturalWidth": 346,
+          "naturalHeight": 750,
+          "alt": "ARCUS mobile dashboard with the next-session prompt and training summary.",
+          "loaded": true
+        },
+        "caption": "Image 2 of 2. Mobile / the same session prompt with bottom navigation",
+        "counter": "02 / 02"
+      }
+    },
+    {
+      "slug": "teen-fiesta",
+      "width": 390,
+      "before": {
+        "scrollY": 0,
+        "viewport": [
+          390,
+          844
+        ],
+        "scrollWidth": 390,
+        "clip": "none",
+        "frame": {
+          "top": 565.25,
+          "width": 354.8125,
+          "height": 182.390625
+        },
+        "navigation": {
+          "top": 508.453125,
+          "bottom": 552.453125,
+          "visible": true
+        },
+        "image": {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&w=384&q=75",
+          "sizes": "(max-width: 760px) calc(100vw - 2.2rem), (min-width: 2096px) calc(100vw - 11rem), 91.6vw",
+          "loading": "eager",
+          "naturalWidth": 354,
+          "naturalHeight": 182,
+          "alt": "Teen Fiesta website with expressive typography, a metallic sculpture and event artwork.",
+          "loaded": true
+        },
+        "caption": "Image 1 of 3. TEEN FIESTA / website introducing the RED ROOM campaign",
+        "counter": "01 / 03"
+      },
+      "after": {
+        "scrollY": 0,
+        "viewport": [
+          390,
+          844
+        ],
+        "scrollWidth": 390,
+        "clip": "none",
+        "frame": {
+          "top": 565.25,
+          "width": 354.8125,
+          "height": 446.046875
+        },
+        "navigation": {
+          "top": 508.453125,
+          "bottom": 552.453125,
+          "visible": true
+        },
+        "image": {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Fred-room-poster.jpg&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Fred-room-poster.jpg&w=384&q=75",
+          "sizes": "(max-width: 760px) calc(100vw - 2.2rem), (min-height: 1000px) 42rem, 34rem",
+          "loading": "lazy",
+          "naturalWidth": 354,
+          "naturalHeight": 446,
+          "alt": "Teen Fiesta RED ROOM announcement for Mansion Agra, 31 October 2026, 5–9 PM.",
+          "loaded": true
+        },
+        "caption": "Image 2 of 3. RED ROOM / supplied announcement poster, 31 October 2026",
+        "counter": "02 / 03"
+      }
+    },
+    {
+      "slug": "rewatch",
+      "width": 390,
+      "before": {
+        "scrollY": 0,
+        "viewport": [
+          390,
+          844
+        ],
+        "scrollWidth": 390,
+        "clip": "none",
+        "frame": {
+          "top": 570.75,
+          "width": 354.8125,
+          "height": 221.890625
+        },
+        "navigation": {
+          "top": 513.953125,
+          "bottom": 557.953125,
+          "visible": true
+        },
+        "image": {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Frewatch-desktop.webp&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Frewatch-desktop.webp&w=384&q=75",
+          "sizes": "(max-width: 760px) calc(100vw - 2.2rem), (min-width: 2096px) calc(100vw - 11rem), 91.6vw",
+          "loading": "eager",
+          "naturalWidth": 354,
+          "naturalHeight": 221,
+          "alt": "Rewatch homepage introducing its film, series, anime, and music catalog.",
+          "loaded": true
+        },
+        "caption": "Image 1 of 2. Desktop / search, media categories and a catalog preview",
+        "counter": "01 / 02"
+      },
+      "after": {
+        "scrollY": 0,
+        "viewport": [
+          390,
+          844
+        ],
+        "scrollWidth": 390,
+        "clip": "none",
+        "frame": {
+          "top": 570.75,
+          "width": 354.8125,
+          "height": 544
+        },
+        "navigation": {
+          "top": 513.953125,
+          "bottom": 557.953125,
+          "visible": true
+        },
+        "image": {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Frewatch-mobile.webp&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Frewatch-mobile.webp&w=384&q=75",
+          "sizes": "(max-width: 760px) calc(100vw - 2.2rem), (min-height: 1000px) 42rem, 34rem",
+          "loading": "lazy",
+          "naturalWidth": 346,
+          "naturalHeight": 750,
+          "alt": "Rewatch homepage adapted to a mobile viewport.",
+          "loaded": true
+        },
+        "caption": "Image 2 of 2. Mobile / account actions and fixed bottom navigation",
+        "counter": "02 / 02"
+      }
+    },
+    {
+      "slug": "lane",
+      "width": 320,
+      "before": {
+        "scrollY": 0,
+        "viewport": [
+          320,
+          740
+        ],
+        "scrollWidth": 320,
+        "clip": "none",
+        "frame": {
+          "top": 610.921875,
+          "width": 284.8125,
+          "height": 158.359375
+        },
+        "navigation": {
+          "top": 554.125,
+          "bottom": 598.125,
+          "visible": true
+        },
+        "image": {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-desktop.png&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-desktop.png&w=384&q=75",
+          "sizes": "(max-width: 760px) calc(100vw - 2.2rem), (min-width: 2096px) calc(100vw - 11rem), 91.6vw",
+          "loading": "eager",
+          "naturalWidth": 284,
+          "naturalHeight": 158,
+          "alt": "LANE homepage with a metallic sculpture, HEAT campaign artwork and editorial typography.",
+          "loaded": true
+        },
+        "caption": "Image 1 of 3. HEAT / sculptural homepage and campaign poster",
+        "counter": "01 / 03"
+      },
+      "after": {
+        "scrollY": 0,
+        "viewport": [
+          320,
+          740
+        ],
+        "scrollWidth": 320,
+        "clip": "none",
+        "frame": {
+          "top": 610.921875,
+          "width": 284.8125,
+          "height": 160.203125
+        },
+        "navigation": {
+          "top": 554.125,
+          "bottom": 598.125,
+          "visible": true
+        },
+        "image": {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-home.png&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-home.png&w=384&q=75",
+          "sizes": "(max-width: 760px) calc(100vw - 2.2rem), (min-width: 2096px) calc(100vw - 11rem), 91.6vw",
+          "loading": "lazy",
+          "naturalWidth": 284,
+          "naturalHeight": 160,
+          "alt": "Alternate LANE homepage with AFTER dark typography and the original HEAT poster.",
+          "loaded": true
+        },
+        "caption": "Image 2 of 3. HEAT / alternate homepage layout led by the original artwork",
+        "counter": "02 / 03"
+      }
+    },
+    {
+      "slug": "arcus",
+      "width": 320,
+      "before": {
+        "scrollY": 0,
+        "viewport": [
+          320,
+          740
+        ],
+        "scrollWidth": 320,
+        "clip": "none",
+        "frame": {
+          "top": 569.65625,
+          "width": 284.8125,
+          "height": 178.109375
+        },
+        "navigation": {
+          "top": 512.859375,
+          "bottom": 556.859375,
+          "visible": true
+        },
+        "image": {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-desktop.webp&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-desktop.webp&w=384&q=75",
+          "sizes": "(max-width: 760px) calc(100vw - 2.2rem), (min-width: 2096px) calc(100vw - 11rem), 91.6vw",
+          "loading": "eager",
+          "naturalWidth": 284,
+          "naturalHeight": 178,
+          "alt": "ARCUS Training dashboard with the next-session prompt and weekly training overview.",
+          "loaded": true
+        },
+        "caption": "Image 1 of 2. Desktop / next-session action, weekly totals and persistent sidebar",
+        "counter": "01 / 02"
+      },
+      "after": {
+        "scrollY": 0,
+        "viewport": [
+          320,
+          740
+        ],
+        "scrollWidth": 320,
+        "clip": "none",
+        "frame": {
+          "top": 569.65625,
+          "width": 284.8125,
+          "height": 503.1875
+        },
+        "navigation": {
+          "top": 512.859375,
+          "bottom": 556.859375,
+          "visible": true
+        },
+        "image": {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-mobile.webp&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-mobile.webp&w=384&q=75",
+          "sizes": "(max-width: 760px) calc(100vw - 2.2rem), (min-height: 1000px) 42rem, 34rem",
+          "loading": "lazy",
+          "naturalWidth": 278,
+          "naturalHeight": 602,
+          "alt": "ARCUS mobile dashboard with the next-session prompt and training summary.",
+          "loaded": true
+        },
+        "caption": "Image 2 of 2. Mobile / the same session prompt with bottom navigation",
+        "counter": "02 / 02"
+      }
+    },
+    {
+      "slug": "teen-fiesta",
+      "width": 320,
+      "before": {
+        "scrollY": 0,
+        "viewport": [
+          320,
+          740
+        ],
+        "scrollWidth": 320,
+        "clip": "none",
+        "frame": {
+          "top": 641.71875,
+          "width": 284.8125,
+          "height": 146.40625
+        },
+        "navigation": {
+          "top": 584.921875,
+          "bottom": 628.921875,
+          "visible": true
+        },
+        "image": {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&w=384&q=75",
+          "sizes": "(max-width: 760px) calc(100vw - 2.2rem), (min-width: 2096px) calc(100vw - 11rem), 91.6vw",
+          "loading": "eager",
+          "naturalWidth": 284,
+          "naturalHeight": 146,
+          "alt": "Teen Fiesta website with expressive typography, a metallic sculpture and event artwork.",
+          "loaded": true
+        },
+        "caption": "Image 1 of 3. TEEN FIESTA / website introducing the RED ROOM campaign",
+        "counter": "01 / 03"
+      },
+      "after": {
+        "scrollY": 0,
+        "viewport": [
+          320,
+          740
+        ],
+        "scrollWidth": 320,
+        "clip": "none",
+        "frame": {
+          "top": 641.71875,
+          "width": 284.8125,
+          "height": 358.046875
+        },
+        "navigation": {
+          "top": 584.921875,
+          "bottom": 628.921875,
+          "visible": true
+        },
+        "image": {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Fred-room-poster.jpg&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Fred-room-poster.jpg&w=384&q=75",
+          "sizes": "(max-width: 760px) calc(100vw - 2.2rem), (min-height: 1000px) 42rem, 34rem",
+          "loading": "lazy",
+          "naturalWidth": 284,
+          "naturalHeight": 358,
+          "alt": "Teen Fiesta RED ROOM announcement for Mansion Agra, 31 October 2026, 5–9 PM.",
+          "loaded": true
+        },
+        "caption": "Image 2 of 3. RED ROOM / supplied announcement poster, 31 October 2026",
+        "counter": "02 / 03"
+      }
+    },
+    {
+      "slug": "rewatch",
+      "width": 320,
+      "before": {
+        "scrollY": 0,
+        "viewport": [
+          320,
+          740
+        ],
+        "scrollWidth": 320,
+        "clip": "none",
+        "frame": {
+          "top": 610.921875,
+          "width": 284.8125,
+          "height": 178.109375
+        },
+        "navigation": {
+          "top": 554.125,
+          "bottom": 598.125,
+          "visible": true
+        },
+        "image": {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Frewatch-desktop.webp&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Frewatch-desktop.webp&w=384&q=75",
+          "sizes": "(max-width: 760px) calc(100vw - 2.2rem), (min-width: 2096px) calc(100vw - 11rem), 91.6vw",
+          "loading": "eager",
+          "naturalWidth": 284,
+          "naturalHeight": 178,
+          "alt": "Rewatch homepage introducing its film, series, anime, and music catalog.",
+          "loaded": true
+        },
+        "caption": "Image 1 of 2. Desktop / search, media categories and a catalog preview",
+        "counter": "01 / 02"
+      },
+      "after": {
+        "scrollY": 0,
+        "viewport": [
+          320,
+          740
+        ],
+        "scrollWidth": 320,
+        "clip": "none",
+        "frame": {
+          "top": 610.921875,
+          "width": 284.8125,
+          "height": 503.1875
+        },
+        "navigation": {
+          "top": 554.125,
+          "bottom": 598.125,
+          "visible": true
+        },
+        "image": {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Frewatch-mobile.webp&w=3840&q=75",
+          "currentSrc": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Frewatch-mobile.webp&w=384&q=75",
+          "sizes": "(max-width: 760px) calc(100vw - 2.2rem), (min-height: 1000px) 42rem, 34rem",
+          "loading": "lazy",
+          "naturalWidth": 278,
+          "naturalHeight": 602,
+          "alt": "Rewatch homepage adapted to a mobile viewport.",
+          "loaded": true
+        },
+        "caption": "Image 2 of 2. Mobile / account actions and fixed bottom navigation",
+        "counter": "02 / 02"
+      }
+    }
+  ],
+  "imageFailure": {
+    "frame": {
+      "scrollY": 0,
+      "viewport": [
+        1280,
+        800
+      ],
+      "scrollWidth": 1280,
+      "clip": "none",
+      "frame": {
+        "top": 543.75,
+        "width": 1172.5,
+        "height": 552
+      },
+      "navigation": {
+        "top": 486.953125,
+        "bottom": 530.953125,
+        "visible": true
+      },
+      "image": null,
+      "caption": "Image 2 of 2. Mobile / the same session prompt with bottom navigation",
+      "counter": "02 / 02"
+    },
+    "fallbackText": "This image is unavailable.\n\nTry again or choose another image.\n\nRetry image"
+  }
+}

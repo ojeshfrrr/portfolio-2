@@ -1,0 +1,515 @@
+{
+  "baseUrl": "http://127.0.0.1:3001",
+  "browser": "Google Chrome via Playwright; production build",
+  "screenshots": [
+    "D:/projects/second_pf/qa/final-polish-2026-10-15/desktop-home.png",
+    "D:/projects/second_pf/qa/final-polish-2026-10-15/desktop-index-open.png",
+    "D:/projects/second_pf/qa/final-polish-2026-10-15/desktop-scroll-transition.png",
+    "D:/projects/second_pf/qa/final-polish-2026-10-15/desktop-lane-case-study.png",
+    "D:/projects/second_pf/qa/final-polish-2026-10-15/desktop-lane-case-study-gallery.png",
+    "D:/projects/second_pf/qa/final-polish-2026-10-15/desktop-arcus-case-study.png",
+    "D:/projects/second_pf/qa/final-polish-2026-10-15/desktop-arcus-case-study-gallery.png",
+    "D:/projects/second_pf/qa/final-polish-2026-10-15/desktop-teen-fiesta-case-study.png",
+    "D:/projects/second_pf/qa/final-polish-2026-10-15/desktop-teen-fiesta-case-study-gallery.png",
+    "D:/projects/second_pf/qa/final-polish-2026-10-15/desktop-rewatch-case-study.png",
+    "D:/projects/second_pf/qa/final-polish-2026-10-15/desktop-rewatch-case-study-gallery.png",
+    "D:/projects/second_pf/qa/final-polish-2026-10-15/desktop-work.png",
+    "D:/projects/second_pf/qa/final-polish-2026-10-15/desktop-about.png",
+    "D:/projects/second_pf/qa/final-polish-2026-10-15/desktop-contact.png",
+    "D:/projects/second_pf/qa/final-polish-2026-10-15/desktop-contact-composer.png",
+    "D:/projects/second_pf/qa/final-polish-2026-10-15/mobile-home.png",
+    "D:/projects/second_pf/qa/final-polish-2026-10-15/mobile-case-study.png",
+    "D:/projects/second_pf/qa/final-polish-2026-10-15/mobile-contact.png",
+    "D:/projects/second_pf/qa/final-polish-2026-10-15/reduced-motion-home.png",
+    "D:/projects/second_pf/qa/final-polish-2026-10-15/reduced-motion-about.png"
+  ],
+  "routes": [
+    {
+      "path": "/",
+      "status": 200,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "documentWidth": 1440,
+      "horizontalOverflow": false,
+      "pageHeight": 3666,
+      "loadedImages": 4,
+      "brokenImages": []
+    },
+    {
+      "path": "/work/lane",
+      "status": 200,
+      "title": "LANE",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "documentWidth": 1440,
+      "horizontalOverflow": false,
+      "pageHeight": 3623,
+      "loadedImages": 4,
+      "brokenImages": []
+    },
+    {
+      "path": "/work/arcus",
+      "status": 200,
+      "title": "ARCUS",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "documentWidth": 1440,
+      "horizontalOverflow": false,
+      "pageHeight": 3928,
+      "loadedImages": 3,
+      "brokenImages": []
+    },
+    {
+      "path": "/work/teen-fiesta",
+      "status": 200,
+      "title": "TEEN FIESTA",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "documentWidth": 1440,
+      "horizontalOverflow": false,
+      "pageHeight": 4196,
+      "loadedImages": 4,
+      "brokenImages": []
+    },
+    {
+      "path": "/work/rewatch",
+      "status": 200,
+      "title": "Rewatch",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "documentWidth": 1440,
+      "horizontalOverflow": false,
+      "pageHeight": 3685,
+      "loadedImages": 3,
+      "brokenImages": []
+    },
+    {
+      "path": "/work/red-room",
+      "finalUrl": "/work/teen-fiesta",
+      "title": "TEEN FIESTA"
+    },
+    {
+      "path": "/work",
+      "status": 200,
+      "title": "Worlds\nin progress.",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "documentWidth": 1440,
+      "horizontalOverflow": false,
+      "pageHeight": 5957,
+      "loadedImages": 4,
+      "brokenImages": []
+    },
+    {
+      "path": "/about",
+      "status": 200,
+      "title": "The details\nmake the feeling.",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "documentWidth": 1440,
+      "horizontalOverflow": false,
+      "pageHeight": 2862,
+      "loadedImages": 0,
+      "brokenImages": []
+    },
+    {
+      "path": "/contact",
+      "status": 200,
+      "title": "What are you\nthinking about?",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "documentWidth": 1440,
+      "horizontalOverflow": false,
+      "pageHeight": 2019,
+      "loadedImages": 0,
+      "brokenImages": []
+    }
+  ],
+  "errors": [
+    {
+      "route": "webgl-fallback (deliberate initialization failure)",
+      "source": "error",
+      "message": "THREE.WebGLRenderer: THREE.WebGLRenderer: Error creating WebGL context."
+    },
+    {
+      "route": "webgl-fallback (deliberate initialization failure)",
+      "source": "error",
+      "message": "Error: THREE.WebGLRenderer: Error creating WebGL context.\n    at new e.s.k (http://127.0.0.1:3001/_next/static/chunks/2x7salnjgwilf.js:342:95653)\n    at h (http://127.0.0.1:3001/_next/static/chunks/2x7salnjgwilf.js:353:31543)\n    at Object.configure (http://127.0.0.1:3001/_next/static/chunks/2x7salnjgwilf.js:353:31680)\n    at http://127.0.0.1:3001/_next/static/chunks/2x7salnjgwilf.js:353:33609\n    at iE (http://127.0.0.1:3001/_next/static/chunks/0s7mvllxht1mo.js:1:113726)\n    at un (http://127.0.0.1:3001/_next/static/chunks/0s7mvllxht1mo.js:1:124338)\n    at uv (http://127.0.0.1:3001/_next/static/chunks/0s7mvllxht1mo.js:1:137942)\n    at un (http://127.0.0.1:3001/_next/static/chunks/0s7mvllxht1mo.js:1:126683)\n    at uv (http://127.0.0.1:3001/_next/static/chunks/0s7mvllxht1mo.js:1:137942)\n    at un (http://127.0.0.1:3001/_next/static/chunks/0s7mvllxht1mo.js:1:124362)"
+    }
+  ],
+  "failedRequests": [],
+  "failedResponses": [],
+  "interactions": {
+    "indexCount": 4,
+    "projectSelection": [
+      {
+        "label": "01\nLANE",
+        "selected": "true",
+        "focus": "LANE\nCampaign platform"
+      },
+      {
+        "label": "02\nARCUS",
+        "selected": "true",
+        "focus": "ARCUS\nTraining product"
+      },
+      {
+        "label": "03\nTEEN FIESTA",
+        "selected": "true",
+        "focus": "TEEN FIESTA\nEvent experience / RED ROOM campaign"
+      },
+      {
+        "label": "04\nRewatch",
+        "selected": "true",
+        "focus": "Rewatch\nMedia product"
+      }
+    ],
+    "keyboardProjectSelect": "true",
+    "escapeClosesIndex": true,
+    "reverseScrollReturns": true,
+    "/work/lane": {
+      "firstCaption": "The HEAT campaign on the LANE homepage",
+      "initialCounter": "01 / 03",
+      "nextCaption": "AFTER dark / a different campaign identity",
+      "nextCounter": "02 / 03",
+      "keyboardCounter": "03 / 03",
+      "choiceCount": 3,
+      "lastChoiceCaption": "Seven campaign chapters in one archive",
+      "coverIsFirstChoice": true,
+      "liveUrl": "https://thelane.vercel.app/",
+      "liveLinkMatches": true
+    },
+    "/work/arcus": {
+      "firstCaption": "ARCUS Training public dashboard capture",
+      "initialCounter": "01 / 02",
+      "nextCaption": "The same session-first view on mobile",
+      "nextCounter": "02 / 02",
+      "keyboardCounter": "01 / 02",
+      "choiceCount": 2,
+      "lastChoiceCaption": "The same session-first view on mobile",
+      "coverIsFirstChoice": true,
+      "liveUrl": "https://thearcus.vercel.app/",
+      "liveLinkMatches": true
+    },
+    "/work/teen-fiesta": {
+      "firstCaption": "Teen Fiesta homepage / featured RED ROOM campaign",
+      "initialCounter": "01 / 03",
+      "nextCaption": "RED ROOM / Teen Fiesta campaign announcement",
+      "nextCounter": "02 / 03",
+      "keyboardCounter": "03 / 03",
+      "choiceCount": 3,
+      "lastChoiceCaption": "RED ROOM / event footage frame",
+      "coverIsFirstChoice": true,
+      "liveUrl": "https://theteenfiesta.vercel.app/",
+      "liveLinkMatches": true
+    },
+    "/work/rewatch": {
+      "firstCaption": "Rewatch public homepage capture",
+      "initialCounter": "01 / 02",
+      "nextCaption": "A compact mobile layout",
+      "nextCounter": "02 / 02",
+      "keyboardCounter": "01 / 02",
+      "choiceCount": 2,
+      "lastChoiceCaption": "A compact mobile layout",
+      "coverIsFirstChoice": true,
+      "liveUrl": "https://rewatch.cc/",
+      "liveLinkMatches": true
+    },
+    "routeGalleryResets": "01 / 02",
+    "contactRequiredValidation": true,
+    "contactComposerBounds": {
+      "top": 179,
+      "bottom": 687,
+      "height": 508
+    },
+    "contactComposer": {
+      "status": "Your draft is ready. Open it in your email app ↗",
+      "mailto": "mailto:workwithovio@gmail.com?subject=Project%20note%20from%20QA%20visitor&body=Hi%20Ojesh%2C%0A%0AA%20short%20test%20note.%0A%0A%E2%80%94%20QA%20visitor%0Aqa%40example.com"
+    },
+    "galleryRapidNavigation": {
+      "consoleErrors": [],
+      "steps": [
+        {
+          "action": "five immediate Next clicks",
+          "counter": "03 / 03",
+          "caption": "RED ROOM / event footage frame"
+        },
+        {
+          "action": "Previous button",
+          "counter": "02 / 03",
+          "caption": "RED ROOM / Teen Fiesta campaign announcement"
+        },
+        {
+          "action": "ArrowLeft",
+          "counter": "01 / 03",
+          "caption": "Teen Fiesta homepage / featured RED ROOM campaign"
+        },
+        {
+          "action": "eleven immediate Next clicks",
+          "counter": "03 / 03",
+          "caption": "RED ROOM / event footage frame"
+        }
+      ]
+    }
+  },
+  "reducedMotion": {
+    "matches": true,
+    "pinSpacerCount": 0,
+    "ambientMotion": "reduced",
+    "ambientAnimation": "none",
+    "scrollY": 0,
+    "scrollYAfter": 500,
+    "gallery": {
+      "before": "ARCUS Training public dashboard capture",
+      "after": "The same session-first view on mobile",
+      "counter": "02 / 02"
+    },
+    "projectSelection": {
+      "selected": "true",
+      "href": "/work/arcus"
+    }
+  },
+  "mobileProfile": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "beforeTouch": 0,
+    "scrollY": 1171,
+    "scrollEvents": 8,
+    "pinSpacerCount": 0,
+    "profile": {
+      "LayoutDuration": 0,
+      "ScriptDuration": 0.079384,
+      "TaskDuration": 0.412463,
+      "JSHeapUsedSize": 9530196
+    },
+    "cpuThrottleRate": 4,
+    "caseStudy390": {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "documentWidth": 390,
+      "horizontalOverflow": false,
+      "pageHeight": 2677,
+      "loadedImages": 3,
+      "brokenImages": []
+    },
+    "caseFrame390": {
+      "width": 355,
+      "height": 222,
+      "ratio": 1.599
+    },
+    "narrowCaseStudy": {
+      "viewport": {
+        "width": 320,
+        "height": 740
+      },
+      "documentWidth": 320,
+      "horizontalOverflow": false,
+      "pageHeight": 3109,
+      "loadedImages": 4,
+      "brokenImages": []
+    }
+  },
+  "webglFallback": {
+    "canvasCount": 0,
+    "fallbackVisible": true,
+    "projects": [
+      {
+        "href": "/work/lane",
+        "visible": true
+      },
+      {
+        "href": "/work/arcus",
+        "visible": true
+      },
+      {
+        "href": "/work/teen-fiesta",
+        "visible": true
+      },
+      {
+        "href": "/work/rewatch",
+        "visible": true
+      }
+    ]
+  },
+  "home": {
+    "webglReady": true,
+    "canvasCount": 1,
+    "projectIndexRows": 0,
+    "duplicateShowcases": 0,
+    "sceneRootCount": 1
+  },
+  "scroll": {
+    "scrollY": 650,
+    "pinSpacerCount": 1,
+    "heroTop": 0,
+    "progress": "matrix(0.4811, 0, 0, 1, 0, 0)"
+  },
+  "homeScrollContinuation": {
+    "scrollY": 2766,
+    "maximumScroll": 2766,
+    "aboutReached": true,
+    "contactReached": true,
+    "heroReleased": true
+  },
+  "desktopWidths": [
+    {
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "documentWidth": 1280,
+      "horizontalOverflow": false,
+      "pageHeight": 3296,
+      "loadedImages": 4,
+      "brokenImages": []
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "documentWidth": 1440,
+      "horizontalOverflow": false,
+      "pageHeight": 3666,
+      "loadedImages": 4,
+      "brokenImages": []
+    },
+    {
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "documentWidth": 1920,
+      "horizontalOverflow": false,
+      "pageHeight": 2620,
+      "loadedImages": 4,
+      "brokenImages": []
+    }
+  ],
+  "mobileCaseRoutes": [
+    {
+      "route": "/work/lane",
+      "status": 200,
+      "viewportWidth": 390,
+      "documentWidth": 390,
+      "horizontalOverflow": false,
+      "galleryImageCount": 3,
+      "galleryFrame": {
+        "width": 355,
+        "height": 197
+      },
+      "title": "LANE"
+    },
+    {
+      "route": "/work/arcus",
+      "status": 200,
+      "viewportWidth": 390,
+      "documentWidth": 390,
+      "horizontalOverflow": false,
+      "galleryImageCount": 2,
+      "galleryFrame": {
+        "width": 355,
+        "height": 222
+      },
+      "title": "ARCUS"
+    },
+    {
+      "route": "/work/teen-fiesta",
+      "status": 200,
+      "viewportWidth": 390,
+      "documentWidth": 390,
+      "horizontalOverflow": false,
+      "galleryImageCount": 3,
+      "galleryFrame": {
+        "width": 355,
+        "height": 182
+      },
+      "title": "TEEN FIESTA"
+    },
+    {
+      "route": "/work/rewatch",
+      "status": 200,
+      "viewportWidth": 390,
+      "documentWidth": 390,
+      "horizontalOverflow": false,
+      "galleryImageCount": 2,
+      "galleryFrame": {
+        "width": 355,
+        "height": 222
+      },
+      "title": "Rewatch"
+    },
+    {
+      "route": "/work/lane",
+      "status": 200,
+      "viewportWidth": 320,
+      "documentWidth": 320,
+      "horizontalOverflow": false,
+      "galleryImageCount": 3,
+      "galleryFrame": {
+        "width": 285,
+        "height": 158
+      },
+      "title": "LANE"
+    },
+    {
+      "route": "/work/arcus",
+      "status": 200,
+      "viewportWidth": 320,
+      "documentWidth": 320,
+      "horizontalOverflow": false,
+      "galleryImageCount": 2,
+      "galleryFrame": {
+        "width": 285,
+        "height": 178
+      },
+      "title": "ARCUS"
+    },
+    {
+      "route": "/work/teen-fiesta",
+      "status": 200,
+      "viewportWidth": 320,
+      "documentWidth": 320,
+      "horizontalOverflow": false,
+      "galleryImageCount": 3,
+      "galleryFrame": {
+        "width": 285,
+        "height": 146
+      },
+      "title": "TEEN FIESTA"
+    },
+    {
+      "route": "/work/rewatch",
+      "status": 200,
+      "viewportWidth": 320,
+      "documentWidth": 320,
+      "horizontalOverflow": false,
+      "galleryImageCount": 2,
+      "galleryFrame": {
+        "width": 285,
+        "height": 178
+      },
+      "title": "Rewatch"
+    }
+  ],
+  "mobileCaseRouteErrors": []
+}

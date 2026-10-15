@@ -1,0 +1,889 @@
+{
+  "method": "Production localhost:3001, installed Chrome headless, DPR 1, single samples; not physical-device or controlled benchmark. Browser cache disabled cold, enabled/primed warm. Next server optimizer may already be warm.",
+  "assets": [
+    {
+      "file": "/work/lane-desktop.png",
+      "bytes": 2665195,
+      "width": 2534,
+      "height": 1409,
+      "format": "png",
+      "sha256": "0930ba0185111e4e78ee94da19e26d5e72e3b4be975d235728ac81283a00329d"
+    },
+    {
+      "file": "/work/lane-home.png",
+      "bytes": 505551,
+      "width": 1536,
+      "height": 864,
+      "format": "png",
+      "sha256": "278669040a634b53eefd684bf9d0f07a4330526e1e193bd6ca6947458d33575d"
+    },
+    {
+      "file": "/work/lane-archive.png",
+      "bytes": 482192,
+      "width": 1536,
+      "height": 1400,
+      "format": "png",
+      "sha256": "28a8f63786404730dc164c986a7653ad7cd23afd33d4734bdbbd1906c6d75322"
+    },
+    {
+      "file": "/work/arcus-desktop.webp",
+      "bytes": 39718,
+      "width": 1425,
+      "height": 891,
+      "format": "webp",
+      "sha256": "7de984a54a61f3d0480fa1306f1866ba5eecc488cbdcc0f820dcf422da979953"
+    },
+    {
+      "file": "/work/arcus-mobile.webp",
+      "bytes": 21596,
+      "width": 375,
+      "height": 812,
+      "format": "webp",
+      "sha256": "192274efe7c4037260a4cd911b037a6c60f3aaab6ed97048c472b096faad1cc2"
+    },
+    {
+      "file": "/work/teen-fiesta-desktop.png",
+      "bytes": 807977,
+      "width": 1850,
+      "height": 951,
+      "format": "png",
+      "sha256": "9abdfb6e75821a473abfaa7034d1b2a312eebce0556359c716daa274be58a1c8"
+    },
+    {
+      "file": "/work/red-room-poster.jpg",
+      "bytes": 137262,
+      "width": 1120,
+      "height": 1408,
+      "format": "jpeg",
+      "sha256": "b2a986955bc650903f8f280d621921faad05e77625276f2d706ed7857fe14c2f"
+    },
+    {
+      "file": "/work/red-room-dj.jpg",
+      "bytes": 52207,
+      "width": 640,
+      "height": 1136,
+      "format": "jpeg",
+      "sha256": "895dc1c35d2d3dca6c502c10cdc430bd4f6ffc41df000d32ae9bc2fa6b601a75"
+    },
+    {
+      "file": "/work/rewatch-desktop.webp",
+      "bytes": 52996,
+      "width": 1425,
+      "height": 891,
+      "format": "webp",
+      "sha256": "7826b5f95d72a12eb4253442dd856a83f17c0e6d435eb7edde06eb84675c9a9e"
+    },
+    {
+      "file": "/work/rewatch-mobile.webp",
+      "bytes": 27804,
+      "width": 375,
+      "height": 812,
+      "format": "webp",
+      "sha256": "efaa25ffbd78a9428accd38dad50b9c3fa61f0f16ac093229b7bee8b2ec4fb56"
+    }
+  ],
+  "samples": [
+    {
+      "route": "/work",
+      "cache": "disabled",
+      "lcp": [
+        {
+          "time": 1140,
+          "tag": "H1",
+          "url": "",
+          "size": 144144
+        }
+      ],
+      "cls": 0.0013520715449245543,
+      "longTasks": [],
+      "navigation": [
+        {
+          "ttfb": 965.1999999992549,
+          "domContentLoaded": 981.4000000022352,
+          "load": 1071.300000000745,
+          "transfer": 4886
+        }
+      ],
+      "resources": [
+        {
+          "name": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-desktop.png&w=1920&q=75",
+          "initiator": "link",
+          "start": 970.3000000007451,
+          "duration": 7.5,
+          "transfer": 42926,
+          "encoded": 42626
+        },
+        {
+          "name": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-desktop.webp&w=1920&q=75",
+          "initiator": "img",
+          "start": 1035.9000000022352,
+          "duration": 4,
+          "transfer": 30132,
+          "encoded": 29832
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-desktop.png&w=1920&q=75",
+          "loading": "eager",
+          "width": 1319,
+          "height": 1056,
+          "naturalWidth": 1324,
+          "naturalHeight": 736
+        },
+        {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-desktop.webp&w=1920&q=75",
+          "loading": "lazy",
+          "width": 1319,
+          "height": 1056,
+          "naturalWidth": 983,
+          "naturalHeight": 614
+        },
+        {
+          "src": "",
+          "loading": "lazy",
+          "width": 1319,
+          "height": 1056,
+          "naturalWidth": 0,
+          "naturalHeight": 0
+        },
+        {
+          "src": "",
+          "loading": "lazy",
+          "width": 1319,
+          "height": 1056,
+          "naturalWidth": 0,
+          "naturalHeight": 0
+        }
+      ],
+      "preloads": [
+        "<link rel=\"preload\" as=\"image\" imagesrcset=\"/_next/image?url=%2Fwork%2Flane-desktop.png&amp;w=640&amp;q=75 640w, /_next/image?url=%2Fwork%2Flane-desktop.png&amp;w=750&amp;q=75 750w, /_next/image?url=%2Fwork%2Flane-desktop.png&amp;w=828&amp;q=75 828w, /_next/image?url=%2Fwork%2Flane-desktop.png&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2Fwork%2Flane-desktop.png&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2Fwork%2Flane-desktop.png&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Fwork%2Flane-desktop.png&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Fwork%2Flane-desktop.png&amp;w=3840&amp;q=75 3840w\" imagesizes=\"(max-width: 760px) 100vw, 92vw\">"
+      ]
+    },
+    {
+      "route": "/work",
+      "cache": "warm",
+      "lcp": [
+        {
+          "time": 28,
+          "tag": "H1",
+          "url": "",
+          "size": 175032
+        }
+      ],
+      "cls": 0,
+      "longTasks": [],
+      "navigation": [
+        {
+          "ttfb": 3.800000000745058,
+          "domContentLoaded": 15.699999999254942,
+          "load": 27.399999998509884,
+          "transfer": 300
+        }
+      ],
+      "resources": [
+        {
+          "name": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-desktop.png&w=1920&q=75",
+          "initiator": "link",
+          "start": 9.899999998509884,
+          "duration": 0,
+          "transfer": 0,
+          "encoded": 42626
+        },
+        {
+          "name": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-desktop.webp&w=1920&q=75",
+          "initiator": "img",
+          "start": 14.699999999254942,
+          "duration": 0,
+          "transfer": 0,
+          "encoded": 29832
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-desktop.png&w=1920&q=75",
+          "loading": "eager",
+          "width": 1319,
+          "height": 1056,
+          "naturalWidth": 1324,
+          "naturalHeight": 736
+        },
+        {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-desktop.webp&w=1920&q=75",
+          "loading": "lazy",
+          "width": 1319,
+          "height": 1056,
+          "naturalWidth": 983,
+          "naturalHeight": 614
+        },
+        {
+          "src": "",
+          "loading": "lazy",
+          "width": 1319,
+          "height": 1056,
+          "naturalWidth": 0,
+          "naturalHeight": 0
+        },
+        {
+          "src": "",
+          "loading": "lazy",
+          "width": 1319,
+          "height": 1056,
+          "naturalWidth": 0,
+          "naturalHeight": 0
+        }
+      ],
+      "preloads": [
+        "<link rel=\"preload\" as=\"image\" imagesrcset=\"/_next/image?url=%2Fwork%2Flane-desktop.png&amp;w=640&amp;q=75 640w, /_next/image?url=%2Fwork%2Flane-desktop.png&amp;w=750&amp;q=75 750w, /_next/image?url=%2Fwork%2Flane-desktop.png&amp;w=828&amp;q=75 828w, /_next/image?url=%2Fwork%2Flane-desktop.png&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2Fwork%2Flane-desktop.png&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2Fwork%2Flane-desktop.png&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Fwork%2Flane-desktop.png&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Fwork%2Flane-desktop.png&amp;w=3840&amp;q=75 3840w\" imagesizes=\"(max-width: 760px) 100vw, 92vw\">"
+      ]
+    },
+    {
+      "route": "/work/lane",
+      "cache": "disabled",
+      "lcp": [
+        {
+          "time": 100,
+          "tag": "IMG",
+          "url": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-desktop.png&w=1920&q=75",
+          "size": 379581
+        }
+      ],
+      "cls": 0.0018498371056241427,
+      "longTasks": [],
+      "navigation": [
+        {
+          "ttfb": 2.5,
+          "domContentLoaded": 89.69999999925494,
+          "load": 118.69999999925494,
+          "transfer": 5610
+        }
+      ],
+      "resources": [
+        {
+          "name": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-desktop.png&w=1920&q=75",
+          "initiator": "link",
+          "start": 6.799999997019768,
+          "duration": 6.800000000745058,
+          "transfer": 42926,
+          "encoded": 42626
+        },
+        {
+          "name": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-desktop.png&w=96&q=75",
+          "initiator": "img",
+          "start": 78,
+          "duration": 4.399999998509884,
+          "transfer": 862,
+          "encoded": 562
+        },
+        {
+          "name": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-home.png&w=96&q=75",
+          "initiator": "img",
+          "start": 78.09999999776483,
+          "duration": 4,
+          "transfer": 1244,
+          "encoded": 944
+        },
+        {
+          "name": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-archive.png&w=96&q=75",
+          "initiator": "img",
+          "start": 78.29999999701977,
+          "duration": 3.7000000029802322,
+          "transfer": 1380,
+          "encoded": 1080
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-desktop.png&w=1920&q=75",
+          "loading": "eager",
+          "width": 1317,
+          "height": 650,
+          "naturalWidth": 1319,
+          "naturalHeight": 733
+        },
+        {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-desktop.png&w=1920&q=75",
+          "loading": "lazy",
+          "width": 90,
+          "height": 58,
+          "naturalWidth": 92,
+          "naturalHeight": 51
+        },
+        {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-home.png&w=96&q=75",
+          "loading": "lazy",
+          "width": 90,
+          "height": 58,
+          "naturalWidth": 92,
+          "naturalHeight": 51
+        },
+        {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-archive.png&w=96&q=75",
+          "loading": "lazy",
+          "width": 90,
+          "height": 58,
+          "naturalWidth": 92,
+          "naturalHeight": 84
+        }
+      ],
+      "preloads": [
+        "<link rel=\"preload\" as=\"image\" imagesrcset=\"/_next/image?url=%2Fwork%2Flane-desktop.png&amp;w=32&amp;q=75 32w, /_next/image?url=%2Fwork%2Flane-desktop.png&amp;w=48&amp;q=75 48w, /_next/image?url=%2Fwork%2Flane-desktop.png&amp;w=64&amp;q=75 64w, /_next/image?url=%2Fwork%2Flane-desktop.png&amp;w=96&amp;q=75 96w, /_next/image?url=%2Fwork%2Flane-desktop.png&amp;w=128&amp;q=75 128w, /_next/image?url=%2Fwork%2Flane-desktop.png&amp;w=256&amp;q=75 256w, /_next/image?url=%2Fwork%2Flane-desktop.png&amp;w=384&amp;q=75 384w, /_next/image?url=%2Fwork%2Flane-desktop.png&amp;w=640&amp;q=75 640w, /_next/image?url=%2Fwork%2Flane-desktop.png&amp;w=750&amp;q=75 750w, /_next/image?url=%2Fwork%2Flane-desktop.png&amp;w=828&amp;q=75 828w, /_next/image?url=%2Fwork%2Flane-desktop.png&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2Fwork%2Flane-desktop.png&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2Fwork%2Flane-desktop.png&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Fwork%2Flane-desktop.png&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Fwork%2Flane-desktop.png&amp;w=3840&amp;q=75 3840w\" imagesizes=\"(max-width: 760px) calc(100vw - 2.2rem), (min-width: 2096px) calc(100vw - 11rem), 91.6vw\">"
+      ]
+    },
+    {
+      "route": "/work/lane",
+      "cache": "warm",
+      "lcp": [
+        {
+          "time": 24,
+          "tag": "IMG",
+          "url": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-desktop.png&w=1920&q=75",
+          "size": 379581
+        }
+      ],
+      "cls": 0,
+      "longTasks": [],
+      "navigation": [
+        {
+          "ttfb": 2.100000001490116,
+          "domContentLoaded": 9.699999999254942,
+          "load": 22.900000002235174,
+          "transfer": 300
+        }
+      ],
+      "resources": [
+        {
+          "name": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-desktop.png&w=1920&q=75",
+          "initiator": "link",
+          "start": 6,
+          "duration": 0,
+          "transfer": 0,
+          "encoded": 42626
+        },
+        {
+          "name": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-home.png&w=96&q=75",
+          "initiator": "img",
+          "start": 9.300000000745058,
+          "duration": 0,
+          "transfer": 0,
+          "encoded": 944
+        },
+        {
+          "name": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-archive.png&w=96&q=75",
+          "initiator": "img",
+          "start": 9.400000002235174,
+          "duration": 0,
+          "transfer": 0,
+          "encoded": 1080
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-desktop.png&w=1920&q=75",
+          "loading": "eager",
+          "width": 1317,
+          "height": 650,
+          "naturalWidth": 1319,
+          "naturalHeight": 733
+        },
+        {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-desktop.png&w=1920&q=75",
+          "loading": "lazy",
+          "width": 90,
+          "height": 58,
+          "naturalWidth": 92,
+          "naturalHeight": 51
+        },
+        {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-home.png&w=96&q=75",
+          "loading": "lazy",
+          "width": 90,
+          "height": 58,
+          "naturalWidth": 92,
+          "naturalHeight": 51
+        },
+        {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-archive.png&w=96&q=75",
+          "loading": "lazy",
+          "width": 90,
+          "height": 58,
+          "naturalWidth": 92,
+          "naturalHeight": 84
+        }
+      ],
+      "preloads": [
+        "<link rel=\"preload\" as=\"image\" imagesrcset=\"/_next/image?url=%2Fwork%2Flane-desktop.png&amp;w=32&amp;q=75 32w, /_next/image?url=%2Fwork%2Flane-desktop.png&amp;w=48&amp;q=75 48w, /_next/image?url=%2Fwork%2Flane-desktop.png&amp;w=64&amp;q=75 64w, /_next/image?url=%2Fwork%2Flane-desktop.png&amp;w=96&amp;q=75 96w, /_next/image?url=%2Fwork%2Flane-desktop.png&amp;w=128&amp;q=75 128w, /_next/image?url=%2Fwork%2Flane-desktop.png&amp;w=256&amp;q=75 256w, /_next/image?url=%2Fwork%2Flane-desktop.png&amp;w=384&amp;q=75 384w, /_next/image?url=%2Fwork%2Flane-desktop.png&amp;w=640&amp;q=75 640w, /_next/image?url=%2Fwork%2Flane-desktop.png&amp;w=750&amp;q=75 750w, /_next/image?url=%2Fwork%2Flane-desktop.png&amp;w=828&amp;q=75 828w, /_next/image?url=%2Fwork%2Flane-desktop.png&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2Fwork%2Flane-desktop.png&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2Fwork%2Flane-desktop.png&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Fwork%2Flane-desktop.png&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Fwork%2Flane-desktop.png&amp;w=3840&amp;q=75 3840w\" imagesizes=\"(max-width: 760px) calc(100vw - 2.2rem), (min-width: 2096px) calc(100vw - 11rem), 91.6vw\">"
+      ]
+    },
+    {
+      "route": "/work/arcus",
+      "cache": "disabled",
+      "lcp": [
+        {
+          "time": 96,
+          "tag": "IMG",
+          "url": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-desktop.webp&w=1920&q=75",
+          "size": 337983
+        }
+      ],
+      "cls": 0.001848088134430727,
+      "longTasks": [],
+      "navigation": [
+        {
+          "ttfb": 3,
+          "domContentLoaded": 17.100000001490116,
+          "load": 118.90000000223517,
+          "transfer": 5473
+        }
+      ],
+      "resources": [
+        {
+          "name": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-desktop.webp&w=1920&q=75",
+          "initiator": "link",
+          "start": 7.300000000745058,
+          "duration": 4,
+          "transfer": 30132,
+          "encoded": 29832
+        },
+        {
+          "name": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-desktop.webp&w=96&q=75",
+          "initiator": "img",
+          "start": 77.69999999925494,
+          "duration": 4,
+          "transfer": 938,
+          "encoded": 638
+        },
+        {
+          "name": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-mobile.webp&w=96&q=75",
+          "initiator": "img",
+          "start": 77.80000000074506,
+          "duration": 4,
+          "transfer": 2486,
+          "encoded": 2186
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-desktop.webp&w=1920&q=75",
+          "loading": "eager",
+          "width": 1317,
+          "height": 650,
+          "naturalWidth": 978,
+          "naturalHeight": 612
+        },
+        {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-desktop.webp&w=1920&q=75",
+          "loading": "lazy",
+          "width": 90,
+          "height": 58,
+          "naturalWidth": 68,
+          "naturalHeight": 42
+        },
+        {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-mobile.webp&w=96&q=75",
+          "loading": "lazy",
+          "width": 90,
+          "height": 58,
+          "naturalWidth": 92,
+          "naturalHeight": 199
+        }
+      ],
+      "preloads": [
+        "<link rel=\"preload\" as=\"image\" imagesrcset=\"/_next/image?url=%2Fwork%2Farcus-desktop.webp&amp;w=32&amp;q=75 32w, /_next/image?url=%2Fwork%2Farcus-desktop.webp&amp;w=48&amp;q=75 48w, /_next/image?url=%2Fwork%2Farcus-desktop.webp&amp;w=64&amp;q=75 64w, /_next/image?url=%2Fwork%2Farcus-desktop.webp&amp;w=96&amp;q=75 96w, /_next/image?url=%2Fwork%2Farcus-desktop.webp&amp;w=128&amp;q=75 128w, /_next/image?url=%2Fwork%2Farcus-desktop.webp&amp;w=256&amp;q=75 256w, /_next/image?url=%2Fwork%2Farcus-desktop.webp&amp;w=384&amp;q=75 384w, /_next/image?url=%2Fwork%2Farcus-desktop.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2Fwork%2Farcus-desktop.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2Fwork%2Farcus-desktop.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2Fwork%2Farcus-desktop.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2Fwork%2Farcus-desktop.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2Fwork%2Farcus-desktop.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Fwork%2Farcus-desktop.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Fwork%2Farcus-desktop.webp&amp;w=3840&amp;q=75 3840w\" imagesizes=\"(max-width: 760px) calc(100vw - 2.2rem), (min-width: 2096px) calc(100vw - 11rem), 91.6vw\">"
+      ]
+    },
+    {
+      "route": "/work/arcus",
+      "cache": "warm",
+      "lcp": [
+        {
+          "time": 28,
+          "tag": "IMG",
+          "url": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-desktop.webp&w=1920&q=75",
+          "size": 337983
+        }
+      ],
+      "cls": 0,
+      "longTasks": [],
+      "navigation": [
+        {
+          "ttfb": 2.300000000745058,
+          "domContentLoaded": 14.899999998509884,
+          "load": 30.399999998509884,
+          "transfer": 300
+        }
+      ],
+      "resources": [
+        {
+          "name": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-desktop.webp&w=1920&q=75",
+          "initiator": "link",
+          "start": 8.600000001490116,
+          "duration": 0,
+          "transfer": 0,
+          "encoded": 29832
+        },
+        {
+          "name": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-mobile.webp&w=96&q=75",
+          "initiator": "img",
+          "start": 14.300000000745058,
+          "duration": 0,
+          "transfer": 0,
+          "encoded": 2186
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-desktop.webp&w=1920&q=75",
+          "loading": "eager",
+          "width": 1317,
+          "height": 650,
+          "naturalWidth": 978,
+          "naturalHeight": 612
+        },
+        {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-desktop.webp&w=1920&q=75",
+          "loading": "lazy",
+          "width": 90,
+          "height": 58,
+          "naturalWidth": 68,
+          "naturalHeight": 42
+        },
+        {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-mobile.webp&w=96&q=75",
+          "loading": "lazy",
+          "width": 90,
+          "height": 58,
+          "naturalWidth": 92,
+          "naturalHeight": 199
+        }
+      ],
+      "preloads": [
+        "<link rel=\"preload\" as=\"image\" imagesrcset=\"/_next/image?url=%2Fwork%2Farcus-desktop.webp&amp;w=32&amp;q=75 32w, /_next/image?url=%2Fwork%2Farcus-desktop.webp&amp;w=48&amp;q=75 48w, /_next/image?url=%2Fwork%2Farcus-desktop.webp&amp;w=64&amp;q=75 64w, /_next/image?url=%2Fwork%2Farcus-desktop.webp&amp;w=96&amp;q=75 96w, /_next/image?url=%2Fwork%2Farcus-desktop.webp&amp;w=128&amp;q=75 128w, /_next/image?url=%2Fwork%2Farcus-desktop.webp&amp;w=256&amp;q=75 256w, /_next/image?url=%2Fwork%2Farcus-desktop.webp&amp;w=384&amp;q=75 384w, /_next/image?url=%2Fwork%2Farcus-desktop.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2Fwork%2Farcus-desktop.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2Fwork%2Farcus-desktop.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2Fwork%2Farcus-desktop.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2Fwork%2Farcus-desktop.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2Fwork%2Farcus-desktop.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Fwork%2Farcus-desktop.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Fwork%2Farcus-desktop.webp&amp;w=3840&amp;q=75 3840w\" imagesizes=\"(max-width: 760px) calc(100vw - 2.2rem), (min-width: 2096px) calc(100vw - 11rem), 91.6vw\">"
+      ]
+    },
+    {
+      "route": "/work/teen-fiesta",
+      "cache": "disabled",
+      "lcp": [
+        {
+          "time": 1020,
+          "tag": "H1",
+          "url": "",
+          "size": 218886
+        }
+      ],
+      "cls": 0.0028866255144032924,
+      "longTasks": [],
+      "navigation": [
+        {
+          "ttfb": 924,
+          "domContentLoaded": 1022,
+          "load": 1051.300000000745,
+          "transfer": 5871
+        }
+      ],
+      "resources": [
+        {
+          "name": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&w=1920&q=75",
+          "initiator": "link",
+          "start": 929,
+          "duration": 6.099999997764826,
+          "transfer": 44468,
+          "encoded": 44168
+        },
+        {
+          "name": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&w=96&q=75",
+          "initiator": "img",
+          "start": 1007.0999999977648,
+          "duration": 5.800000000745058,
+          "transfer": 1132,
+          "encoded": 832
+        },
+        {
+          "name": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Fred-room-dj.jpg&w=96&q=75",
+          "initiator": "img",
+          "start": 1007.1999999992549,
+          "duration": 6.100000001490116,
+          "transfer": 2132,
+          "encoded": 1832
+        },
+        {
+          "name": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Fred-room-poster.jpg&w=96&q=75",
+          "initiator": "img",
+          "start": 1007.1999999992549,
+          "duration": 6.300000000745058,
+          "transfer": 1218,
+          "encoded": 918
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&w=1920&q=75",
+          "loading": "eager",
+          "width": 1317,
+          "height": 650,
+          "naturalWidth": 1270,
+          "naturalHeight": 653
+        },
+        {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&w=1920&q=75",
+          "loading": "lazy",
+          "width": 90,
+          "height": 58,
+          "naturalWidth": 88,
+          "naturalHeight": 45
+        },
+        {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Fred-room-poster.jpg&w=96&q=75",
+          "loading": "lazy",
+          "width": 90,
+          "height": 58,
+          "naturalWidth": 92,
+          "naturalHeight": 115
+        },
+        {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Fred-room-dj.jpg&w=96&q=75",
+          "loading": "lazy",
+          "width": 90,
+          "height": 58,
+          "naturalWidth": 92,
+          "naturalHeight": 162
+        }
+      ],
+      "preloads": [
+        "<link rel=\"preload\" as=\"image\" imagesrcset=\"/_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&amp;w=32&amp;q=75 32w, /_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&amp;w=48&amp;q=75 48w, /_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&amp;w=64&amp;q=75 64w, /_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&amp;w=96&amp;q=75 96w, /_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&amp;w=128&amp;q=75 128w, /_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&amp;w=256&amp;q=75 256w, /_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&amp;w=384&amp;q=75 384w, /_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&amp;w=640&amp;q=75 640w, /_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&amp;w=750&amp;q=75 750w, /_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&amp;w=828&amp;q=75 828w, /_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&amp;w=3840&amp;q=75 3840w\" imagesizes=\"(max-width: 760px) calc(100vw - 2.2rem), (min-width: 2096px) calc(100vw - 11rem), 91.6vw\">"
+      ]
+    },
+    {
+      "route": "/work/teen-fiesta",
+      "cache": "warm",
+      "lcp": [
+        {
+          "time": 32,
+          "tag": "IMG",
+          "url": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&w=1920&q=75",
+          "size": 212036
+        }
+      ],
+      "cls": 0,
+      "longTasks": [],
+      "navigation": [
+        {
+          "ttfb": 3.2999999970197678,
+          "domContentLoaded": 14.299999997019768,
+          "load": 27.099999997764826,
+          "transfer": 300
+        }
+      ],
+      "resources": [
+        {
+          "name": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&w=1920&q=75",
+          "initiator": "link",
+          "start": 8.299999997019768,
+          "duration": 0,
+          "transfer": 0,
+          "encoded": 44168
+        },
+        {
+          "name": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Fred-room-poster.jpg&w=96&q=75",
+          "initiator": "img",
+          "start": 13.5,
+          "duration": 0,
+          "transfer": 0,
+          "encoded": 918
+        },
+        {
+          "name": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Fred-room-dj.jpg&w=96&q=75",
+          "initiator": "img",
+          "start": 13.599999997764826,
+          "duration": 0,
+          "transfer": 0,
+          "encoded": 1832
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&w=1920&q=75",
+          "loading": "eager",
+          "width": 1317,
+          "height": 650,
+          "naturalWidth": 1270,
+          "naturalHeight": 653
+        },
+        {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&w=1920&q=75",
+          "loading": "lazy",
+          "width": 90,
+          "height": 58,
+          "naturalWidth": 88,
+          "naturalHeight": 45
+        },
+        {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Fred-room-poster.jpg&w=96&q=75",
+          "loading": "lazy",
+          "width": 90,
+          "height": 58,
+          "naturalWidth": 92,
+          "naturalHeight": 115
+        },
+        {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Fred-room-dj.jpg&w=96&q=75",
+          "loading": "lazy",
+          "width": 90,
+          "height": 58,
+          "naturalWidth": 92,
+          "naturalHeight": 162
+        }
+      ],
+      "preloads": [
+        "<link rel=\"preload\" as=\"image\" imagesrcset=\"/_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&amp;w=32&amp;q=75 32w, /_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&amp;w=48&amp;q=75 48w, /_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&amp;w=64&amp;q=75 64w, /_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&amp;w=96&amp;q=75 96w, /_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&amp;w=128&amp;q=75 128w, /_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&amp;w=256&amp;q=75 256w, /_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&amp;w=384&amp;q=75 384w, /_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&amp;w=640&amp;q=75 640w, /_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&amp;w=750&amp;q=75 750w, /_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&amp;w=828&amp;q=75 828w, /_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Fwork%2Fteen-fiesta-desktop.png&amp;w=3840&amp;q=75 3840w\" imagesizes=\"(max-width: 760px) calc(100vw - 2.2rem), (min-width: 2096px) calc(100vw - 11rem), 91.6vw\">"
+      ]
+    },
+    {
+      "route": "/work/rewatch",
+      "cache": "disabled",
+      "lcp": [
+        {
+          "time": 92,
+          "tag": "IMG",
+          "url": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Frewatch-desktop.webp&w=1920&q=75",
+          "size": 337983
+        }
+      ],
+      "cls": 0.005363198588806906,
+      "longTasks": [],
+      "navigation": [
+        {
+          "ttfb": 2.699999999254942,
+          "domContentLoaded": 15.300000000745058,
+          "load": 118.90000000223517,
+          "transfer": 5483
+        }
+      ],
+      "resources": [
+        {
+          "name": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Frewatch-desktop.webp&w=1920&q=75",
+          "initiator": "link",
+          "start": 6.800000000745058,
+          "duration": 3.899999998509884,
+          "transfer": 37920,
+          "encoded": 37620
+        },
+        {
+          "name": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Frewatch-desktop.webp&w=96&q=75",
+          "initiator": "img",
+          "start": 79.69999999925494,
+          "duration": 3.2000000029802322,
+          "transfer": 1062,
+          "encoded": 762
+        },
+        {
+          "name": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Frewatch-mobile.webp&w=96&q=75",
+          "initiator": "img",
+          "start": 79.80000000074506,
+          "duration": 3.300000000745058,
+          "transfer": 2964,
+          "encoded": 2664
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Frewatch-desktop.webp&w=1920&q=75",
+          "loading": "eager",
+          "width": 1317,
+          "height": 650,
+          "naturalWidth": 978,
+          "naturalHeight": 612
+        },
+        {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Frewatch-desktop.webp&w=1920&q=75",
+          "loading": "lazy",
+          "width": 90,
+          "height": 58,
+          "naturalWidth": 68,
+          "naturalHeight": 42
+        },
+        {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Frewatch-mobile.webp&w=96&q=75",
+          "loading": "lazy",
+          "width": 90,
+          "height": 58,
+          "naturalWidth": 92,
+          "naturalHeight": 199
+        }
+      ],
+      "preloads": [
+        "<link rel=\"preload\" as=\"image\" imagesrcset=\"/_next/image?url=%2Fwork%2Frewatch-desktop.webp&amp;w=32&amp;q=75 32w, /_next/image?url=%2Fwork%2Frewatch-desktop.webp&amp;w=48&amp;q=75 48w, /_next/image?url=%2Fwork%2Frewatch-desktop.webp&amp;w=64&amp;q=75 64w, /_next/image?url=%2Fwork%2Frewatch-desktop.webp&amp;w=96&amp;q=75 96w, /_next/image?url=%2Fwork%2Frewatch-desktop.webp&amp;w=128&amp;q=75 128w, /_next/image?url=%2Fwork%2Frewatch-desktop.webp&amp;w=256&amp;q=75 256w, /_next/image?url=%2Fwork%2Frewatch-desktop.webp&amp;w=384&amp;q=75 384w, /_next/image?url=%2Fwork%2Frewatch-desktop.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2Fwork%2Frewatch-desktop.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2Fwork%2Frewatch-desktop.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2Fwork%2Frewatch-desktop.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2Fwork%2Frewatch-desktop.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2Fwork%2Frewatch-desktop.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Fwork%2Frewatch-desktop.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Fwork%2Frewatch-desktop.webp&amp;w=3840&amp;q=75 3840w\" imagesizes=\"(max-width: 760px) calc(100vw - 2.2rem), (min-width: 2096px) calc(100vw - 11rem), 91.6vw\">"
+      ]
+    },
+    {
+      "route": "/work/rewatch",
+      "cache": "warm",
+      "lcp": [
+        {
+          "time": 36,
+          "tag": "IMG",
+          "url": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Frewatch-desktop.webp&w=1920&q=75",
+          "size": 337983
+        }
+      ],
+      "cls": 0,
+      "longTasks": [],
+      "navigation": [
+        {
+          "ttfb": 2.899999998509884,
+          "domContentLoaded": 13.099999997764826,
+          "load": 25.899999998509884,
+          "transfer": 300
+        }
+      ],
+      "resources": [
+        {
+          "name": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Frewatch-desktop.webp&w=1920&q=75",
+          "initiator": "link",
+          "start": 8.899999998509884,
+          "duration": 0,
+          "transfer": 0,
+          "encoded": 37620
+        },
+        {
+          "name": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Frewatch-mobile.webp&w=96&q=75",
+          "initiator": "img",
+          "start": 12.800000000745058,
+          "duration": 0,
+          "transfer": 0,
+          "encoded": 2664
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Frewatch-desktop.webp&w=1920&q=75",
+          "loading": "eager",
+          "width": 1317,
+          "height": 650,
+          "naturalWidth": 978,
+          "naturalHeight": 612
+        },
+        {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Frewatch-desktop.webp&w=1920&q=75",
+          "loading": "lazy",
+          "width": 90,
+          "height": 58,
+          "naturalWidth": 68,
+          "naturalHeight": 42
+        },
+        {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Frewatch-mobile.webp&w=96&q=75",
+          "loading": "lazy",
+          "width": 90,
+          "height": 58,
+          "naturalWidth": 92,
+          "naturalHeight": 199
+        }
+      ],
+      "preloads": [
+        "<link rel=\"preload\" as=\"image\" imagesrcset=\"/_next/image?url=%2Fwork%2Frewatch-desktop.webp&amp;w=32&amp;q=75 32w, /_next/image?url=%2Fwork%2Frewatch-desktop.webp&amp;w=48&amp;q=75 48w, /_next/image?url=%2Fwork%2Frewatch-desktop.webp&amp;w=64&amp;q=75 64w, /_next/image?url=%2Fwork%2Frewatch-desktop.webp&amp;w=96&amp;q=75 96w, /_next/image?url=%2Fwork%2Frewatch-desktop.webp&amp;w=128&amp;q=75 128w, /_next/image?url=%2Fwork%2Frewatch-desktop.webp&amp;w=256&amp;q=75 256w, /_next/image?url=%2Fwork%2Frewatch-desktop.webp&amp;w=384&amp;q=75 384w, /_next/image?url=%2Fwork%2Frewatch-desktop.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2Fwork%2Frewatch-desktop.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2Fwork%2Frewatch-desktop.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2Fwork%2Frewatch-desktop.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2Fwork%2Frewatch-desktop.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2Fwork%2Frewatch-desktop.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Fwork%2Frewatch-desktop.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Fwork%2Frewatch-desktop.webp&amp;w=3840&amp;q=75 3840w\" imagesizes=\"(max-width: 760px) calc(100vw - 2.2rem), (min-width: 2096px) calc(100vw - 11rem), 91.6vw\">"
+      ]
+    }
+  ]
+}

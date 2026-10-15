@@ -1,0 +1,65 @@
+{
+  "desktop1440": {
+    "width": 1440,
+    "height": 1000,
+    "scrollWidth": 1440,
+    "webglReady": true
+  },
+  "interactions": {
+    "projectSelections": [
+      {
+        "title": "LANE",
+        "selected": "true",
+        "label": "LANE / Campaign platform"
+      },
+      {
+        "title": "ARCUS",
+        "selected": "true",
+        "label": "ARCUS / Training product"
+      },
+      {
+        "title": "TEEN FIESTA",
+        "selected": "true",
+        "label": "TEEN FIESTA / Event experience / RED ROOM campaign"
+      },
+      {
+        "title": "Rewatch",
+        "selected": "true",
+        "label": "Rewatch / Media product"
+      }
+    ],
+    "desktopPinExists": true,
+    "scrollYMidTransition": 647,
+    "transitionProgress": 0.4291,
+    "arrivalVisible": false,
+    "reverseScrollY": 1
+  },
+  "desktop1280": {
+    "width": 1280,
+    "height": 800,
+    "scrollWidth": 1280,
+    "overflow": false,
+    "canvasReady": true
+  },
+  "desktop1920": {
+    "width": 1920,
+    "height": 1080,
+    "scrollWidth": 1920,
+    "overflow": false,
+    "canvasReady": true
+  },
+  "mobile": {
+    "width": 390,
+    "height": 844,
+    "scrollWidth": 390,
+    "overflow": false,
+    "canvasReady": true,
+    "pinSpacerCount": 0,
+    "heroHeight": 844,
+    "touchScrollY": 1171
+  },
+  "errors": {
+    "console": [],
+    "page": []
+  }
+}

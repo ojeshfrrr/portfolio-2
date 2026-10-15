@@ -1,0 +1,193 @@
+{
+  "stage": "after",
+  "checks": [
+    {
+      "name": "home has no shared noise layer or rejected content",
+      "pass": true
+    },
+    {
+      "name": "index contains four projects and no rejected name",
+      "pass": true
+    },
+    {
+      "name": "Teen Fiesta selection and case link",
+      "pass": true
+    },
+    {
+      "name": "about has no shared noise layer or rejected content",
+      "pass": true
+    },
+    {
+      "name": "contact has no shared noise layer or rejected content",
+      "pass": true
+    },
+    {
+      "name": "case-study has no shared noise layer or rejected content",
+      "pass": true
+    },
+    {
+      "name": "teen-fiesta has no shared noise layer or rejected content",
+      "pass": true
+    },
+    {
+      "name": "exact corrected introduction",
+      "pass": true
+    },
+    {
+      "name": "gallery slide 1",
+      "pass": true,
+      "alt": "Teen Fiesta website film section with editorial typography and its embedded event film.",
+      "caption": "Image 1 of 3.\nWebsite / the film section and embedded player"
+    },
+    {
+      "name": "gallery slide 2",
+      "pass": true,
+      "alt": "Supplied Teen Fiesta event artwork with its monogram and a dancer in red light.",
+      "caption": "Image 2 of 3.\nSupplied event artwork / Teen Fiesta visual identity"
+    },
+    {
+      "name": "gallery slide 3",
+      "pass": true,
+      "alt": "Teen Fiesta coming-soon announcement printed on a coaster beside drinks.",
+      "caption": "Image 3 of 3.\nSupplied announcement / Teen Fiesta coming soon"
+    },
+    {
+      "name": "gallery keyboard selection",
+      "pass": true
+    },
+    {
+      "name": "no horizontal overflow 390",
+      "pass": true
+    },
+    {
+      "name": "no horizontal overflow 320",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "pages": [
+    {
+      "path": "/",
+      "noise": {
+        "content": "none",
+        "background": "none",
+        "opacity": "1"
+      },
+      "bodyBackground": "rgb(9, 9, 11)",
+      "heroBackground": "radial-gradient(72% 68% at 50% 48%, rgba(24, 23, 27, 0.38) 0%, rgba(9, 9, 12, 0.28) 48%, rgba(2, 2, 3, 0) 82%), none",
+      "ambient": [
+        "radial-gradient(672px 448px at 76% 34%, rgba(200, 121, 91, 0.14), rgba(0, 0, 0, 0) 69%), radial-gradient(544px 432px at 24% 75%, rgba(132, 48, 43, 0.106), rgba(0, 0, 0, 0) 70%), radial-gradient(512px 480px at 52% 60%, rgba(233, 229, 216, 0.035), rgba(0, 0, 0, 0) 68%)",
+        "radial-gradient(672px 448px at 76% 34%, rgba(200, 121, 91, 0.14), rgba(0, 0, 0, 0) 69%), radial-gradient(544px 432px at 24% 75%, rgba(132, 48, 43, 0.106), rgba(0, 0, 0, 0) 70%), radial-gradient(512px 480px at 52% 60%, rgba(233, 229, 216, 0.035), rgba(0, 0, 0, 0) 68%)"
+      ],
+      "text": "Ojesh — selected creative development projects\nIndependent creative developer\nAgra, India · Available worldwide\n\nSelected digital work\nExplore a surface or open the index.\n\nworkwithovio@gmail.com\nOverview\nIndex +\nContinue below ↓\n\nAbout the practice\n\nThe feeling is\nin the behavior.\n\nI'm Ojesh — a creative developer working where visual identity, interaction, and useful software meet.\n\nI move between expressive campaign worlds and software people return to. A page should reward attention without making a task harder.\n\nMore about my practice\n↗\n\nHave a good problem?\n\nWhat are you\nthinking about?\n\nShare the early thought, the almost-finished brief, or the part that still needs solving.\n\nworkwithovio@gmail.com\n↗\nStart a conversation\n↗",
+      "images": [
+        {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-desktop.png&w=640&q=75",
+          "filter": "none"
+        },
+        {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Farcus-desktop.webp&w=640&q=75",
+          "filter": "none"
+        },
+        {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Fteen-fiesta-website.png&w=640&q=75",
+          "filter": "none"
+        },
+        {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Frewatch-desktop.webp&w=640&q=75",
+          "filter": "none"
+        }
+      ]
+    },
+    {
+      "path": "/about",
+      "noise": {
+        "content": "none",
+        "background": "none",
+        "opacity": "1"
+      },
+      "bodyBackground": "rgb(9, 9, 11)",
+      "heroBackground": null,
+      "ambient": [
+        "radial-gradient(672px 448px at 76% 34%, rgba(200, 121, 91, 0.14), rgba(0, 0, 0, 0) 69%), radial-gradient(544px 432px at 24% 75%, rgba(132, 48, 43, 0.106), rgba(0, 0, 0, 0) 70%), radial-gradient(512px 480px at 52% 60%, rgba(233, 229, 216, 0.035), rgba(0, 0, 0, 0) 68%)"
+      ],
+      "text": "About / Practice\n\nThe details\nmake the feeling.\n\nI'm Ojesh — a creative developer working where visual identity, interaction, and useful software meet.\n\nA working note\n\nThe feeling is in the behavior.\n\nI move between expressive campaign worlds and software people return to. A page should reward attention without making a task harder; a product should feel useful while still having a point of view.\n\nAcross the projects\n\nCode can carry atmosphere.\n01\nBrand in motion\n\nCampaign systems, editorial layout, and interaction with character.\n\n02\nProducts in use\n\nResponsive interfaces built around real tasks and everyday context.\n\n03\nCode as material\n\nCreative development, realtime graphics, and purposeful motion.\n\nHave a good problem?\n\nLet's make something clear, useful, and hard to forget.\nGet in touch\n↗",
+      "images": []
+    },
+    {
+      "path": "/contact",
+      "noise": {
+        "content": "none",
+        "background": "none",
+        "opacity": "1"
+      },
+      "bodyBackground": "rgb(9, 9, 11)",
+      "heroBackground": null,
+      "ambient": [
+        "radial-gradient(672px 448px at 76% 34%, rgba(200, 121, 91, 0.14), rgba(0, 0, 0, 0) 69%), radial-gradient(544px 432px at 24% 75%, rgba(132, 48, 43, 0.106), rgba(0, 0, 0, 0) 70%), radial-gradient(512px 480px at 52% 60%, rgba(233, 229, 216, 0.035), rgba(0, 0, 0, 0) 68%)"
+      ],
+      "text": "Contact / Start a conversation\n\nWhat are you\nthinking about?\n\nShare the early thought, the almost-finished brief, or the part that still needs solving.\n\nworkwithovio@gmail.com\n↗\n\nA short brief / 01\n\nGive the idea\nsomewhere to start.\n\nA few lines are enough. The useful detail is usually the one you are still figuring out.\n\nProject note / 01\nPrivate until you send it\nYour name\nEmail address\nWhat are you thinking about?\n\nThis prepares a message in your email app. Nothing is sent by this site.\n\nPrepare the note\n↗\n\nA few useful links\n\nGitHub\n↗\nSelected work\n↗\n\nYour email app will open a new message to this address.",
+      "images": []
+    },
+    {
+      "path": "/work/lane",
+      "noise": {
+        "content": "none",
+        "background": "none",
+        "opacity": "1"
+      },
+      "bodyBackground": "rgb(9, 9, 11)",
+      "heroBackground": null,
+      "ambient": [],
+      "text": "←\nBack to work\nCampaign platform / 2026\n\nCampaign platform\n\nLANE\n\nA campaign archive with a different tempo for every night.\n\nCreative development, front end, and interaction design\nVisit the project\n↗\n\nImage 1 of 3.\nHEAT / sculptural homepage and campaign poster\n\n01 / 03\n←\n→\n01\nHEAT / sculptural homepage and campaign poster\n02\nHEAT / alternate homepage layout led by the original artwork\n03\nThe campaign archive / Teen Soirée selected from seven chapters\n\nOverview\n\nA campaign archive for independent nights in Agra. One browsing system gives seven distinct event identities room to lead.\n\nWhat I focused on\n\nA campaign selector that keeps each poster and its details in sync\nA locally rendered Three.js sculpture, with a still fallback\nSeven event pages built from supplied artwork and confirmed details\n\nHow it came together\n\nThe supplied posters set the visual direction. The two HEAT homepage captures show different layouts for the same campaign: one pairs the poster with a sculpture; the other makes the artwork dominant. The archive keeps the selected poster and its event details together.\n\nNext project\nARCUS\n↗",
+      "images": [
+        {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-desktop.png&w=1920&q=75",
+          "filter": "none"
+        },
+        {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-desktop.png&w=1920&q=75",
+          "filter": "none"
+        },
+        {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-home.png&w=96&q=75",
+          "filter": "none"
+        },
+        {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Flane-archive.png&w=96&q=75",
+          "filter": "none"
+        }
+      ]
+    },
+    {
+      "path": "/work/teen-fiesta",
+      "noise": {
+        "content": "none",
+        "background": "none",
+        "opacity": "1"
+      },
+      "bodyBackground": "rgb(9, 9, 11)",
+      "heroBackground": null,
+      "ambient": [],
+      "text": "←\nBack to work\nEvent website / 2026\n\nTEEN FIESTA / EVENT WEBSITE\n\nA website built\nfor the event.\n\nA digital experience for Teen Fiesta, bringing its visual identity, event information and available media together in one cohesive website.\n\nCreative development and front-end engineering\nLive deployment currently unavailable.\n\nImage 1 of 3.\nWebsite / the film section and embedded player\n\n01 / 03\n←\n→\n01\nWebsite / the film section and embedded player\n02\nSupplied event artwork / Teen Fiesta visual identity\n03\nSupplied announcement / Teen Fiesta coming soon\n\nOverview\n\nIdentity, information and media.\n\nWhat I focused on\n\nSection navigation for the event information, gallery and film\nA navigable image gallery for supplied event artwork\nAn embedded event film with playback controls\n\nHow it came together\n\nThe website brings event information, supplied artwork and film into one visual sequence. The gallery keeps the available imagery together, while the film section provides a clear entry into the video. The case-study images show the website and the supplied media as distinct parts of the project.\n\nNext project\nRewatch\n↗",
+      "images": [
+        {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Fteen-fiesta-website.png&w=1920&q=75",
+          "filter": "none"
+        },
+        {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Fteen-fiesta-website.png&w=640&q=75",
+          "filter": "none"
+        },
+        {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Fteen-fiesta-event-artwork.jpg&w=96&q=75",
+          "filter": "none"
+        },
+        {
+          "src": "http://127.0.0.1:3001/_next/image?url=%2Fwork%2Fteen-fiesta-announcement.jpg&w=96&q=75",
+          "filter": "none"
+        }
+      ]
+    }
+  ]
+}

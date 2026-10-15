@@ -1,0 +1,138 @@
+{
+  "method": "Playwright using installed Chrome, fresh context with reducedMotion=reduce and page.emulateMedia before navigation",
+  "browserVersion": "155.0.8059.79",
+  "checks": {
+    "preference": {
+      "atDocumentStart": true,
+      "current": true,
+      "media": "(prefers-reduced-motion: reduce)"
+    },
+    "initialHero": {
+      "webglReady": true,
+      "canvasCount": 1,
+      "pinSpacerCount": 0,
+      "heroPosition": "relative",
+      "heroInlinePosition": null,
+      "heroTop": 0,
+      "bodyScrollHeight": 2416,
+      "viewportHeight": 1000
+    },
+    "naturalScroll": {
+      "before": 0,
+      "after": 720,
+      "moved": true,
+      "heroTopAfterScroll": -720,
+      "pinSpacerCount": 0
+    },
+    "scrollReverse": {
+      "scrollY": 0,
+      "returnedNearTop": true
+    },
+    "ambientField": {
+      "motion": "reduced",
+      "active": "false",
+      "pseudoAnimation": "none",
+      "pseudoAnimationDuration": "0s",
+      "pseudoTransform": "none"
+    },
+    "galleryInitial": "The training dashboard\n\n01 / 02\n←\n→",
+    "galleryReducedTransition": {
+      "caption": "The same session-first view on mobile\n\n02 / 02\n←\n→",
+      "ariaLabel": "Image 2 of 2: The same session-first view on mobile. Use left and right arrow keys to browse.",
+      "frameCount": 1,
+      "samples": [
+        {
+          "attached": true,
+          "opacity": "1",
+          "transform": "none",
+          "transitionDuration": "1e-05s",
+          "animationName": "none"
+        },
+        {
+          "attached": true,
+          "opacity": "1",
+          "transform": "none",
+          "transitionDuration": "1e-05s",
+          "animationName": "none"
+        },
+        {
+          "attached": true,
+          "opacity": "1",
+          "transform": "none",
+          "transitionDuration": "1e-05s",
+          "animationName": "none"
+        },
+        {
+          "attached": true,
+          "opacity": "1",
+          "transform": "none",
+          "transitionDuration": "1e-05s",
+          "animationName": "none"
+        },
+        {
+          "attached": true,
+          "opacity": "1",
+          "transform": "none",
+          "transitionDuration": "1e-05s",
+          "animationName": "none"
+        },
+        {
+          "attached": true,
+          "opacity": "1",
+          "transform": "none",
+          "transitionDuration": "1e-05s",
+          "animationName": "none"
+        },
+        {
+          "attached": true,
+          "opacity": "1",
+          "transform": "none",
+          "transitionDuration": "1e-05s",
+          "animationName": "none"
+        },
+        {
+          "attached": true,
+          "opacity": "1",
+          "transform": "none",
+          "transitionDuration": "1e-05s",
+          "animationName": "none"
+        }
+      ],
+      "stableVisibleFrame": true
+    },
+    "galleryReverseKeyboard": "The training dashboard\n\n01 / 02\n←\n→",
+    "indexOpenedByKeyboard": "true",
+    "projectSelectionByKeyboard": {
+      "selected": "true",
+      "focusText": "ARCUS\nTraining product"
+    },
+    "escapeRestoresFocus": true,
+    "caseStudyLinkByKeyboard": {
+      "pathname": "/work/arcus",
+      "href": "/work/arcus"
+    },
+    "projectRouteMap": [
+      {
+        "project": "01LANE",
+        "href": "/work/lane"
+      },
+      {
+        "project": "02ARCUS",
+        "href": "/work/arcus"
+      },
+      {
+        "project": "03TEEN FIESTA",
+        "href": "/work/teen-fiesta"
+      },
+      {
+        "project": "04Rewatch",
+        "href": "/work/rewatch"
+      }
+    ],
+    "browserErrors": {
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "mobileDetails": [
+    {
+      "slug": "lane",
+      "overflow": false,
+      "next": "/work/arcus",
+      "narrative": "Overview\n\nA campaign archive for independent nights in Agra. One browsing system gives seven distinct event identities room to lead.\n\nWhat I focused on\n\nA campaign selector that keeps each poster and its details in sync\nA locally rendered Three.js sculpture, with a still fallback\nSeven event pages built from supplied artwork and confirmed details\n\nHow it came together\n\nThe supplied posters set the visual direction. The two HEAT homepage captures show different layouts for the same campaign: one pairs the poster with a sculpture; the other makes the artwork dominant. The archive keeps the selected poster and its event details together."
+    },
+    {
+      "slug": "arcus",
+      "overflow": false,
+      "next": "/work/teen-fiesta",
+      "narrative": "Overview\n\nA strength-training interface built around the next session. Desktop and mobile dashboards put workout entry ahead of secondary tools.\n\nWhat I focused on\n\nWorkout entry that stays available without a network connection\nTraining history, routines, recovery, and progress views\nA responsive dashboard built for quick decisions between sessions\n\nHow it came together\n\nThe next-session action leads both layouts. Desktop keeps the training tools in a persistent sidebar; mobile moves core navigation to the bottom. The source includes local workout drafts and account sync. These captures show an earlier dashboard with empty example metrics, rather than demonstrating the sync or offline flows."
+    },
+    {
+      "slug": "teen-fiesta",
+      "overflow": false,
+      "next": "/work/rewatch",
+      "narrative": "Overview\n\nOne Teen Fiesta website, led by the RED ROOM campaign. Its event page brings together the announcement, event information, gallery and film.\n\nWhat I focused on\n\nA custom swept-metal form built from Three.js geometry\nA campaign gallery with keyboard and touch controls\nAn event pass preview that is clearly labeled as a preview\n\nHow it came together\n\nThe page begins with the red campaign world, then moves into practical event information. Native video controls, mobile-specific composition, and a still 3D fallback keep the atmosphere usable across devices."
+    },
+    {
+      "slug": "rewatch",
+      "overflow": false,
+      "next": "/work/lane",
+      "narrative": "Overview\n\nA media discovery product with an editorial opening. Search, category navigation and a catalog preview give desktop and mobile users a clear starting point.\n\nWhat I focused on\n\nA shared discovery surface across several media types\nNavigation designed around both browsing and personal history\nA collaborative build with shared contributions across the product\n\nHow it came together\n\nThe public homepage pairs direct search and category navigation with a media-led editorial introduction. Feature descriptions in this case reflect the public product description; signed-in workflows are not presented as independently verified.\n\nBuilt collaboratively by OVIO and Suvo (Gaurav Raj Singh), with both contributing across all areas."
+    }
+  ],
+  "mobileContact": [
+    {
+      "width": 390,
+      "overflow": false,
+      "draft": "mailto:workwithovio@gmail.com?subject=Project%20note%20from%20QA%20Mobile&body=Hi%20Ojesh%2C%0A%0ASynthetic%20mobile%20draft%2C%20do%20not%20send.%0A%0A%E2%80%94%20QA%20Mobile%0Aqa%40example.invalid",
+      "inputsPreserved": true
+    },
+    {
+      "width": 320,
+      "overflow": false,
+      "draft": "mailto:workwithovio@gmail.com?subject=Project%20note%20from%20QA%20Mobile&body=Hi%20Ojesh%2C%0A%0ASynthetic%20mobile%20draft%2C%20do%20not%20send.%0A%0A%E2%80%94%20QA%20Mobile%0Aqa%40example.invalid",
+      "inputsPreserved": true
+    }
+  ],
+  "keyboard": [
+    {
+      "action": "Tab from Next button",
+      "viewerFocused": true
+    },
+    {
+      "action": "Tab from viewer",
+      "thumbnailFocused": true
+    },
+    {
+      "action": "Tab from name through form",
+      "emailFocused": true,
+      "messageFocused": true
+    }
+  ],
+  "fallbackLinks": [
+    {
+      "slug": "lane",
+      "path": "/work/lane",
+      "galleryVisible": true
+    },
+    {
+      "slug": "arcus",
+      "path": "/work/arcus",
+      "galleryVisible": true
+    },
+    {
+      "slug": "teen-fiesta",
+      "path": "/work/teen-fiesta",
+      "galleryVisible": true
+    },
+    {
+      "slug": "rewatch",
+      "path": "/work/rewatch",
+      "galleryVisible": true
+    }
+  ],
+  "reducedInitial": {
+    "pinInsertions": 0,
+    "cssAnimationStarts": [],
+    "preference": true,
+    "pins": 0,
+    "lenis": "",
+    "animations": 0
+  },
+  "screenshots": [
+    "D:/projects/second_pf/qa/case-study-quality-pass-2026-10-15/mobile-lane-details.png",
+    "D:/projects/second_pf/qa/case-study-quality-pass-2026-10-15/mobile-arcus-details.png",
+    "D:/projects/second_pf/qa/case-study-quality-pass-2026-10-15/mobile-teen-fiesta-details.png",
+    "D:/projects/second_pf/qa/case-study-quality-pass-2026-10-15/mobile-rewatch-details.png",
+    "D:/projects/second_pf/qa/case-study-quality-pass-2026-10-15/mobile-contact-390.png",
+    "D:/projects/second_pf/qa/case-study-quality-pass-2026-10-15/mobile-contact-320.png"
+  ]
+}
