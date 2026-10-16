@@ -1,10 +1,8 @@
-import "@fontsource/manrope/400.css";
-import "@fontsource/manrope/500.css";
-import "@fontsource/manrope/600.css";
-import "@fontsource/manrope/700.css";
-import "@fontsource/space-grotesk/500.css";
-import "@fontsource/space-grotesk/600.css";
-import "@fontsource/space-grotesk/700.css";
+import "@fontsource/manrope/latin-400.css";
+import "@fontsource/manrope/latin-500.css";
+import "@fontsource/manrope/latin-600.css";
+import "@fontsource/manrope/latin-700.css";
+import localFont from "next/font/local";
 import type { Metadata, Viewport } from "next";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
@@ -12,6 +10,25 @@ import { SmoothScroll } from "@/components/smooth-scroll";
 import { ScrollReveals } from "@/components/scroll-reveals";
 import { site } from "@/lib/site";
 import "./globals.css";
+
+const display = localFont({
+  src: "./fonts/bricolage-grotesque-latin.woff2",
+  variable: "--font-display",
+  weight: "400 700",
+  display: "swap",
+  fallback: ["Arial"],
+});
+
+const editorial = localFont({
+  src: "./fonts/instrument-serif-latin-italic.woff2",
+  variable: "--font-editorial",
+  weight: "400",
+  style: "italic",
+  display: "swap",
+  preload: false,
+  adjustFontFallback: "Times New Roman",
+  fallback: ["Georgia"],
+});
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.origin),
@@ -42,7 +59,7 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${display.variable} ${editorial.variable}`}>
       <body>
         <a className="skip-link" href="#main-content">
           Skip to content
