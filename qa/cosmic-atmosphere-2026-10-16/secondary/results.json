@@ -1,0 +1,43 @@
+{
+  "records": [
+    {
+      "route": "/about",
+      "width": 1440,
+      "documentWidth": 1440,
+      "base": "rgb(6, 8, 16)",
+      "background": {
+        "z": "-1",
+        "pointerEvents": "none",
+        "opacity": "0.14"
+      },
+      "imageFilters": []
+    },
+    {
+      "route": "/contact",
+      "width": 1440,
+      "documentWidth": 1440,
+      "base": "rgb(6, 8, 16)",
+      "background": {
+        "z": "-1",
+        "pointerEvents": "none",
+        "opacity": "0.14"
+      },
+      "imageFilters": []
+    },
+    {
+      "route": "/work/lane",
+      "width": 1440,
+      "documentWidth": 1440,
+      "base": "rgb(6, 8, 16)",
+      "background": {
+        "z": "-1",
+        "pointerEvents": "none",
+        "opacity": "0.14"
+      },
+      "imageFilters": [
+        "none"
+      ]
+    }
+  ],
+  "errors": []
+}

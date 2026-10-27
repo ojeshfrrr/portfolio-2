@@ -1,0 +1,2114 @@
+{
+  "phase": "before",
+  "base": "http://127.0.0.1:3000",
+  "createdAt": "2026-10-15T20:40:44.460Z",
+  "hashes": [
+    {
+      "path": "src/components/spatial-scene.tsx",
+      "size": 9604,
+      "sha256": "83957ab64d6edf541ecc34510c53466b9af56d98ec80be4e6cfc195ac5967123"
+    },
+    {
+      "path": "src/lib/projects.ts",
+      "size": 7818,
+      "sha256": "74f00e4f26a23b1806f1e579d70639c07b1abc77abe6cdb728edb85d63437167"
+    },
+    {
+      "path": "src/app/layout.tsx",
+      "size": 2031,
+      "sha256": "3094e830cea443dbe8d067b05b0dab513027e4a92ed8a7b289b31e36d64d0467"
+    },
+    {
+      "path": "src/app/fonts/bricolage-grotesque-latin.woff2",
+      "size": 76888,
+      "sha256": "a79fdb52d4a5c76552452f69202add96e287401fff03d3e8c0e38b4dcb5a99cd"
+    },
+    {
+      "path": "src/app/fonts/bricolagegrotesque-OFL.txt",
+      "size": 4403,
+      "sha256": "4b5a7d8f37f5602621c8a8d7358a6a2e71317e6c231c661e15aef0275d3e07ba"
+    },
+    {
+      "path": "src/app/fonts/instrument-serif-latin-italic.woff2",
+      "size": 22128,
+      "sha256": "5a51946dfffa82972bc98745359c46761515641fda557c25116459a9f83da4a7"
+    },
+    {
+      "path": "src/app/fonts/instrumentserif-OFL.txt",
+      "size": 4405,
+      "sha256": "129ed7618959716959f2941fdd5b49e0ad6e6c1d78726761786a00253d865521"
+    },
+    {
+      "path": "src/app/fonts/README.md",
+      "size": 1524,
+      "sha256": "4eae0451c45191fa1774e8f0604c7cdd713a302a9ea5f8bd3752394bf3bd6e2d"
+    },
+    {
+      "path": "public/work/lane-desktop.png",
+      "size": 2665195,
+      "sha256": "0930ba0185111e4e78ee94da19e26d5e72e3b4be975d235728ac81283a00329d"
+    },
+    {
+      "path": "public/work/spatial/lane.webp",
+      "size": 79694,
+      "sha256": "0cae64ee2d3f6d1f837583da2fd152888da2c7eed3f2d34a978353f10a419802"
+    },
+    {
+      "path": "public/work/lane-home.png",
+      "size": 505551,
+      "sha256": "278669040a634b53eefd684bf9d0f07a4330526e1e193bd6ca6947458d33575d"
+    },
+    {
+      "path": "public/work/lane-archive.png",
+      "size": 482192,
+      "sha256": "28a8f63786404730dc164c986a7653ad7cd23afd33d4734bdbbd1906c6d75322"
+    },
+    {
+      "path": "public/work/arcus-desktop.webp",
+      "size": 39718,
+      "sha256": "7de984a54a61f3d0480fa1306f1866ba5eecc488cbdcc0f820dcf422da979953"
+    },
+    {
+      "path": "public/work/spatial/arcus.webp",
+      "size": 42556,
+      "sha256": "48378e9868493a8a4224d70f54782ea53d5179d25d60f4ba4eb5f5d712b7bb89"
+    },
+    {
+      "path": "public/work/arcus-mobile.webp",
+      "size": 21596,
+      "sha256": "192274efe7c4037260a4cd911b037a6c60f3aaab6ed97048c472b096faad1cc2"
+    },
+    {
+      "path": "public/work/teen-fiesta-website.png",
+      "size": 302724,
+      "sha256": "c72f96c9abb239a98c1094098c6e973098f73f28966bcf4bf043fc5e5fd2f4ef"
+    },
+    {
+      "path": "public/work/spatial/teen-fiesta-website.webp",
+      "size": 38274,
+      "sha256": "d730a000edd5464b532ad937a670c0a3841b3d573261a4130d824c64442200e7"
+    },
+    {
+      "path": "public/work/teen-fiesta-event-artwork.jpg",
+      "size": 132015,
+      "sha256": "373f9de1965c4773e3c2054ceae2bac5df96e7aef61f7645013f77b2d08bee61"
+    },
+    {
+      "path": "public/work/teen-fiesta-announcement.jpg",
+      "size": 118407,
+      "sha256": "4c4f09ce4fdaf04c4481a97aaa1e0c1641a897774835300f11e1132de0ecb7e5"
+    },
+    {
+      "path": "public/work/rewatch-desktop.webp",
+      "size": 52996,
+      "sha256": "7826b5f95d72a12eb4253442dd856a83f17c0e6d435eb7edde06eb84675c9a9e"
+    },
+    {
+      "path": "public/work/spatial/rewatch.webp",
+      "size": 56274,
+      "sha256": "02f3b568b63dac2f0c9076a6e02a46d2bea43f03e2df3def9617a9dd02623dc1"
+    },
+    {
+      "path": "public/work/rewatch-mobile.webp",
+      "size": 27804,
+      "sha256": "efaa25ffbd78a9428accd38dad50b9c3fa61f0f16ac093229b7bee8b2ec4fb56"
+    }
+  ],
+  "records": [
+    {
+      "filename": "home-1440x1000.png",
+      "status": 200,
+      "url": "http://127.0.0.1:3000/",
+      "width": 1440,
+      "height": 1000,
+      "documentWidth": 1440,
+      "documentHeight": 3926,
+      "y": 0,
+      "pinCount": 1,
+      "canvasCount": 1,
+      "reduced": false,
+      "ui": [
+        {
+          "selector": ".site-header",
+          "text": "ojesh.Creative developerWorkAboutContactNavigateClose ×Digital work with a point of view.",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 72
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "16px",
+          "lineHeight": "24.8px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "grid"
+        },
+        {
+          "selector": ".site-wordmark",
+          "text": "ojesh.",
+          "rect": {
+            "x": 60.46875,
+            "y": 26.796875,
+            "width": 44.953125,
+            "height": 18.40625
+          },
+          "family": "display, \"display Fallback\", Arial, Arial, sans-serif",
+          "weight": "600",
+          "size": "18.4px",
+          "lineHeight": "18.4px",
+          "letterSpacing": "-1.012px",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "block"
+        },
+        {
+          "selector": ".spatial-note",
+          "text": "Independent creative developerAgra, India · Available worldwide",
+          "rect": {
+            "x": 60.46875,
+            "y": 123.1874008178711,
+            "width": 176,
+            "height": 39.71875762939453
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "11.68px",
+          "lineHeight": "19.856px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "block"
+        },
+        {
+          "selector": ".spatial-stage",
+          "text": "",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 1000
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "16px",
+          "lineHeight": "24.8px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "block"
+        },
+        {
+          "selector": ".spatial-focus",
+          "text": "Selected digital workExplore a surface or open the index.",
+          "rect": {
+            "x": 1173.9375,
+            "y": 825.140625,
+            "width": 205.59375,
+            "height": 62.859375
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "16px",
+          "lineHeight": "24.8px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "block"
+        },
+        {
+          "selector": ".spatial-footer",
+          "text": "workwithovio@gmail.comOverviewIndex +",
+          "rect": {
+            "x": 60.46875,
+            "y": 916,
+            "width": 1319.0625,
+            "height": 52
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "16px",
+          "lineHeight": "24.8px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        {
+          "selector": ".spatial-switch",
+          "text": "OverviewIndex +",
+          "rect": {
+            "x": 1198.34375,
+            "y": 916,
+            "width": 181.1875,
+            "height": 52
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "16px",
+          "lineHeight": "24.8px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        {
+          "selector": ".spatial-contact",
+          "text": "workwithovio@gmail.com",
+          "rect": {
+            "x": 60.46875,
+            "y": 932.703125,
+            "width": 141,
+            "height": 18.59375
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "12px",
+          "lineHeight": "18.6px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "block"
+        },
+        {
+          "selector": ".spatial-scroll",
+          "text": "Continue below ↓",
+          "rect": {
+            "x": 720,
+            "y": 924.1717529296875,
+            "width": 112.1875,
+            "height": 35.828125
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "12.8px",
+          "lineHeight": "19.84px",
+          "letterSpacing": "normal",
+          "color": "rgb(133, 130, 138)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "block"
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Manrope",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Manrope",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Manrope",
+          "weight": "700",
+          "style": "normal"
+        },
+        {
+          "family": "display",
+          "weight": "400 700",
+          "style": "normal"
+        },
+        {
+          "family": "display Fallback",
+          "weight": "normal",
+          "style": "normal"
+        }
+      ],
+      "projectLabels": [],
+      "background": {
+        "body": "rgb(9, 9, 11) none repeat scroll 0% 0% / auto padding-box border-box",
+        "hero": "radial-gradient(54% 62% at 38% 60%, rgba(200, 121, 91, 0.067) 0%, rgba(120, 74, 59, 0.024) 45%, rgba(0, 0, 0, 0) 80%) repeat scroll 0% 0% / auto padding-box border-box, radial-gradient(72% 68% at 50% 48%, rgba(24, 23, 27, 0.38) 0%, rgba(9, 9, 12, 0.28) 48%, rgba(2, 2, 3, 0) 82%) repeat scroll 0% 0% / auto padding-box border-box, rgb(2, 2, 3) none repeat scroll 0% 0% / auto padding-box border-box"
+      }
+    },
+    {
+      "filename": "index-1440x1000.png",
+      "status": 200,
+      "url": "http://127.0.0.1:3000/",
+      "width": 1440,
+      "height": 1000,
+      "documentWidth": 1440,
+      "documentHeight": 3926,
+      "y": 0,
+      "pinCount": 1,
+      "canvasCount": 1,
+      "reduced": false,
+      "ui": [
+        {
+          "selector": ".site-header",
+          "text": "ojesh.Creative developerWorkAboutContactNavigateClose ×Digital work with a point of view.",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 72
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "16px",
+          "lineHeight": "24.8px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "grid"
+        },
+        {
+          "selector": ".site-wordmark",
+          "text": "ojesh.",
+          "rect": {
+            "x": 60.46875,
+            "y": 26.796875,
+            "width": 44.953125,
+            "height": 18.40625
+          },
+          "family": "display, \"display Fallback\", Arial, Arial, sans-serif",
+          "weight": "600",
+          "size": "18.4px",
+          "lineHeight": "18.4px",
+          "letterSpacing": "-1.012px",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "block"
+        },
+        {
+          "selector": ".spatial-note",
+          "text": "Independent creative developerAgra, India · Available worldwide",
+          "rect": {
+            "x": 60.46875,
+            "y": 123.1874008178711,
+            "width": 176,
+            "height": 39.71875762939453
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "11.68px",
+          "lineHeight": "19.856px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "block"
+        },
+        {
+          "selector": ".spatial-stage",
+          "text": "",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 1000
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "16px",
+          "lineHeight": "24.8px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "block"
+        },
+        {
+          "selector": ".spatial-focus",
+          "text": "Selected digital workExplore a surface or open the index.",
+          "rect": {
+            "x": 1173.9375,
+            "y": 825.140625,
+            "width": 205.59375,
+            "height": 62.859375
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "16px",
+          "lineHeight": "24.8px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "block"
+        },
+        {
+          "selector": ".spatial-footer",
+          "text": "workwithovio@gmail.comOverviewIndex −",
+          "rect": {
+            "x": 60.46875,
+            "y": 916,
+            "width": 1319.0625,
+            "height": 52
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "16px",
+          "lineHeight": "24.8px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        {
+          "selector": ".spatial-switch",
+          "text": "OverviewIndex −",
+          "rect": {
+            "x": 1199.34375,
+            "y": 916,
+            "width": 180.1875,
+            "height": 52
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "16px",
+          "lineHeight": "24.8px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        {
+          "selector": ".spatial-contact",
+          "text": "workwithovio@gmail.com",
+          "rect": {
+            "x": 60.46875,
+            "y": 932.703125,
+            "width": 141,
+            "height": 18.59375
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "12px",
+          "lineHeight": "18.6px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "block"
+        },
+        {
+          "selector": ".spatial-scroll",
+          "text": "Continue below ↓",
+          "rect": {
+            "x": 720,
+            "y": 924.1717529296875,
+            "width": 112.1875,
+            "height": 35.828125
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "12.8px",
+          "lineHeight": "19.84px",
+          "letterSpacing": "normal",
+          "color": "rgb(133, 130, 138)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "block"
+        },
+        {
+          "selector": ".spatial-index",
+          "text": "Selected work / 04×01LANECampaign platform↗02ARCUSTraining product↗03TEEN FIESTAEvent website↗04RewatchMedia product↗",
+          "rect": {
+            "x": 947.53125,
+            "y": 542.015625,
+            "width": 432,
+            "height": 355.59375
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "16px",
+          "lineHeight": "24.8px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "block"
+        },
+        {
+          "selector": ".spatial-index__title",
+          "text": "01LANE",
+          "rect": {
+            "x": 1048.515625,
+            "y": 616.046875,
+            "width": 98,
+            "height": 20.15625
+          },
+          "family": "display, \"display Fallback\", Arial, Arial, sans-serif",
+          "weight": "600",
+          "size": "16.8px",
+          "lineHeight": "20.16px",
+          "letterSpacing": "-0.42px",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        {
+          "selector": ".spatial-index__select",
+          "text": "01LANECampaign platform",
+          "rect": {
+            "x": 966.125,
+            "y": 600.8125,
+            "width": 346.8125,
+            "height": 70
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "16px",
+          "lineHeight": "24.8px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "flex"
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Manrope",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Manrope",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Manrope",
+          "weight": "700",
+          "style": "normal"
+        },
+        {
+          "family": "display",
+          "weight": "400 700",
+          "style": "normal"
+        },
+        {
+          "family": "display Fallback",
+          "weight": "normal",
+          "style": "normal"
+        }
+      ],
+      "projectLabels": [
+        "01LANE",
+        "02ARCUS",
+        "03TEEN FIESTA",
+        "04Rewatch"
+      ],
+      "background": {
+        "body": "rgb(9, 9, 11) none repeat scroll 0% 0% / auto padding-box border-box",
+        "hero": "radial-gradient(54% 62% at 38% 60%, rgba(200, 121, 91, 0.067) 0%, rgba(120, 74, 59, 0.024) 45%, rgba(0, 0, 0, 0) 80%) repeat scroll 0% 0% / auto padding-box border-box, radial-gradient(72% 68% at 50% 48%, rgba(24, 23, 27, 0.38) 0%, rgba(9, 9, 12, 0.28) 48%, rgba(2, 2, 3, 0) 82%) repeat scroll 0% 0% / auto padding-box border-box, rgb(2, 2, 3) none repeat scroll 0% 0% / auto padding-box border-box"
+      }
+    },
+    {
+      "filename": "home-1920x1080.png",
+      "status": 200,
+      "url": "http://127.0.0.1:3000/",
+      "width": 1920,
+      "height": 1080,
+      "documentWidth": 1920,
+      "documentHeight": 4250,
+      "y": 0,
+      "pinCount": 1,
+      "canvasCount": 1,
+      "reduced": false,
+      "ui": [
+        {
+          "selector": ".site-header",
+          "text": "ojesh.Creative developerWorkAboutContactNavigateClose ×Digital work with a point of view.",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 72
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "16px",
+          "lineHeight": "24.8px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "grid"
+        },
+        {
+          "selector": ".site-wordmark",
+          "text": "ojesh.",
+          "rect": {
+            "x": 80.625,
+            "y": 26.796875,
+            "width": 44.953125,
+            "height": 18.40625
+          },
+          "family": "display, \"display Fallback\", Arial, Arial, sans-serif",
+          "weight": "600",
+          "size": "18.4px",
+          "lineHeight": "18.4px",
+          "letterSpacing": "-1.012px",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "block"
+        },
+        {
+          "selector": ".spatial-note",
+          "text": "Independent creative developerAgra, India · Available worldwide",
+          "rect": {
+            "x": 80.625,
+            "y": 123.18730163574219,
+            "width": 176,
+            "height": 39.71875
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "11.68px",
+          "lineHeight": "19.856px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "block"
+        },
+        {
+          "selector": ".spatial-stage",
+          "text": "",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "16px",
+          "lineHeight": "24.8px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "block"
+        },
+        {
+          "selector": ".spatial-focus",
+          "text": "Selected digital workExplore a surface or open the index.",
+          "rect": {
+            "x": 1633.78125,
+            "y": 905.140625,
+            "width": 205.59375,
+            "height": 62.859375
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "16px",
+          "lineHeight": "24.8px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "block"
+        },
+        {
+          "selector": ".spatial-footer",
+          "text": "workwithovio@gmail.comOverviewIndex +",
+          "rect": {
+            "x": 80.625,
+            "y": 996,
+            "width": 1758.75,
+            "height": 52
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "16px",
+          "lineHeight": "24.8px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        {
+          "selector": ".spatial-switch",
+          "text": "OverviewIndex +",
+          "rect": {
+            "x": 1658.1875,
+            "y": 996,
+            "width": 181.1875,
+            "height": 52
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "16px",
+          "lineHeight": "24.8px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        {
+          "selector": ".spatial-contact",
+          "text": "workwithovio@gmail.com",
+          "rect": {
+            "x": 80.625,
+            "y": 1012.703125,
+            "width": 141,
+            "height": 18.59375
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "12px",
+          "lineHeight": "18.6px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "block"
+        },
+        {
+          "selector": ".spatial-scroll",
+          "text": "Continue below ↓",
+          "rect": {
+            "x": 960,
+            "y": 1004.1716918945312,
+            "width": 112.1875,
+            "height": 35.82806396484375
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "12.8px",
+          "lineHeight": "19.84px",
+          "letterSpacing": "normal",
+          "color": "rgb(133, 130, 138)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "block"
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Manrope",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Manrope",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Manrope",
+          "weight": "700",
+          "style": "normal"
+        },
+        {
+          "family": "display",
+          "weight": "400 700",
+          "style": "normal"
+        },
+        {
+          "family": "display Fallback",
+          "weight": "normal",
+          "style": "normal"
+        }
+      ],
+      "projectLabels": [],
+      "background": {
+        "body": "rgb(9, 9, 11) none repeat scroll 0% 0% / auto padding-box border-box",
+        "hero": "radial-gradient(54% 62% at 38% 60%, rgba(200, 121, 91, 0.067) 0%, rgba(120, 74, 59, 0.024) 45%, rgba(0, 0, 0, 0) 80%) repeat scroll 0% 0% / auto padding-box border-box, radial-gradient(72% 68% at 50% 48%, rgba(24, 23, 27, 0.38) 0%, rgba(9, 9, 12, 0.28) 48%, rgba(2, 2, 3, 0) 82%) repeat scroll 0% 0% / auto padding-box border-box, rgb(2, 2, 3) none repeat scroll 0% 0% / auto padding-box border-box"
+      }
+    },
+    {
+      "filename": "index-1920x1080.png",
+      "status": 200,
+      "url": "http://127.0.0.1:3000/",
+      "width": 1920,
+      "height": 1080,
+      "documentWidth": 1920,
+      "documentHeight": 4250,
+      "y": 0,
+      "pinCount": 1,
+      "canvasCount": 1,
+      "reduced": false,
+      "ui": [
+        {
+          "selector": ".site-header",
+          "text": "ojesh.Creative developerWorkAboutContactNavigateClose ×Digital work with a point of view.",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 72
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "16px",
+          "lineHeight": "24.8px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "grid"
+        },
+        {
+          "selector": ".site-wordmark",
+          "text": "ojesh.",
+          "rect": {
+            "x": 80.625,
+            "y": 26.796875,
+            "width": 44.953125,
+            "height": 18.40625
+          },
+          "family": "display, \"display Fallback\", Arial, Arial, sans-serif",
+          "weight": "600",
+          "size": "18.4px",
+          "lineHeight": "18.4px",
+          "letterSpacing": "-1.012px",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "block"
+        },
+        {
+          "selector": ".spatial-note",
+          "text": "Independent creative developerAgra, India · Available worldwide",
+          "rect": {
+            "x": 80.625,
+            "y": 123.18730163574219,
+            "width": 176,
+            "height": 39.71875
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "11.68px",
+          "lineHeight": "19.856px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "block"
+        },
+        {
+          "selector": ".spatial-stage",
+          "text": "",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "16px",
+          "lineHeight": "24.8px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "block"
+        },
+        {
+          "selector": ".spatial-focus",
+          "text": "Selected digital workExplore a surface or open the index.",
+          "rect": {
+            "x": 1633.78125,
+            "y": 905.140625,
+            "width": 205.59375,
+            "height": 62.859375
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "16px",
+          "lineHeight": "24.8px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "block"
+        },
+        {
+          "selector": ".spatial-footer",
+          "text": "workwithovio@gmail.comOverviewIndex −",
+          "rect": {
+            "x": 80.625,
+            "y": 996,
+            "width": 1758.75,
+            "height": 52
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "16px",
+          "lineHeight": "24.8px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        {
+          "selector": ".spatial-switch",
+          "text": "OverviewIndex −",
+          "rect": {
+            "x": 1659.1875,
+            "y": 996,
+            "width": 180.1875,
+            "height": 52
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "16px",
+          "lineHeight": "24.8px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        {
+          "selector": ".spatial-contact",
+          "text": "workwithovio@gmail.com",
+          "rect": {
+            "x": 80.625,
+            "y": 1012.703125,
+            "width": 141,
+            "height": 18.59375
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "12px",
+          "lineHeight": "18.6px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "block"
+        },
+        {
+          "selector": ".spatial-scroll",
+          "text": "Continue below ↓",
+          "rect": {
+            "x": 960,
+            "y": 1004.1716918945312,
+            "width": 112.1875,
+            "height": 35.82806396484375
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "12.8px",
+          "lineHeight": "19.84px",
+          "letterSpacing": "normal",
+          "color": "rgb(133, 130, 138)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "block"
+        },
+        {
+          "selector": ".spatial-index",
+          "text": "Selected work / 04×01LANECampaign platform↗02ARCUSTraining product↗03TEEN FIESTAEvent website↗04RewatchMedia product↗",
+          "rect": {
+            "x": 1407.375,
+            "y": 622.015625,
+            "width": 432,
+            "height": 355.59375
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "16px",
+          "lineHeight": "24.8px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "block"
+        },
+        {
+          "selector": ".spatial-index__title",
+          "text": "01LANE",
+          "rect": {
+            "x": 1508.359375,
+            "y": 696.046875,
+            "width": 98,
+            "height": 20.15625
+          },
+          "family": "display, \"display Fallback\", Arial, Arial, sans-serif",
+          "weight": "600",
+          "size": "16.8px",
+          "lineHeight": "20.16px",
+          "letterSpacing": "-0.42px",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        {
+          "selector": ".spatial-index__select",
+          "text": "01LANECampaign platform",
+          "rect": {
+            "x": 1425.96875,
+            "y": 680.8125,
+            "width": 346.8125,
+            "height": 70
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "16px",
+          "lineHeight": "24.8px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "flex"
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Manrope",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Manrope",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Manrope",
+          "weight": "700",
+          "style": "normal"
+        },
+        {
+          "family": "display",
+          "weight": "400 700",
+          "style": "normal"
+        },
+        {
+          "family": "display Fallback",
+          "weight": "normal",
+          "style": "normal"
+        }
+      ],
+      "projectLabels": [
+        "01LANE",
+        "02ARCUS",
+        "03TEEN FIESTA",
+        "04Rewatch"
+      ],
+      "background": {
+        "body": "rgb(9, 9, 11) none repeat scroll 0% 0% / auto padding-box border-box",
+        "hero": "radial-gradient(54% 62% at 38% 60%, rgba(200, 121, 91, 0.067) 0%, rgba(120, 74, 59, 0.024) 45%, rgba(0, 0, 0, 0) 80%) repeat scroll 0% 0% / auto padding-box border-box, radial-gradient(72% 68% at 50% 48%, rgba(24, 23, 27, 0.38) 0%, rgba(9, 9, 12, 0.28) 48%, rgba(2, 2, 3, 0) 82%) repeat scroll 0% 0% / auto padding-box border-box, rgb(2, 2, 3) none repeat scroll 0% 0% / auto padding-box border-box"
+      }
+    },
+    {
+      "filename": "home-390x844.png",
+      "status": 200,
+      "url": "http://127.0.0.1:3000/",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "documentHeight": 2045,
+      "y": 0,
+      "pinCount": 0,
+      "canvasCount": 1,
+      "reduced": false,
+      "ui": [
+        {
+          "selector": ".site-header",
+          "text": "ojesh.Creative developerWorkAboutContactNavigateClose ×Digital work with a point of view.",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 72
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "16px",
+          "lineHeight": "24.8px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "grid"
+        },
+        {
+          "selector": ".site-wordmark",
+          "text": "ojesh.",
+          "rect": {
+            "x": 17.59375,
+            "y": 26.796875,
+            "width": 44.953125,
+            "height": 18.40625
+          },
+          "family": "display, \"display Fallback\", Arial, Arial, sans-serif",
+          "weight": "600",
+          "size": "18.4px",
+          "lineHeight": "18.4px",
+          "letterSpacing": "-1.012px",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "block"
+        },
+        {
+          "selector": ".spatial-note",
+          "text": "Independent creative developerAgra, India · Available worldwide",
+          "rect": {
+            "x": 17.59375,
+            "y": 80,
+            "width": 150,
+            "height": 35.375
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "10.4px",
+          "lineHeight": "17.68px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "block"
+        },
+        {
+          "selector": ".spatial-stage",
+          "text": "",
+          "rect": {
+            "x": 0,
+            "y": 56,
+            "width": 390,
+            "height": 644
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "16px",
+          "lineHeight": "24.8px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "block"
+        },
+        {
+          "selector": ".spatial-focus",
+          "text": "Selected digital workExplore a surface or open the index.",
+          "rect": {
+            "x": 166.8125,
+            "y": 671.53125,
+            "width": 205.59375,
+            "height": 60.46875
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "16px",
+          "lineHeight": "24.8px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "block"
+        },
+        {
+          "selector": ".spatial-footer",
+          "text": "workwithovio@gmail.comOverviewIndex +",
+          "rect": {
+            "x": 17.59375,
+            "y": 772,
+            "width": 354.8125,
+            "height": 52
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "16px",
+          "lineHeight": "24.8px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        {
+          "selector": ".spatial-switch",
+          "text": "OverviewIndex +",
+          "rect": {
+            "x": 218.03125,
+            "y": 772,
+            "width": 154.375,
+            "height": 52
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "16px",
+          "lineHeight": "24.8px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        {
+          "selector": ".spatial-contact",
+          "text": "workwithovio@gmail.com",
+          "rect": {
+            "x": 17.59375,
+            "y": 809.140625,
+            "width": 118,
+            "height": 14.859375
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "9.6px",
+          "lineHeight": "14.88px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "block"
+        },
+        {
+          "selector": ".spatial-scroll",
+          "text": "Continue below ↓",
+          "rect": {
+            "x": 17.59375,
+            "y": 726.40625,
+            "width": 96.1875,
+            "height": 44
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "12.8px",
+          "lineHeight": "19.84px",
+          "letterSpacing": "normal",
+          "color": "rgb(133, 130, 138)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "block"
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Manrope",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Manrope",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Manrope",
+          "weight": "700",
+          "style": "normal"
+        },
+        {
+          "family": "display",
+          "weight": "400 700",
+          "style": "normal"
+        },
+        {
+          "family": "display Fallback",
+          "weight": "normal",
+          "style": "normal"
+        }
+      ],
+      "projectLabels": [],
+      "background": {
+        "body": "rgb(9, 9, 11) none repeat scroll 0% 0% / auto padding-box border-box",
+        "hero": "radial-gradient(54% 62% at 38% 60%, rgba(200, 121, 91, 0.067) 0%, rgba(120, 74, 59, 0.024) 45%, rgba(0, 0, 0, 0) 80%) repeat scroll 0% 0% / auto padding-box border-box, radial-gradient(72% 68% at 50% 48%, rgba(24, 23, 27, 0.38) 0%, rgba(9, 9, 12, 0.28) 48%, rgba(2, 2, 3, 0) 82%) repeat scroll 0% 0% / auto padding-box border-box, rgb(2, 2, 3) none repeat scroll 0% 0% / auto padding-box border-box"
+      }
+    },
+    {
+      "filename": "index-390x844.png",
+      "status": 200,
+      "url": "http://127.0.0.1:3000/",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "documentHeight": 2045,
+      "y": 0,
+      "pinCount": 0,
+      "canvasCount": 1,
+      "reduced": false,
+      "ui": [
+        {
+          "selector": ".site-header",
+          "text": "ojesh.Creative developerWorkAboutContactNavigateClose ×Digital work with a point of view.",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 72
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "16px",
+          "lineHeight": "24.8px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "grid"
+        },
+        {
+          "selector": ".site-wordmark",
+          "text": "ojesh.",
+          "rect": {
+            "x": 17.59375,
+            "y": 26.796875,
+            "width": 44.953125,
+            "height": 18.40625
+          },
+          "family": "display, \"display Fallback\", Arial, Arial, sans-serif",
+          "weight": "600",
+          "size": "18.4px",
+          "lineHeight": "18.4px",
+          "letterSpacing": "-1.012px",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "block"
+        },
+        {
+          "selector": ".spatial-note",
+          "text": "Independent creative developerAgra, India · Available worldwide",
+          "rect": {
+            "x": 17.59375,
+            "y": 80,
+            "width": 150,
+            "height": 35.375
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "10.4px",
+          "lineHeight": "17.68px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "block"
+        },
+        {
+          "selector": ".spatial-stage",
+          "text": "",
+          "rect": {
+            "x": 0,
+            "y": 56,
+            "width": 390,
+            "height": 644
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "16px",
+          "lineHeight": "24.8px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "block"
+        },
+        {
+          "selector": ".spatial-focus",
+          "text": "Selected digital workExplore a surface or open the index.",
+          "rect": {
+            "x": 166.8125,
+            "y": 671.53125,
+            "width": 205.59375,
+            "height": 60.46875
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "16px",
+          "lineHeight": "24.8px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "block"
+        },
+        {
+          "selector": ".spatial-footer",
+          "text": "workwithovio@gmail.comOverviewIndex −",
+          "rect": {
+            "x": 17.59375,
+            "y": 772,
+            "width": 354.8125,
+            "height": 52
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "16px",
+          "lineHeight": "24.8px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        {
+          "selector": ".spatial-switch",
+          "text": "OverviewIndex −",
+          "rect": {
+            "x": 219.03125,
+            "y": 772,
+            "width": 153.375,
+            "height": 52
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "16px",
+          "lineHeight": "24.8px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        {
+          "selector": ".spatial-contact",
+          "text": "workwithovio@gmail.com",
+          "rect": {
+            "x": 17.59375,
+            "y": 809.140625,
+            "width": 118,
+            "height": 14.859375
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "9.6px",
+          "lineHeight": "14.88px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "block"
+        },
+        {
+          "selector": ".spatial-scroll",
+          "text": "Continue below ↓",
+          "rect": {
+            "x": 17.59375,
+            "y": 726.40625,
+            "width": 96.1875,
+            "height": 44
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "12.8px",
+          "lineHeight": "19.84px",
+          "letterSpacing": "normal",
+          "color": "rgb(133, 130, 138)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "block"
+        },
+        {
+          "selector": ".spatial-index",
+          "text": "Selected work / 04×01LANECampaign platform↗02ARCUSTraining product↗03TEEN FIESTAEvent website↗04RewatchMedia product↗",
+          "rect": {
+            "x": 17.609375,
+            "y": 403.609375,
+            "width": 354.796875,
+            "height": 355.59375
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "16px",
+          "lineHeight": "24.8px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "block"
+        },
+        {
+          "selector": ".spatial-index__title",
+          "text": "01LANE",
+          "rect": {
+            "x": 118.59375,
+            "y": 477.640625,
+            "width": 98,
+            "height": 20.15625
+          },
+          "family": "display, \"display Fallback\", Arial, Arial, sans-serif",
+          "weight": "600",
+          "size": "16.8px",
+          "lineHeight": "20.16px",
+          "letterSpacing": "-0.42px",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        {
+          "selector": ".spatial-index__select",
+          "text": "01LANECampaign platform",
+          "rect": {
+            "x": 36.203125,
+            "y": 462.40625,
+            "width": 269.609375,
+            "height": 70
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "16px",
+          "lineHeight": "24.8px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "flex"
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Manrope",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Manrope",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Manrope",
+          "weight": "700",
+          "style": "normal"
+        },
+        {
+          "family": "display",
+          "weight": "400 700",
+          "style": "normal"
+        },
+        {
+          "family": "display Fallback",
+          "weight": "normal",
+          "style": "normal"
+        }
+      ],
+      "projectLabels": [
+        "01LANE",
+        "02ARCUS",
+        "03TEEN FIESTA",
+        "04Rewatch"
+      ],
+      "background": {
+        "body": "rgb(9, 9, 11) none repeat scroll 0% 0% / auto padding-box border-box",
+        "hero": "radial-gradient(54% 62% at 38% 60%, rgba(200, 121, 91, 0.067) 0%, rgba(120, 74, 59, 0.024) 45%, rgba(0, 0, 0, 0) 80%) repeat scroll 0% 0% / auto padding-box border-box, radial-gradient(72% 68% at 50% 48%, rgba(24, 23, 27, 0.38) 0%, rgba(9, 9, 12, 0.28) 48%, rgba(2, 2, 3, 0) 82%) repeat scroll 0% 0% / auto padding-box border-box, rgb(2, 2, 3) none repeat scroll 0% 0% / auto padding-box border-box"
+      }
+    },
+    {
+      "filename": "home-320x700.png",
+      "status": 200,
+      "url": "http://127.0.0.1:3000/",
+      "width": 320,
+      "height": 700,
+      "documentWidth": 320,
+      "documentHeight": 2052,
+      "y": 0,
+      "pinCount": 0,
+      "canvasCount": 1,
+      "reduced": false,
+      "ui": [
+        {
+          "selector": ".site-header",
+          "text": "ojesh.Creative developerWorkAboutContactNavigateClose ×Digital work with a point of view.",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 320,
+            "height": 72
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "16px",
+          "lineHeight": "24.8px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "grid"
+        },
+        {
+          "selector": ".site-wordmark",
+          "text": "ojesh.",
+          "rect": {
+            "x": 17.59375,
+            "y": 26.796875,
+            "width": 44.953125,
+            "height": 18.40625
+          },
+          "family": "display, \"display Fallback\", Arial, Arial, sans-serif",
+          "weight": "600",
+          "size": "18.4px",
+          "lineHeight": "18.4px",
+          "letterSpacing": "-1.012px",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "block"
+        },
+        {
+          "selector": ".spatial-note",
+          "text": "Independent creative developerAgra, India · Available worldwide",
+          "rect": {
+            "x": 17.59375,
+            "y": 80,
+            "width": 150,
+            "height": 35.375
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "10.4px",
+          "lineHeight": "17.68px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "block"
+        },
+        {
+          "selector": ".spatial-stage",
+          "text": "",
+          "rect": {
+            "x": 0,
+            "y": 56,
+            "width": 320,
+            "height": 500
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "16px",
+          "lineHeight": "24.8px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "block"
+        },
+        {
+          "selector": ".spatial-focus",
+          "text": "Selected digital workExplore a surface or open the index.",
+          "rect": {
+            "x": 96.8125,
+            "y": 527.53125,
+            "width": 205.59375,
+            "height": 60.46875
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "16px",
+          "lineHeight": "24.8px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "block"
+        },
+        {
+          "selector": ".spatial-footer",
+          "text": "workwithovio@gmail.comOverviewIndex +",
+          "rect": {
+            "x": 17.59375,
+            "y": 628,
+            "width": 284.8125,
+            "height": 52
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "16px",
+          "lineHeight": "24.8px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        {
+          "selector": ".spatial-switch",
+          "text": "OverviewIndex +",
+          "rect": {
+            "x": 148.03125,
+            "y": 628,
+            "width": 154.375,
+            "height": 52
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "16px",
+          "lineHeight": "24.8px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        {
+          "selector": ".spatial-contact",
+          "text": "workwithovio@gmail.com",
+          "rect": {
+            "x": 17.59375,
+            "y": 665.140625,
+            "width": 118,
+            "height": 14.859375
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "9.6px",
+          "lineHeight": "14.88px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "block"
+        },
+        {
+          "selector": ".spatial-scroll",
+          "text": "Continue below ↓",
+          "rect": {
+            "x": 17.59375,
+            "y": 582.40625,
+            "width": 96.1875,
+            "height": 44
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "12.8px",
+          "lineHeight": "19.84px",
+          "letterSpacing": "normal",
+          "color": "rgb(133, 130, 138)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "block"
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Manrope",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Manrope",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Manrope",
+          "weight": "700",
+          "style": "normal"
+        },
+        {
+          "family": "display",
+          "weight": "400 700",
+          "style": "normal"
+        },
+        {
+          "family": "display Fallback",
+          "weight": "normal",
+          "style": "normal"
+        }
+      ],
+      "projectLabels": [],
+      "background": {
+        "body": "rgb(9, 9, 11) none repeat scroll 0% 0% / auto padding-box border-box",
+        "hero": "radial-gradient(54% 62% at 38% 60%, rgba(200, 121, 91, 0.067) 0%, rgba(120, 74, 59, 0.024) 45%, rgba(0, 0, 0, 0) 80%) repeat scroll 0% 0% / auto padding-box border-box, radial-gradient(72% 68% at 50% 48%, rgba(24, 23, 27, 0.38) 0%, rgba(9, 9, 12, 0.28) 48%, rgba(2, 2, 3, 0) 82%) repeat scroll 0% 0% / auto padding-box border-box, rgb(2, 2, 3) none repeat scroll 0% 0% / auto padding-box border-box"
+      }
+    },
+    {
+      "filename": "index-320x700.png",
+      "status": 200,
+      "url": "http://127.0.0.1:3000/",
+      "width": 320,
+      "height": 700,
+      "documentWidth": 320,
+      "documentHeight": 2052,
+      "y": 0,
+      "pinCount": 0,
+      "canvasCount": 1,
+      "reduced": false,
+      "ui": [
+        {
+          "selector": ".site-header",
+          "text": "ojesh.Creative developerWorkAboutContactNavigateClose ×Digital work with a point of view.",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 320,
+            "height": 72
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "16px",
+          "lineHeight": "24.8px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "grid"
+        },
+        {
+          "selector": ".site-wordmark",
+          "text": "ojesh.",
+          "rect": {
+            "x": 17.59375,
+            "y": 26.796875,
+            "width": 44.953125,
+            "height": 18.40625
+          },
+          "family": "display, \"display Fallback\", Arial, Arial, sans-serif",
+          "weight": "600",
+          "size": "18.4px",
+          "lineHeight": "18.4px",
+          "letterSpacing": "-1.012px",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "block"
+        },
+        {
+          "selector": ".spatial-note",
+          "text": "Independent creative developerAgra, India · Available worldwide",
+          "rect": {
+            "x": 17.59375,
+            "y": 80,
+            "width": 150,
+            "height": 35.375
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "10.4px",
+          "lineHeight": "17.68px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "block"
+        },
+        {
+          "selector": ".spatial-stage",
+          "text": "",
+          "rect": {
+            "x": 0,
+            "y": 56,
+            "width": 320,
+            "height": 500
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "16px",
+          "lineHeight": "24.8px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "block"
+        },
+        {
+          "selector": ".spatial-focus",
+          "text": "Selected digital workExplore a surface or open the index.",
+          "rect": {
+            "x": 96.8125,
+            "y": 527.53125,
+            "width": 205.59375,
+            "height": 60.46875
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "16px",
+          "lineHeight": "24.8px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "block"
+        },
+        {
+          "selector": ".spatial-footer",
+          "text": "workwithovio@gmail.comOverviewIndex −",
+          "rect": {
+            "x": 17.59375,
+            "y": 628,
+            "width": 284.8125,
+            "height": 52
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "16px",
+          "lineHeight": "24.8px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        {
+          "selector": ".spatial-switch",
+          "text": "OverviewIndex −",
+          "rect": {
+            "x": 149.03125,
+            "y": 628,
+            "width": 153.375,
+            "height": 52
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "16px",
+          "lineHeight": "24.8px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        {
+          "selector": ".spatial-contact",
+          "text": "workwithovio@gmail.com",
+          "rect": {
+            "x": 17.59375,
+            "y": 665.140625,
+            "width": 118,
+            "height": 14.859375
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "9.6px",
+          "lineHeight": "14.88px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "block"
+        },
+        {
+          "selector": ".spatial-scroll",
+          "text": "Continue below ↓",
+          "rect": {
+            "x": 17.59375,
+            "y": 582.40625,
+            "width": 96.1875,
+            "height": 44
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "12.8px",
+          "lineHeight": "19.84px",
+          "letterSpacing": "normal",
+          "color": "rgb(133, 130, 138)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "block"
+        },
+        {
+          "selector": ".spatial-index",
+          "text": "Selected work / 04×01LANECampaign platform↗02ARCUSTraining product↗03TEEN FIESTAEvent website↗04RewatchMedia product↗",
+          "rect": {
+            "x": 17.609375,
+            "y": 252.328125,
+            "width": 284.796875,
+            "height": 362.875
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "16px",
+          "lineHeight": "24.8px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "block"
+        },
+        {
+          "selector": ".spatial-index__title",
+          "text": "01LANE",
+          "rect": {
+            "x": 118.59375,
+            "y": 326.359375,
+            "width": 98,
+            "height": 20.15625
+          },
+          "family": "display, \"display Fallback\", Arial, Arial, sans-serif",
+          "weight": "600",
+          "size": "16.8px",
+          "lineHeight": "20.16px",
+          "letterSpacing": "-0.42px",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        {
+          "selector": ".spatial-index__select",
+          "text": "01LANECampaign platform",
+          "rect": {
+            "x": 36.203125,
+            "y": 311.125,
+            "width": 199.609375,
+            "height": 70
+          },
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "16px",
+          "lineHeight": "24.8px",
+          "letterSpacing": "normal",
+          "color": "rgb(233, 229, 216)",
+          "opacity": "1",
+          "visibility": "visible",
+          "display": "flex"
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Manrope",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Manrope",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Manrope",
+          "weight": "700",
+          "style": "normal"
+        },
+        {
+          "family": "display",
+          "weight": "400 700",
+          "style": "normal"
+        },
+        {
+          "family": "display Fallback",
+          "weight": "normal",
+          "style": "normal"
+        }
+      ],
+      "projectLabels": [
+        "01LANE",
+        "02ARCUS",
+        "03TEEN FIESTA",
+        "04Rewatch"
+      ],
+      "background": {
+        "body": "rgb(9, 9, 11) none repeat scroll 0% 0% / auto padding-box border-box",
+        "hero": "radial-gradient(54% 62% at 38% 60%, rgba(200, 121, 91, 0.067) 0%, rgba(120, 74, 59, 0.024) 45%, rgba(0, 0, 0, 0) 80%) repeat scroll 0% 0% / auto padding-box border-box, radial-gradient(72% 68% at 50% 48%, rgba(24, 23, 27, 0.38) 0%, rgba(9, 9, 12, 0.28) 48%, rgba(2, 2, 3, 0) 82%) repeat scroll 0% 0% / auto padding-box border-box, rgb(2, 2, 3) none repeat scroll 0% 0% / auto padding-box border-box"
+      }
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "failedRequests": []
+}

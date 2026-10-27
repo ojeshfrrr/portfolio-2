@@ -1,0 +1,1118 @@
+{
+  "base": "http://127.0.0.1:3001",
+  "method": "Actual installed Chrome, Playwright, CDP tracing; local headless SwiftShader, not physical-device or GPU benchmarks",
+  "checks": [
+    {
+      "name": "HTTP /",
+      "pass": true,
+      "actual": 200
+    },
+    {
+      "name": "Desktop single canvas and single finite pin",
+      "pass": true,
+      "actual": {
+        "media": false,
+        "width": 1440,
+        "documentWidth": 1440,
+        "y": 0,
+        "pins": 1,
+        "canvases": 1,
+        "lenis": true,
+        "ambient": [
+          {
+            "cosmic": true,
+            "active": "true",
+            "motion": "standard",
+            "animation": "ambient-drift",
+            "playState": "running",
+            "transform": "matrix(1.03503, 0, 0, 1.03503, -5.30897, 1.58008)",
+            "pointer": "none",
+            "background": "url(\"http://127.0.0.1:3001/atmosphere/cosmic-nebula.webp\")"
+          },
+          {
+            "cosmic": false,
+            "active": "false",
+            "motion": "standard",
+            "animation": "ambient-drift",
+            "playState": "paused",
+            "transform": "matrix(1.035, 0, 0, 1.035, -5.34231, 0.764203)",
+            "pointer": "none",
+            "background": "url(\"http://127.0.0.1:3001/atmosphere/cosmic-nebula.webp\")"
+          },
+          {
+            "cosmic": false,
+            "active": "false",
+            "motion": "standard",
+            "animation": "ambient-drift",
+            "playState": "paused",
+            "transform": "matrix(1.035, 0, 0, 1.035, -5.34231, 1.21186)",
+            "pointer": "none",
+            "background": "url(\"http://127.0.0.1:3001/atmosphere/cosmic-nebula.webp\")"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Atmosphere is behind content and cannot intercept pointer",
+      "pass": true
+    },
+    {
+      "name": "No horizontal overflow desktop",
+      "pass": true
+    },
+    {
+      "name": "Desktop identity contrast at least4.5:1",
+      "pass": true,
+      "actual": 16.28
+    },
+    {
+      "name": "Desktop contact contrast at least4.5:1",
+      "pass": true,
+      "actual": 13.95
+    },
+    {
+      "name": "Desktop selected label contrast at least4.5:1",
+      "pass": true,
+      "actual": 16.38
+    },
+    {
+      "name": "Keyboard index opens",
+      "pass": true
+    },
+    {
+      "name": "Desktop index title contrast at least4.5:1",
+      "pass": true,
+      "actual": 14.06
+    },
+    {
+      "name": "Project selection lane",
+      "pass": true
+    },
+    {
+      "name": "Canonical link lane",
+      "pass": true
+    },
+    {
+      "name": "Project selection arcus",
+      "pass": true
+    },
+    {
+      "name": "Canonical link arcus",
+      "pass": true
+    },
+    {
+      "name": "Project selection teen-fiesta",
+      "pass": true
+    },
+    {
+      "name": "Canonical link teen-fiesta",
+      "pass": true
+    },
+    {
+      "name": "Project selection rewatch",
+      "pass": true
+    },
+    {
+      "name": "Canonical link rewatch",
+      "pass": true
+    },
+    {
+      "name": "Escape returns focus to index",
+      "pass": true
+    },
+    {
+      "name": "Scroll scrubs pinned scene",
+      "pass": true,
+      "actual": 760
+    },
+    {
+      "name": "Hero ambient pauses offscreen",
+      "pass": true,
+      "actual": [
+        {
+          "cosmic": true,
+          "active": "false",
+          "motion": "standard",
+          "animation": "ambient-drift",
+          "playState": "paused",
+          "transform": "matrix(1.03829, 0, 0, 1.03829, -1.82451, 0.543018)",
+          "pointer": "none",
+          "background": "url(\"http://127.0.0.1:3001/atmosphere/cosmic-nebula.webp\")"
+        },
+        {
+          "cosmic": false,
+          "active": "true",
+          "motion": "standard",
+          "animation": "ambient-drift",
+          "playState": "running",
+          "transform": "matrix(1.035, 0, 0, 1.035, -5.33886, 0.76371)",
+          "pointer": "none",
+          "background": "url(\"http://127.0.0.1:3001/atmosphere/cosmic-nebula.webp\")"
+        },
+        {
+          "cosmic": false,
+          "active": "true",
+          "motion": "standard",
+          "animation": "ambient-drift",
+          "playState": "running",
+          "transform": "matrix(1.035, 0, 0, 1.035, -5.34023, 1.21139)",
+          "pointer": "none",
+          "background": "url(\"http://127.0.0.1:3001/atmosphere/cosmic-nebula.webp\")"
+        }
+      ]
+    },
+    {
+      "name": "Scroll reversal restores scene and ambient",
+      "pass": true,
+      "actual": {
+        "media": false,
+        "width": 1440,
+        "documentWidth": 1440,
+        "y": 0,
+        "pins": 1,
+        "canvases": 1,
+        "lenis": true,
+        "ambient": [
+          {
+            "cosmic": true,
+            "active": "true",
+            "motion": "standard",
+            "animation": "ambient-drift",
+            "playState": "running",
+            "transform": "matrix(1.03862, 0, 0, 1.03862, -1.47522, 0.439062)",
+            "pointer": "none",
+            "background": "url(\"http://127.0.0.1:3001/atmosphere/cosmic-nebula.webp\")"
+          },
+          {
+            "cosmic": false,
+            "active": "false",
+            "motion": "standard",
+            "animation": "ambient-drift",
+            "playState": "paused",
+            "transform": "matrix(1.035, 0, 0, 1.035, -5.33748, 0.763513)",
+            "pointer": "none",
+            "background": "url(\"http://127.0.0.1:3001/atmosphere/cosmic-nebula.webp\")"
+          },
+          {
+            "cosmic": false,
+            "active": "false",
+            "motion": "standard",
+            "animation": "ambient-drift",
+            "playState": "paused",
+            "transform": "matrix(1.035, 0, 0, 1.035, -5.33976, 1.21128)",
+            "pointer": "none",
+            "background": "url(\"http://127.0.0.1:3001/atmosphere/cosmic-nebula.webp\")"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HTTP /work/lane",
+      "pass": true,
+      "actual": 200
+    },
+    {
+      "name": "lane gallery image advances and loads",
+      "pass": true
+    },
+    {
+      "name": "lane gallery keyboard reverses",
+      "pass": true
+    },
+    {
+      "name": "HTTP /work/arcus",
+      "pass": true,
+      "actual": 200
+    },
+    {
+      "name": "arcus gallery image advances and loads",
+      "pass": true
+    },
+    {
+      "name": "arcus gallery keyboard reverses",
+      "pass": true
+    },
+    {
+      "name": "HTTP /work/teen-fiesta",
+      "pass": true,
+      "actual": 200
+    },
+    {
+      "name": "teen-fiesta gallery image advances and loads",
+      "pass": true
+    },
+    {
+      "name": "teen-fiesta gallery keyboard reverses",
+      "pass": true
+    },
+    {
+      "name": "HTTP /work/rewatch",
+      "pass": true,
+      "actual": 200
+    },
+    {
+      "name": "rewatch gallery image advances and loads",
+      "pass": true
+    },
+    {
+      "name": "rewatch gallery keyboard reverses",
+      "pass": true
+    },
+    {
+      "name": "HTTP /about",
+      "pass": true,
+      "actual": 200
+    },
+    {
+      "name": "/about no canvas or pin",
+      "pass": true
+    },
+    {
+      "name": "HTTP /contact",
+      "pass": true,
+      "actual": 200
+    },
+    {
+      "name": "/contact no canvas or pin",
+      "pass": true
+    },
+    {
+      "name": "Client remount exactly one canvas, one pin",
+      "pass": true
+    },
+    {
+      "name": "HTTP /",
+      "pass": true,
+      "actual": 200
+    },
+    {
+      "name": "Reduced preference true initially; no transient pin or Lenis",
+      "pass": true,
+      "actual": {
+        "media": true,
+        "width": 1440,
+        "documentWidth": 1440,
+        "y": 0,
+        "pins": 0,
+        "canvases": 1,
+        "lenis": false,
+        "ambient": [
+          {
+            "cosmic": true,
+            "active": "false",
+            "motion": "reduced",
+            "animation": "none",
+            "playState": "running",
+            "transform": "none",
+            "pointer": "none",
+            "background": "url(\"http://127.0.0.1:3001/atmosphere/cosmic-nebula.webp\")"
+          },
+          {
+            "cosmic": false,
+            "active": "false",
+            "motion": "reduced",
+            "animation": "none",
+            "playState": "running",
+            "transform": "none",
+            "pointer": "none",
+            "background": "url(\"http://127.0.0.1:3001/atmosphere/cosmic-nebula.webp\")"
+          },
+          {
+            "cosmic": false,
+            "active": "false",
+            "motion": "reduced",
+            "animation": "none",
+            "playState": "running",
+            "transform": "none",
+            "pointer": "none",
+            "background": "url(\"http://127.0.0.1:3001/atmosphere/cosmic-nebula.webp\")"
+          }
+        ],
+        "transient": 0
+      }
+    },
+    {
+      "name": "All reduced ambient pseudo animations disabled",
+      "pass": true,
+      "actual": [
+        {
+          "cosmic": true,
+          "active": "false",
+          "motion": "reduced",
+          "animation": "none",
+          "playState": "running",
+          "transform": "none",
+          "pointer": "none",
+          "background": "url(\"http://127.0.0.1:3001/atmosphere/cosmic-nebula.webp\")"
+        },
+        {
+          "cosmic": false,
+          "active": "false",
+          "motion": "reduced",
+          "animation": "none",
+          "playState": "running",
+          "transform": "none",
+          "pointer": "none",
+          "background": "url(\"http://127.0.0.1:3001/atmosphere/cosmic-nebula.webp\")"
+        },
+        {
+          "cosmic": false,
+          "active": "false",
+          "motion": "reduced",
+          "animation": "none",
+          "playState": "running",
+          "transform": "none",
+          "pointer": "none",
+          "background": "url(\"http://127.0.0.1:3001/atmosphere/cosmic-nebula.webp\")"
+        }
+      ]
+    },
+    {
+      "name": "Reduced atmosphere remains static",
+      "pass": true
+    },
+    {
+      "name": "Reduced natural scroll",
+      "pass": true
+    },
+    {
+      "name": "HTTP /",
+      "pass": true,
+      "actual": 200
+    },
+    {
+      "name": "Reduced keyboard project selection",
+      "pass": true
+    },
+    {
+      "name": "Reduced gallery has no motion/fade",
+      "pass": true,
+      "actual": {
+        "opacity": "1",
+        "transform": "none"
+      }
+    },
+    {
+      "name": "HTTP /",
+      "pass": true,
+      "actual": 200
+    },
+    {
+      "name": "Mobile one canvas, no pin, no overflow",
+      "pass": true,
+      "actual": {
+        "media": false,
+        "width": 390,
+        "documentWidth": 390,
+        "y": 0,
+        "pins": 0,
+        "canvases": 1,
+        "lenis": true,
+        "ambient": [
+          {
+            "cosmic": true,
+            "active": "true",
+            "motion": "standard",
+            "animation": "none",
+            "playState": "running",
+            "transform": "none",
+            "pointer": "none",
+            "background": "url(\"http://127.0.0.1:3001/atmosphere/cosmic-nebula-mobile.webp\")"
+          },
+          {
+            "cosmic": false,
+            "active": "true",
+            "motion": "standard",
+            "animation": "none",
+            "playState": "running",
+            "transform": "none",
+            "pointer": "none",
+            "background": "url(\"http://127.0.0.1:3001/atmosphere/cosmic-nebula-mobile.webp\")"
+          },
+          {
+            "cosmic": false,
+            "active": "false",
+            "motion": "standard",
+            "animation": "none",
+            "playState": "running",
+            "transform": "none",
+            "pointer": "none",
+            "background": "url(\"http://127.0.0.1:3001/atmosphere/cosmic-nebula-mobile.webp\")"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mobile ambient static",
+      "pass": true,
+      "actual": [
+        {
+          "cosmic": true,
+          "active": "true",
+          "motion": "standard",
+          "animation": "none",
+          "playState": "running",
+          "transform": "none",
+          "pointer": "none",
+          "background": "url(\"http://127.0.0.1:3001/atmosphere/cosmic-nebula-mobile.webp\")"
+        },
+        {
+          "cosmic": false,
+          "active": "true",
+          "motion": "standard",
+          "animation": "none",
+          "playState": "running",
+          "transform": "none",
+          "pointer": "none",
+          "background": "url(\"http://127.0.0.1:3001/atmosphere/cosmic-nebula-mobile.webp\")"
+        },
+        {
+          "cosmic": false,
+          "active": "false",
+          "motion": "standard",
+          "animation": "none",
+          "playState": "running",
+          "transform": "none",
+          "pointer": "none",
+          "background": "url(\"http://127.0.0.1:3001/atmosphere/cosmic-nebula-mobile.webp\")"
+        }
+      ]
+    },
+    {
+      "name": "Mobile only uses responsive atmosphere assets",
+      "pass": true,
+      "actual": [
+        {
+          "label": "mobile390",
+          "url": "http://127.0.0.1:3001/atmosphere/cosmic-distance-mobile.svg",
+          "status": 200
+        },
+        {
+          "label": "mobile390",
+          "url": "http://127.0.0.1:3001/atmosphere/cosmic-nebula-mobile.webp",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "name": "Mobile identity contrast at least4.5:1",
+      "pass": true,
+      "actual": 16.17
+    },
+    {
+      "name": "Mobile contact contrast at least4.5:1",
+      "pass": true,
+      "actual": 15.1
+    },
+    {
+      "name": "HTTP /",
+      "pass": true,
+      "actual": 200
+    },
+    {
+      "name": "Touch scrolling passes through hero",
+      "pass": true,
+      "actual": 369
+    },
+    {
+      "name": "HTTP /",
+      "pass": true,
+      "actual": 200
+    },
+    {
+      "name": "WebGL failure preserves four links with atmosphere",
+      "pass": true
+    },
+    {
+      "name": "WebGL failure no pin",
+      "pass": true
+    },
+    {
+      "name": "Fallback index case navigation works",
+      "pass": true
+    },
+    {
+      "name": "No unexpected application browser errors",
+      "pass": true,
+      "actual": []
+    },
+    {
+      "name": "No failed asset or route requests",
+      "pass": true,
+      "actual": []
+    }
+  ],
+  "errors": [
+    {
+      "label": "deliberate-WebGL-failure",
+      "expected": true,
+      "message": "THREE.WebGLRenderer: THREE.WebGLRenderer: Error creating WebGL context."
+    },
+    {
+      "label": "deliberate-WebGL-failure",
+      "expected": true,
+      "message": "Error: THREE.WebGLRenderer: Error creating WebGL context.\n    at new e.s.k (http://127.0.0.1:3001/_next/static/chunks/2x7salnjgwilf.js:342:95653)\n    at h (http://127.0.0.1:3001/_next/static/chunks/2x7salnjgwilf.js:353:31543)\n    at Object.configure (http://127.0.0.1:3001/_next/static/chunks/2x7salnjgwilf.js:353:31680)\n    at http://127.0.0.1:3001/_next/static/chunks/2x7salnjgwilf.js:353:33609\n    at iE (http://127.0.0.1:3001/_next/static/chunks/0s7mvllxht1mo.js:1:113726)\n    at un (http://127.0.0.1:3001/_next/static/chunks/0s7mvllxht1mo.js:1:124338)\n    at uv (http://127.0.0.1:3001/_next/static/chunks/0s7mvllxht1mo.js:1:137942)\n    at un (http://127.0.0.1:3001/_next/static/chunks/0s7mvllxht1mo.js:1:126683)\n    at uv (http://127.0.0.1:3001/_next/static/chunks/0s7mvllxht1mo.js:1:137942)\n    at un (http://127.0.0.1:3001/_next/static/chunks/0s7mvllxht1mo.js:1:124362)"
+    }
+  ],
+  "warnings": [],
+  "failedRequests": [],
+  "atmosphereRequests": [
+    {
+      "label": "desktop",
+      "url": "http://127.0.0.1:3001/atmosphere/cosmic-distance.svg",
+      "status": 200
+    },
+    {
+      "label": "desktop",
+      "url": "http://127.0.0.1:3001/atmosphere/cosmic-nebula.webp",
+      "status": 200
+    },
+    {
+      "label": "desktop",
+      "url": "http://127.0.0.1:3001/atmosphere/cosmic-distance.svg",
+      "status": 304
+    },
+    {
+      "label": "desktop",
+      "url": "http://127.0.0.1:3001/atmosphere/cosmic-nebula.webp",
+      "status": 304
+    },
+    {
+      "label": "desktop",
+      "url": "http://127.0.0.1:3001/atmosphere/cosmic-distance.svg",
+      "status": 304
+    },
+    {
+      "label": "desktop",
+      "url": "http://127.0.0.1:3001/atmosphere/cosmic-nebula.webp",
+      "status": 304
+    },
+    {
+      "label": "desktop",
+      "url": "http://127.0.0.1:3001/atmosphere/cosmic-distance.svg",
+      "status": 304
+    },
+    {
+      "label": "desktop",
+      "url": "http://127.0.0.1:3001/atmosphere/cosmic-nebula.webp",
+      "status": 304
+    },
+    {
+      "label": "desktop",
+      "url": "http://127.0.0.1:3001/atmosphere/cosmic-distance.svg",
+      "status": 304
+    },
+    {
+      "label": "desktop",
+      "url": "http://127.0.0.1:3001/atmosphere/cosmic-nebula.webp",
+      "status": 304
+    },
+    {
+      "label": "desktop",
+      "url": "http://127.0.0.1:3001/atmosphere/cosmic-distance.svg",
+      "status": 304
+    },
+    {
+      "label": "desktop",
+      "url": "http://127.0.0.1:3001/atmosphere/cosmic-nebula.webp",
+      "status": 304
+    },
+    {
+      "label": "desktop",
+      "url": "http://127.0.0.1:3001/atmosphere/cosmic-distance.svg",
+      "status": 304
+    },
+    {
+      "label": "desktop",
+      "url": "http://127.0.0.1:3001/atmosphere/cosmic-nebula.webp",
+      "status": 304
+    },
+    {
+      "label": "reduced",
+      "url": "http://127.0.0.1:3001/atmosphere/cosmic-distance.svg",
+      "status": 200
+    },
+    {
+      "label": "reduced",
+      "url": "http://127.0.0.1:3001/atmosphere/cosmic-nebula.webp",
+      "status": 200
+    },
+    {
+      "label": "reduced",
+      "url": "http://127.0.0.1:3001/atmosphere/cosmic-distance.svg",
+      "status": 304
+    },
+    {
+      "label": "reduced",
+      "url": "http://127.0.0.1:3001/atmosphere/cosmic-nebula.webp",
+      "status": 304
+    },
+    {
+      "label": "mobile390",
+      "url": "http://127.0.0.1:3001/atmosphere/cosmic-distance-mobile.svg",
+      "status": 200
+    },
+    {
+      "label": "mobile390",
+      "url": "http://127.0.0.1:3001/atmosphere/cosmic-nebula-mobile.webp",
+      "status": 200
+    },
+    {
+      "label": "mobile390",
+      "url": "http://127.0.0.1:3001/atmosphere/cosmic-distance-mobile.svg",
+      "status": 304
+    },
+    {
+      "label": "mobile390",
+      "url": "http://127.0.0.1:3001/atmosphere/cosmic-nebula-mobile.webp",
+      "status": 304
+    },
+    {
+      "label": "deliberate-WebGL-failure",
+      "url": "http://127.0.0.1:3001/atmosphere/cosmic-distance.svg",
+      "status": 200
+    },
+    {
+      "label": "deliberate-WebGL-failure",
+      "url": "http://127.0.0.1:3001/atmosphere/cosmic-nebula.webp",
+      "status": 200
+    }
+  ],
+  "traces": [
+    {
+      "label": "desktop-idle-atmosphere",
+      "mode": "idle",
+      "file": "desktop-idle-atmosphere.trace.json",
+      "aggregates": [
+        {
+          "name": "Paint",
+          "count": 0,
+          "durationMs": 0,
+          "maxMs": 0
+        },
+        {
+          "name": "PrePaint",
+          "count": 259,
+          "durationMs": 103.04399999999984,
+          "maxMs": 10.919
+        },
+        {
+          "name": "CompositeLayers",
+          "count": 0,
+          "durationMs": 0,
+          "maxMs": 0
+        },
+        {
+          "name": "UpdateLayerTree",
+          "count": 0,
+          "durationMs": 0,
+          "maxMs": 0
+        },
+        {
+          "name": "Layerize",
+          "count": 259,
+          "durationMs": 3.00199999999996,
+          "maxMs": 2.086
+        },
+        {
+          "name": "RasterTask",
+          "count": 0,
+          "durationMs": 0,
+          "maxMs": 0
+        },
+        {
+          "name": "DrawFrame",
+          "count": 267,
+          "durationMs": 0,
+          "maxMs": 0
+        },
+        {
+          "name": "Layout",
+          "count": 0,
+          "durationMs": 0,
+          "maxMs": 0
+        },
+        {
+          "name": "UpdateLayoutTree",
+          "count": 259,
+          "durationMs": 204.81000000000023,
+          "maxMs": 11.727
+        },
+        {
+          "name": "RunTask",
+          "count": 0,
+          "durationMs": 0,
+          "maxMs": 0
+        }
+      ],
+      "metricDelta": {
+        "TaskDuration": 0.9503619999999999,
+        "ScriptDuration": 0.080683,
+        "LayoutDuration": 0,
+        "RecalcStyleDuration": 0.19828,
+        "LayoutCount": 0,
+        "RecalcStyleCount": 240
+      },
+      "traceEvents": 52427,
+      "limitations": "Local headless Chrome using SwiftShader. Trace durations may include concurrent threads and must not be summed as wall time; no physical-device FPS or hardware GPU claims."
+    },
+    {
+      "label": "desktop-scroll-atmosphere",
+      "mode": "scroll",
+      "file": "desktop-scroll-atmosphere.trace.json",
+      "aggregates": [
+        {
+          "name": "Paint",
+          "count": 6,
+          "durationMs": 0.27099999999999996,
+          "maxMs": 0.094
+        },
+        {
+          "name": "PrePaint",
+          "count": 270,
+          "durationMs": 20.558000000000018,
+          "maxMs": 0.343
+        },
+        {
+          "name": "CompositeLayers",
+          "count": 0,
+          "durationMs": 0,
+          "maxMs": 0
+        },
+        {
+          "name": "UpdateLayerTree",
+          "count": 0,
+          "durationMs": 0,
+          "maxMs": 0
+        },
+        {
+          "name": "Layerize",
+          "count": 161,
+          "durationMs": 18.86499999999998,
+          "maxMs": 0.466
+        },
+        {
+          "name": "RasterTask",
+          "count": 108,
+          "durationMs": 9.328000000000001,
+          "maxMs": 0.646
+        },
+        {
+          "name": "DrawFrame",
+          "count": 161,
+          "durationMs": 0,
+          "maxMs": 0
+        },
+        {
+          "name": "Layout",
+          "count": 0,
+          "durationMs": 0,
+          "maxMs": 0
+        },
+        {
+          "name": "UpdateLayoutTree",
+          "count": 262,
+          "durationMs": 30.328,
+          "maxMs": 0.319
+        },
+        {
+          "name": "RunTask",
+          "count": 0,
+          "durationMs": 0,
+          "maxMs": 0
+        }
+      ],
+      "metricDelta": {
+        "TaskDuration": 0.287532,
+        "ScriptDuration": 0.075864,
+        "LayoutDuration": 0,
+        "RecalcStyleDuration": 0.030050999999999998,
+        "LayoutCount": 0,
+        "RecalcStyleCount": 261
+      },
+      "traceEvents": 56941,
+      "limitations": "Local headless Chrome using SwiftShader. Trace durations may include concurrent threads and must not be summed as wall time; no physical-device FPS or hardware GPU claims."
+    },
+    {
+      "label": "desktop-idle-browser-disabled-atmosphere",
+      "mode": "idle",
+      "file": "desktop-idle-browser-disabled-atmosphere.trace.json",
+      "aggregates": [
+        {
+          "name": "Paint",
+          "count": 0,
+          "durationMs": 0,
+          "maxMs": 0
+        },
+        {
+          "name": "PrePaint",
+          "count": 532,
+          "durationMs": 6.645999999999964,
+          "maxMs": 0.245
+        },
+        {
+          "name": "CompositeLayers",
+          "count": 0,
+          "durationMs": 0,
+          "maxMs": 0
+        },
+        {
+          "name": "UpdateLayerTree",
+          "count": 0,
+          "durationMs": 0,
+          "maxMs": 0
+        },
+        {
+          "name": "Layerize",
+          "count": 532,
+          "durationMs": 0.6550000000000005,
+          "maxMs": 0.005
+        },
+        {
+          "name": "RasterTask",
+          "count": 0,
+          "durationMs": 0,
+          "maxMs": 0
+        },
+        {
+          "name": "DrawFrame",
+          "count": 0,
+          "durationMs": 0,
+          "maxMs": 0
+        },
+        {
+          "name": "Layout",
+          "count": 0,
+          "durationMs": 0,
+          "maxMs": 0
+        },
+        {
+          "name": "UpdateLayoutTree",
+          "count": 0,
+          "durationMs": 0,
+          "maxMs": 0
+        },
+        {
+          "name": "RunTask",
+          "count": 0,
+          "durationMs": 0,
+          "maxMs": 0
+        }
+      ],
+      "metricDelta": {
+        "TaskDuration": 0.15700799999999998,
+        "ScriptDuration": 0.024526,
+        "LayoutDuration": 0,
+        "RecalcStyleDuration": 0,
+        "LayoutCount": 0,
+        "RecalcStyleCount": 0
+      },
+      "traceEvents": 52388,
+      "limitations": "Local headless Chrome using SwiftShader. Trace durations may include concurrent threads and must not be summed as wall time; no physical-device FPS or hardware GPU claims."
+    },
+    {
+      "label": "mobile390-idle-atmosphere",
+      "mode": "idle",
+      "file": "mobile390-idle-atmosphere.trace.json",
+      "aggregates": [
+        {
+          "name": "Paint",
+          "count": 0,
+          "durationMs": 0,
+          "maxMs": 0
+        },
+        {
+          "name": "PrePaint",
+          "count": 531,
+          "durationMs": 4.094999999999973,
+          "maxMs": 0.119
+        },
+        {
+          "name": "CompositeLayers",
+          "count": 0,
+          "durationMs": 0,
+          "maxMs": 0
+        },
+        {
+          "name": "UpdateLayerTree",
+          "count": 0,
+          "durationMs": 0,
+          "maxMs": 0
+        },
+        {
+          "name": "Layerize",
+          "count": 531,
+          "durationMs": 0.5530000000000004,
+          "maxMs": 0.024
+        },
+        {
+          "name": "RasterTask",
+          "count": 0,
+          "durationMs": 0,
+          "maxMs": 0
+        },
+        {
+          "name": "DrawFrame",
+          "count": 0,
+          "durationMs": 0,
+          "maxMs": 0
+        },
+        {
+          "name": "Layout",
+          "count": 0,
+          "durationMs": 0,
+          "maxMs": 0
+        },
+        {
+          "name": "UpdateLayoutTree",
+          "count": 0,
+          "durationMs": 0,
+          "maxMs": 0
+        },
+        {
+          "name": "RunTask",
+          "count": 0,
+          "durationMs": 0,
+          "maxMs": 0
+        }
+      ],
+      "metricDelta": {
+        "TaskDuration": 0.091556,
+        "ScriptDuration": 0.015185,
+        "LayoutDuration": 0,
+        "RecalcStyleDuration": 0,
+        "LayoutCount": 0,
+        "RecalcStyleCount": 0
+      },
+      "traceEvents": 52031,
+      "limitations": "Local headless Chrome using SwiftShader. Trace durations may include concurrent threads and must not be summed as wall time; no physical-device FPS or hardware GPU claims."
+    },
+    {
+      "label": "mobile390-scroll-atmosphere",
+      "mode": "scroll",
+      "file": "mobile390-scroll-atmosphere.trace.json",
+      "aggregates": [
+        {
+          "name": "Paint",
+          "count": 3,
+          "durationMs": 0.47400000000000003,
+          "maxMs": 0.259
+        },
+        {
+          "name": "PrePaint",
+          "count": 846,
+          "durationMs": 22.59,
+          "maxMs": 0.178
+        },
+        {
+          "name": "CompositeLayers",
+          "count": 0,
+          "durationMs": 0,
+          "maxMs": 0
+        },
+        {
+          "name": "UpdateLayerTree",
+          "count": 0,
+          "durationMs": 0,
+          "maxMs": 0
+        },
+        {
+          "name": "Layerize",
+          "count": 534,
+          "durationMs": 33.522999999999854,
+          "maxMs": 0.202
+        },
+        {
+          "name": "RasterTask",
+          "count": 545,
+          "durationMs": 19.151999999999976,
+          "maxMs": 0.264
+        },
+        {
+          "name": "DrawFrame",
+          "count": 433,
+          "durationMs": 0,
+          "maxMs": 0
+        },
+        {
+          "name": "Layout",
+          "count": 1,
+          "durationMs": 0.042,
+          "maxMs": 0.042
+        },
+        {
+          "name": "UpdateLayoutTree",
+          "count": 371,
+          "durationMs": 17.791,
+          "maxMs": 0.154
+        },
+        {
+          "name": "RunTask",
+          "count": 0,
+          "durationMs": 0,
+          "maxMs": 0
+        }
+      ],
+      "metricDelta": {
+        "TaskDuration": 0.3,
+        "ScriptDuration": 0.082307,
+        "LayoutDuration": 0,
+        "RecalcStyleDuration": 0.017587,
+        "LayoutCount": 0,
+        "RecalcStyleCount": 371
+      },
+      "traceEvents": 130070,
+      "limitations": "Local headless Chrome using SwiftShader. Trace durations may include concurrent threads and must not be summed as wall time; no physical-device FPS or hardware GPU claims."
+    }
+  ],
+  "contrasts": [
+    {
+      "label": "Desktop identity",
+      "selector": ".spatial-note",
+      "foreground": "rgb(233, 229, 216)",
+      "brightestBackgroundLuminance": 0.0011946215018515144,
+      "ratio": 16.275172369042178,
+      "method": "Foreground temporarily transparent in browser only; screenshot sampled at every background pixel in the existing text box. Conservative brightest-background ratio."
+    },
+    {
+      "label": "Desktop contact",
+      "selector": ".spatial-contact",
+      "foreground": "rgb(233, 229, 216)",
+      "brightestBackgroundLuminance": 0.009747255331780922,
+      "ratio": 13.945432048446044,
+      "method": "Foreground temporarily transparent in browser only; screenshot sampled at every background pixel in the existing text box. Conservative brightest-background ratio."
+    },
+    {
+      "label": "Desktop selected label",
+      "selector": ".spatial-focus p",
+      "foreground": "rgb(233, 229, 216)",
+      "brightestBackgroundLuminance": 0.0008679657621562557,
+      "ratio": 16.379685659267608,
+      "method": "Foreground temporarily transparent in browser only; screenshot sampled at every background pixel in the existing text box. Conservative brightest-background ratio."
+    },
+    {
+      "label": "Desktop index title",
+      "selector": ".spatial-index__title",
+      "foreground": "rgb(233, 229, 216)",
+      "brightestBackgroundLuminance": 0.009265898451188897,
+      "ratio": 14.058696671859733,
+      "method": "Foreground temporarily transparent in browser only; screenshot sampled at every background pixel in the existing text box. Conservative brightest-background ratio."
+    },
+    {
+      "label": "Mobile identity",
+      "selector": ".spatial-note",
+      "foreground": "rgb(233, 229, 216)",
+      "brightestBackgroundLuminance": 0.0015206218854316108,
+      "ratio": 16.17219006329792,
+      "method": "Foreground temporarily transparent in browser only; screenshot sampled at every background pixel in the existing text box. Conservative brightest-background ratio."
+    },
+    {
+      "label": "Mobile contact",
+      "selector": ".spatial-contact",
+      "foreground": "rgb(233, 229, 216)",
+      "brightestBackgroundLuminance": 0.005180871436186771,
+      "ratio": 15.099458700539943,
+      "method": "Foreground temporarily transparent in browser only; screenshot sampled at every background pixel in the existing text box. Conservative brightest-background ratio."
+    }
+  ]
+}

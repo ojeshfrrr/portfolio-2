@@ -1,0 +1,26 @@
+[
+  {
+    "name": "home-1440x1000.png",
+    "x": 500,
+    "y": 360,
+    "width": 90,
+    "height": 50,
+    "meanAbsoluteChannelDifference": 0
+  },
+  {
+    "name": "home-1440x1000.png",
+    "x": 380,
+    "y": 570,
+    "width": 90,
+    "height": 50,
+    "meanAbsoluteChannelDifference": 0
+  },
+  {
+    "name": "home-390x844.png",
+    "x": 200,
+    "y": 420,
+    "width": 30,
+    "height": 20,
+    "meanAbsoluteChannelDifference": 0
+  }
+]

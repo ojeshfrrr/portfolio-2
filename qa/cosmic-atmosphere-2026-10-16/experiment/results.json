@@ -1,0 +1,291 @@
+{
+  "method": "Matched idle CDP traces in one stable production page, actual headless Chrome/SwiftShader. Browser-only CSS overrides, no source edits. Each5s sample follows2s settling; normal repeats bracket steps and will-change samples.",
+  "base": "http://127.0.0.1:3001",
+  "samples": [
+    {
+      "label": "normal-1",
+      "override": "",
+      "sampleElapsedMs": 5014.775799999999,
+      "aggregate": [
+        {
+          "name": "Paint",
+          "count": 0,
+          "durationMs": 0,
+          "maxMs": 0
+        },
+        {
+          "name": "PrePaint",
+          "count": 638,
+          "durationMs": 43.93200000000009,
+          "maxMs": 0.238
+        },
+        {
+          "name": "Layerize",
+          "count": 638,
+          "durationMs": 1.291999999999993,
+          "maxMs": 0.033
+        },
+        {
+          "name": "RasterTask",
+          "count": 0,
+          "durationMs": 0,
+          "maxMs": 0
+        },
+        {
+          "name": "DrawFrame",
+          "count": 638,
+          "durationMs": 0,
+          "maxMs": 0
+        },
+        {
+          "name": "Layout",
+          "count": 0,
+          "durationMs": 0,
+          "maxMs": 0
+        },
+        {
+          "name": "UpdateLayoutTree",
+          "count": 638,
+          "durationMs": 58.69100000000012,
+          "maxMs": 0.231
+        },
+        {
+          "name": "ThreadControllerImpl::RunTask",
+          "count": 13167,
+          "durationMs": 5742.670000000137,
+          "maxMs": 8.822
+        }
+      ],
+      "metricDelta": {
+        "TaskDuration": 0.34406000000000003,
+        "ScriptDuration": 0.03102,
+        "LayoutDuration": 0,
+        "RecalcStyleDuration": 0.058314000000000005,
+        "LayoutCount": 0,
+        "RecalcStyleCount": 637
+      },
+      "state": {
+        "active": "true",
+        "duration": "110s",
+        "timing": "ease-in-out",
+        "willChange": "auto",
+        "animation": "ambient-drift",
+        "transform": "matrix(1.03918, 0, 0, 1.03918, -0.872981, 0.25982)"
+      }
+    },
+    {
+      "label": "steps-220",
+      "override": ".ambient-field::before{animation-timing-function:steps(220,end)!important}",
+      "sampleElapsedMs": 5006.885199999997,
+      "aggregate": [
+        {
+          "name": "Paint",
+          "count": 0,
+          "durationMs": 0,
+          "maxMs": 0
+        },
+        {
+          "name": "PrePaint",
+          "count": 827,
+          "durationMs": 9.274999999999947,
+          "maxMs": 0.071
+        },
+        {
+          "name": "Layerize",
+          "count": 827,
+          "durationMs": 1.0529999999999964,
+          "maxMs": 0.021
+        },
+        {
+          "name": "RasterTask",
+          "count": 0,
+          "durationMs": 0,
+          "maxMs": 0
+        },
+        {
+          "name": "DrawFrame",
+          "count": 10,
+          "durationMs": 0,
+          "maxMs": 0
+        },
+        {
+          "name": "Layout",
+          "count": 0,
+          "durationMs": 0,
+          "maxMs": 0
+        },
+        {
+          "name": "UpdateLayoutTree",
+          "count": 827,
+          "durationMs": 50.09299999999996,
+          "maxMs": 0.337
+        },
+        {
+          "name": "ThreadControllerImpl::RunTask",
+          "count": 6194,
+          "durationMs": 639.2929999999883,
+          "maxMs": 11.393
+        }
+      ],
+      "metricDelta": {
+        "TaskDuration": 0.360589,
+        "ScriptDuration": 0.0432,
+        "LayoutDuration": 0,
+        "RecalcStyleDuration": 0.049303,
+        "LayoutCount": 0,
+        "RecalcStyleCount": 826
+      },
+      "state": {
+        "active": "true",
+        "duration": "110s",
+        "timing": "steps(220)",
+        "willChange": "auto",
+        "animation": "ambient-drift",
+        "transform": "matrix(1.04032, 0, 0, 1.04032, 0.339965, -0.101182)"
+      }
+    },
+    {
+      "label": "normal-will-change",
+      "override": ".ambient-field::before{will-change:transform!important}",
+      "sampleElapsedMs": 5017.378599999996,
+      "aggregate": [
+        {
+          "name": "Paint",
+          "count": 0,
+          "durationMs": 0,
+          "maxMs": 0
+        },
+        {
+          "name": "PrePaint",
+          "count": 286,
+          "durationMs": 317.498,
+          "maxMs": 13.365
+        },
+        {
+          "name": "Layerize",
+          "count": 286,
+          "durationMs": 7.687999999999994,
+          "maxMs": 4.773
+        },
+        {
+          "name": "RasterTask",
+          "count": 0,
+          "durationMs": 0,
+          "maxMs": 0
+        },
+        {
+          "name": "DrawFrame",
+          "count": 442,
+          "durationMs": 0,
+          "maxMs": 0
+        },
+        {
+          "name": "Layout",
+          "count": 0,
+          "durationMs": 0,
+          "maxMs": 0
+        },
+        {
+          "name": "UpdateLayoutTree",
+          "count": 286,
+          "durationMs": 352.1780000000002,
+          "maxMs": 29.167
+        },
+        {
+          "name": "ThreadControllerImpl::RunTask",
+          "count": 10313,
+          "durationMs": 9128.946000000273,
+          "maxMs": 584.619
+        }
+      ],
+      "metricDelta": {
+        "TaskDuration": 2.846687,
+        "ScriptDuration": 0.30735,
+        "LayoutDuration": 0,
+        "RecalcStyleDuration": 0.339381,
+        "LayoutCount": 0,
+        "RecalcStyleCount": 284
+      },
+      "state": {
+        "active": "true",
+        "duration": "110s",
+        "timing": "ease-in-out",
+        "willChange": "transform",
+        "animation": "ambient-drift",
+        "transform": "matrix(1.04437, 0, 0, 1.04437, 4.67332, -1.39089)"
+      }
+    },
+    {
+      "label": "normal-2",
+      "override": "",
+      "sampleElapsedMs": 5023.94200000001,
+      "aggregate": [
+        {
+          "name": "Paint",
+          "count": 0,
+          "durationMs": 0,
+          "maxMs": 0
+        },
+        {
+          "name": "PrePaint",
+          "count": 418,
+          "durationMs": 106.46799999999986,
+          "maxMs": 11.722
+        },
+        {
+          "name": "Layerize",
+          "count": 418,
+          "durationMs": 1.039,
+          "maxMs": 0.063
+        },
+        {
+          "name": "RasterTask",
+          "count": 0,
+          "durationMs": 0,
+          "maxMs": 0
+        },
+        {
+          "name": "DrawFrame",
+          "count": 461,
+          "durationMs": 0,
+          "maxMs": 0
+        },
+        {
+          "name": "Layout",
+          "count": 0,
+          "durationMs": 0,
+          "maxMs": 0
+        },
+        {
+          "name": "UpdateLayoutTree",
+          "count": 417,
+          "durationMs": 159.70599999999993,
+          "maxMs": 11.413
+        },
+        {
+          "name": "ThreadControllerImpl::RunTask",
+          "count": 10718,
+          "durationMs": 7302.9670000001,
+          "maxMs": 95.277
+        }
+      ],
+      "metricDelta": {
+        "TaskDuration": 1.481317,
+        "ScriptDuration": 0.16031600000000001,
+        "LayoutDuration": 0,
+        "RecalcStyleDuration": 0.160532,
+        "LayoutCount": 0,
+        "RecalcStyleCount": 407
+      },
+      "state": {
+        "active": "true",
+        "duration": "110s",
+        "timing": "ease-in-out",
+        "willChange": "auto",
+        "animation": "ambient-drift",
+        "transform": "matrix(1.04237, 0, 0, 1.04237, 2.5342, -0.754238)"
+      }
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,77 @@
+{
+  "method": "Matched 10x10 interior patches in before/after actual browser captures; edges and interface excluded",
+  "samples": [
+    {
+      "file": "home-1440x1000.png",
+      "project": "ARCUS",
+      "x": 650,
+      "y": 430,
+      "meanAbsoluteChannelDifference": 0,
+      "maxAbsoluteChannelDifference": 0,
+      "exactPixelMatch": true
+    },
+    {
+      "file": "home-1440x1000.png",
+      "project": "LANE",
+      "x": 300,
+      "y": 650,
+      "meanAbsoluteChannelDifference": 0,
+      "maxAbsoluteChannelDifference": 0,
+      "exactPixelMatch": true
+    },
+    {
+      "file": "home-1920x1080.png",
+      "project": "ARCUS",
+      "x": 850,
+      "y": 520,
+      "meanAbsoluteChannelDifference": 0,
+      "maxAbsoluteChannelDifference": 0,
+      "exactPixelMatch": true
+    },
+    {
+      "file": "home-1920x1080.png",
+      "project": "LANE",
+      "x": 550,
+      "y": 700,
+      "meanAbsoluteChannelDifference": 0,
+      "maxAbsoluteChannelDifference": 0,
+      "exactPixelMatch": true
+    },
+    {
+      "file": "home-390x844.png",
+      "project": "ARCUS",
+      "x": 220,
+      "y": 420,
+      "meanAbsoluteChannelDifference": 0,
+      "maxAbsoluteChannelDifference": 0,
+      "exactPixelMatch": true
+    },
+    {
+      "file": "home-390x844.png",
+      "project": "LANE",
+      "x": 180,
+      "y": 580,
+      "meanAbsoluteChannelDifference": 0,
+      "maxAbsoluteChannelDifference": 0,
+      "exactPixelMatch": true
+    },
+    {
+      "file": "home-320x700.png",
+      "project": "ARCUS",
+      "x": 170,
+      "y": 350,
+      "meanAbsoluteChannelDifference": 0,
+      "maxAbsoluteChannelDifference": 0,
+      "exactPixelMatch": true
+    },
+    {
+      "file": "home-320x700.png",
+      "project": "LANE",
+      "x": 130,
+      "y": 460,
+      "meanAbsoluteChannelDifference": 0,
+      "maxAbsoluteChannelDifference": 0,
+      "exactPixelMatch": true
+    }
+  ]
+}
