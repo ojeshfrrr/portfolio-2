@@ -3,6 +3,13 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ProjectGallery } from "@/components/project-gallery";
 import { getProject, projects } from "@/lib/projects";
+import { caseStudies } from "@/lib/case-studies";
+import { CaseNarrative } from "@/components/case-narrative";
+import { CaseFeature } from "@/components/case-feature";
+import { ProjectLink } from "@/components/project-entry";
+import profileStyles from "@/components/profile.module.css";
+import { Atmosphere } from "@/components/atmosphere";
+import styles from "@/components/case-study.module.css";
 
 type CaseStudyProps = {
   params: Promise<{ slug: string }>;
@@ -37,26 +44,27 @@ export default async function CaseStudyPage({ params }: CaseStudyProps) {
 
   const currentIndex = projects.findIndex((item) => item.slug === slug);
   const nextProject = projects[(currentIndex + 1) % projects.length];
+  const study = caseStudies[project.slug];
 
   return (
-    <article className="case-page" data-project={project.slug}>
-      <div className="case-back">
+    <article className={`case-page ${styles.page}`} data-project={project.slug}>
+      <Atmosphere variant="case" />
+      <div className={styles.back}>
         <Link className="text-link" href="/work">
           <span aria-hidden="true">←</span> Back to work
         </Link>
         <span>{project.type} / {project.year}</span>
       </div>
 
-      <header className={`case-intro${project.intro ? " case-intro--editorial" : ""}`}>
+      <header className={styles.opening}>
         <div>
-          <p className="eyebrow">{project.intro?.eyebrow ?? project.type}</p>
-          <h1>{project.intro ? project.intro.headline.map((line) => <span key={line}>{line}</span>) : project.title}</h1>
+          <p className={styles.label}>{project.intro?.eyebrow ?? project.type}</p>
+          <h1 className={styles.title}>{project.intro ? project.intro.headline.map((line) => <span key={line}>{line}</span>) : project.title}</h1>
         </div>
-        <div className="case-intro__description">
+        <div className={styles.description}>
           <p>{project.summary}</p>
-          <span>{project.role}</span>
           {project.liveUnavailable ? (
-            <span>Live deployment currently unavailable.</span>
+            <span>Local website export · public deployment unavailable</span>
           ) : project.liveUrl ? (
             <a
               className="text-link"
@@ -69,40 +77,19 @@ export default async function CaseStudyPage({ params }: CaseStudyProps) {
           ) : null}
         </div>
       </header>
-
       <ProjectGallery key={project.slug} project={project} lead />
-
-      <section className="case-body">
-        <div className="case-body__label">
-          <p className="eyebrow">Overview</p>
-        </div>
-        <div className="case-body__content">
-          <h2>{project.overview}</h2>
-          <div className="case-columns">
-            <div>
-              <p className="eyebrow">What I focused on</p>
-              <ul>
-                {project.focus.map((item) => (
-                  <li key={item}>{item}</li>
-                ))}
-              </ul>
-            </div>
-            <div>
-              <p className="eyebrow">How it came together</p>
-              <p>{project.approach}</p>
-              {project.credit ? (
-                <p className="case-credit">{project.credit}</p>
-              ) : null}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <Link className="next-case" href={"/work/" + nextProject.slug}>
-        <span className="eyebrow">Next project</span>
-        <span className="next-case__title">{nextProject.title}</span>
-        <span aria-hidden="true" className="next-case__arrow">↗</span>
-      </Link>
+      <div className={styles.meta}><span>{study.scope}</span><span>{project.role}</span></div>
+      <CaseNarrative project={project} study={study} />
+      {project.repository ? (
+        <aside className={profileStyles.repository} aria-label={`${project.title} public source`}>
+          <a className={profileStyles.textLink} href={project.repository.url} rel="noreferrer" target="_blank">Explore the GitHub fork <span aria-hidden="true">↗</span></a>
+          <p>{project.repository.note}</p>
+        </aside>
+      ) : null}
+      <CaseFeature slug={project.slug} />
+      <ProjectLink className={styles.next} project={nextProject}>
+        <div><small>Next project</small><strong>{nextProject.title}</strong></div><span aria-hidden="true">↗</span>
+      </ProjectLink>
     </article>
   );
 }
