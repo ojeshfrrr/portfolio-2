@@ -1,0 +1,94 @@
+.page { --project-accent: #cf6852; position: relative; isolation: isolate; padding: calc(var(--header-h) + 1rem) var(--gutter) 6rem; background: #08090b; }
+.page[data-project="arcus"] { --project-accent: #79a9ff; }
+.page[data-project="teen-fiesta"] { --project-accent: #e16b76; }
+.page[data-project="rewatch"] { --project-accent: #ef9164; }
+.back { display: flex; justify-content: space-between; gap: 1rem; padding: .85rem 0; color: var(--paper-dim); font-size: .7rem; border-bottom: 1px solid var(--rule); }
+.back a { min-height: 2rem; display: inline-flex; align-items: center; gap: .75rem; }
+.back > span { align-self: center; text-align: right; }
+.opening { display: grid; grid-template-columns: 1.15fr .85fr; gap: 2rem 5rem; align-items: end; padding: 1.4rem 0; }
+.label { margin: 0 0 .8rem; color: var(--project-accent); font-size: .68rem; line-height: 1.5; }
+.title { margin: 0; font: 500 clamp(4rem, 8vw, 8rem)/.94 var(--sans); letter-spacing: -.055em; }
+.description { max-width: 35rem; justify-self: end; }
+.description > p { margin: 0 0 1rem; max-width: 45ch; color: var(--paper-dim); font-size: clamp(.9rem, 1.12vw, 1.05rem); line-height: 1.65; }
+.description > a { display: inline-flex; align-items: center; min-height: 2.75rem; gap: 1rem; font-size: .75rem; color: var(--paper); }
+.description > span { display: block; color: var(--project-accent); font-size: .7rem; line-height: 1.5; }
+.meta { display: flex; flex-wrap: wrap; gap: .7rem 3rem; padding: 1rem 0; border-top: 1px solid var(--rule); color: var(--quiet); font-size: .65rem; line-height: 1.6; }
+.meta span:last-child { margin-left: auto; }
+.page[data-project="lane"] .title { font-size: clamp(5rem, 8vw, 8rem); }
+.page[data-project="arcus"] .opening { grid-template-columns: .8fr 1.2fr; }
+.page[data-project="arcus"] .description { max-width: 32rem; border-left: 2px solid var(--project-accent); padding-left: 1.5rem; }
+.page[data-project="teen-fiesta"] .title { font-size: clamp(2.5rem, 5.3vw, 5.2rem); line-height: 1.02; letter-spacing: -.045em; }
+.title > span { display: block; }
+.page[data-project="rewatch"] .opening { grid-template-columns: .85fr 1.15fr; }
+.page[data-project="rewatch"] .opening > div:first-child { grid-column: 2; grid-row: 1; text-align: right; }
+.page[data-project="rewatch"] .description { grid-column: 1; grid-row: 1; justify-self: start; }
+.page :global(.case-gallery--lead) { margin: 0; }
+.page :global(.case-gallery__image) { width: 100%; max-height: none; border: 0; background: #08090b; }
+.page :global(.case-gallery__caption) { font-size: .72rem; padding: 1rem 0; }
+.page :global(.case-gallery__image[data-portrait="true"]) { width: min(100%, 25rem); margin-inline: auto; }
+.page :global(.case-gallery__choices) { margin-top: 1.2rem; padding-bottom: .6rem; }
+.page :global(.case-gallery__choice) { border-color: var(--rule); background: transparent; }
+.page :global(.case-gallery__choice.is-selected) { border-color: var(--project-accent); }
+.page :global(.case-gallery__choice-copy small) { font-size: .67rem; }
+.page :global(.case-gallery__navigation button) { border-radius: 0; }
+.page :global(.case-gallery__navigation button:hover) { background: var(--paper); }
+.page :global(.case-gallery__request) { display: flex; align-items: center; gap: 1rem; min-height: 2rem; color: var(--paper-dim); font-size: .7rem; }
+.page :global(.case-gallery__request button) { border: 0; border-bottom: 1px solid var(--project-accent); min-height: 2.75rem; background: none; }
+.story { padding-top: clamp(4rem, 9vw, 8rem); }
+.storyLead { display: grid; grid-template-columns: .55fr 1.45fr; column-gap: 4rem; align-items: start; padding-bottom: 3rem; }
+.storyLead .label { grid-column: 1; }
+.storyLead h2 { grid-column: 2; grid-row: 1 / span 2; max-width: 20ch; margin: 0; font: 400 clamp(2.5rem, 5.4vw, 5.5rem)/1.03 var(--sans); letter-spacing: -.045em; }
+.storyLead > p:last-child { grid-column: 1; max-width: 29ch; color: var(--paper-dim); font-size: .9rem; line-height: 1.75; }
+.decisions { display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(1.5rem, 4vw, 5rem); padding: 2.5rem 0 4rem; border-top: 1px solid var(--rule); }
+.decisions h3 { margin: 0 0 1rem; font: 500 clamp(1.3rem, 2vw, 2rem)/1.15 var(--sans); letter-spacing: -.025em; }
+.decisions p, .evidence p { max-width: 58ch; margin: 0; font-size: .875rem; line-height: 1.8; color: var(--paper-dim); }
+.page[data-project="lane"] .decisions { grid-template-columns: 1.2fr .9fr .9fr; }
+.page[data-project="arcus"] .storyLead { grid-template-columns: 1fr 1fr; }
+.page[data-project="arcus"] .storyLead h2 { color: #dbe6ff; }
+.page[data-project="teen-fiesta"] .decisions { display: block; max-width: 65rem; margin-left: auto; }
+.page[data-project="teen-fiesta"] .decisions > section { display: grid; grid-template-columns: .8fr 1.2fr; gap: 2rem; padding: 2rem 0; border-bottom: 1px solid var(--rule); }
+.page[data-project="rewatch"] .storyLead h2 { font-family: var(--serif); font-style: italic; font-size: clamp(3rem, 6vw, 6rem); font-weight: 400; }
+.evidence { display: grid; grid-template-columns: .55fr 1.45fr; gap: 4rem; padding: 1.5rem 0; border-top: 1px solid var(--rule); }
+.evidence > span { color: var(--project-accent); font-size: .7rem; line-height: 1.8; }
+.next { display: flex; justify-content: space-between; align-items: end; gap: 2rem; padding: 4rem 0 0; margin-top: 5rem; border-top: 1px solid var(--rule); }
+.next small { display: block; color: var(--quiet); margin-bottom: 1rem; font-size: .7rem; }
+.next strong { font: 500 clamp(2.6rem, 6vw, 6rem)/1 var(--sans); letter-spacing: -.045em; }
+.next > span { font-size: 2rem; }
+.feature, .filmFeature { margin-top: clamp(3rem, 7vw, 7rem); border-top: 1px solid var(--rule); padding-top: 3rem; }
+.feature h2, .filmFeature h2 { margin: 0 0 1.5rem; max-width: 16ch; font: 400 clamp(2.5rem, 4.4vw, 5rem)/1.04 var(--sans); letter-spacing: -.04em; }
+.feature p:not(.label), .filmFeature p:not(.label) { max-width: 45ch; color: var(--paper-dim); font-size: .9rem; line-height: 1.8; }
+.feature figure, .filmFeature figure { min-width: 0; margin: 0; }
+.feature img { display: block; width: 100%; height: auto; }
+.feature figcaption, .filmFeature figcaption { margin-top: 1rem; color: var(--quiet); font-size: .68rem; line-height: 1.7; }
+.artworkFeature { display: grid; grid-template-columns: .8fr 1.2fr; gap: 7vw; align-items: center; }
+.artworkFeature figure { max-width: 38rem; justify-self: end; }
+.interfaceFeature > div { display: grid; grid-template-columns: .5fr 1fr 1fr; align-items: start; gap: 2rem; margin-bottom: 2rem; }
+.interfaceFeature > div h2 { font-size: clamp(2rem, 3.4vw, 4rem); }
+.interfaceFeature > div p { margin-top: 0; }
+.filmFeature > div { display: flex; justify-content: space-between; align-items: end; flex-wrap: wrap; gap: 2rem; margin-bottom: 2rem; }
+.filmFeature > div .label { flex-basis: 100%; margin: 0; }
+.filmFeature video { display: block; width: 100%; height: auto; background: #050505; }
+@media (max-width: 760px) {
+  .page { padding-top: calc(var(--header-h) + .5rem); }
+  .back { font-size: .64rem; }
+  .opening, .page[data-project="arcus"] .opening, .page[data-project="rewatch"] .opening { grid-template-columns: 1fr; gap: 1rem; padding-top: 1.5rem; }
+  .page[data-project="rewatch"] .opening > div:first-child, .page[data-project="rewatch"] .description { grid-column: 1; grid-row: auto; text-align: left; }
+  .description { justify-self: start; }
+  .title, .page[data-project="lane"] .title { font-size: clamp(3.8rem, 17vw, 7rem); }
+  .page[data-project="teen-fiesta"] .title { font-size: clamp(2.3rem, 10vw, 4rem); }
+  .description > p { font-size: .9rem; }
+  .meta { gap: .5rem; flex-direction: column; }
+  .meta span:last-child { margin-left: 0; }
+  .page :global(.case-gallery__caption) { flex-direction: row; align-items: center; gap: .7rem; min-height: 4.5rem; font-size: .67rem; }
+  .page :global(.case-gallery__image[data-portrait="true"]) { max-height: none; }
+  .storyLead, .page[data-project="arcus"] .storyLead { display: flex; flex-direction: column; gap: 1.2rem; }
+  .storyLead h2 { font-size: clamp(2.4rem, 9.4vw, 4.2rem); }
+  .storyLead > p:last-child { max-width: 45ch; }
+  .decisions, .page[data-project="lane"] .decisions { grid-template-columns: 1fr; gap: 2rem; }
+  .page[data-project="teen-fiesta"] .decisions > section { grid-template-columns: 1fr; gap: .5rem; }
+  .evidence { grid-template-columns: 1fr; gap: 1rem; }
+  .next { margin-top: 3rem; padding-top: 3rem; }
+  .artworkFeature { grid-template-columns: 1fr; gap: 2rem; }
+  .interfaceFeature > div { grid-template-columns: 1fr; gap: 1rem; }
+  .feature h2, .filmFeature h2 { font-size: 2.4rem; }
+}
