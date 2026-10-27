@@ -4,9 +4,9 @@ import { useEffect, useRef } from "react";
 import { usePrefersReducedMotion } from "@/hooks/use-prefers-reduced-motion";
 
 /**
- * A small CSS-rendered light field for the editorial sections below the stack.
- * It remains static until it approaches the viewport and never creates a
- * second WebGL context.
+ * Shared atmospheric light behind the spatial hero and editorial sections.
+ * CSS moves a pre-rendered nebula only while it is near the viewport;
+ * distant stars stay static. It never creates another WebGL context.
  */
 export function AmbientField({ className = "" }: { className?: string }) {
   const field = useRef<HTMLDivElement>(null);

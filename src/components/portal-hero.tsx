@@ -10,6 +10,7 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import type { Project } from "@/lib/projects";
 import { site } from "@/lib/site";
+import { AmbientField } from "@/components/ambient-field";
 import { usePrefersReducedMotion } from "@/hooks/use-prefers-reduced-motion";
 import type { SceneScroll } from "@/components/spatial-scene";
 
@@ -81,6 +82,7 @@ export function PortalHero({ projects }: { projects: Project[] }) {
 
   return (
     <section className="spatial-hero" ref={root} aria-label="Spatial project overview">
+      <AmbientField className="ambient-field--cosmic" />
       <h1 className="visually-hidden">Ojesh — selected creative development projects</h1>
       <div className="spatial-note">Independent creative developer<br /><span>Agra, India · Available worldwide</span></div>
       <div className="spatial-stage">
