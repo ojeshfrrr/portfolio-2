@@ -1,0 +1,36 @@
+{
+  "display": "700 504px / 403.2px display, \"display Fallback\", Arial, Arial, sans-serif",
+  "fontFiles": [
+    "http://127.0.0.1:3000/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+    "http://127.0.0.1:3000/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+    "http://127.0.0.1:3000/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+    "http://127.0.0.1:3000/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2"
+  ],
+  "loaded": [
+    {
+      "family": "Manrope",
+      "weight": "400",
+      "style": "normal"
+    },
+    {
+      "family": "Manrope",
+      "weight": "500",
+      "style": "normal"
+    },
+    {
+      "family": "Manrope",
+      "weight": "700",
+      "style": "normal"
+    },
+    {
+      "family": "display",
+      "weight": "400 700",
+      "style": "normal"
+    },
+    {
+      "family": "display Fallback",
+      "weight": "normal",
+      "style": "normal"
+    }
+  ]
+}

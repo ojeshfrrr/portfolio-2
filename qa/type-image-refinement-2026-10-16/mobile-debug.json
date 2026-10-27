@@ -1,0 +1,114 @@
+{
+  "before": [
+    {
+      "html": "<div class=\"identity-stage-module__9JcT8W__identity\" aria-hidden=\"true\" data-identity-intro=\"true\" style=\"clip-path: inset(0% 0px);\"><span class=\"identity-stage-module__9JcT8W__upper\" data-wordmark-top=\"true\">OVIO</span><span class=\"identity-stage-module__9JcT8W__lower\" data-wordmark-bottom=\"true\">OVIO</span></div>",
+      "box": {
+        "x": 0,
+        "y": 143.46875,
+        "width": 390,
+        "height": 168.796875,
+        "top": 143.46875,
+        "right": 390,
+        "bottom": 312.265625,
+        "left": 0
+      },
+      "opacity": "1",
+      "clip": "inset(0% 0px)",
+      "color": "rgb(233, 229, 216)",
+      "display": "block",
+      "transform": "none"
+    },
+    {
+      "html": "<span class=\"identity-stage-module__9JcT8W__upper\" data-wordmark-top=\"true\">OVIO</span>",
+      "box": {
+        "x": 0,
+        "y": 143.46875,
+        "width": 390,
+        "height": 168.796875,
+        "top": 143.46875,
+        "right": 390,
+        "bottom": 312.265625,
+        "left": 0
+      },
+      "opacity": "1",
+      "clip": "none",
+      "color": "rgb(233, 229, 216)",
+      "display": "flex",
+      "transform": "none"
+    },
+    {
+      "html": "<div class=\"identity-stage-module__9JcT8W__window\" data-media-window=\"true\"><a class=\"identity-stage-module__9JcT8W__mediaLink\" aria-label=\"Explore LANE case study\" href=\"/work/lane\"><div class=\"identity-stage-module__9JcT8W__pointer\" data-pointer-layer=\"true\"><div class=\"identity-stage-module__9JcT8W__image\" style=\"opacity: 1; z-index: 2;\" aria-hidden=\"false\"><img alt=\"LANE homepage with a metallic sculpture, HEAT campaign artwork and editorial typography.\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent\" sizes=\"(max-width: 760px) 92vw, 82vw\" srcset=\"/_next/image?url=%2Fwork%2Flane-desktop.png&amp;w=640&amp;q=",
+      "box": {
+        "x": 15.6015625,
+        "y": 282.734375,
+        "width": 358.796875,
+        "height": 244.75,
+        "top": 282.734375,
+        "right": 374.3984375,
+        "bottom": 527.484375,
+        "left": 15.6015625
+      },
+      "opacity": "1",
+      "clip": "none",
+      "color": "rgb(233, 229, 216)",
+      "display": "block",
+      "transform": "matrix(1, 0, 0, 1, -179.398, -122.375)"
+    }
+  ],
+  "after": [
+    {
+      "html": "<div class=\"identity-stage-module__9JcT8W__identity\" aria-hidden=\"true\" data-identity-intro=\"true\" style=\"clip-path: inset(0% 0px);\"><span class=\"identity-stage-module__9JcT8W__upper\" data-wordmark-top=\"true\">OVIO</span><span class=\"identity-stage-module__9JcT8W__lower\" data-wordmark-bottom=\"true\">OVIO</span></div>",
+      "box": {
+        "x": 0,
+        "y": 143.46875,
+        "width": 390,
+        "height": 168.796875,
+        "top": 143.46875,
+        "right": 390,
+        "bottom": 312.265625,
+        "left": 0
+      },
+      "opacity": "1",
+      "clip": "inset(0% 0px)",
+      "color": "rgb(233, 229, 216)",
+      "display": "block",
+      "transform": "none"
+    },
+    {
+      "html": "<span class=\"identity-stage-module__9JcT8W__upper\" data-wordmark-top=\"true\">OVIO</span>",
+      "box": {
+        "x": 0,
+        "y": 143.46875,
+        "width": 390,
+        "height": 168.796875,
+        "top": 143.46875,
+        "right": 390,
+        "bottom": 312.265625,
+        "left": 0
+      },
+      "opacity": "1",
+      "clip": "none",
+      "color": "rgb(233, 229, 216)",
+      "display": "flex",
+      "transform": "none"
+    },
+    {
+      "html": "<div class=\"identity-stage-module__9JcT8W__window\" data-media-window=\"true\"><a class=\"identity-stage-module__9JcT8W__mediaLink\" aria-label=\"Explore TEEN FIESTA case study\" href=\"/work/teen-fiesta\"><div class=\"identity-stage-module__9JcT8W__pointer\" data-pointer-layer=\"true\"><div class=\"identity-stage-module__9JcT8W__image\" style=\"opacity: 0; z-index: 1;\" aria-hidden=\"true\"><img alt=\"\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent\" sizes=\"(max-width: 760px) 92vw, 82vw\" srcset=\"/_next/image?url=%2Fwork%2Flane-desktop.png&amp;w=640&amp;q=75 640w, /_next/image?url=%2Fwork%2Flane-desktop.png&amp;w=750&amp;q=75 750",
+      "box": {
+        "x": 15.6015625,
+        "y": 282.734375,
+        "width": 358.796875,
+        "height": 244.75,
+        "top": 282.734375,
+        "right": 374.3984375,
+        "bottom": 527.484375,
+        "left": 15.6015625
+      },
+      "opacity": "1",
+      "clip": "none",
+      "color": "rgb(233, 229, 216)",
+      "display": "block",
+      "transform": "matrix(1, 0, 0, 1, -179.398, -122.375)"
+    }
+  ]
+}

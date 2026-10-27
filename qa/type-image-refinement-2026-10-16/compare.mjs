@@ -1,0 +1,3 @@
+import sharp from 'sharp';
+const dir='qa/type-image-refinement-2026-10-16';const heading=Buffer.from('<svg width="2880" height="48"><rect width="100%" height="100%" fill="#151515"/><text x="24" y="31" fill="white" font-family="Arial" font-size="19">Before / broad horizontal crop</text><text x="1464" y="31" fill="white" font-family="Arial" font-size="19">After / complete identity and project-specific framing</text></svg>');
+await sharp({create:{width:2880,height:948,channels:3,background:'#08090b'}}).composite([{input:heading,left:0,top:0},{input:dir+'/before-1440x900.png',left:0,top:48},{input:dir+'/production/opening-1440x900.png',left:1440,top:48}]).png().toFile(dir+'/comparison-1440x900.png');
