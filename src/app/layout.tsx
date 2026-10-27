@@ -8,6 +8,7 @@ import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import { SmoothScroll } from "@/components/smooth-scroll";
 import { ScrollReveals } from "@/components/scroll-reveals";
+import { ProjectEntryProvider } from "@/components/project-entry";
 import { site } from "@/lib/site";
 import "./globals.css";
 
@@ -64,11 +65,13 @@ export default function RootLayout({
         <a className="skip-link" href="#main-content">
           Skip to content
         </a>
+        <ProjectEntryProvider>
         <SmoothScroll />
         <SiteHeader />
         <main id="main-content">{children}</main>
         <SiteFooter />
         <ScrollReveals />
+        </ProjectEntryProvider>
       </body>
     </html>
   );
