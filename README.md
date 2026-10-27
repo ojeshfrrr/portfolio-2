@@ -1,6 +1,6 @@
 # Ojesh — Creative Developer
 
-A personal portfolio built with Next.js App Router and TypeScript. The homepage's spatial light table uses local project captures as selectable 3D panels; the rest of the site stays server-rendered and media-led.
+A personal portfolio built with Next.js App Router and TypeScript. The homepage uses a typographic media stage with authentic project captures. The profile uses verified public GitHub information, and a shared static CSS atmosphere gives each section depth. Profile sources and review notes are in `qa/profile-refresh-2026-10-27/README.md`.
 
 ## Run locally
 
