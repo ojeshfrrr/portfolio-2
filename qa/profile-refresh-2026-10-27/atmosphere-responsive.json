@@ -1,0 +1,122 @@
+[
+  {
+    "viewport": 390,
+    "route": "/",
+    "clientWidth": 375,
+    "decorationIgnoresPointer": true,
+    "decorationStatic": true,
+    "fields": 4,
+    "heading": "Ojesh — web experiences and Windows tools",
+    "scrollWidth": 375
+  },
+  {
+    "viewport": 390,
+    "route": "/about",
+    "clientWidth": 375,
+    "decorationIgnoresPointer": true,
+    "decorationStatic": true,
+    "fields": 6,
+    "heading": "Ojesh.",
+    "scrollWidth": 375
+  },
+  {
+    "viewport": 390,
+    "route": "/work",
+    "clientWidth": 375,
+    "decorationIgnoresPointer": true,
+    "decorationStatic": true,
+    "fields": 3,
+    "heading": "Worldsin progress.",
+    "scrollWidth": 375
+  },
+  {
+    "viewport": 390,
+    "route": "/contact",
+    "clientWidth": 375,
+    "decorationIgnoresPointer": true,
+    "decorationStatic": true,
+    "fields": 4,
+    "heading": "What are youthinking about?",
+    "scrollWidth": 375
+  },
+  {
+    "viewport": 390,
+    "route": "/work/arcus",
+    "clientWidth": 375,
+    "decorationIgnoresPointer": true,
+    "decorationStatic": true,
+    "fields": 2,
+    "heading": "ARCUS",
+    "scrollWidth": 375
+  },
+  {
+    "viewport": 390,
+    "route": "/work/teen-fiesta",
+    "clientWidth": 375,
+    "decorationIgnoresPointer": true,
+    "decorationStatic": true,
+    "fields": 2,
+    "heading": "A website builtfor the event.",
+    "scrollWidth": 375
+  },
+  {
+    "viewport": 320,
+    "route": "/",
+    "clientWidth": 305,
+    "decorationIgnoresPointer": true,
+    "decorationStatic": true,
+    "fields": 4,
+    "heading": "Ojesh — web experiences and Windows tools",
+    "scrollWidth": 305
+  },
+  {
+    "viewport": 320,
+    "route": "/about",
+    "clientWidth": 305,
+    "decorationIgnoresPointer": true,
+    "decorationStatic": true,
+    "fields": 6,
+    "heading": "Ojesh.",
+    "scrollWidth": 305
+  },
+  {
+    "viewport": 320,
+    "route": "/work",
+    "clientWidth": 305,
+    "decorationIgnoresPointer": true,
+    "decorationStatic": true,
+    "fields": 3,
+    "heading": "Worldsin progress.",
+    "scrollWidth": 305
+  },
+  {
+    "viewport": 320,
+    "route": "/contact",
+    "clientWidth": 305,
+    "decorationIgnoresPointer": true,
+    "decorationStatic": true,
+    "fields": 4,
+    "heading": "What are youthinking about?",
+    "scrollWidth": 305
+  },
+  {
+    "viewport": 320,
+    "route": "/work/arcus",
+    "clientWidth": 305,
+    "decorationIgnoresPointer": true,
+    "decorationStatic": true,
+    "fields": 2,
+    "heading": "ARCUS",
+    "scrollWidth": 305
+  },
+  {
+    "viewport": 320,
+    "route": "/work/teen-fiesta",
+    "clientWidth": 305,
+    "decorationIgnoresPointer": true,
+    "decorationStatic": true,
+    "fields": 2,
+    "heading": "A website builtfor the event.",
+    "scrollWidth": 305
+  }
+]
