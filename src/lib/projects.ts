@@ -21,8 +21,13 @@ export type Project = {
   credit?: string;
   liveUrl?: string;
   liveUnavailable?: boolean;
+  repository?: { url: string; description: string; note: string };
   intro?: { eyebrow: string; headline: string[] };
 };
+
+const capture = (name: string, alt: string, caption: string, aspect = 1.6): ProjectImage => ({
+  src: `/work/case-studies/${name}.webp`, alt, caption, aspect,
+});
 
 export const projects: Project[] = [
   {
@@ -33,25 +38,16 @@ export const projects: Project[] = [
     summary: "A campaign archive with a different tempo for every night.",
     role: "Creative development, front end, and interaction design",
     cover: {
-      src: "/work/lane-desktop.png",
+      src: "/work/case-studies/lane-opening.webp",
       textureSrc: "/work/spatial/lane.webp",
       alt: "LANE homepage with a metallic sculpture, HEAT campaign artwork and editorial typography.",
-      aspect: 2534 / 1409,
-      caption: "HEAT / sculptural homepage and campaign poster",
+      aspect: 1.6,
+      caption: "Opening / HEAT artwork within the LANE homepage",
     },
     gallery: [
-      {
-        src: "/work/lane-home.png",
-        alt: "Alternate LANE homepage with AFTER dark typography and the original HEAT poster.",
-        aspect: 1536 / 864,
-        caption: "HEAT / alternate homepage layout led by the original artwork",
-      },
-      {
-        src: "/work/lane-archive.png",
-        alt: "LANE campaign archive with a selector beside a full portrait poster.",
-        aspect: 1536 / 1400,
-        caption: "The campaign archive / Teen Soirée selected from seven chapters",
-      },
+      capture("lane-campaign", "LANE HEAT campaign page presenting the original square poster beside its introduction.", "Campaign / original artwork given its own page"),
+      capture("lane-archive", "LANE campaign archive with artwork filters and distinct event posters.", "Archive / original artwork and footage-derived identities"),
+      capture("lane-mobile", "The actual LANE mobile homepage with typography, sculpture and HEAT artwork.", "Responsive / a deliberate vertical campaign composition", 780 / 1688),
     ],
     overview:
       "A campaign archive for independent nights in Agra. One browsing system gives seven distinct event identities room to lead.",
@@ -61,7 +57,7 @@ export const projects: Project[] = [
       "Seven event pages built from supplied artwork and confirmed details",
     ],
     approach:
-      "The supplied posters set the visual direction. The two HEAT homepage captures show different layouts for the same campaign: one pairs the poster with a sculpture; the other makes the artwork dominant. The archive keeps the selected poster and its event details together.",
+      "The supplied posters set the visual direction. Campaign records supply the homepage, archive filters and individual routes. The sequence shows the homepage, HEAT detail, archive and responsive composition from the actual local implementation.",
     liveUrl: "https://thelane.vercel.app/",
   },
   {
@@ -72,19 +68,16 @@ export const projects: Project[] = [
     summary: "A training log designed around the next session, online or off.",
     role: "Product engineering and interface development",
     cover: {
-      src: "/work/arcus-desktop.webp",
+      src: "/work/case-studies/arcus-dashboard.webp",
       textureSrc: "/work/spatial/arcus.webp",
       alt: "ARCUS Training dashboard with the next-session prompt and weekly training overview.",
-      aspect: 1.599,
-      caption: "Desktop / next-session action, weekly totals and persistent sidebar",
+      aspect: 1.6,
+      caption: "Training / the actual signed-out dashboard in its empty state",
     },
     gallery: [
-      {
-        src: "/work/arcus-mobile.webp",
-        alt: "ARCUS mobile dashboard with the next-session prompt and training summary.",
-        aspect: 375 / 812,
-        caption: "Mobile / the same session prompt with bottom navigation",
-      },
+      capture("arcus-workout", "ARCUS workout start screen before a session has been created.", "Session entry / the workout start screen, with no invented activity"),
+      capture("arcus-exercises", "ARCUS exercise catalogue with search and muscle filters.", "Exercise library / search, filters and movement details"),
+      capture("arcus-mobile", "Actual ARCUS responsive training dashboard in a signed-out browser.", "Responsive / session entry and sign-in boundaries", 780 / 1688),
     ],
     overview:
       "A strength-training interface built around the next session. Desktop and mobile dashboards put workout entry ahead of secondary tools.",
@@ -94,8 +87,13 @@ export const projects: Project[] = [
       "A responsive dashboard built for quick decisions between sessions",
     ],
     approach:
-      "The next-session action leads both layouts. Desktop keeps the training tools in a persistent sidebar; mobile moves core navigation to the bottom. The source includes local workout drafts and account sync. These captures show an earlier dashboard with empty example metrics, rather than demonstrating the sync or offline flows.",
+      "The next-session action leads the training dashboard. The source includes IndexedDB workout records, local draft backup and account sync. These fresh, signed-out captures show actual empty states and catalogue interfaces; they do not demonstrate remote synchronization or completed workouts.",
     liveUrl: "https://thearcus.vercel.app/",
+    repository: {
+      url: "https://github.com/ojeshfrrr/arcus",
+      description: "A training log with an IndexedDB-backed workout logger, exercise search, and an offline shell.",
+      note: "Public fork of gauravxsuvo/arcus. The repository README documents the project as Forge Training.",
+    },
   },
   {
     slug: "teen-fiesta",
@@ -109,11 +107,11 @@ export const projects: Project[] = [
     },
     role: "Creative development and front-end engineering",
     cover: {
-      src: "/work/teen-fiesta-website.png",
+      src: "/work/case-studies/teen-fiesta-film.webp",
       textureSrc: "/work/spatial/teen-fiesta-website.webp",
       alt: "Teen Fiesta website film section with editorial typography and its embedded event film.",
-      aspect: 1850 / 951,
-      caption: "Website / the film section and embedded player",
+      aspect: 3670 / 2074,
+      caption: "Local export / the complete film section and embedded player",
     },
     gallery: [
       {
@@ -122,6 +120,7 @@ export const projects: Project[] = [
         aspect: 1280 / 1600,
         caption: "Supplied event artwork / Teen Fiesta visual identity",
       },
+      capture("teen-fiesta-mobile", "Teen Fiesta local export's film section adapted to a narrow viewport.", "Responsive / the local film section in a mobile browser", 780 / 1540),
       {
         src: "/work/teen-fiesta-announcement.jpg",
         alt: "Teen Fiesta coming-soon announcement printed on a coaster beside drinks.",
@@ -140,6 +139,11 @@ export const projects: Project[] = [
       "The website brings event information, supplied artwork and film into one visual sequence. The gallery keeps the available imagery together, while the film section provides a clear entry into the video. The case-study images show the website and the supplied media as distinct parts of the project.",
     liveUrl: "https://theteenfiesta.vercel.app/",
     liveUnavailable: true,
+    repository: {
+      url: "https://github.com/ojeshfrrr/teen-fiesta-red-room",
+      description: "An event website bringing local media and a Three.js starburst into a cinematic Next.js page.",
+      note: "Public fork of gauravxsuvo/teen-fiesta-red-room, documented as Teen Fiesta — Red Room.",
+    },
   },
   {
     slug: "rewatch",
@@ -149,19 +153,15 @@ export const projects: Project[] = [
     summary: "A shared home for the films, series, anime, and music people follow.",
     role: "Collaborative work with OVIO and Suvo (Gaurav Raj Singh)",
     cover: {
-      src: "/work/rewatch-desktop.webp",
+      src: "/work/case-studies/rewatch-opening.webp",
       textureSrc: "/work/spatial/rewatch.webp",
       alt: "Rewatch homepage introducing its film, series, anime, and music catalog.",
-      aspect: 1.599,
-      caption: "Desktop / search, media categories and a catalog preview",
+      aspect: 1.6,
+      caption: "Public opening / search, editorial type and the catalogue preview",
     },
     gallery: [
-      {
-        src: "/work/rewatch-mobile.webp",
-        alt: "Rewatch homepage adapted to a mobile viewport.",
-        aspect: 375 / 812,
-        caption: "Mobile / account actions and fixed bottom navigation",
-      },
+      capture("rewatch-browse", "Actual Rewatch public browse interface with category tabs, filters and media artwork.", "Browse / visible category, ordering and filtering controls"),
+      capture("rewatch-mobile", "Actual Rewatch public homepage in a mobile browser using its dark theme.", "Responsive / editorial opening and account navigation", 780 / 1688),
     ],
     overview:
       "A media discovery product with an editorial opening. Search, category navigation and a catalog preview give desktop and mobile users a clear starting point.",
