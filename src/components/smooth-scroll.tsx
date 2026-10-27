@@ -21,7 +21,17 @@ export function SmoothScroll() {
       anchors: { offset: -88 },
       syncTouch: false,
       lerp: 0.1,
+      // Native modal content keeps its own scrolling while the page is paused.
+      prevent: (element) => element.tagName === "DIALOG",
     });
+    const syncModalScroll = () => {
+      if (document.querySelector("dialog[open]")) lenis.stop();
+      else lenis.start();
+    };
+    const modalObserver = new MutationObserver(syncModalScroll);
+    // Child removal also resumes scrolling if navigation unmounts an open dialog.
+    modalObserver.observe(document.body, { attributes: true, attributeFilter: ["open"], childList: true, subtree: true });
+    syncModalScroll();
     // Let browser keyboard/focus scrolling take over from any in-flight wheel tween.
     // No default keys are cancelled; Lenis resumes from the resulting native scroll.
     const settleForKeyboard = (event: KeyboardEvent) => {
@@ -41,6 +51,7 @@ export function SmoothScroll() {
     lenisRef.current = lenis;
 
     return () => {
+      modalObserver.disconnect();
       window.removeEventListener("keydown", settleForKeyboard);
       document.removeEventListener("focusin", settleForFocus);
       gsap.ticker.remove(tick);
