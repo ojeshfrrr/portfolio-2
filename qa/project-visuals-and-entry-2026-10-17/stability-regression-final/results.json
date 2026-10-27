@@ -1,0 +1,1361 @@
+{
+  "base": "http://127.0.0.1:3001",
+  "checks": [
+    {
+      "name": "Initial one pin, no load-time wordmark mask",
+      "passed": true,
+      "detail": {
+        "scroll": 0,
+        "pins": 1,
+        "x": 503.9921875,
+        "y": 270,
+        "w": 748.796875,
+        "h": 342,
+        "clip": "polygon(20% 0%, 100% 0%, 80% 100%, 0% 100%)",
+        "inline": "left: 61%; top: 49%; width: 52%; height: 38svh; clip-path: polygon(20% 0%, 100% 0%, 80% 100%, 0% 100%);",
+        "wordmark": "none",
+        "coverage": 1,
+        "selected": 0,
+        "caption": "Campaign platformLANE↗",
+        "alphas": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "canvas": 0
+      }
+    },
+    {
+      "name": "A selected image/label/link lane",
+      "passed": true,
+      "detail": {
+        "scroll": 0,
+        "pins": 1,
+        "x": 503.9921875,
+        "y": 270,
+        "w": 748.796875,
+        "h": 342,
+        "clip": "polygon(20% 0%, 100% 0%, 80% 100%, 0% 100%)",
+        "inline": "left: 61%; top: 49%; width: 52%; height: 38svh; clip-path: polygon(20% 0%, 100% 0%, 80% 100%, 0% 100%);",
+        "wordmark": "none",
+        "coverage": 1,
+        "selected": 0,
+        "caption": "Campaign platformLANE↗",
+        "alphas": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "canvas": 0
+      }
+    },
+    {
+      "name": "A complete forward/reverse lane",
+      "passed": true,
+      "detail": {
+        "start": {
+          "scroll": 0,
+          "pins": 1,
+          "x": 503.9921875,
+          "y": 270,
+          "w": 748.796875,
+          "h": 342,
+          "clip": "polygon(20% 0%, 100% 0%, 80% 100%, 0% 100%)",
+          "inline": "left: 61%; top: 49%; width: 52%; height: 38svh; clip-path: polygon(20% 0%, 100% 0%, 80% 100%, 0% 100%);",
+          "wordmark": "none",
+          "coverage": 1,
+          "selected": 0,
+          "caption": "Campaign platformLANE↗",
+          "alphas": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "canvas": 0
+        },
+        "mid": {
+          "scroll": 500,
+          "pins": 1,
+          "x": 335.46875,
+          "y": 221.390625,
+          "w": 943.25,
+          "h": 439.21875,
+          "clip": "polygon(10.9971% 0%, 100% 0%, 89.0029% 100%, 0% 100%)",
+          "inline": "left: 56.0484%; top: 49%; width: 65.5044%; height: 48.8035svh; clip-path: polygon(10.9971% 0%, 100% 0%, 89.0029% 100%, 0% 100%);",
+          "wordmark": "none",
+          "coverage": 1,
+          "selected": 0,
+          "caption": "Campaign platformLANE↗",
+          "alphas": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "canvas": 0
+        },
+        "end": {
+          "scroll": 1040,
+          "pins": 1,
+          "x": 129.6015625,
+          "y": 157.0009765625,
+          "w": 1180.796875,
+          "h": 558,
+          "clip": "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
+          "inline": "left: 50%; top: 49%; width: 82%; height: 62svh; clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);",
+          "wordmark": "none",
+          "coverage": 1,
+          "selected": 0,
+          "caption": "Campaign platformLANE↗",
+          "alphas": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "canvas": 0
+        },
+        "reversed": {
+          "scroll": 1,
+          "pins": 1,
+          "x": 503.9921875,
+          "y": 270,
+          "w": 748.796875,
+          "h": 342,
+          "clip": "polygon(20% 0%, 100% 0%, 80% 100%, 0% 100%)",
+          "inline": "left: 61%; top: 49%; width: 52%; height: 38svh; clip-path: polygon(20% 0%, 100% 0%, 80% 100%, 0% 100%);",
+          "wordmark": "none",
+          "coverage": 1,
+          "selected": 0,
+          "caption": "Campaign platformLANE↗",
+          "alphas": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "canvas": 0
+        }
+      }
+    },
+    {
+      "name": "A selected image/label/link arcus",
+      "passed": true,
+      "detail": {
+        "scroll": 1,
+        "pins": 1,
+        "x": 424.796875,
+        "y": 238.5,
+        "w": 792,
+        "h": 387,
+        "clip": "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
+        "inline": "left: 57%; top: 48%; width: 55%; height: 43svh; clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);",
+        "wordmark": "none",
+        "coverage": 1,
+        "selected": 1,
+        "caption": "Training productARCUS↗",
+        "alphas": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "canvas": 0
+      }
+    },
+    {
+      "name": "A complete forward/reverse arcus",
+      "passed": true,
+      "detail": {
+        "start": {
+          "scroll": 1,
+          "pins": 1,
+          "x": 424.796875,
+          "y": 238.5,
+          "w": 792,
+          "h": 387,
+          "clip": "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
+          "inline": "left: 57%; top: 48%; width: 55%; height: 43svh; clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);",
+          "wordmark": "none",
+          "coverage": 1,
+          "selected": 1,
+          "caption": "Training productARCUS↗",
+          "alphas": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "canvas": 0
+        },
+        "mid": {
+          "scroll": 501,
+          "pins": 1,
+          "x": 291.109375,
+          "y": 203.84375,
+          "w": 968.0625,
+          "h": 464.4375,
+          "clip": "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
+          "inline": "left: 53.83%; top: 48.4529%; width: 67.2271%; height: 51.6043svh; clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);",
+          "wordmark": "none",
+          "coverage": 1,
+          "selected": 1,
+          "caption": "Training productARCUS↗",
+          "alphas": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "canvas": 0
+        },
+        "end": {
+          "scroll": 1041,
+          "pins": 1,
+          "x": 129.6015625,
+          "y": 156.0009765625,
+          "w": 1180.796875,
+          "h": 558,
+          "clip": "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
+          "inline": "left: 50%; top: 49%; width: 82%; height: 62svh; clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);",
+          "wordmark": "none",
+          "coverage": 1,
+          "selected": 1,
+          "caption": "Training productARCUS↗",
+          "alphas": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "canvas": 0
+        },
+        "reversed": {
+          "scroll": 1,
+          "pins": 1,
+          "x": 424.796875,
+          "y": 238.5,
+          "w": 792,
+          "h": 387,
+          "clip": "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
+          "inline": "left: 57%; top: 48%; width: 55%; height: 43svh; clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);",
+          "wordmark": "none",
+          "coverage": 1,
+          "selected": 1,
+          "caption": "Training productARCUS↗",
+          "alphas": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "canvas": 0
+        }
+      }
+    },
+    {
+      "name": "A selected image/label/link teen-fiesta",
+      "passed": true,
+      "detail": {
+        "scroll": 0,
+        "pins": 1,
+        "x": 230.40625,
+        "y": 288,
+        "w": 979.1875,
+        "h": 288,
+        "clip": "polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%)",
+        "inline": "left: 50%; top: 48%; width: 68%; height: 32svh; clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);",
+        "wordmark": "none",
+        "coverage": 1,
+        "selected": 2,
+        "caption": "Event websiteTEEN FIESTA↗",
+        "alphas": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "canvas": 0
+      }
+    },
+    {
+      "name": "A complete forward/reverse teen-fiesta",
+      "passed": true,
+      "detail": {
+        "start": {
+          "scroll": 0,
+          "pins": 1,
+          "x": 230.40625,
+          "y": 288,
+          "w": 979.1875,
+          "h": 288,
+          "clip": "polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%)",
+          "inline": "left: 50%; top: 48%; width: 68%; height: 32svh; clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);",
+          "wordmark": "none",
+          "coverage": 1,
+          "selected": 2,
+          "caption": "Event websiteTEEN FIESTA↗",
+          "alphas": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "canvas": 0
+        },
+        "mid": {
+          "scroll": 500,
+          "pins": 1,
+          "x": 185.03125,
+          "y": 231.28125,
+          "w": 1069.9375,
+          "h": 409.53125,
+          "clip": "polygon(2.74921% 0%, 100% 0%, 97.2508% 100%, 0% 100%)",
+          "inline": "left: 50%; top: 48.4502%; width: 74.3022%; height: 45.5047svh; clip-path: polygon(2.74922% 0%, 100% 0%, 97.2508% 100%, 0% 100%);",
+          "wordmark": "none",
+          "coverage": 1,
+          "selected": 2,
+          "caption": "Event websiteTEEN FIESTA↗",
+          "alphas": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "canvas": 0
+        },
+        "end": {
+          "scroll": 1040,
+          "pins": 1,
+          "x": 129.6015625,
+          "y": 157.0009765625,
+          "w": 1180.796875,
+          "h": 558,
+          "clip": "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
+          "inline": "left: 50%; top: 49%; width: 82%; height: 62svh; clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);",
+          "wordmark": "none",
+          "coverage": 1,
+          "selected": 2,
+          "caption": "Event websiteTEEN FIESTA↗",
+          "alphas": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "canvas": 0
+        },
+        "reversed": {
+          "scroll": 1,
+          "pins": 1,
+          "x": 230.40625,
+          "y": 288,
+          "w": 979.1875,
+          "h": 288,
+          "clip": "polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%)",
+          "inline": "left: 50%; top: 48%; width: 68%; height: 32svh; clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);",
+          "wordmark": "none",
+          "coverage": 1,
+          "selected": 2,
+          "caption": "Event websiteTEEN FIESTA↗",
+          "alphas": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "canvas": 0
+        }
+      }
+    },
+    {
+      "name": "A selected image/label/link rewatch",
+      "passed": true,
+      "detail": {
+        "scroll": 0,
+        "pins": 1,
+        "x": 230.3984375,
+        "y": 265.5,
+        "w": 806.390625,
+        "h": 351,
+        "clip": "polygon(0% 0%, 84% 0%, 100% 100%, 16% 100%)",
+        "inline": "left: 44%; top: 49%; width: 56%; height: 39svh; clip-path: polygon(0% 0%, 84% 0%, 100% 100%, 16% 100%);",
+        "wordmark": "none",
+        "coverage": 1,
+        "selected": 3,
+        "caption": "Media productRewatch↗",
+        "alphas": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "canvas": 0
+      }
+    },
+    {
+      "name": "A complete forward/reverse rewatch",
+      "passed": true,
+      "detail": {
+        "start": {
+          "scroll": 0,
+          "pins": 1,
+          "x": 230.3984375,
+          "y": 265.5,
+          "w": 806.390625,
+          "h": 351,
+          "clip": "polygon(0% 0%, 84% 0%, 100% 100%, 16% 100%)",
+          "inline": "left: 44%; top: 49%; width: 56%; height: 39svh; clip-path: polygon(0% 0%, 84% 0%, 100% 100%, 16% 100%);",
+          "wordmark": "none",
+          "coverage": 1,
+          "selected": 3,
+          "caption": "Media productRewatch↗",
+          "alphas": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "canvas": 0
+        },
+        "mid": {
+          "scroll": 500,
+          "pins": 1,
+          "x": 185.0234375,
+          "y": 218.9140625,
+          "w": 974.921875,
+          "h": 444.171875,
+          "clip": "polygon(0% 0%, 91.2023% 0%, 100% 100%, 8.79766% 100%)",
+          "inline": "left: 46.7009%; top: 49%; width: 67.7038%; height: 49.3534svh; clip-path: polygon(0% 0%, 91.2023% 0%, 100% 100%, 8.79766% 100%);",
+          "wordmark": "none",
+          "coverage": 1,
+          "selected": 3,
+          "caption": "Media productRewatch↗",
+          "alphas": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "canvas": 0
+        },
+        "end": {
+          "scroll": 1040,
+          "pins": 1,
+          "x": 129.6015625,
+          "y": 157.0009765625,
+          "w": 1180.796875,
+          "h": 558,
+          "clip": "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
+          "inline": "left: 50%; top: 49%; width: 82%; height: 62svh; clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);",
+          "wordmark": "none",
+          "coverage": 1,
+          "selected": 3,
+          "caption": "Media productRewatch↗",
+          "alphas": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "canvas": 0
+        },
+        "reversed": {
+          "scroll": 1,
+          "pins": 1,
+          "x": 230.3984375,
+          "y": 265.5,
+          "w": 806.390625,
+          "h": 351,
+          "clip": "polygon(0% 0%, 84% 0%, 100% 100%, 16% 100%)",
+          "inline": "left: 44%; top: 49%; width: 56%; height: 39svh; clip-path: polygon(0% 0%, 84% 0%, 100% 100%, 16% 100%);",
+          "wordmark": "none",
+          "coverage": 1,
+          "selected": 3,
+          "caption": "Media productRewatch↗",
+          "alphas": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "canvas": 0
+        }
+      }
+    },
+    {
+      "name": "B 60 rapid selections retain opaque decoded media and steady caption",
+      "passed": true,
+      "detail": {
+        "frames": 771,
+        "minCoverage": 1,
+        "unreadyFrames": 0,
+        "captionMin": 1,
+        "p95FrameMs": 6.200000000000728,
+        "maxFrameMs": 12.200000000000728
+      }
+    },
+    {
+      "name": "B rapid latest selection settles to Rewatch",
+      "passed": true,
+      "detail": {
+        "scroll": 0,
+        "pins": 1,
+        "x": 230.3984375,
+        "y": 265.5,
+        "w": 806.390625,
+        "h": 351,
+        "clip": "polygon(0% 0%, 84% 0%, 100% 100%, 16% 100%)",
+        "inline": "left: 44%; top: 49%; width: 56%; height: 39svh; clip-path: polygon(0% 0%, 84% 0%, 100% 100%, 16% 100%);",
+        "wordmark": "none",
+        "coverage": 1,
+        "selected": 3,
+        "caption": "Media productRewatch↗",
+        "alphas": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "canvas": 0
+      }
+    },
+    {
+      "name": "C stopping halfway settles without oscillation",
+      "passed": true,
+      "detail": {
+        "stopped": {
+          "scroll": 300,
+          "pins": 1,
+          "x": 220.5859375,
+          "y": 275.7265625,
+          "w": 998.828125,
+          "h": 314.296875,
+          "clip": "polygon(4.51295% 0%, 100% 0%, 95.4871% 100%, 0% 100%)",
+          "inline": "left: 50%; top: 48.0974%; width: 69.3638%; height: 34.9223svh; clip-path: polygon(4.51295% 0%, 100% 0%, 95.4871% 100%, 0% 100%);",
+          "wordmark": "none",
+          "coverage": 1,
+          "selected": 2,
+          "caption": "Event websiteTEEN FIESTA↗",
+          "alphas": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "canvas": 0
+        },
+        "still": {
+          "scroll": 300,
+          "pins": 1,
+          "x": 220.5859375,
+          "y": 275.7265625,
+          "w": 998.828125,
+          "h": 314.296875,
+          "clip": "polygon(4.51295% 0%, 100% 0%, 95.4871% 100%, 0% 100%)",
+          "inline": "left: 50%; top: 48.0974%; width: 69.3638%; height: 34.9223svh; clip-path: polygon(4.51295% 0%, 100% 0%, 95.4871% 100%, 0% 100%);",
+          "wordmark": "none",
+          "coverage": 1,
+          "selected": 2,
+          "caption": "Event websiteTEEN FIESTA↗",
+          "alphas": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "canvas": 0
+        }
+      }
+    },
+    {
+      "name": "C selection during interrupted scroll reverses to chosen pose",
+      "passed": true,
+      "detail": {
+        "scroll": 0,
+        "pins": 1,
+        "x": 230.40625,
+        "y": 288,
+        "w": 979.1875,
+        "h": 288,
+        "clip": "polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%)",
+        "inline": "left: 50%; top: 48%; width: 68%; height: 32svh; clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);",
+        "wordmark": "none",
+        "coverage": 1,
+        "selected": 2,
+        "caption": "Event websiteTEEN FIESTA↗",
+        "alphas": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "canvas": 0
+      }
+    },
+    {
+      "name": "C small wheel reversals settle",
+      "passed": true
+    },
+    {
+      "name": "Desktop owns exactly one pointer pair",
+      "passed": true,
+      "detail": {
+        "pointermove": 1,
+        "pointerleave": 1
+      }
+    },
+    {
+      "name": "E resize clears desktop inline mask and pointer listeners",
+      "passed": true,
+      "detail": {
+        "scroll": 0,
+        "pins": 0,
+        "x": 15.6015625,
+        "y": 282.734375,
+        "w": 358.796875,
+        "h": 244.75,
+        "clip": "none",
+        "inline": "",
+        "wordmark": "none",
+        "coverage": 1,
+        "selected": 2,
+        "caption": "Event websiteTEEN FIESTA↗",
+        "alphas": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "canvas": 0
+      }
+    },
+    {
+      "name": "E return to desktop does not replay wordmark entrance",
+      "passed": true
+    },
+    {
+      "name": "D case navigation/gallery and no orphan pin 0",
+      "passed": true
+    },
+    {
+      "name": "D return creates exactly one pin 0",
+      "passed": true
+    },
+    {
+      "name": "D case navigation/gallery and no orphan pin 1",
+      "passed": true
+    },
+    {
+      "name": "D return creates exactly one pin 1",
+      "passed": true
+    },
+    {
+      "name": "D case navigation/gallery and no orphan pin 2",
+      "passed": true
+    },
+    {
+      "name": "D return creates exactly one pin 2",
+      "passed": true
+    },
+    {
+      "name": "D case navigation/gallery and no orphan pin 3",
+      "passed": true
+    },
+    {
+      "name": "D return creates exactly one pin 3",
+      "passed": true
+    },
+    {
+      "name": "D case navigation/gallery and no orphan pin 4",
+      "passed": true
+    },
+    {
+      "name": "D return creates exactly one pin 4",
+      "passed": true
+    },
+    {
+      "name": "D case navigation/gallery and no orphan pin 5",
+      "passed": true
+    },
+    {
+      "name": "D return creates exactly one pin 5",
+      "passed": true
+    },
+    {
+      "name": "D case navigation/gallery and no orphan pin 6",
+      "passed": true
+    },
+    {
+      "name": "D return creates exactly one pin 6",
+      "passed": true
+    },
+    {
+      "name": "D case navigation/gallery and no orphan pin 7",
+      "passed": true
+    },
+    {
+      "name": "D return creates exactly one pin 7",
+      "passed": true
+    },
+    {
+      "name": "D case navigation/gallery and no orphan pin 8",
+      "passed": true
+    },
+    {
+      "name": "D return creates exactly one pin 8",
+      "passed": true
+    },
+    {
+      "name": "D case navigation/gallery and no orphan pin 9",
+      "passed": true
+    },
+    {
+      "name": "D return creates exactly one pin 9",
+      "passed": true
+    },
+    {
+      "name": "D listeners do not accumulate after warm routes",
+      "passed": true,
+      "detail": [
+        426,
+        426,
+        426,
+        426,
+        426,
+        426
+      ]
+    },
+    {
+      "name": "Keyboard rail selection",
+      "passed": true
+    },
+    {
+      "name": "Keyboard focus remains inside index",
+      "passed": true
+    },
+    {
+      "name": "Index locks background scroll",
+      "passed": true
+    },
+    {
+      "name": "Escape restores index focus",
+      "passed": true
+    },
+    {
+      "name": "E desktop 1280 remains coherent without overflow",
+      "passed": true
+    },
+    {
+      "name": "E desktop 1440 remains coherent without overflow",
+      "passed": true
+    },
+    {
+      "name": "E desktop 1920 remains coherent without overflow",
+      "passed": true
+    },
+    {
+      "name": "Delayed image does not blank or relabel current project",
+      "passed": true,
+      "detail": {
+        "scroll": 0,
+        "pins": 1,
+        "x": 503.9921875,
+        "y": 270,
+        "w": 748.796875,
+        "h": 342,
+        "clip": "polygon(20% 0%, 100% 0%, 80% 100%, 0% 100%)",
+        "inline": "left: 61%; top: 49%; width: 52%; height: 38svh; clip-path: polygon(20% 0%, 100% 0%, 80% 100%, 0% 100%);",
+        "wordmark": "none",
+        "coverage": 1,
+        "selected": 0,
+        "caption": "Campaign platformLANE↗",
+        "alphas": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "canvas": 0
+      }
+    },
+    {
+      "name": "Late obsolete image cannot override latest selection",
+      "passed": true
+    },
+    {
+      "name": "F preference enabled before initial load",
+      "passed": true
+    },
+    {
+      "name": "F no transient or persistent cinematic pin",
+      "passed": true
+    },
+    {
+      "name": "F immediate project selection 0",
+      "passed": true
+    },
+    {
+      "name": "F immediate project selection 1",
+      "passed": true
+    },
+    {
+      "name": "F immediate project selection 2",
+      "passed": true
+    },
+    {
+      "name": "F immediate project selection 3",
+      "passed": true
+    },
+    {
+      "name": "F static wordmark and mask",
+      "passed": true
+    },
+    {
+      "name": "F natural scrolling",
+      "passed": true
+    },
+    {
+      "name": "F reduced gallery remains operable",
+      "passed": true
+    },
+    {
+      "name": "E mobile 390 repeated selection keeps decoded opaque imagery",
+      "passed": true,
+      "detail": {
+        "frames": 542,
+        "minCoverage": 1,
+        "unreadyFrames": 0,
+        "captionMin": 1,
+        "p95FrameMs": 6.199999999999818,
+        "maxFrameMs": 6.300000000000182
+      }
+    },
+    {
+      "name": "E mobile 390 no pin or overflow",
+      "passed": true
+    },
+    {
+      "name": "E mobile 390 native touch scrolling",
+      "passed": true
+    },
+    {
+      "name": "E mobile 320 repeated selection keeps decoded opaque imagery",
+      "passed": true,
+      "detail": {
+        "frames": 460,
+        "minCoverage": 1,
+        "unreadyFrames": 0,
+        "captionMin": 1,
+        "p95FrameMs": 6.200000000000273,
+        "maxFrameMs": 12.100000000000364
+      }
+    },
+    {
+      "name": "E mobile 320 no pin or overflow",
+      "passed": true
+    },
+    {
+      "name": "E mobile 320 native touch scrolling",
+      "passed": true
+    },
+    {
+      "name": "No WebGL in current homepage rendering path",
+      "passed": true
+    },
+    {
+      "name": "No application errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "No failed application requests",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "failed": [],
+  "metrics": {
+    "rapid": {
+      "frames": 771,
+      "minCoverage": 1,
+      "unreadyFrames": 0,
+      "captionMin": 1,
+      "p95FrameMs": 6.200000000000728,
+      "maxFrameMs": 12.200000000000728
+    },
+    "routeReturns": [
+      {
+        "JSEventListeners": 426,
+        "Nodes": 358,
+        "LayoutCount": 4468,
+        "RecalcStyleCount": 5965,
+        "LayoutDuration": 0.386485,
+        "ScriptDuration": 1.095396,
+        "TaskDuration": 6.245319,
+        "JSHeapUsedSize": 6721444
+      },
+      {
+        "JSEventListeners": 426,
+        "Nodes": 360,
+        "LayoutCount": 4526,
+        "RecalcStyleCount": 6171,
+        "LayoutDuration": 0.40095,
+        "ScriptDuration": 1.142173,
+        "TaskDuration": 6.450413,
+        "JSHeapUsedSize": 7037664
+      },
+      {
+        "JSEventListeners": 426,
+        "Nodes": 407,
+        "LayoutCount": 4583,
+        "RecalcStyleCount": 6417,
+        "LayoutDuration": 0.416359,
+        "ScriptDuration": 1.18684,
+        "TaskDuration": 6.703597,
+        "JSHeapUsedSize": 7186756
+      },
+      {
+        "JSEventListeners": 426,
+        "Nodes": 409,
+        "LayoutCount": 4641,
+        "RecalcStyleCount": 6623,
+        "LayoutDuration": 0.436483,
+        "ScriptDuration": 1.226599,
+        "TaskDuration": 6.927169,
+        "JSHeapUsedSize": 7326144
+      },
+      {
+        "JSEventListeners": 426,
+        "Nodes": 411,
+        "LayoutCount": 4696,
+        "RecalcStyleCount": 6828,
+        "LayoutDuration": 0.451185,
+        "ScriptDuration": 1.270619,
+        "TaskDuration": 7.1156,
+        "JSHeapUsedSize": 7471484
+      },
+      {
+        "JSEventListeners": 426,
+        "Nodes": 413,
+        "LayoutCount": 4749,
+        "RecalcStyleCount": 7026,
+        "LayoutDuration": 0.463858,
+        "ScriptDuration": 1.310682,
+        "TaskDuration": 7.290518,
+        "JSHeapUsedSize": 7498448
+      },
+      {
+        "JSEventListeners": 426,
+        "Nodes": 415,
+        "LayoutCount": 4804,
+        "RecalcStyleCount": 7275,
+        "LayoutDuration": 0.477277,
+        "ScriptDuration": 1.349918,
+        "TaskDuration": 7.504738,
+        "JSHeapUsedSize": 7553624
+      },
+      {
+        "JSEventListeners": 426,
+        "Nodes": 417,
+        "LayoutCount": 4857,
+        "RecalcStyleCount": 7475,
+        "LayoutDuration": 0.489959,
+        "ScriptDuration": 1.388832,
+        "TaskDuration": 7.679396,
+        "JSHeapUsedSize": 7584776
+      },
+      {
+        "JSEventListeners": 426,
+        "Nodes": 419,
+        "LayoutCount": 4910,
+        "RecalcStyleCount": 7677,
+        "LayoutDuration": 0.501983,
+        "ScriptDuration": 1.430888,
+        "TaskDuration": 7.867314,
+        "JSHeapUsedSize": 7703492
+      },
+      {
+        "JSEventListeners": 426,
+        "Nodes": 421,
+        "LayoutCount": 4963,
+        "RecalcStyleCount": 7876,
+        "LayoutDuration": 0.516877,
+        "ScriptDuration": 1.472286,
+        "TaskDuration": 8.074587,
+        "JSHeapUsedSize": 7725484
+      }
+    ],
+    "vitals": {
+      "longTasks": [],
+      "shifts": [
+        {
+          "t": 1092.5,
+          "value": 0.00003538773148148148
+        },
+        {
+          "t": 4050.5999999940395,
+          "value": 0.0018030598958333334
+        },
+        {
+          "t": 5286.5,
+          "value": 0.002033003693254887
+        },
+        {
+          "t": 5292.5,
+          "value": 0.0019153077846364882
+        },
+        {
+          "t": 5298.5999999940395,
+          "value": 0.0020003345630787038
+        },
+        {
+          "t": 5304.79999999702,
+          "value": 0.0020695477269804525
+        },
+        {
+          "t": 5310.79999999702,
+          "value": 0.0021145130047582304
+        },
+        {
+          "t": 5316.79999999702,
+          "value": 0.0021344110685120885
+        },
+        {
+          "t": 5323,
+          "value": 0.0021371582031249996
+        },
+        {
+          "t": 5329.0999999940395,
+          "value": 0.0021305477189429013
+        },
+        {
+          "t": 5335.19999999553,
+          "value": 0.0021005529835390947
+        },
+        {
+          "t": 5341,
+          "value": 0.0020578141075102883
+        },
+        {
+          "t": 6710.79999999702,
+          "value": 0.002513768325617284
+        },
+        {
+          "t": 6716.69999999553,
+          "value": 0.002729561511381173
+        },
+        {
+          "t": 6722.89999999851,
+          "value": 0.0029436885797110767
+        },
+        {
+          "t": 6728.69999999553,
+          "value": 0.0031362947021819276
+        },
+        {
+          "t": 6734.89999999851,
+          "value": 0.0033064379447445133
+        },
+        {
+          "t": 6741,
+          "value": 0.003465323323902606
+        },
+        {
+          "t": 6747,
+          "value": 0.0035994664070537552
+        },
+        {
+          "t": 6753.19999999553,
+          "value": 0.0037004154074502748
+        },
+        {
+          "t": 6759.69999999553,
+          "value": 0.00438596407415445
+        },
+        {
+          "t": 6765.89999999851,
+          "value": 0.0038509815859696503
+        },
+        {
+          "t": 6771.5999999940395,
+          "value": 0.0038717676986882717
+        },
+        {
+          "t": 6778,
+          "value": 0.00384915297603738
+        },
+        {
+          "t": 6784.5,
+          "value": 0.003491645869502315
+        },
+        {
+          "t": 6790.29999999702,
+          "value": 0.0030726544080611285
+        },
+        {
+          "t": 6795.69999999553,
+          "value": 0.002743127759559328
+        },
+        {
+          "t": 6802.0999999940395,
+          "value": 0.0024205334321952157
+        },
+        {
+          "t": 6812.5999999940395,
+          "value": 0.003377192911951303
+        },
+        {
+          "t": 6820.19999999553,
+          "value": 0.0023043550467785495
+        },
+        {
+          "t": 6826.29999999702,
+          "value": 0.0015446405606995887
+        },
+        {
+          "t": 6832.39999999851,
+          "value": 0.0013719943241490911
+        },
+        {
+          "t": 6838.19999999553,
+          "value": 0.0012252306274916408
+        },
+        {
+          "t": 11559,
+          "value": 0.0026591531970700448
+        },
+        {
+          "t": 11565.09999999404,
+          "value": 0.002813066722728588
+        },
+        {
+          "t": 11571.5,
+          "value": 0.002929443359375
+        },
+        {
+          "t": 11577.29999999702,
+          "value": 0.0030402080185292354
+        },
+        {
+          "t": 11583.29999999702,
+          "value": 0.0031292280032310955
+        },
+        {
+          "t": 11589.5,
+          "value": 0.00371195068359375
+        },
+        {
+          "t": 11595.59999999404,
+          "value": 0.003263718316976916
+        },
+        {
+          "t": 11601.5,
+          "value": 0.003271669339152521
+        },
+        {
+          "t": 11607.5,
+          "value": 0.0030503734782235943
+        },
+        {
+          "t": 11613.69999999553,
+          "value": 0.002714488942338606
+        },
+        {
+          "t": 11620.29999999702,
+          "value": 0.0024271285613050838
+        },
+        {
+          "t": 11625.89999999851,
+          "value": 0.002168827763310185
+        },
+        {
+          "t": 11632.29999999702,
+          "value": 0.0019318254886831277
+        },
+        {
+          "t": 14971.59999999404,
+          "value": 0.0007962651507844649
+        },
+        {
+          "t": 14977.79999999702,
+          "value": 0.0009487362959747942
+        },
+        {
+          "t": 14983.69999999553,
+          "value": 0.0008421257280682014
+        },
+        {
+          "t": 14989.69999999553,
+          "value": 0.0008562677328478654
+        },
+        {
+          "t": 15001.39999999851,
+          "value": 0.000980539179044496
+        },
+        {
+          "t": 16401.89999999851,
+          "value": 0.0009803062240119169
+        },
+        {
+          "t": 16407.89999999851,
+          "value": 0.0010652577173889746
+        },
+        {
+          "t": 16413.89999999851,
+          "value": 0.0011505575381515775
+        },
+        {
+          "t": 16420,
+          "value": 0.001224442729766804
+        },
+        {
+          "t": 16426,
+          "value": 0.0013015795128172155
+        },
+        {
+          "t": 16432.09999999404,
+          "value": 0.0013716835053369343
+        },
+        {
+          "t": 16438.29999999702,
+          "value": 0.0014283264746227707
+        },
+        {
+          "t": 16444.19999999553,
+          "value": 0.0014751023448216737
+        },
+        {
+          "t": 16450.5,
+          "value": 0.0015140335648148148
+        },
+        {
+          "t": 16456.5,
+          "value": 0.001535986529063786
+        },
+        {
+          "t": 16462.59999999404,
+          "value": 0.0015622685185185188
+        },
+        {
+          "t": 16468.5,
+          "value": 0.00156929084348744
+        },
+        {
+          "t": 16474.69999999553,
+          "value": 0.001659522087191358
+        },
+        {
+          "t": 16480.69999999553,
+          "value": 0.0012578160164287552
+        },
+        {
+          "t": 16486.79999999702,
+          "value": 0.0011235696674864969
+        },
+        {
+          "t": 16492.79999999702,
+          "value": 0.0009964201750578704
+        },
+        {
+          "t": 16498.79999999702,
+          "value": 0.0008924160343792867
+        },
+        {
+          "t": 16505,
+          "value": 0.000791918041087963
+        },
+        {
+          "t": 16511,
+          "value": 0.0007153122722693758
+        },
+        {
+          "t": 16517,
+          "value": 0.0006343813295717594
+        },
+        {
+          "t": 16523.09999999404,
+          "value": 0.0005699186599794239
+        },
+        {
+          "t": 21249.79999999702,
+          "value": 0.0009280491790980796
+        },
+        {
+          "t": 21256.69999999553,
+          "value": 0.001132700309177812
+        },
+        {
+          "t": 21262.09999999404,
+          "value": 0.0008561416605045439
+        },
+        {
+          "t": 21268.09999999404,
+          "value": 0.0010540635850694445
+        },
+        {
+          "t": 21274.19999999553,
+          "value": 0.0010804157021604937
+        },
+        {
+          "t": 21280.29999999702,
+          "value": 0.0010949516139403292
+        },
+        {
+          "t": 21286.29999999702,
+          "value": 0.0011101172176408178
+        },
+        {
+          "t": 21292.39999999851,
+          "value": 0.0011127115885416667
+        },
+        {
+          "t": 21298.29999999702,
+          "value": 0.0010282833397633744
+        },
+        {
+          "t": 21304.5,
+          "value": 0.001050173711580504
+        },
+        {
+          "t": 21310.59999999404,
+          "value": 0.0007979624807098766
+        },
+        {
+          "t": 21316.5,
+          "value": 0.0007071397569444444
+        },
+        {
+          "t": 21322.59999999404,
+          "value": 0.0006345908082561728
+        }
+      ]
+    },
+    "mobile390": {
+      "frames": 542,
+      "minCoverage": 1,
+      "unreadyFrames": 0,
+      "captionMin": 1,
+      "p95FrameMs": 6.199999999999818,
+      "maxFrameMs": 6.300000000000182
+    },
+    "mobile320": {
+      "frames": 460,
+      "minCoverage": 1,
+      "unreadyFrames": 0,
+      "captionMin": 1,
+      "p95FrameMs": 6.200000000000273,
+      "maxFrameMs": 12.100000000000364
+    }
+  },
+  "recording": {
+    "frames": 289,
+    "seconds": 10.10820198059082,
+    "video": "qa/project-visuals-and-entry-2026-10-17/stability-regression-final/interaction.mp4"
+  }
+}

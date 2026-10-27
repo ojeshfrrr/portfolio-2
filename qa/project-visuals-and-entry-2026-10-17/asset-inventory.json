@@ -1,0 +1,482 @@
+[
+  {
+    "path": "public/work/arcus-desktop.webp",
+    "width": 1425,
+    "height": 891,
+    "format": "webp"
+  },
+  {
+    "path": "public/work/arcus-mobile.webp",
+    "width": 375,
+    "height": 812,
+    "format": "webp"
+  },
+  {
+    "path": "public/work/lane-archive.png",
+    "width": 1536,
+    "height": 1400,
+    "format": "png"
+  },
+  {
+    "path": "public/work/lane-desktop.png",
+    "width": 2534,
+    "height": 1409,
+    "format": "png"
+  },
+  {
+    "path": "public/work/lane-home.png",
+    "width": 1536,
+    "height": 864,
+    "format": "png"
+  },
+  {
+    "path": "public/work/rewatch-desktop.webp",
+    "width": 1425,
+    "height": 891,
+    "format": "webp"
+  },
+  {
+    "path": "public/work/rewatch-mobile.webp",
+    "width": 375,
+    "height": 812,
+    "format": "webp"
+  },
+  {
+    "path": "public/work/spatial/arcus.webp",
+    "width": 1425,
+    "height": 891,
+    "format": "webp"
+  },
+  {
+    "path": "public/work/spatial/lane-archive.webp",
+    "width": 1536,
+    "height": 1400,
+    "format": "webp"
+  },
+  {
+    "path": "public/work/spatial/lane.webp",
+    "width": 1920,
+    "height": 1068,
+    "format": "webp"
+  },
+  {
+    "path": "public/work/spatial/rewatch.webp",
+    "width": 1425,
+    "height": 891,
+    "format": "webp"
+  },
+  {
+    "path": "public/work/spatial/teen-fiesta-website.webp",
+    "width": 1850,
+    "height": 951,
+    "format": "webp"
+  },
+  {
+    "path": "public/work/teen-fiesta-announcement.jpg",
+    "width": 640,
+    "height": 1136,
+    "format": "jpeg"
+  },
+  {
+    "path": "public/work/teen-fiesta-event-artwork.jpg",
+    "width": 1280,
+    "height": 1600,
+    "format": "jpeg"
+  },
+  {
+    "path": "public/work/teen-fiesta-website.png",
+    "width": 1850,
+    "height": 951,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/lane-studio/qa-screenshots/archive-current.png",
+    "width": 1536,
+    "height": 1100,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/lane-studio/qa-screenshots/heat-detail-current.png",
+    "width": 1536,
+    "height": 1100,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/lane-studio/qa-screenshots/home-desktop-current.png",
+    "width": 1536,
+    "height": 864,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/lane-studio/qa-screenshots/home-mobile-iframe-final.png",
+    "width": 390,
+    "height": 844,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/lane-studio/qa-screenshots/section-collage-full.png",
+    "width": 1536,
+    "height": 1400,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/lane-studio/qa-screenshots/section-night-film-full.png",
+    "width": 1536,
+    "height": 1400,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/lane-studio/qa-screenshots/section-sequence-full.png",
+    "width": 1536,
+    "height": 1400,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/feature-check/-dashboard-mobile.png",
+    "width": 375,
+    "height": 1717,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/feature-check/-exercises-barbell-bench-press-mobile.png",
+    "width": 375,
+    "height": 2642,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/feature-check/-history-mobile.png",
+    "width": 375,
+    "height": 1218,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/feature-check/-profile-data-mobile.png",
+    "width": 375,
+    "height": 1576,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/feature-check/-programs-mobile.png",
+    "width": 375,
+    "height": 2095,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/feature-check/-progress-mobile.png",
+    "width": 375,
+    "height": 4681,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/feature-check/-recaps-mobile.png",
+    "width": 375,
+    "height": 812,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/feature-check/dashboard-desktop-light.png",
+    "width": 1440,
+    "height": 2387,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/feature-check/dashboard-mobile.png",
+    "width": 375,
+    "height": 2439,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/feature-check/exercise-browse-dark-1440.png",
+    "width": 1440,
+    "height": 852,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/feature-check/exercise-browse-dark-320.png",
+    "width": 320,
+    "height": 852,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/feature-check/exercise-browse-dark-393.png",
+    "width": 393,
+    "height": 852,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/feature-check/exercise-browse-light-1440.png",
+    "width": 1440,
+    "height": 852,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/feature-check/exercise-browse-light-320.png",
+    "width": 320,
+    "height": 852,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/feature-check/exercise-browse-light-393.png",
+    "width": 393,
+    "height": 852,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/feature-check/exercise-results-393.png",
+    "width": 393,
+    "height": 852,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/feature-check/exercises-before.png",
+    "width": 393,
+    "height": 10677,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/feature-check/history-before.png",
+    "width": 393,
+    "height": 852,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/feature-check/history-browse-dark-1440.png",
+    "width": 1440,
+    "height": 852,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/feature-check/history-browse-dark-320.png",
+    "width": 320,
+    "height": 1433,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/feature-check/history-browse-dark-393.png",
+    "width": 393,
+    "height": 1273,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/feature-check/history-browse-light-1440.png",
+    "width": 1440,
+    "height": 852,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/feature-check/history-browse-light-320.png",
+    "width": 320,
+    "height": 1433,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/feature-check/history-browse-light-393.png",
+    "width": 393,
+    "height": 1273,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/feature-check/home-before.png",
+    "width": 393,
+    "height": 1679,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/feature-check/home-empty-1440.png",
+    "width": 1440,
+    "height": 1403,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/feature-check/home-empty-320.png",
+    "width": 320,
+    "height": 1696,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/feature-check/home-empty-393.png",
+    "width": 393,
+    "height": 1711,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/feature-check/home-history-dark-1440.png",
+    "width": 1440,
+    "height": 1930,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/feature-check/home-history-dark-320.png",
+    "width": 320,
+    "height": 2761,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/feature-check/home-history-dark-393.png",
+    "width": 393,
+    "height": 2672,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/feature-check/home-history-light-1440.png",
+    "width": 1440,
+    "height": 1930,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/feature-check/home-history-light-320.png",
+    "width": 320,
+    "height": 2761,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/feature-check/home-history-light-393.png",
+    "width": 393,
+    "height": 2672,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/feature-check/profile-mobile.png",
+    "width": 375,
+    "height": 3139,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/feature-check/welcome-desktop-settled.png",
+    "width": 1440,
+    "height": 1066,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/feature-check/welcome-desktop.png",
+    "width": 1440,
+    "height": 1066,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/feature-check/welcome-light.png",
+    "width": 1440,
+    "height": 1066,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/feature-check/welcome-mobile-settled.png",
+    "width": 393,
+    "height": 1669,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/feature-check/welcome-mobile.png",
+    "width": 393,
+    "height": 1669,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/feature-check/workout-active-1440.png",
+    "width": 1440,
+    "height": 1636,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/feature-check/workout-active-320.png",
+    "width": 320,
+    "height": 1813,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/feature-check/workout-active-393.png",
+    "width": 393,
+    "height": 1800,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/feature-check/workout-editor-1440.png",
+    "width": 1440,
+    "height": 2228,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/feature-check/workout-editor-320.png",
+    "width": 320,
+    "height": 2282,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/feature-check/workout-editor-393.png",
+    "width": 393,
+    "height": 2238,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/feature-check/workout-mobile.png",
+    "width": 375,
+    "height": 1584,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/feature-check/workout-reload.png",
+    "width": 375,
+    "height": 812,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/feature-check/workout-share.png",
+    "width": 1080,
+    "height": 764,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/promo/exercises.png",
+    "width": 786,
+    "height": 1704,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/promo/history.png",
+    "width": 786,
+    "height": 1704,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/promo/home.png",
+    "width": 786,
+    "height": 1704,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/promo/poster.jpg",
+    "width": 1080,
+    "height": 1920,
+    "format": "jpeg"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/promo/product-boundary-check/home-1440.png",
+    "width": 1440,
+    "height": 1403,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/promo/product-boundary-check/home-393.png",
+    "width": 393,
+    "height": 1711,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/promo/video-check.jpg",
+    "width": 1080,
+    "height": 1920,
+    "format": "jpeg"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/promo/workout.png",
+    "width": 786,
+    "height": 1704,
+    "format": "png"
+  },
+  {
+    "path": "D:/projects/arcus-repo/artifacts/hydration-fix/dashboard.jpg",
+    "width": 414,
+    "height": 842,
+    "format": "jpeg"
+  }
+]

@@ -1,0 +1,119 @@
+[
+  {
+    "name": "lane-opening",
+    "source": "qa/project-visuals-and-entry-2026-10-17/sources/lane-opening.png",
+    "asset": "/work/case-studies/lane-opening.webp",
+    "width": 2880,
+    "height": 1800,
+    "aspect": 1.6,
+    "bytes": 212640
+  },
+  {
+    "name": "lane-campaign",
+    "source": "qa/project-visuals-and-entry-2026-10-17/sources/lane-campaign.png",
+    "asset": "/work/case-studies/lane-campaign.webp",
+    "width": 2880,
+    "height": 1800,
+    "aspect": 1.6,
+    "bytes": 285082
+  },
+  {
+    "name": "lane-archive",
+    "source": "qa/project-visuals-and-entry-2026-10-17/sources/lane-archive.png",
+    "asset": "/work/case-studies/lane-archive.webp",
+    "width": 2880,
+    "height": 1800,
+    "aspect": 1.6,
+    "bytes": 457948
+  },
+  {
+    "name": "lane-mobile",
+    "source": "qa/project-visuals-and-entry-2026-10-17/sources/lane-mobile.png",
+    "asset": "/work/case-studies/lane-mobile.webp",
+    "width": 780,
+    "height": 1688,
+    "aspect": 0.46208530805687204,
+    "bytes": 90964
+  },
+  {
+    "name": "arcus-dashboard",
+    "source": "qa/project-visuals-and-entry-2026-10-17/sources/arcus-dashboard.png",
+    "asset": "/work/case-studies/arcus-dashboard.webp",
+    "width": 2880,
+    "height": 1800,
+    "aspect": 1.6,
+    "bytes": 89962
+  },
+  {
+    "name": "arcus-workout",
+    "source": "qa/project-visuals-and-entry-2026-10-17/sources/arcus-workout.png",
+    "asset": "/work/case-studies/arcus-workout.webp",
+    "width": 2880,
+    "height": 1800,
+    "aspect": 1.6,
+    "bytes": 108330
+  },
+  {
+    "name": "arcus-exercises",
+    "source": "qa/project-visuals-and-entry-2026-10-17/sources/arcus-exercises.png",
+    "asset": "/work/case-studies/arcus-exercises.webp",
+    "width": 2880,
+    "height": 1800,
+    "aspect": 1.6,
+    "bytes": 127130
+  },
+  {
+    "name": "arcus-mobile",
+    "source": "qa/project-visuals-and-entry-2026-10-17/sources/arcus-mobile.png",
+    "asset": "/work/case-studies/arcus-mobile.webp",
+    "width": 780,
+    "height": 1688,
+    "aspect": 0.46208530805687204,
+    "bytes": 68392
+  },
+  {
+    "name": "teen-fiesta-film",
+    "source": "qa/project-visuals-and-entry-2026-10-17/sources/teen-fiesta-film.png",
+    "asset": "/work/case-studies/teen-fiesta-film.webp",
+    "width": 3670,
+    "height": 2074,
+    "aspect": 1.7695274831243972,
+    "bytes": 125494
+  },
+  {
+    "name": "teen-fiesta-mobile",
+    "source": "qa/project-visuals-and-entry-2026-10-17/sources/teen-fiesta-mobile.png",
+    "asset": "/work/case-studies/teen-fiesta-mobile.webp",
+    "width": 780,
+    "height": 1540,
+    "aspect": 0.5064935064935064,
+    "bytes": 52626
+  },
+  {
+    "name": "rewatch-opening",
+    "source": "qa/project-visuals-and-entry-2026-10-17/sources/rewatch-opening.png",
+    "asset": "/work/case-studies/rewatch-opening.webp",
+    "width": 2880,
+    "height": 1800,
+    "aspect": 1.6,
+    "bytes": 185062
+  },
+  {
+    "name": "rewatch-browse",
+    "source": "qa/project-visuals-and-entry-2026-10-17/sources/rewatch-browse.png",
+    "asset": "/work/case-studies/rewatch-browse.webp",
+    "width": 2880,
+    "height": 1800,
+    "aspect": 1.6,
+    "bytes": 406264
+  },
+  {
+    "name": "rewatch-mobile",
+    "source": "qa/project-visuals-and-entry-2026-10-17/sources/rewatch-mobile.png",
+    "asset": "/work/case-studies/rewatch-mobile.webp",
+    "width": 780,
+    "height": 1688,
+    "aspect": 0.46208530805687204,
+    "bytes": 68950
+  }
+]

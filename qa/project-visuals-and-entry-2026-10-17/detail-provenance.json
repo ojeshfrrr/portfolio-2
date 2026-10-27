@@ -1,0 +1,25 @@
+{
+  "lane": "Unmodified original supplied LANE HEAT artwork",
+  "arcus": {
+    "source": "sources/arcus-exercises.png",
+    "crop": {
+      "left": 480,
+      "top": 420,
+      "width": 2200,
+      "height": 950
+    }
+  },
+  "rewatch": {
+    "source": "sources/rewatch-browse.png",
+    "crop": {
+      "left": 590,
+      "top": 770,
+      "width": 2200,
+      "height": 920
+    }
+  },
+  "teenFilm": {
+    "source": "D:/projects/teen_fiesta/out/media/campaign-film-wide.mp4",
+    "inspection": "teen-film-contact-sheet.jpg; sampled frames inspected; native playback verified in production/film-check.json"
+  }
+}

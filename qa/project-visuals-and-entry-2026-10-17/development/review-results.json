@@ -1,0 +1,31 @@
+{
+  "errors": [],
+  "warnings": [],
+  "failed": [],
+  "entry": [
+    {
+      "slug": "lane",
+      "url": "http://127.0.0.1:3000/",
+      "active": "true",
+      "image": "http://127.0.0.1:3000/_next/image?url=%2Fwork%2Fcase-studies%2Flane-opening.webp&w=1200&q=75"
+    },
+    {
+      "slug": "arcus",
+      "url": "http://127.0.0.1:3000/",
+      "active": "true",
+      "image": "http://127.0.0.1:3000/_next/image?url=%2Fwork%2Fcase-studies%2Farcus-dashboard.webp&w=1200&q=75"
+    },
+    {
+      "slug": "teen-fiesta",
+      "url": "http://127.0.0.1:3000/work/teen-fiesta",
+      "active": "true",
+      "image": "http://127.0.0.1:3000/_next/image?url=%2Fwork%2Fcase-studies%2Fteen-fiesta-film.webp&w=1200&q=75"
+    },
+    {
+      "slug": "rewatch",
+      "url": "http://127.0.0.1:3000/work/rewatch",
+      "active": "true",
+      "image": "http://127.0.0.1:3000/_next/image?url=%2Fwork%2Fcase-studies%2Frewatch-opening.webp&w=1200&q=75"
+    }
+  ]
+}

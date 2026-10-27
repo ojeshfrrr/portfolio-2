@@ -1,0 +1,9 @@
+{
+  "method": "Actual native play-button click, 24px from left and 48px from bottom, identified in the captured native controls",
+  "playback": {
+    "time": 1.330209,
+    "paused": false,
+    "ready": 4,
+    "duration": 16.415057
+  }
+}

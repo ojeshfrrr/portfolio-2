@@ -1,0 +1,46 @@
+[
+  {
+    "name": "rewatch-opening",
+    "url": "https://rewatch.cc/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "dpr": 2,
+    "scheme": "dark",
+    "title": "Rewatch: where you keep your taste"
+  },
+  {
+    "name": "rewatch-mobile",
+    "url": "https://rewatch.cc/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "dpr": 2,
+    "scheme": "dark",
+    "title": "Rewatch: where you keep your taste"
+  },
+  {
+    "name": "rewatch-browse",
+    "url": "https://rewatch.cc/browse",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "dpr": 2,
+    "scheme": "dark",
+    "title": "Browse · Rewatch"
+  },
+  {
+    "name": "teen-fiesta-film",
+    "url": "http://127.0.0.1:3103/",
+    "viewport": {
+      "width": 1850,
+      "height": 951
+    },
+    "dpr": 2,
+    "scheme": "dark",
+    "title": "Teen Fiesta — RED ROOM"
+  }
+]

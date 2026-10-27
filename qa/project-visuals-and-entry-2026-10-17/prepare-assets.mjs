@@ -1,0 +1,4 @@
+import sharp from 'sharp';import {mkdir,writeFile} from 'node:fs/promises';
+const source='qa/project-visuals-and-entry-2026-10-17/sources',output='public/work/case-studies';await mkdir(output,{recursive:true});const manifest=[];
+for(const name of ['lane-opening','lane-campaign','lane-archive','lane-mobile','arcus-dashboard','arcus-workout','arcus-exercises','arcus-mobile','teen-fiesta-film','teen-fiesta-mobile','rewatch-opening','rewatch-browse','rewatch-mobile']){const meta=await sharp(source+'/'+name+'.png').metadata();const info=await sharp(source+'/'+name+'.png').webp({quality:95,effort:6}).toFile(output+'/'+name+'.webp');manifest.push({name,source:source+'/'+name+'.png',asset:'/work/case-studies/'+name+'.webp',width:meta.width,height:meta.height,aspect:meta.width/meta.height,bytes:info.size});}
+await writeFile('qa/project-visuals-and-entry-2026-10-17/selected-assets.json',JSON.stringify(manifest,null,2));console.log(JSON.stringify(manifest));
