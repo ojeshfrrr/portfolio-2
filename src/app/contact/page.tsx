@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { AmbientField } from "@/components/ambient-field";
+import { Atmosphere } from "@/components/atmosphere";
 import { ContactComposer } from "@/components/contact-composer";
 import { site } from "@/lib/site";
 
@@ -13,7 +13,7 @@ export default function ContactPage() {
   return (
     <div className="page-contact">
       <section className="contact-intro">
-        <AmbientField />
+        <Atmosphere variant="closing" />
         <p className="eyebrow">Contact / Start a conversation</p>
         <h1>
           What are you
@@ -31,6 +31,7 @@ export default function ContactPage() {
       </section>
 
       <section aria-labelledby="contact-note-title" className="contact-workbench">
+        <Atmosphere variant="grid" />
         <div className="contact-workbench__intro">
           <p className="eyebrow">A short brief / 01</p>
           <h2 id="contact-note-title">Give the idea<br />somewhere to start.</h2>
@@ -40,6 +41,7 @@ export default function ContactPage() {
       </section>
 
       <section className="contact-details section-wrap">
+        <Atmosphere variant="editorial" />
         <div>
           <p className="eyebrow">A few useful links</p>
           <a className="text-link" href={site.githubUrl} rel="noreferrer" target="_blank">

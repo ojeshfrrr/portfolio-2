@@ -1,9 +1,11 @@
 import Link from "next/link";
 import { site } from "@/lib/site";
+import { Atmosphere } from "./atmosphere";
 
 export function SiteFooter() {
   return (
     <footer className="site-footer">
+      <Atmosphere variant="closing" />
       <div className="site-footer__top">
         <div>
           <p className="eyebrow">Have something in mind?</p>
