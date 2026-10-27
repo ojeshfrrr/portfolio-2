@@ -1,0 +1,188 @@
+"use client";
+
+import Image from "next/image";
+import Link from "next/link";
+import { useCallback, useEffect, useLayoutEffect, useRef, useState } from "react";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import type { Project } from "@/lib/projects";
+import { usePrefersReducedMotion } from "@/hooks/use-prefers-reduced-motion";
+import styles from "./identity-stage.module.css";
+
+type Composition = { x: number; y: number; width: number; height: number; cut: number };
+// Campaign energy, interface clarity, a film frame, and an editorial reversal.
+// These only frame authentic screenshots; project data and image pixels stay intact.
+const compositions: Record<string, Composition> = {
+  lane: { x: 61, y: 49, width: 52, height: 38, cut: 20 },
+  arcus: { x: 57, y: 48, width: 55, height: 43, cut: 0 },
+  "teen-fiesta": { x: 50, y: 48, width: 68, height: 32, cut: 5 },
+  rewatch: { x: 44, y: 49, width: 56, height: 39, cut: -16 },
+};
+
+/** The complete wordmark interlocks with one media stage. Selection supplies
+ * framing, scroll supplies progress, and one renderer combines their state.
+ * Pointer translation stays on a separate nested layer. */
+export function IdentityStage({ projects }: { projects: Project[] }) {
+  const [selected, setSelected] = useState(0);
+  const root = useRef<HTMLElement>(null);
+  const dialog = useRef<HTMLDialogElement>(null);
+  const indexButton = useRef<HTMLButtonElement>(null);
+  const media = useRef<HTMLDivElement>(null);
+  const images = useRef<(HTMLDivElement | null)[]>([]);
+  const composition = useRef<Composition>({ ...compositions[projects[0].slug] });
+  const flight = useRef({ progress: 0 });
+  const desktop = useRef(false);
+  const selectionTimeline = useRef<gsap.core.Timeline | null>(null);
+  const initialized = useRef(false);
+  const reduced = usePrefersReducedMotion();
+  const project = projects[selected];
+
+  // Selection owns the base composition; ScrollTrigger owns progress only.
+  // This is the single writer of the media window's final geometry.
+  const renderComposition = useCallback(() => {
+    if (!media.current || !desktop.current) return;
+    const pose = composition.current;
+    const progress = flight.current.progress;
+    const mix = (from: number, to: number) => from + (to - from) * progress;
+    const cut = pose.cut * (1 - progress);
+    const polygon = cut >= 0
+      ? `polygon(${cut}% 0%, 100% 0%, ${100 - cut}% 100%, 0% 100%)`
+      : `polygon(0% 0%, ${100 + cut}% 0%, 100% 100%, ${-cut}% 100%)`;
+    gsap.set(media.current, {
+      left: `${mix(pose.x, 50)}%`, top: `${mix(pose.y, 49)}%`,
+      width: `${mix(pose.width, 82)}%`, height: `${mix(pose.height, 62)}svh`, clipPath: polygon,
+    });
+  }, []);
+
+  useLayoutEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
+    const mm = gsap.matchMedia();
+    // Query the media preference directly before creating any initial animation.
+    mm.add("(min-width: 1000px) and (min-height: 680px) and (prefers-reduced-motion: no-preference)", () => {
+      const context = gsap.context(() => {
+        gsap.fromTo("[data-identity-intro], [data-identity-outline]", { clipPath: "inset(50% 0 50% 0)" },
+          { clipPath: "inset(0% 0 0% 0)", duration: 1.05, ease: "power3.inOut" });
+      }, root);
+      return () => context.revert();
+    });
+    mm.add("(min-width: 1000px) and (min-height: 680px)", () => {
+      desktop.current = true;
+      renderComposition();
+      return () => {
+        desktop.current = false;
+        if (media.current) gsap.set(media.current, { clearProps: "left,top,width,height,clipPath" });
+      };
+    });
+    mm.add("(min-width: 1000px) and (min-height: 680px) and (prefers-reduced-motion: no-preference)", () => {
+      const context = gsap.context(() => {
+        const timeline = gsap.timeline({ scrollTrigger: {
+          id: "ovio-open-view", trigger: root.current, start: "top top", end: () => `+=${window.innerHeight * 1.15}`,
+          pin: true, scrub: .55, invalidateOnRefresh: true, refreshPriority: 1,
+        } });
+        timeline.to(flight.current, { progress: 1, ease: "power2.inOut", duration: 1, onUpdate: renderComposition }, 0)
+          .to("[data-wordmark-top], [data-outline-top]", { yPercent: -32, opacity: .08, ease: "power2.inOut", duration: 1 }, 0)
+          .to("[data-wordmark-bottom], [data-outline-bottom]", { yPercent: 32, opacity: .08, ease: "power2.inOut", duration: 1 }, 0)
+          .to("[data-identity-outline]", { opacity: 0, duration: .65 }, .1)
+          .to("[data-opening-note]", { opacity: 0, y: -12, duration: .25 }, 0)
+          .fromTo("[data-view-progress]", { scaleX: 0 }, { scaleX: 1, ease: "none", duration: 1 }, 0);
+      }, root);
+      const frame = requestAnimationFrame(() => ScrollTrigger.refresh());
+      return () => { cancelAnimationFrame(frame); context.revert(); flight.current.progress = 0; renderComposition(); };
+    });
+    return () => mm.revert();
+  }, [renderComposition]);
+
+  useLayoutEffect(() => {
+    const current = images.current[selected];
+    if (!current) return;
+    const noMotion = reduced || window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    selectionTimeline.current?.kill();
+    const duration = noMotion || !initialized.current ? 0 : .75;
+    const timeline = gsap.timeline({ onUpdate: renderComposition });
+    images.current.forEach((image, index) => {
+      gsap.set(image, { zIndex: index === selected ? 2 : 1 });
+      timeline.to(image, { opacity: index === selected ? 1 : 0, duration: duration * .75, ease: "power2.inOut" }, 0);
+    });
+    timeline.to(composition.current, { ...compositions[project.slug], duration, ease: "power3.inOut" }, 0);
+    if (duration) timeline.fromTo("[data-project-caption]", { y: 5, opacity: .65 }, { y: 0, opacity: 1, duration: .45, ease: "power2.out" }, .1);
+    else timeline.set("[data-project-caption]", { y: 0, opacity: 1 }, 0);
+    selectionTimeline.current = timeline;
+    initialized.current = true;
+    return () => { timeline.kill(); };
+  }, [selected, reduced, project.slug, renderComposition]);
+
+  useEffect(() => {
+    const region = media.current;
+    if (!region || reduced || !window.matchMedia("(hover: hover) and (min-width: 1000px) and (prefers-reduced-motion: no-preference)").matches) return;
+    const target = region.querySelector("[data-pointer-layer]");
+    const x = gsap.quickTo(target, "x", { duration: .7, ease: "power2.out" });
+    const y = gsap.quickTo(target, "y", { duration: .7, ease: "power2.out" });
+    const move = (event: PointerEvent) => {
+      const rect = region.getBoundingClientRect();
+      x(((event.clientX - rect.left) / rect.width - .5) * 10);
+      y(((event.clientY - rect.top) / rect.height - .5) * 6);
+    };
+    const leave = () => { x(0); y(0); };
+    region.addEventListener("pointermove", move);
+    region.addEventListener("pointerleave", leave);
+    return () => { region.removeEventListener("pointermove", move); region.removeEventListener("pointerleave", leave); x.tween.kill(); y.tween.kill(); gsap.set(target, { x: 0, y: 0 }); };
+  }, [reduced]);
+
+  function choose(index: number) { setSelected(index); }
+
+  return (
+    <section ref={root} className={styles.stage} aria-labelledby="ovio-identity">
+      <h1 id="ovio-identity" className="visually-hidden">OVIO — independent creative development by Ojesh</h1>
+      <div className={styles.introduction} data-opening-note>
+        <p>Independent in thought.<br />Expressive in code.</p>
+        <p>Ojesh, Agra<br /><span>Working everywhere.</span></p>
+      </div>
+      <div className={styles.identity} aria-hidden="true" data-identity-intro>
+        <span className={styles.upper} data-wordmark-top data-mobile-identity>OVIO</span>
+        <span className={styles.lower} data-wordmark-bottom>OVIO</span>
+      </div>
+      <div className={`${styles.identity} ${styles.outline}`} aria-hidden="true" data-identity-outline>
+        <span className={styles.upper} data-outline-top>OVIO</span>
+        <span className={styles.lower} data-outline-bottom>OVIO</span>
+      </div>
+      <div className={styles.window} data-media-window ref={media}>
+        <Link className={styles.mediaLink} href={`/work/${project.slug}`} aria-label={`Explore ${project.title} case study`}>
+          <div className={styles.pointer} data-pointer-layer>
+            {projects.map((item, index) => <div key={item.slug} ref={(element) => { images.current[index] = element; }}
+              className={styles.image} style={{ opacity: index === 0 ? 1 : 0 }} aria-hidden={selected !== index}>
+              <Image src={item.cover.src} alt={selected === index ? item.cover.alt : ""} fill
+                sizes="(max-width: 760px) 92vw, 82vw" preload={index === 0} loading={index === 0 ? undefined : "lazy"} />
+            </div>)}
+          </div>
+          <span className={styles.mediaHint} aria-hidden="true">Enter project ↗</span>
+        </Link>
+      </div>
+      <div className={styles.caption}>
+        <div data-project-caption aria-live="polite" aria-atomic="true"><span className={styles.projectType}>{project.type}</span><Link href={`/work/${project.slug}`} className={styles.projectName}>{project.title}<span aria-hidden="true">↗</span></Link></div>
+        <p className={styles.cue} data-opening-note>Scroll to open the view<span aria-hidden="true">↓</span></p>
+        <button type="button" ref={indexButton} className={styles.indexButton} onClick={() => dialog.current?.showModal()}>Project index <span aria-hidden="true">+</span></button>
+      </div>
+      <div className={styles.rail} role="group" aria-label="Select a project">
+        {projects.map((item, index) => <button key={item.slug} type="button" aria-pressed={selected === index} onClick={() => choose(index)}
+          onKeyDown={(event) => {
+            if (event.key !== "ArrowRight" && event.key !== "ArrowLeft") return;
+            event.preventDefault();
+            const next = (index + (event.key === "ArrowRight" ? 1 : projects.length - 1)) % projects.length;
+            choose(next); (event.currentTarget.parentElement?.children[next] as HTMLButtonElement)?.focus();
+          }}><span className={styles.number}>{String(index + 1).padStart(2, "0")}</span>{item.title}<span className={styles.selectionMark} aria-hidden="true">↗</span></button>)}
+      </div>
+      <div className={styles.progress} aria-hidden="true"><span data-view-progress /></div>
+      <dialog ref={dialog} className={styles.index} aria-labelledby="project-index-title" onClose={() => indexButton.current?.focus()}
+        onClick={(event) => { if (event.target === dialog.current) dialog.current?.close(); }}>
+        <div className={styles.indexInner}>
+          <div className={styles.indexHead}><p id="project-index-title">Four different worlds.</p><button type="button" aria-label="Close project index" onClick={() => dialog.current?.close()}>Close ×</button></div>
+          <div className={styles.indexList}>{projects.map((item, index) => <div key={item.slug} className={styles.indexRow}>
+            <button type="button" onClick={() => { choose(index); dialog.current?.close(); }} aria-label={`Preview ${item.title}`}><small>{String(index + 1).padStart(2, "0")}</small><span>{item.title}</span><small>{item.type}</small></button>
+            <Link href={`/work/${item.slug}`} aria-label={`Open ${item.title} case study`} onClick={() => dialog.current?.close()}>↗</Link>
+          </div>)}</div>
+          <Link className={styles.archiveLink} href="/work" onClick={() => dialog.current?.close()}>Visit the work archive ↗</Link>
+        </div>
+      </dialog>
+    </section>
+  );
+}

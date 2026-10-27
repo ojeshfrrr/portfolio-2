@@ -1,0 +1,230 @@
+{
+  "errors": [],
+  "warnings": [],
+  "failed": [],
+  "states": {
+    "initial": {
+      "scroll": 0,
+      "pins": 1,
+      "gsap": false,
+      "media": "left: 61%; top: 49%; width: 52%; height: 38svh; clip-path: polygon(20% 0%, 100% 0%, 80% 100%, 0% 100%);",
+      "intro": null,
+      "caption": null,
+      "images": [
+        {
+          "opacity": "1",
+          "z": "0",
+          "ready": true
+        },
+        {
+          "opacity": "0",
+          "z": "1",
+          "ready": true
+        },
+        {
+          "opacity": "0",
+          "z": "2",
+          "ready": true
+        },
+        {
+          "opacity": "0",
+          "z": "3",
+          "ready": true
+        }
+      ],
+      "pointer": "translate: none; rotate: none; scale: none; transform: translate(0px, 0px);"
+    },
+    "delayedSelection": {
+      "scroll": 0,
+      "pins": 1,
+      "gsap": false,
+      "media": "left: 61%; top: 49%; width: 52%; height: 38svh; clip-path: polygon(20% 0%, 100% 0%, 80% 100%, 0% 100%);",
+      "intro": null,
+      "caption": null,
+      "images": [
+        {
+          "opacity": "1",
+          "z": "0",
+          "ready": true
+        },
+        {
+          "opacity": "0",
+          "z": "1",
+          "ready": false
+        },
+        {
+          "opacity": "0",
+          "z": "2",
+          "ready": true
+        },
+        {
+          "opacity": "0",
+          "z": "3",
+          "ready": true
+        }
+      ],
+      "pointer": "translate: none; rotate: none; scale: none; transform: translate(0px, 0px);"
+    },
+    "middle": {
+      "scroll": 500,
+      "pins": 1,
+      "gsap": false,
+      "media": "left: 56.0441%; top: 49%; width: 65.5161%; height: 48.8129svh; clip-path: polygon(10.9892% 0%, 100% 0%, 89.0108% 100%, 0% 100%);",
+      "intro": null,
+      "caption": null,
+      "images": [
+        {
+          "opacity": "1",
+          "z": "0",
+          "ready": true
+        },
+        {
+          "opacity": "0",
+          "z": "1",
+          "ready": true
+        },
+        {
+          "opacity": "0",
+          "z": "2",
+          "ready": true
+        },
+        {
+          "opacity": "0",
+          "z": "3",
+          "ready": true
+        }
+      ],
+      "pointer": "translate: none; rotate: none; scale: none; transform: translate(0px, 0px);"
+    },
+    "resize80": {
+      "scroll": 500,
+      "pins": 1,
+      "gsap": false,
+      "media": "left: 56.0393%; top: 49%; width: 65.5292%; height: 48.8233svh; clip-path: polygon(10.9806% 0%, 100% 0%, 89.0194% 100%, 0% 100%);",
+      "intro": null,
+      "caption": null,
+      "images": [
+        {
+          "opacity": "1",
+          "z": "0",
+          "ready": true
+        },
+        {
+          "opacity": "0",
+          "z": "1",
+          "ready": true
+        },
+        {
+          "opacity": "0",
+          "z": "2",
+          "ready": true
+        },
+        {
+          "opacity": "0",
+          "z": "3",
+          "ready": true
+        }
+      ],
+      "pointer": "translate: none; rotate: none; scale: none; transform: translate(0px, 0px);"
+    },
+    "resizeSettled": {
+      "scroll": 500,
+      "pins": 1,
+      "gsap": false,
+      "media": "left: 56.0393%; top: 49%; width: 65.5292%; height: 48.8233svh; clip-path: polygon(10.9806% 0%, 100% 0%, 89.0194% 100%, 0% 100%);",
+      "intro": null,
+      "caption": null,
+      "images": [
+        {
+          "opacity": "1",
+          "z": "0",
+          "ready": true
+        },
+        {
+          "opacity": "0",
+          "z": "1",
+          "ready": true
+        },
+        {
+          "opacity": "0",
+          "z": "2",
+          "ready": true
+        },
+        {
+          "opacity": "0",
+          "z": "3",
+          "ready": true
+        }
+      ],
+      "pointer": "translate: none; rotate: none; scale: none; transform: translate(0px, 0px);"
+    },
+    "mobilePointer": {
+      "scroll": 500,
+      "pins": 0,
+      "gsap": false,
+      "media": "",
+      "intro": null,
+      "caption": null,
+      "images": [
+        {
+          "opacity": "1",
+          "z": "0",
+          "ready": true
+        },
+        {
+          "opacity": "0",
+          "z": "1",
+          "ready": true
+        },
+        {
+          "opacity": "0",
+          "z": "2",
+          "ready": true
+        },
+        {
+          "opacity": "0",
+          "z": "3",
+          "ready": true
+        }
+      ],
+      "pointer": "translate: none; rotate: none; scale: none; transform: translate(0px, 0px);"
+    },
+    "final": {
+      "scroll": 3,
+      "pins": 1,
+      "gsap": false,
+      "media": "left: 44%; top: 49%; width: 56%; height: 39svh; clip-path: polygon(0% 0%, 84% 0%, 100% 100%, 16% 100%);",
+      "intro": null,
+      "caption": null,
+      "images": [
+        {
+          "opacity": "0",
+          "z": "0",
+          "ready": true
+        },
+        {
+          "opacity": "0",
+          "z": "1",
+          "ready": true
+        },
+        {
+          "opacity": "0",
+          "z": "2",
+          "ready": true
+        },
+        {
+          "opacity": "1",
+          "z": "3",
+          "ready": true
+        }
+      ],
+      "pointer": "translate: none; rotate: none; scale: none; transform: translate(0px, 0px);"
+    }
+  },
+  "rapid": {
+    "minCoverage": 1,
+    "maxCaptionJump": 0,
+    "frames": 424
+  },
+  "jumps": []
+}

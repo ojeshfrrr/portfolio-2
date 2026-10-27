@@ -1,0 +1,112 @@
+[
+  {
+    "(orientation: portrait) / _onMediaChange": {
+      "added": 1,
+      "removed": 0
+    },
+    "(min-width: 1000px) and (min-height: 680px) / IdentityStage.useLayoutEffect.configure": {
+      "added": 4,
+      "removed": 3
+    },
+    "(prefers-reduced-motion: no-preference) / IdentityStage.useLayoutEffect.configure": {
+      "added": 4,
+      "removed": 3
+    },
+    "(prefers-reduced-motion: reduce) / anonymous": {
+      "added": 16,
+      "removed": 11
+    },
+    "(hover: hover) and (min-width: 1000px) and (min-height: 680px) and (prefers-reduced-motion: no-preference) / IdentityStage.useEffect.configure": {
+      "added": 4,
+      "removed": 3
+    }
+  },
+  {
+    "(orientation: portrait) / _onMediaChange": {
+      "added": 1,
+      "removed": 0
+    },
+    "(min-width: 1000px) and (min-height: 680px) / IdentityStage.useLayoutEffect.configure": {
+      "added": 6,
+      "removed": 5
+    },
+    "(prefers-reduced-motion: no-preference) / IdentityStage.useLayoutEffect.configure": {
+      "added": 6,
+      "removed": 5
+    },
+    "(prefers-reduced-motion: reduce) / anonymous": {
+      "added": 22,
+      "removed": 17
+    },
+    "(hover: hover) and (min-width: 1000px) and (min-height: 680px) and (prefers-reduced-motion: no-preference) / IdentityStage.useEffect.configure": {
+      "added": 6,
+      "removed": 5
+    }
+  },
+  {
+    "(orientation: portrait) / _onMediaChange": {
+      "added": 1,
+      "removed": 0
+    },
+    "(min-width: 1000px) and (min-height: 680px) / IdentityStage.useLayoutEffect.configure": {
+      "added": 8,
+      "removed": 7
+    },
+    "(prefers-reduced-motion: no-preference) / IdentityStage.useLayoutEffect.configure": {
+      "added": 8,
+      "removed": 7
+    },
+    "(prefers-reduced-motion: reduce) / anonymous": {
+      "added": 28,
+      "removed": 23
+    },
+    "(hover: hover) and (min-width: 1000px) and (min-height: 680px) and (prefers-reduced-motion: no-preference) / IdentityStage.useEffect.configure": {
+      "added": 8,
+      "removed": 7
+    }
+  },
+  {
+    "(orientation: portrait) / _onMediaChange": {
+      "added": 1,
+      "removed": 0
+    },
+    "(min-width: 1000px) and (min-height: 680px) / IdentityStage.useLayoutEffect.configure": {
+      "added": 10,
+      "removed": 9
+    },
+    "(prefers-reduced-motion: no-preference) / IdentityStage.useLayoutEffect.configure": {
+      "added": 10,
+      "removed": 9
+    },
+    "(prefers-reduced-motion: reduce) / anonymous": {
+      "added": 34,
+      "removed": 29
+    },
+    "(hover: hover) and (min-width: 1000px) and (min-height: 680px) and (prefers-reduced-motion: no-preference) / IdentityStage.useEffect.configure": {
+      "added": 10,
+      "removed": 9
+    }
+  },
+  {
+    "(orientation: portrait) / _onMediaChange": {
+      "added": 1,
+      "removed": 0
+    },
+    "(min-width: 1000px) and (min-height: 680px) / IdentityStage.useLayoutEffect.configure": {
+      "added": 12,
+      "removed": 11
+    },
+    "(prefers-reduced-motion: no-preference) / IdentityStage.useLayoutEffect.configure": {
+      "added": 12,
+      "removed": 11
+    },
+    "(prefers-reduced-motion: reduce) / anonymous": {
+      "added": 40,
+      "removed": 35
+    },
+    "(hover: hover) and (min-width: 1000px) and (min-height: 680px) and (prefers-reduced-motion: no-preference) / IdentityStage.useEffect.configure": {
+      "added": 12,
+      "removed": 11
+    }
+  }
+]

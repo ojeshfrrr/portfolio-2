@@ -1,0 +1,190 @@
+{
+  "checks": [
+    {
+      "name": "Interrupted breakpoint leaves CSS in control 0",
+      "passed": true,
+      "detail": {
+        "style": "",
+        "clip": "none",
+        "pins": 0
+      }
+    },
+    {
+      "name": "Interrupted breakpoint restores chosen composition 0",
+      "passed": true,
+      "detail": {
+        "x": "61%",
+        "w": "52%",
+        "clip": "polygon(20% 0%, 100% 0%, 80% 100%, 0% 100%)",
+        "pins": 1,
+        "selected": 0,
+        "wordmark": "none"
+      }
+    },
+    {
+      "name": "Interrupted breakpoint leaves CSS in control 1",
+      "passed": true,
+      "detail": {
+        "style": "",
+        "clip": "none",
+        "pins": 0
+      }
+    },
+    {
+      "name": "Interrupted breakpoint restores chosen composition 1",
+      "passed": true,
+      "detail": {
+        "x": "57%",
+        "w": "55%",
+        "clip": "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
+        "pins": 1,
+        "selected": 1,
+        "wordmark": "none"
+      }
+    },
+    {
+      "name": "Interrupted breakpoint leaves CSS in control 2",
+      "passed": true,
+      "detail": {
+        "style": "",
+        "clip": "none",
+        "pins": 0
+      }
+    },
+    {
+      "name": "Interrupted breakpoint restores chosen composition 2",
+      "passed": true,
+      "detail": {
+        "x": "50%",
+        "w": "68%",
+        "clip": "polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%)",
+        "pins": 1,
+        "selected": 2,
+        "wordmark": "none"
+      }
+    },
+    {
+      "name": "Interrupted breakpoint leaves CSS in control 3",
+      "passed": true,
+      "detail": {
+        "style": "",
+        "clip": "none",
+        "pins": 0
+      }
+    },
+    {
+      "name": "Interrupted breakpoint restores chosen composition 3",
+      "passed": true,
+      "detail": {
+        "x": "44%",
+        "w": "56%",
+        "clip": "polygon(0% 0%, 84% 0%, 100% 100%, 16% 100%)",
+        "pins": 1,
+        "selected": 3,
+        "wordmark": "none"
+      }
+    },
+    {
+      "name": "Interrupted breakpoint leaves CSS in control 4",
+      "passed": true,
+      "detail": {
+        "style": "",
+        "clip": "none",
+        "pins": 0
+      }
+    },
+    {
+      "name": "Interrupted breakpoint restores chosen composition 4",
+      "passed": true,
+      "detail": {
+        "x": "61%",
+        "w": "52%",
+        "clip": "polygon(20% 0%, 100% 0%, 80% 100%, 0% 100%)",
+        "pins": 1,
+        "selected": 0,
+        "wordmark": "none"
+      }
+    },
+    {
+      "name": "Interrupted breakpoint leaves CSS in control 5",
+      "passed": true,
+      "detail": {
+        "style": "",
+        "clip": "none",
+        "pins": 0
+      }
+    },
+    {
+      "name": "Interrupted breakpoint restores chosen composition 5",
+      "passed": true,
+      "detail": {
+        "x": "57%",
+        "w": "55%",
+        "clip": "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
+        "pins": 1,
+        "selected": 1,
+        "wordmark": "none"
+      }
+    },
+    {
+      "name": "Live reduced motion settles interrupted selection",
+      "passed": true,
+      "detail": {
+        "pins": 0,
+        "alpha": "1",
+        "w": "68%"
+      }
+    },
+    {
+      "name": "Restoring motion creates one pin",
+      "passed": true
+    },
+    {
+      "name": "Reduced keyboard rail selection",
+      "passed": true
+    },
+    {
+      "name": "Reduced keyboard opens native index",
+      "passed": true
+    },
+    {
+      "name": "Reduced Escape restores focus",
+      "passed": true
+    },
+    {
+      "name": "Reduced keyboard page scroll",
+      "passed": true
+    },
+    {
+      "name": "No application errors",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "fonts": {
+    "family": "display, \"display Fallback\", Arial, Arial, sans-serif",
+    "loaded": [
+      {
+        "family": "Manrope",
+        "weight": "400"
+      },
+      {
+        "family": "Manrope",
+        "weight": "500"
+      },
+      {
+        "family": "Manrope",
+        "weight": "700"
+      },
+      {
+        "family": "display",
+        "weight": "400 700"
+      },
+      {
+        "family": "display Fallback",
+        "weight": "normal"
+      }
+    ]
+  }
+}

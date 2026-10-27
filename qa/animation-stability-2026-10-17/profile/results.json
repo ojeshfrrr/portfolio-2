@@ -1,0 +1,67 @@
+{
+  "method": "Chrome CDP Performance/Tracing + RAF/Long Task/Layout Shift observers; no screencast or screenshots during measured interaction",
+  "desktop": {
+    "frames": 654,
+    "p95FrameGapMs": 6.200000000000728,
+    "maxFrameGapMs": 30.199999999999818,
+    "over33ms": 0,
+    "longTasksDuringInteraction": [],
+    "initialLayoutShifts": [
+      {
+        "t": 1076.3000000044703,
+        "value": 0.00003538773148148148,
+        "sources": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    "interactionLayoutShifts": [],
+    "scrollY": 0,
+    "preference": false,
+    "idleGeometryStyleMutations": 0,
+    "idle2sTaskDurationMs": 60.012999999999984,
+    "idle2sLayoutDurationMs": 0
+  },
+  "mobile": {
+    "frames": 593,
+    "p95FrameGapMs": 6.200000000000728,
+    "maxFrameGapMs": 12.199999999999818,
+    "over33ms": 0,
+    "longTasksDuringInteraction": [],
+    "initialLayoutShifts": [],
+    "interactionLayoutShifts": [],
+    "scrollY": 485,
+    "preference": false,
+    "idleGeometryStyleMutations": 0,
+    "idle2sTaskDurationMs": 47.57200000000003,
+    "idle2sLayoutDurationMs": 0
+  },
+  "reduced": {
+    "frames": 638,
+    "p95FrameGapMs": 6.200000000000728,
+    "maxFrameGapMs": 12.199999999999818,
+    "over33ms": 0,
+    "longTasksDuringInteraction": [],
+    "initialLayoutShifts": [
+      {
+        "t": 109.5,
+        "value": 0.00003538773148148148,
+        "sources": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    "interactionLayoutShifts": [],
+    "scrollY": 0,
+    "preference": true,
+    "idleGeometryStyleMutations": 0,
+    "idle2sTaskDurationMs": 41.058000000000014,
+    "idle2sLayoutDurationMs": 0
+  }
+}
