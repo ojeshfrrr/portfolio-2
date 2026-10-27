@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-16",
+  "applicationErrors": [],
+  "routes": [
+    {
+      "path": "/",
+      "status": 200,
+      "headline": "Ojesh — selected creative development projects",
+      "noise": "none",
+      "incorrectName": false
+    },
+    {
+      "path": "/work/teen-fiesta",
+      "status": 200,
+      "headline": "A website built\nfor the event.",
+      "noise": "none",
+      "incorrectName": false
+    }
+  ],
+  "gallery": {
+    "counter": "02 / 03",
+    "loaded": true
+  },
+  "mobile": {
+    "overflow": false
+  },
+  "external": {
+    "status": 404,
+    "url": "https://theteenfiesta.vercel.app/",
+    "title": "404: NOT_FOUND",
+    "body": "This page doesn’t exist\n\nIt may have been moved, removed, or never existed.\n\n404 DEPLOYMENT_NOT_FOUND\n\nbom1::qnpf6-1792092714721-331dc2b1c9bd\n\nVIEW DOCUMENTATION\nCOPY DEBUG PROMPT"
+  }
+}
