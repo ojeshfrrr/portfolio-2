@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-16",
+  "publicChecks": [
+    {
+      "url": "https://theteenfiesta.vercel.app/",
+      "status": 404,
+      "server": "Vercel",
+      "vercelError": "DEPLOYMENT_NOT_FOUND",
+      "title": "404: NOT_FOUND",
+      "body": "This page doesn’t exist\n\nIt may have been moved, removed, or never existed.\n\n404 DEPLOYMENT_NOT_FOUND\n\nbom1::v67n2-1792093370234-92a70f19f5cb\n\nVIEW DOCUMENTATION\nCOPY DEBUG PROMPT"
+    },
+    {
+      "url": "https://theteenfiesta.vercel.app/pricing/",
+      "status": 404,
+      "server": "Vercel",
+      "vercelError": "DEPLOYMENT_NOT_FOUND",
+      "title": "404: NOT_FOUND",
+      "body": "This page doesn’t exist\n\nIt may have been moved, removed, or never existed.\n\nGo back\n\n404 DEPLOYMENT_NOT_FOUND\n\nbom1::zrjrv-1792093370703-3ddc16573873\n\nVIEW DOCUMENTATION\nCOPY DEBUG PROMPT"
+    },
+    {
+      "url": "https://theteenfiesta.vercel.app/media/hero-campaign.jpg",
+      "status": 404,
+      "server": "Vercel",
+      "vercelError": "DEPLOYMENT_NOT_FOUND",
+      "title": "404: NOT_FOUND",
+      "body": "This page doesn’t exist\n\nIt may have been moved, removed, or never existed.\n\nGo back\n\n404 DEPLOYMENT_NOT_FOUND\n\nbom1::9qfnn-1792093371093-d90d58858222\n\nVIEW DOCUMENTATION\nCOPY DEBUG PROMPT"
+    }
+  ],
+  "local": {
+    "project": "D:/projects/teen_fiesta",
+    "hostingMetadata": {
+      "path": ".openai/hosting.json",
+      "projectId": "appgprj_6acd6b7de5cc8191b403276f66838c01",
+      "staticDirectory": "out",
+      "lookupResult": "Sites project not found in the connected account"
+    },
+    "vercelProjectLinkPresent": false,
+    "vercelJsonPresent": false,
+    "environmentFiles": [],
+    "gitRepository": "https://github.com/ojeshfrrr/teen-fiesta-red-room",
+    "githubHomepage": null,
+    "githubDeploymentRecords": 0,
+    "githubCommitChecks": 0,
+    "githubLegacyStatuses": 0
+  },
+  "vercelAccess": {
+    "method": "Existing cached Vercel CLI 63.1.2 whoami refreshed expired credentials; subsequent API requests succeeded",
+    "account": "ojeshjod-6892",
+    "team": {
+      "name": "ovio",
+      "slug": "ovio1"
+    },
+    "personalProjects": 0,
+    "teamProjects": 0,
+    "exactDomainAliases": 0,
+    "exactProjectLookup": "404 Project not found"
+  },
+  "replacementUrlVerified": null,
+  "deployed": false,
+  "applicationSourceChanged": false
+}
