@@ -1,0 +1,37 @@
+.section {
+  position: relative;
+  isolation: isolate;
+  padding: clamp(2.5rem, 4vw, 4rem) var(--gutter);
+  border-block: 1px solid var(--rule);
+  background: #0c0e11;
+}
+.header { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem 2rem; padding-bottom: 1.5rem; }
+.header h2 { margin: 0; font: 500 clamp(1.55rem, 2.3vw, 2.25rem)/1.15 var(--sans); letter-spacing: -.03em; }
+.profileLink { display: inline-flex; align-items: center; gap: 1rem; min-height: 2.75rem; font-size: .78rem; color: var(--paper-dim); }
+.profileLink:hover { color: var(--paper); }
+.list { margin: 0; padding: 0; list-style: none; }
+.list > li { border-top: 1px solid var(--rule); }
+.row { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.5fr) 6.5rem 1rem; align-items: center; gap: 1rem 2rem; padding-block: 1.2rem; }
+.identity h3 { margin: 0; font: 500 clamp(1.1rem, 1.5vw, 1.45rem)/1.25 var(--sans); letter-spacing: -.025em; overflow-wrap: anywhere; }
+.description { max-width: 60ch; margin: 0; font-size: .85rem; line-height: 1.7; color: var(--paper-dim); }
+.provenance { max-width: 36ch; margin: .5rem 0 0; color: var(--quiet); font-size: .72rem; line-height: 1.6; overflow-wrap: anywhere; }
+.language { justify-self: start; padding: .3rem .6rem; border: 1px solid var(--rule); border-radius: .2rem; color: var(--paper-dim); font-size: .7rem; line-height: 1.4; }
+.arrow { color: var(--paper-dim); font-size: 1rem; }
+.row:hover h3, .row:hover .arrow { color: var(--copper); }
+.row:focus-visible { outline-offset: 4px; }
+@media (min-width: 1600px) { .section { padding-inline: max(var(--gutter), calc((100vw - 1480px) / 2)); } }
+@media (max-width: 900px) {
+  .row { grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr) auto; gap: .8rem 1.5rem; }
+  .language { grid-column: 1; grid-row: 2; }
+  .description { grid-column: 2; grid-row: 1 / span 2; }
+  .arrow { grid-column: 3; grid-row: 1 / span 2; }
+}
+@media (max-width: 600px) {
+  .header { align-items: start; flex-direction: column; gap: .4rem; padding-bottom: 1rem; }
+  .row { grid-template-columns: minmax(0, 1fr) auto; gap: .8rem 1rem; padding-block: 1.4rem; }
+  .identity { grid-column: 1; grid-row: 1; }
+  .identity h3 { font-size: 1.3rem; }
+  .arrow { grid-column: 2; grid-row: 1; align-self: start; }
+  .description { grid-column: 1 / -1; grid-row: 2; }
+  .language { grid-column: 1; grid-row: 3; }
+}
