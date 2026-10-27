@@ -1,0 +1,184 @@
+[
+  {
+    "text": "",
+    "html": "<button class=\"overlay-button\" style=\"width: 40px; height: 40px; background: rgba(255, 255, 255, 0); color: rgb(255, 255, 255);\"><div class=\"button-content\"><div class=\"icon_lk pointer-events-auto relative bg-black text-white flex items-center justify-center cursor-pointer mr-2\"><div class=\"icon_lk-content_text flex items-center justify-center\"><div class=\"icon-animation\"><div class=\"flex items-center justify-center\"><div class=\"circle-container pointer-events-auto mix-blend-difference\"><div class=\"lines\"><span class=\"line not-active\"></span><span class=\"line not-active\"></span><span class=\"line not-active\"></span><span class=\"line not-active\"></span><span class=\"line not-active\"></span></di",
+    "rect": {
+      "x": 1200,
+      "y": 20,
+      "width": 40,
+      "height": 40,
+      "top": 20,
+      "right": 1240,
+      "bottom": 60,
+      "left": 1200
+    }
+  },
+  {
+    "text": "Contact",
+    "html": "<button class=\"overlay-button\" style=\"width: 100px; height: 40px; background: rgba(255, 255, 255, 0); color: rgb(255, 255, 255);\"><div class=\"button-content gif \">Contact<img class=\"button-icon\" src=\"https://ik.imagekit.io/ymjg98zvi/fantik/runner.gif\" alt=\"runner\"></div><span class=\"decorative-square top-right\" style=\"transform: none;\"></span><span class=\"decorative-square bottom-right\" style=\"transform: none;\"></span><span class=\"decorative-square bottom-left\" style=\"transform: none;\"></span><span class=\"decorative-square top-left\" style=\"transform: none;\"></span></button>",
+    "rect": {
+      "x": 1260,
+      "y": 20,
+      "width": 100,
+      "height": 40,
+      "top": 20,
+      "right": 1360,
+      "bottom": 60,
+      "left": 1260
+    }
+  },
+  {
+    "text": "",
+    "html": "<button class=\"overlay-button\" style=\"width: 40px; height: 40px; background: rgba(255, 255, 255, 0); color: rgb(255, 255, 255);\"><div class=\"button-content menu \" style=\"transform: none;\"><img src=\"https://ik.imagekit.io/ymjg98zvi/fantik/burger.svg\" alt=\"burger\"><div class=\"menu-point\" style=\"opacity: 0;\"></div></div><span class=\"decorative-square top-right\" style=\"transform: none;\"></span><span class=\"decorative-square bottom-right\" style=\"transform: none;\"></span><span class=\"decorative-square bottom-left\" style=\"transform: none;\"></span><span class=\"decorative-square top-left\" style=\"transform: none;\"></span></button>",
+    "rect": {
+      "x": 1380,
+      "y": 20,
+      "width": 40,
+      "height": 40,
+      "top": 20,
+      "right": 1420,
+      "bottom": 60,
+      "left": 1380
+    }
+  },
+  {
+    "text": "Back\n\nServices",
+    "html": "<button class=\"overlay-back-button\" style=\"width: 140px; height: 50px; background: rgba(255, 255, 255, 0); color: rgb(255, 255, 255);\"><div class=\"button-content\"><span style=\"opacity: 1; transform: translateY(-10px);\"><p>Back</p></span><span style=\"opacity: 1; transform: translateY(-10px);\"><p>Services</p></span></div><span class=\"decorative-square top-right\" style=\"transform: none;\"></span><span class=\"decorative-square bottom-right\" style=\"transform: none;\"></span><span class=\"decorative-square bottom-left\" style=\"transform: none;\"></span><span class=\"decorative-square top-left\" style=\"transform: none;\"></span></button>",
+    "rect": {
+      "x": 650,
+      "y": 825,
+      "width": 140,
+      "height": 50,
+      "top": 825,
+      "right": 790,
+      "bottom": 875,
+      "left": 650
+    }
+  },
+  {
+    "text": "Home",
+    "html": "<button class=\"overlay-button\" style=\"width: 20px; height: 20px; background: rgba(255, 255, 255, 0); color: rgb(255, 255, 255);\"><div class=\"button-content\"><div style=\"opacity: 1; transform: none;\"><div class=\"rocket_point-item\"></div><span class=\"rocket_point-name\" style=\"opacity: 0;\">home</span></div></div><span class=\"decorative-square top-right\" style=\"transform: none;\"></span><span class=\"decorative-square bottom-right\" style=\"transform: none;\"></span><span class=\"decorative-square bottom-left\" style=\"transform: none;\"></span><span class=\"decorative-square top-left\" style=\"transform: none;\"></span></button>",
+    "rect": {
+      "x": 1390,
+      "y": 710,
+      "width": 20,
+      "height": 20,
+      "top": 710,
+      "right": 1410,
+      "bottom": 730,
+      "left": 1390
+    }
+  },
+  {
+    "text": "About Us",
+    "html": "<button class=\"overlay-button\" style=\"width: 20px; height: 20px; background: rgba(255, 255, 255, 0); color: rgb(255, 255, 255);\"><div class=\"button-content\"><div style=\"opacity: 1; transform: none;\"><div class=\"rocket_point-item\"></div><span class=\"rocket_point-name\" style=\"opacity: 0;\">about us</span></div></div><span class=\"decorative-square top-right\" style=\"transform: none;\"></span><span class=\"decorative-square bottom-right\" style=\"transform: none;\"></span><span class=\"decorative-square bottom-left\" style=\"transform: none;\"></span><span class=\"decorative-square top-left\" style=\"transform: none;\"></span></button>",
+    "rect": {
+      "x": 1390,
+      "y": 640,
+      "width": 20,
+      "height": 20,
+      "top": 640,
+      "right": 1410,
+      "bottom": 660,
+      "left": 1390
+    }
+  },
+  {
+    "text": "Modus",
+    "html": "<button class=\"overlay-button\" style=\"width: 20px; height: 20px; background: rgba(255, 255, 255, 0); color: rgb(255, 255, 255);\"><div class=\"button-content\"><div style=\"opacity: 1; transform: none;\"><div class=\"rocket_point-item\"></div><span class=\"rocket_point-name\" style=\"opacity: 0;\">modus</span></div></div><span class=\"decorative-square top-right\" style=\"transform: none;\"></span><span class=\"decorative-square bottom-right\" style=\"transform: none;\"></span><span class=\"decorative-square bottom-left\" style=\"transform: none;\"></span><span class=\"decorative-square top-left\" style=\"transform: none;\"></span></button>",
+    "rect": {
+      "x": 1390,
+      "y": 565,
+      "width": 20,
+      "height": 20,
+      "top": 565,
+      "right": 1410,
+      "bottom": 585,
+      "left": 1390
+    }
+  },
+  {
+    "text": "Trinity",
+    "html": "<button class=\"overlay-button\" style=\"width: 20px; height: 20px; background: rgba(255, 255, 255, 0); color: rgb(255, 255, 255);\"><div class=\"button-content\"><div style=\"opacity: 1; transform: none;\"><div class=\"rocket_point-item\"></div><span class=\"rocket_point-name\" style=\"opacity: 0;\">trinity</span></div></div><span class=\"decorative-square top-right\" style=\"transform: none;\"></span><span class=\"decorative-square bottom-right\" style=\"transform: none;\"></span><span class=\"decorative-square bottom-left\" style=\"transform: none;\"></span><span class=\"decorative-square top-left\" style=\"transform: none;\"></span></button>",
+    "rect": {
+      "x": 1390,
+      "y": 495,
+      "width": 20,
+      "height": 20,
+      "top": 495,
+      "right": 1410,
+      "bottom": 515,
+      "left": 1390
+    }
+  },
+  {
+    "text": "Zenith",
+    "html": "<button class=\"overlay-button\" style=\"width: 20px; height: 20px; background: rgba(255, 255, 255, 0); color: rgb(255, 255, 255);\"><div class=\"button-content\"><div style=\"opacity: 1; transform: none;\"><div class=\"rocket_point-item\"></div><span class=\"rocket_point-name\" style=\"opacity: 0;\">zenith</span></div></div><span class=\"decorative-square top-right\" style=\"transform: none;\"></span><span class=\"decorative-square bottom-right\" style=\"transform: none;\"></span><span class=\"decorative-square bottom-left\" style=\"transform: none;\"></span><span class=\"decorative-square top-left\" style=\"transform: none;\"></span></button>",
+    "rect": {
+      "x": 1390,
+      "y": 405,
+      "width": 20,
+      "height": 20,
+      "top": 405,
+      "right": 1410,
+      "bottom": 425,
+      "left": 1390
+    }
+  },
+  {
+    "text": "Sage",
+    "html": "<button class=\"overlay-button\" style=\"width: 20px; height: 20px; background: rgba(255, 255, 255, 0); color: rgb(255, 255, 255);\"><div class=\"button-content\"><div style=\"opacity: 1; transform: none;\"><div class=\"rocket_point-item\"></div><span class=\"rocket_point-name\" style=\"opacity: 0;\">sage</span></div></div><span class=\"decorative-square top-right\" style=\"transform: none;\"></span><span class=\"decorative-square bottom-right\" style=\"transform: none;\"></span><span class=\"decorative-square bottom-left\" style=\"transform: none;\"></span><span class=\"decorative-square top-left\" style=\"transform: none;\"></span></button>",
+    "rect": {
+      "x": 1390,
+      "y": 320,
+      "width": 20,
+      "height": 20,
+      "top": 320,
+      "right": 1410,
+      "bottom": 340,
+      "left": 1390
+    }
+  },
+  {
+    "text": "Recur",
+    "html": "<button class=\"overlay-button\" style=\"width: 20px; height: 20px; background: rgba(255, 255, 255, 0); color: rgb(255, 255, 255);\"><div class=\"button-content\"><div style=\"opacity: 1; transform: none;\"><div class=\"rocket_point-item\"></div><span class=\"rocket_point-name\" style=\"opacity: 0;\">recur</span></div></div><span class=\"decorative-square top-right\" style=\"transform: none;\"></span><span class=\"decorative-square bottom-right\" style=\"transform: none;\"></span><span class=\"decorative-square bottom-left\" style=\"transform: none;\"></span><span class=\"decorative-square top-left\" style=\"transform: none;\"></span></button>",
+    "rect": {
+      "x": 1390,
+      "y": 240,
+      "width": 20,
+      "height": 20,
+      "top": 240,
+      "right": 1410,
+      "bottom": 260,
+      "left": 1390
+    }
+  },
+  {
+    "text": "Contact",
+    "html": "<button class=\"overlay-button\" style=\"width: 20px; height: 20px; background: rgba(255, 255, 255, 0); color: rgb(255, 255, 255);\"><div class=\"button-content\"><div style=\"opacity: 1; transform: none;\"><div class=\"rocket_point-item\"></div><span class=\"rocket_point-name\" style=\"opacity: 0;\">contact</span></div></div><span class=\"decorative-square top-right\" style=\"transform: none;\"></span><span class=\"decorative-square bottom-right\" style=\"transform: none;\"></span><span class=\"decorative-square bottom-left\" style=\"transform: none;\"></span><span class=\"decorative-square top-left\" style=\"transform: none;\"></span></button>",
+    "rect": {
+      "x": 1390,
+      "y": 170,
+      "width": 20,
+      "height": 20,
+      "top": 170,
+      "right": 1410,
+      "bottom": 190,
+      "left": 1390
+    }
+  },
+  {
+    "text": "View Our Work\nView Our Work",
+    "html": "<button class=\"main-button  \" style=\"width: 220px; height: 52px; transform: translate(0px, 0px); background: rgb(17, 17, 17);\"><div class=\"button-anim\" style=\"transform: translate(0px, 0px);\"><span class=\"button-text\" style=\"transform: translateY(8px) translateZ(-8px);\">View Our Work<div class=\"home-gif\"><img src=\"https://ik.imagekit.io/ymjg98zvi/fantik/picaxe_1.gif\" alt=\"Animated GIF\"></div></span><span class=\"button-text\" style=\"transform: translateY(13px) translateZ(-13px);\">View Our Work<div class=\"home-gif\"><img src=\"https://ik.imagekit.io/ymjg98zvi/fantik/picaxe_1.gif\" alt=\"Animated GIF\"></div></span></div><span class=\"decorative-square top-right\" style=\"width: 4px; height: 4px;\"></spa",
+    "rect": {
+      "x": 621.8787841796875,
+      "y": 548.1212158203125,
+      "width": 196.242431640625,
+      "height": 46.38458251953125,
+      "top": 548.1212158203125,
+      "right": 818.1212158203125,
+      "bottom": 594.5057983398438,
+      "left": 621.8787841796875
+    }
+  }
+]

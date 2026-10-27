@@ -1,0 +1,30 @@
+[
+  {
+    "width": 1440,
+    "height": 900,
+    "overflow": false,
+    "buttonInsideViewport": true,
+    "captionNotOverlapping": true
+  },
+  {
+    "width": 1920,
+    "height": 1080,
+    "overflow": false,
+    "buttonInsideViewport": true,
+    "captionNotOverlapping": true
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "overflow": false,
+    "buttonInsideViewport": true,
+    "captionNotOverlapping": true
+  },
+  {
+    "width": 320,
+    "height": 700,
+    "overflow": false,
+    "buttonInsideViewport": true,
+    "captionNotOverlapping": true
+  }
+]

@@ -1,0 +1,20 @@
+import { createRequire } from 'node:module';
+import { mkdir, writeFile } from 'node:fs/promises';
+const require = createRequire('C:/Users/Lenovo/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright/package.json');
+const { chromium } = require('playwright');
+const dir = 'qa/homepage-rebuild-2026-10-16';
+await mkdir(dir+'/reference', {recursive:true});
+const browser = await chromium.launch({executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe', args:['--enable-webgl','--ignore-gpu-blocklist','--use-gl=angle','--use-angle=swiftshader']});
+const page = await browser.newPage({viewport:{width:1440,height:900},deviceScaleFactor:1});
+await page.goto('http://127.0.0.1:3000/', {waitUntil:'networkidle'});
+await page.waitForTimeout(3000);await page.screenshot({path:dir+'/before-home-1440x900.png'});
+await page.goto('https://fantik.studio/', {waitUntil:'domcontentloaded',timeout:60000});
+await page.waitForTimeout(12000);
+await page.screenshot({path:dir+'/reference/00-opening.png'});
+const details = await page.evaluate(()=>({text:document.body.innerText, height:document.documentElement.scrollHeight, links:[...document.querySelectorAll('a,button')].map(el=>({text:el.textContent,href:el.getAttribute('href'),label:el.getAttribute('aria-label')})), fonts:[...document.querySelectorAll('h1,h2,nav,a,button')].slice(0,30).map(el=>({text:el.textContent?.slice(0,100),font:getComputedStyle(el).font}))}));
+await writeFile(dir+'/reference/details.json',JSON.stringify(details,null,2));
+await page.mouse.move(950,380);await page.waitForTimeout(1000);await page.screenshot({path:dir+'/reference/01-pointer.png'});
+for(let i=1;i<=10;i++){await page.mouse.wheel(0,720);await page.waitForTimeout(1500);await page.screenshot({path:dir+`/reference/scroll-${i}.png`});}
+await page.goto('https://www.landing.love/sites/fantik/', {waitUntil:'domcontentloaded',timeout:60000});await page.waitForTimeout(2000);
+await writeFile(dir+'/reference/recording.json',JSON.stringify(await page.locator('video, video source').evaluateAll(els=>els.map(el=>({src:el.getAttribute('src'),poster:el.getAttribute('poster')}))),null,2));
+await browser.close();

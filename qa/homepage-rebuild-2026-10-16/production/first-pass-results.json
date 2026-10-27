@@ -1,0 +1,231 @@
+{
+  "base": "http://127.0.0.1:3001",
+  "method": "Installed Chrome through bundled Playwright; explicit media emulation; production build; viewport/touch emulation.",
+  "assertions": [
+    {
+      "name": "Desktop has exactly one finite pin",
+      "passed": true
+    },
+    {
+      "name": "Homepage requires no canvas",
+      "passed": true
+    },
+    {
+      "name": "Only four project selectors",
+      "passed": true
+    },
+    {
+      "name": "Typographic introduction fully reveals",
+      "passed": false,
+      "detail": "inset(0% 0px)"
+    },
+    {
+      "name": "Scroll opens project window continuously",
+      "passed": true,
+      "detail": {
+        "initial": 171,
+        "middle": 345.515625,
+        "open": 557.9375
+      }
+    },
+    {
+      "name": "Reverse scroll restores opening",
+      "passed": true,
+      "detail": {
+        "initial": 171,
+        "reversed": 171
+      }
+    },
+    {
+      "name": "Selection updates lane",
+      "passed": true
+    },
+    {
+      "name": "Selection updates arcus",
+      "passed": true
+    },
+    {
+      "name": "Selection updates teen-fiesta",
+      "passed": true
+    },
+    {
+      "name": "Selection updates rewatch",
+      "passed": true
+    },
+    {
+      "name": "Rapid selections settle to one complete media frame",
+      "passed": true,
+      "detail": [
+        {
+          "opacity": "0",
+          "clip": "inset(0% 0px)"
+        },
+        {
+          "opacity": "0",
+          "clip": "inset(0% 0px)"
+        },
+        {
+          "opacity": "0",
+          "clip": "inset(0% 0px)"
+        },
+        {
+          "opacity": "1",
+          "clip": "inset(0% 0px)"
+        }
+      ]
+    },
+    {
+      "name": "Arrow key wraps project selection",
+      "passed": true
+    },
+    {
+      "name": "Keyboard opens native modal",
+      "passed": true
+    },
+    {
+      "name": "Modal receives focus",
+      "passed": true
+    },
+    {
+      "name": "Modal traps keyboard focus",
+      "passed": false
+    },
+    {
+      "name": "Escape closes and restores focus",
+      "passed": true
+    },
+    {
+      "name": "Index selects project and closes",
+      "passed": true
+    },
+    {
+      "name": "Native scroll reaches about",
+      "passed": true
+    },
+    {
+      "name": "Homepage contact mail link is valid",
+      "passed": true
+    },
+    {
+      "name": "Index route lane",
+      "passed": true
+    },
+    {
+      "name": "No retained homepage pin on lane",
+      "passed": true
+    },
+    {
+      "name": "Gallery next remains functional lane",
+      "passed": true
+    },
+    {
+      "name": "Gallery keyboard reverse lane",
+      "passed": true
+    },
+    {
+      "name": "Index route arcus",
+      "passed": true
+    },
+    {
+      "name": "No retained homepage pin on arcus",
+      "passed": true
+    },
+    {
+      "name": "Gallery next remains functional arcus",
+      "passed": true
+    },
+    {
+      "name": "Gallery keyboard reverse arcus",
+      "passed": true
+    },
+    {
+      "name": "Index route teen-fiesta",
+      "passed": true
+    },
+    {
+      "name": "No retained homepage pin on teen-fiesta",
+      "passed": true
+    },
+    {
+      "name": "Gallery next remains functional teen-fiesta",
+      "passed": true
+    },
+    {
+      "name": "Gallery keyboard reverse teen-fiesta",
+      "passed": true
+    },
+    {
+      "name": "Index route rewatch",
+      "passed": true
+    },
+    {
+      "name": "No retained homepage pin on rewatch",
+      "passed": true
+    },
+    {
+      "name": "Gallery next remains functional rewatch",
+      "passed": true
+    },
+    {
+      "name": "Gallery keyboard reverse rewatch",
+      "passed": true
+    },
+    {
+      "name": "Main navigation work",
+      "passed": true
+    },
+    {
+      "name": "Main navigation about",
+      "passed": true
+    },
+    {
+      "name": "Main navigation contact",
+      "passed": true
+    },
+    {
+      "name": "Route remount creates one pin",
+      "passed": true
+    },
+    {
+      "name": "Reduced motion actual media preference",
+      "passed": true
+    },
+    {
+      "name": "Reduced motion no initial or current pin",
+      "passed": true
+    },
+    {
+      "name": "Reduced motion no Lenis",
+      "passed": true
+    },
+    {
+      "name": "Reduced wordmark stays static",
+      "passed": true
+    },
+    {
+      "name": "Reduced project reveal is immediate",
+      "passed": false,
+      "detail": "inset(0% 0px)"
+    },
+    {
+      "name": "Reduced motion natural scrolling",
+      "passed": true
+    },
+    {
+      "name": "Reduced gallery remains usable",
+      "passed": true
+    },
+    {
+      "name": "Mobile 390 no pin",
+      "passed": true
+    },
+    {
+      "name": "Mobile 390 no horizontal overflow",
+      "passed": true
+    }
+  ],
+  "consoleErrors": [],
+  "pageErrors": [],
+  "failedHTTP": [],
+  "exception": "Error: locator.evaluate: Error: strict mode violation: locator('dialog') resolved to 2 elements:\n    1) <dialog id=\"mobile-navigation\" class=\"mobile-nav-dialog\">…</dialog> aka locator('#mobile-navigation')\n    2) <dialog open=\"\" class=\"_9JcT8W_index\" aria-labelledby=\"project-index-title\">…</dialog> aka getByRole('dialog', { name: 'Four different worlds.' })\n\nCall log:\n\u001b[2m  - waiting for locator('dialog')\u001b[22m\n"
+}
