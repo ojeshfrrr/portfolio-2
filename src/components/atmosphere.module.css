@@ -1,0 +1,77 @@
+.surface {
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  display: block;
+  overflow: clip;
+  pointer-events: none;
+  contain: paint;
+  --field-warm: rgb(200 121 91 / .1);
+  --field-cool: rgb(46 58 77 / .25);
+  --field-line: rgb(233 229 216 / .045);
+}
+.light, .plane, .mesh { position: absolute; display: block; }
+.light {
+  inset: 0;
+  background: radial-gradient(ellipse 70% 90% at 95% 5%, var(--field-warm), transparent 75%), radial-gradient(ellipse 75% 75% at 5% 100%, var(--field-cool), transparent 75%);
+}
+.plane {
+  width: 75%; height: 165%; top: -45%; left: 47%;
+  border: 1px solid rgb(233 229 216 / .05);
+  background: linear-gradient(125deg, rgb(233 229 216 / .045), rgb(233 229 216 / .008) 55%, transparent 80%);
+  transform: rotate(28deg);
+  mask-image: linear-gradient(180deg, transparent, #000 20%, #000 65%, transparent);
+}
+.mesh {
+  inset: 0;
+  background-image: linear-gradient(90deg, var(--field-line) 1px, transparent 1px), linear-gradient(var(--field-line) 1px, transparent 1px);
+  background-size: clamp(4rem, 8vw, 8rem) clamp(4rem, 8vw, 8rem);
+  mask-image: radial-gradient(ellipse 70% 85% at 100% 0%, #000, transparent 80%);
+  opacity: .7;
+}
+.surface[data-atmosphere="stage"] { --field-warm: rgb(200 121 91 / .035); --field-cool: rgb(46 58 77 / .3); }
+.surface[data-atmosphere="stage"] .plane { left: 24%; top: -55%; width: 80%; transform: rotate(-24deg); }
+.surface[data-atmosphere="stage"] .mesh {
+  background-image: linear-gradient(90deg, var(--field-line) 1px, transparent 1px);
+  background-size: 25% 100%;
+  mask-image: linear-gradient(180deg, transparent, #000 25%, transparent 85%);
+  opacity: .45;
+}
+.surface[data-atmosphere="profile"] { --field-warm: rgb(200 121 91 / .15); --field-cool: rgb(46 58 77 / .18); }
+.surface[data-atmosphere="profile"] .plane { left: 52%; width: 85%; top: -55%; }
+.surface[data-atmosphere="profile"] .mesh { opacity: .5; }
+.surface[data-atmosphere="editorial"] .light {
+  background: radial-gradient(ellipse 90% 150% at 0% 100%, rgb(200 121 91 / .075), transparent 72%), linear-gradient(110deg, transparent 45%, rgb(233 229 216 / .02), transparent 90%);
+}
+.surface[data-atmosphere="editorial"] .plane, .surface[data-atmosphere="editorial"] .mesh { display: none; }
+.surface[data-atmosphere="gallery"] { --field-warm: rgb(200 121 91 / .045); --field-cool: rgb(46 58 77 / .2); }
+.surface[data-atmosphere="gallery"] .plane { left: -45%; top: -15%; width: 90%; height: 65%; transform: rotate(-28deg); opacity: .6; }
+.surface[data-atmosphere="gallery"] .mesh {
+  background-image: linear-gradient(90deg, var(--field-line) 1px, transparent 1px);
+  background-size: 25% 100%;
+  mask-image: linear-gradient(180deg, #000, transparent 80%);
+  opacity: .45;
+}
+.surface[data-atmosphere="grid"] { --field-warm: transparent; --field-cool: rgb(46 58 77 / .28); }
+.surface[data-atmosphere="grid"] .plane { display: none; }
+.surface[data-atmosphere="grid"] .mesh { mask-image: linear-gradient(110deg, transparent 15%, #000 100%); opacity: .55; }
+.surface[data-atmosphere="closing"] .light {
+  background: radial-gradient(ellipse 85% 110% at 90% 100%, rgb(200 121 91 / .12), transparent 70%), linear-gradient(135deg, rgb(46 58 77 / .15), transparent 70%);
+}
+.surface[data-atmosphere="closing"] .plane { left: -50%; top: -65%; width: 90%; transform: rotate(32deg); opacity: .65; }
+.surface[data-atmosphere="closing"] .mesh { display: none; }
+.surface[data-atmosphere="case"] .light {
+  background: radial-gradient(ellipse 65% 36rem at 100% 0%, color-mix(in srgb, var(--project-accent, #c8795b) 9%, transparent), transparent 80%), linear-gradient(90deg, transparent 40%, rgb(233 229 216 / .018) 80%, transparent);
+}
+.surface[data-atmosphere="case"] .plane { top: -12rem; left: 60%; height: 65rem; width: 55%; opacity: .55; }
+.surface[data-atmosphere="case"] .mesh { height: 65rem; opacity: .4; mask-image: linear-gradient(180deg, #000, transparent); }
+/* Broader fields and less grid contrast behind mobile text. */
+@media (max-width: 760px) {
+  .surface { --field-line: rgb(233 229 216 / .03); }
+  .plane { left: 55%; width: 110%; height: 125%; top: -20%; }
+  .mesh { background-size: 5rem 5rem; opacity: .4; }
+  .surface[data-atmosphere="profile"] .plane { left: 65%; top: -20%; width: 110%; }
+  .surface[data-atmosphere="stage"] .plane { left: 40%; top: -35%; height: 100%; }
+  .surface[data-atmosphere="grid"] .mesh { opacity: .35; }
+}
+@media (forced-colors: active) { .surface { display: none; } }
