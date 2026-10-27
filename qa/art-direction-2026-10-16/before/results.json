@@ -1,0 +1,668 @@
+{
+  "base": "http://127.0.0.1:3000",
+  "records": [
+    {
+      "name": "home-desktop",
+      "url": "/",
+      "width": 1440,
+      "height": 900,
+      "documentWidth": 1440,
+      "y": 0,
+      "pinCount": 1,
+      "reduced": false,
+      "cls": 0.00012662037037037036,
+      "typography": [
+        {
+          "selector": ".site-wordmark",
+          "family": "\"Space Grotesk\", Arial, sans-serif",
+          "weight": "600",
+          "size": "18.4px",
+          "tracking": "-1.84px",
+          "lineHeight": "18.4px",
+          "width": 39.984375
+        },
+        {
+          "selector": ".spatial-focus p",
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "13.6px",
+          "tracking": "normal",
+          "lineHeight": "21.08px",
+          "width": 168
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Manrope",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Manrope",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Manrope",
+          "weight": "700",
+          "style": "normal"
+        },
+        {
+          "family": "Space Grotesk",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Space Grotesk",
+          "weight": "600",
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "name": "index-desktop",
+      "url": "/",
+      "width": 1440,
+      "height": 900,
+      "documentWidth": 1440,
+      "y": 0,
+      "pinCount": 1,
+      "reduced": false,
+      "cls": 0.00012662037037037036,
+      "typography": [
+        {
+          "selector": ".site-wordmark",
+          "family": "\"Space Grotesk\", Arial, sans-serif",
+          "weight": "600",
+          "size": "18.4px",
+          "tracking": "-1.84px",
+          "lineHeight": "18.4px",
+          "width": 39.984375
+        },
+        {
+          "selector": ".spatial-focus p",
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "13.6px",
+          "tracking": "normal",
+          "lineHeight": "21.08px",
+          "width": 168
+        },
+        {
+          "selector": ".spatial-index__title",
+          "family": "\"Space Grotesk\", Arial, sans-serif",
+          "weight": "500",
+          "size": "14.72px",
+          "tracking": "-0.4416px",
+          "lineHeight": "16.928px",
+          "width": 78
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Manrope",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Manrope",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Manrope",
+          "weight": "700",
+          "style": "normal"
+        },
+        {
+          "family": "Space Grotesk",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Space Grotesk",
+          "weight": "600",
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "name": "selected-arcus-desktop",
+      "url": "/",
+      "width": 1440,
+      "height": 900,
+      "documentWidth": 1440,
+      "y": 0,
+      "pinCount": 1,
+      "reduced": false,
+      "cls": 0.0015415743687842935,
+      "typography": [
+        {
+          "selector": ".site-wordmark",
+          "family": "\"Space Grotesk\", Arial, sans-serif",
+          "weight": "600",
+          "size": "18.4px",
+          "tracking": "-1.84px",
+          "lineHeight": "18.4px",
+          "width": 39.984375
+        },
+        {
+          "selector": ".spatial-focus p",
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "13.6px",
+          "tracking": "normal",
+          "lineHeight": "21.08px",
+          "width": 92
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Manrope",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Manrope",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Manrope",
+          "weight": "700",
+          "style": "normal"
+        },
+        {
+          "family": "Space Grotesk",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Space Grotesk",
+          "weight": "600",
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "name": "scroll-desktop",
+      "url": "/",
+      "width": 1440,
+      "height": 900,
+      "documentWidth": 1440,
+      "y": 720,
+      "pinCount": 1,
+      "reduced": false,
+      "cls": 0.0015415743687842935,
+      "typography": [
+        {
+          "selector": ".site-wordmark",
+          "family": "\"Space Grotesk\", Arial, sans-serif",
+          "weight": "600",
+          "size": "18.4px",
+          "tracking": "-1.84px",
+          "lineHeight": "18.4px",
+          "width": 39.984375
+        },
+        {
+          "selector": ".spatial-focus p",
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "13.6px",
+          "tracking": "normal",
+          "lineHeight": "21.08px",
+          "width": 168
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Manrope",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Manrope",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Manrope",
+          "weight": "700",
+          "style": "normal"
+        },
+        {
+          "family": "Space Grotesk",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Space Grotesk",
+          "weight": "600",
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "name": "reverse-desktop",
+      "url": "/",
+      "width": 1440,
+      "height": 900,
+      "documentWidth": 1440,
+      "y": 0,
+      "pinCount": 1,
+      "reduced": false,
+      "cls": 0.0015415743687842935,
+      "typography": [
+        {
+          "selector": ".site-wordmark",
+          "family": "\"Space Grotesk\", Arial, sans-serif",
+          "weight": "600",
+          "size": "18.4px",
+          "tracking": "-1.84px",
+          "lineHeight": "18.4px",
+          "width": 39.984375
+        },
+        {
+          "selector": ".spatial-focus p",
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "13.6px",
+          "tracking": "normal",
+          "lineHeight": "21.08px",
+          "width": 168
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Manrope",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Manrope",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Manrope",
+          "weight": "700",
+          "style": "normal"
+        },
+        {
+          "family": "Space Grotesk",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Space Grotesk",
+          "weight": "600",
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "name": "about-desktop",
+      "url": "/about",
+      "width": 1440,
+      "height": 900,
+      "documentWidth": 1440,
+      "y": 0,
+      "pinCount": 0,
+      "reduced": false,
+      "cls": 0,
+      "typography": [
+        {
+          "selector": ".site-wordmark",
+          "family": "\"Space Grotesk\", Arial, sans-serif",
+          "weight": "600",
+          "size": "22.08px",
+          "tracking": "-2.208px",
+          "lineHeight": "22.08px",
+          "width": 50.765625
+        },
+        {
+          "selector": "h1:not(.visually-hidden)",
+          "family": "\"Space Grotesk\", Arial, sans-serif",
+          "weight": "500",
+          "size": "135.36px",
+          "tracking": "-13.536px",
+          "lineHeight": "113.702px",
+          "width": 757.09375
+        },
+        {
+          "selector": ".page-intro__summary",
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "17.92px",
+          "tracking": "normal",
+          "lineHeight": "30.464px",
+          "width": 416
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Manrope",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Manrope",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Space Grotesk",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Space Grotesk",
+          "weight": "600",
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "name": "contact-desktop",
+      "url": "/contact",
+      "width": 1440,
+      "height": 900,
+      "documentWidth": 1440,
+      "y": 0,
+      "pinCount": 0,
+      "reduced": false,
+      "cls": 0,
+      "typography": [
+        {
+          "selector": ".site-wordmark",
+          "family": "\"Space Grotesk\", Arial, sans-serif",
+          "weight": "600",
+          "size": "22.08px",
+          "tracking": "-2.208px",
+          "lineHeight": "22.08px",
+          "width": 50.765625
+        },
+        {
+          "selector": "h1:not(.visually-hidden)",
+          "family": "\"Space Grotesk\", Arial, sans-serif",
+          "weight": "500",
+          "size": "158.4px",
+          "tracking": "-15.84px",
+          "lineHeight": "131.472px",
+          "width": 982.40625
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Manrope",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Manrope",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Space Grotesk",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Space Grotesk",
+          "weight": "600",
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "name": "lane-desktop",
+      "url": "/work/lane",
+      "width": 1440,
+      "height": 900,
+      "documentWidth": 1440,
+      "y": 0,
+      "pinCount": 0,
+      "reduced": false,
+      "cls": 0,
+      "typography": [
+        {
+          "selector": ".site-wordmark",
+          "family": "\"Space Grotesk\", Arial, sans-serif",
+          "weight": "600",
+          "size": "22.08px",
+          "tracking": "-2.208px",
+          "lineHeight": "22.08px",
+          "width": 50.765625
+        },
+        {
+          "selector": "h1:not(.visually-hidden)",
+          "family": "\"Space Grotesk\", Arial, sans-serif",
+          "weight": "500",
+          "size": "201.6px",
+          "tracking": "-24.192px",
+          "lineHeight": "157.248px",
+          "width": 772.234375
+        },
+        {
+          "selector": ".case-intro__description p",
+          "family": "\"Space Grotesk\", Arial, sans-serif",
+          "weight": "400",
+          "size": "28.8px",
+          "tracking": "-1.152px",
+          "lineHeight": "33.12px",
+          "width": 432
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Manrope",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Manrope",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Space Grotesk",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Space Grotesk",
+          "weight": "600",
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "name": "teen-fiesta-desktop",
+      "url": "/work/teen-fiesta",
+      "width": 1440,
+      "height": 900,
+      "documentWidth": 1440,
+      "y": 0,
+      "pinCount": 0,
+      "reduced": false,
+      "cls": 0,
+      "typography": [
+        {
+          "selector": ".site-wordmark",
+          "family": "\"Space Grotesk\", Arial, sans-serif",
+          "weight": "600",
+          "size": "22.08px",
+          "tracking": "-2.208px",
+          "lineHeight": "22.08px",
+          "width": 50.765625
+        },
+        {
+          "selector": "h1:not(.visually-hidden)",
+          "family": "\"Space Grotesk\", Arial, sans-serif",
+          "weight": "500",
+          "size": "90.72px",
+          "tracking": "-6.804px",
+          "lineHeight": "88.9056px",
+          "width": 772.234375
+        },
+        {
+          "selector": ".case-intro__description p",
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "17.92px",
+          "tracking": "normal",
+          "lineHeight": "30.464px",
+          "width": 432
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Manrope",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Manrope",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Space Grotesk",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Space Grotesk",
+          "weight": "600",
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "name": "home-mobile",
+      "url": "/",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "y": 0,
+      "pinCount": 0,
+      "reduced": false,
+      "cls": 0,
+      "typography": [
+        {
+          "selector": ".site-wordmark",
+          "family": "\"Space Grotesk\", Arial, sans-serif",
+          "weight": "600",
+          "size": "18.4px",
+          "tracking": "-1.84px",
+          "lineHeight": "18.4px",
+          "width": 39.984375
+        },
+        {
+          "selector": ".spatial-focus p",
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "12px",
+          "tracking": "normal",
+          "lineHeight": "18.6px",
+          "width": 168
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Manrope",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Manrope",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Manrope",
+          "weight": "700",
+          "style": "normal"
+        },
+        {
+          "family": "Space Grotesk",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Space Grotesk",
+          "weight": "600",
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "name": "teen-fiesta-mobile",
+      "url": "/work/teen-fiesta",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "y": 0,
+      "pinCount": 0,
+      "reduced": false,
+      "cls": 0,
+      "typography": [
+        {
+          "selector": ".site-wordmark",
+          "family": "\"Space Grotesk\", Arial, sans-serif",
+          "weight": "600",
+          "size": "22.08px",
+          "tracking": "-2.208px",
+          "lineHeight": "22.08px",
+          "width": 50.765625
+        },
+        {
+          "selector": "h1:not(.visually-hidden)",
+          "family": "\"Space Grotesk\", Arial, sans-serif",
+          "weight": "500",
+          "size": "37.6px",
+          "tracking": "-2.82px",
+          "lineHeight": "36.848px",
+          "width": 354.8125
+        },
+        {
+          "selector": ".case-intro__description p",
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "15.2px",
+          "tracking": "normal",
+          "lineHeight": "25.84px",
+          "width": 354.8125
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Manrope",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Manrope",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Space Grotesk",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Space Grotesk",
+          "weight": "600",
+          "style": "normal"
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "Image with src \"/work/teen-fiesta-website.png\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\"eager\"` property if this image is above the fold.\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading"
+  ],
+  "failed": []
+}

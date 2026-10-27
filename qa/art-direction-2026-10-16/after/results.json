@@ -1,0 +1,683 @@
+{
+  "base": "http://127.0.0.1:3000",
+  "records": [
+    {
+      "name": "home-desktop",
+      "url": "/",
+      "width": 1440,
+      "height": 900,
+      "documentWidth": 1440,
+      "y": 0,
+      "pinCount": 1,
+      "reduced": false,
+      "cls": 0.00006496913580246914,
+      "typography": [
+        {
+          "selector": ".site-wordmark",
+          "family": "display, \"display Fallback\", Arial, Arial, sans-serif",
+          "weight": "600",
+          "size": "18.4px",
+          "tracking": "-1.012px",
+          "lineHeight": "18.4px",
+          "width": 44.953125
+        },
+        {
+          "selector": ".spatial-focus p",
+          "family": "display, \"display Fallback\", Arial, Arial, sans-serif",
+          "weight": "500",
+          "size": "16px",
+          "tracking": "-0.4px",
+          "lineHeight": "19.2px",
+          "width": 180
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Manrope",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Manrope",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Manrope",
+          "weight": "700",
+          "style": "normal"
+        },
+        {
+          "family": "display",
+          "weight": "400 700",
+          "style": "normal"
+        },
+        {
+          "family": "display Fallback",
+          "weight": "normal",
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "name": "index-desktop",
+      "url": "/",
+      "width": 1440,
+      "height": 900,
+      "documentWidth": 1440,
+      "y": 0,
+      "pinCount": 1,
+      "reduced": false,
+      "cls": 0.00006496913580246914,
+      "typography": [
+        {
+          "selector": ".site-wordmark",
+          "family": "display, \"display Fallback\", Arial, Arial, sans-serif",
+          "weight": "600",
+          "size": "18.4px",
+          "tracking": "-1.012px",
+          "lineHeight": "18.4px",
+          "width": 44.953125
+        },
+        {
+          "selector": ".spatial-focus p",
+          "family": "display, \"display Fallback\", Arial, Arial, sans-serif",
+          "weight": "500",
+          "size": "16px",
+          "tracking": "-0.4px",
+          "lineHeight": "19.2px",
+          "width": 180
+        },
+        {
+          "selector": ".spatial-index__title",
+          "family": "display, \"display Fallback\", Arial, Arial, sans-serif",
+          "weight": "600",
+          "size": "16.8px",
+          "tracking": "-0.42px",
+          "lineHeight": "20.16px",
+          "width": 98
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Manrope",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Manrope",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Manrope",
+          "weight": "700",
+          "style": "normal"
+        },
+        {
+          "family": "display",
+          "weight": "400 700",
+          "style": "normal"
+        },
+        {
+          "family": "display Fallback",
+          "weight": "normal",
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "name": "selected-arcus-desktop",
+      "url": "/",
+      "width": 1440,
+      "height": 900,
+      "documentWidth": 1440,
+      "y": 0,
+      "pinCount": 1,
+      "reduced": false,
+      "cls": 0.001544949805491255,
+      "typography": [
+        {
+          "selector": ".site-wordmark",
+          "family": "display, \"display Fallback\", Arial, Arial, sans-serif",
+          "weight": "600",
+          "size": "18.4px",
+          "tracking": "-1.012px",
+          "lineHeight": "18.4px",
+          "width": 44.953125
+        },
+        {
+          "selector": ".spatial-focus p",
+          "family": "display, \"display Fallback\", Arial, Arial, sans-serif",
+          "weight": "500",
+          "size": "16px",
+          "tracking": "-0.4px",
+          "lineHeight": "19.2px",
+          "width": 92
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Manrope",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Manrope",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Manrope",
+          "weight": "700",
+          "style": "normal"
+        },
+        {
+          "family": "display",
+          "weight": "400 700",
+          "style": "normal"
+        },
+        {
+          "family": "display Fallback",
+          "weight": "normal",
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "name": "scroll-desktop",
+      "url": "/",
+      "width": 1440,
+      "height": 900,
+      "documentWidth": 1440,
+      "y": 720,
+      "pinCount": 1,
+      "reduced": false,
+      "cls": 0.001544949805491255,
+      "typography": [
+        {
+          "selector": ".site-wordmark",
+          "family": "display, \"display Fallback\", Arial, Arial, sans-serif",
+          "weight": "600",
+          "size": "18.4px",
+          "tracking": "-1.012px",
+          "lineHeight": "18.4px",
+          "width": 44.953125
+        },
+        {
+          "selector": ".spatial-focus p",
+          "family": "display, \"display Fallback\", Arial, Arial, sans-serif",
+          "weight": "500",
+          "size": "16px",
+          "tracking": "-0.4px",
+          "lineHeight": "19.2px",
+          "width": 180
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Manrope",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Manrope",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Manrope",
+          "weight": "700",
+          "style": "normal"
+        },
+        {
+          "family": "display",
+          "weight": "400 700",
+          "style": "normal"
+        },
+        {
+          "family": "display Fallback",
+          "weight": "normal",
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "name": "reverse-desktop",
+      "url": "/",
+      "width": 1440,
+      "height": 900,
+      "documentWidth": 1440,
+      "y": 0,
+      "pinCount": 1,
+      "reduced": false,
+      "cls": 0.001544949805491255,
+      "typography": [
+        {
+          "selector": ".site-wordmark",
+          "family": "display, \"display Fallback\", Arial, Arial, sans-serif",
+          "weight": "600",
+          "size": "18.4px",
+          "tracking": "-1.012px",
+          "lineHeight": "18.4px",
+          "width": 44.953125
+        },
+        {
+          "selector": ".spatial-focus p",
+          "family": "display, \"display Fallback\", Arial, Arial, sans-serif",
+          "weight": "500",
+          "size": "16px",
+          "tracking": "-0.4px",
+          "lineHeight": "19.2px",
+          "width": 180
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Manrope",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Manrope",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Manrope",
+          "weight": "700",
+          "style": "normal"
+        },
+        {
+          "family": "display",
+          "weight": "400 700",
+          "style": "normal"
+        },
+        {
+          "family": "display Fallback",
+          "weight": "normal",
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "name": "about-desktop",
+      "url": "/about",
+      "width": 1440,
+      "height": 900,
+      "documentWidth": 1440,
+      "y": 0,
+      "pinCount": 0,
+      "reduced": false,
+      "cls": 0.0007492734053497943,
+      "typography": [
+        {
+          "selector": ".site-wordmark",
+          "family": "display, \"display Fallback\", Arial, Arial, sans-serif",
+          "weight": "600",
+          "size": "22.08px",
+          "tracking": "-1.2144px",
+          "lineHeight": "22.08px",
+          "width": 54.734375
+        },
+        {
+          "selector": "h1:not(.visually-hidden)",
+          "family": "display, \"display Fallback\", Arial, Arial, sans-serif",
+          "weight": "500",
+          "size": "126.72px",
+          "tracking": "-4.4352px",
+          "lineHeight": "121.651px",
+          "width": 757.09375
+        },
+        {
+          "selector": ".page-intro__summary",
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "17.92px",
+          "tracking": "normal",
+          "lineHeight": "30.464px",
+          "width": 416
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Manrope",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Manrope",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "display",
+          "weight": "400 700",
+          "style": "normal"
+        },
+        {
+          "family": "display Fallback",
+          "weight": "normal",
+          "style": "normal"
+        },
+        {
+          "family": "editorial",
+          "weight": "400",
+          "style": "italic"
+        },
+        {
+          "family": "editorial Fallback",
+          "weight": "normal",
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "name": "contact-desktop",
+      "url": "/contact",
+      "width": 1440,
+      "height": 900,
+      "documentWidth": 1440,
+      "y": 0,
+      "pinCount": 0,
+      "reduced": false,
+      "cls": 0,
+      "typography": [
+        {
+          "selector": ".site-wordmark",
+          "family": "display, \"display Fallback\", Arial, Arial, sans-serif",
+          "weight": "600",
+          "size": "22.08px",
+          "tracking": "-1.2144px",
+          "lineHeight": "22.08px",
+          "width": 54.734375
+        },
+        {
+          "selector": "h1:not(.visually-hidden)",
+          "family": "display, \"display Fallback\", Arial, Arial, sans-serif",
+          "weight": "500",
+          "size": "141.12px",
+          "tracking": "-4.9392px",
+          "lineHeight": "135.475px",
+          "width": 838.921875
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Manrope",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Manrope",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "display",
+          "weight": "400 700",
+          "style": "normal"
+        },
+        {
+          "family": "display Fallback",
+          "weight": "normal",
+          "style": "normal"
+        },
+        {
+          "family": "editorial",
+          "weight": "400",
+          "style": "italic"
+        }
+      ]
+    },
+    {
+      "name": "lane-desktop",
+      "url": "/work/lane",
+      "width": 1440,
+      "height": 900,
+      "documentWidth": 1440,
+      "y": 0,
+      "pinCount": 0,
+      "reduced": false,
+      "cls": 0,
+      "typography": [
+        {
+          "selector": ".site-wordmark",
+          "family": "display, \"display Fallback\", Arial, Arial, sans-serif",
+          "weight": "600",
+          "size": "22.08px",
+          "tracking": "-1.2144px",
+          "lineHeight": "22.08px",
+          "width": 54.734375
+        },
+        {
+          "selector": "h1:not(.visually-hidden)",
+          "family": "display, \"display Fallback\", Arial, Arial, sans-serif",
+          "weight": "500",
+          "size": "181.44px",
+          "tracking": "-9.9792px",
+          "lineHeight": "170.554px",
+          "width": 772.234375
+        },
+        {
+          "selector": ".case-intro__description p",
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "18.72px",
+          "tracking": "normal",
+          "lineHeight": "30.888px",
+          "width": 432
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Manrope",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Manrope",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "display",
+          "weight": "400 700",
+          "style": "normal"
+        },
+        {
+          "family": "display Fallback",
+          "weight": "normal",
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "name": "teen-fiesta-desktop",
+      "url": "/work/teen-fiesta",
+      "width": 1440,
+      "height": 900,
+      "documentWidth": 1440,
+      "y": 0,
+      "pinCount": 0,
+      "reduced": false,
+      "cls": 0,
+      "typography": [
+        {
+          "selector": ".site-wordmark",
+          "family": "display, \"display Fallback\", Arial, Arial, sans-serif",
+          "weight": "600",
+          "size": "22.08px",
+          "tracking": "-1.2144px",
+          "lineHeight": "22.08px",
+          "width": 54.734375
+        },
+        {
+          "selector": "h1:not(.visually-hidden)",
+          "family": "display, \"display Fallback\", Arial, Arial, sans-serif",
+          "weight": "500",
+          "size": "90.72px",
+          "tracking": "-4.0824px",
+          "lineHeight": "92.5344px",
+          "width": 772.234375
+        },
+        {
+          "selector": ".case-intro__description p",
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "17.92px",
+          "tracking": "normal",
+          "lineHeight": "30.464px",
+          "width": 396
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Manrope",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Manrope",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "display",
+          "weight": "400 700",
+          "style": "normal"
+        },
+        {
+          "family": "display Fallback",
+          "weight": "normal",
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "name": "home-mobile",
+      "url": "/",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "y": 0,
+      "pinCount": 0,
+      "reduced": false,
+      "cls": 0,
+      "typography": [
+        {
+          "selector": ".site-wordmark",
+          "family": "display, \"display Fallback\", Arial, Arial, sans-serif",
+          "weight": "600",
+          "size": "18.4px",
+          "tracking": "-1.012px",
+          "lineHeight": "18.4px",
+          "width": 44.953125
+        },
+        {
+          "selector": ".spatial-focus p",
+          "family": "display, \"display Fallback\", Arial, Arial, sans-serif",
+          "weight": "500",
+          "size": "14px",
+          "tracking": "-0.35px",
+          "lineHeight": "16.8px",
+          "width": 180
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Manrope",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Manrope",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Manrope",
+          "weight": "700",
+          "style": "normal"
+        },
+        {
+          "family": "display",
+          "weight": "400 700",
+          "style": "normal"
+        },
+        {
+          "family": "display Fallback",
+          "weight": "normal",
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "name": "teen-fiesta-mobile",
+      "url": "/work/teen-fiesta",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "y": 0,
+      "pinCount": 0,
+      "reduced": false,
+      "cls": 0,
+      "typography": [
+        {
+          "selector": ".site-wordmark",
+          "family": "display, \"display Fallback\", Arial, Arial, sans-serif",
+          "weight": "600",
+          "size": "22.08px",
+          "tracking": "-1.2144px",
+          "lineHeight": "22.08px",
+          "width": 54.734375
+        },
+        {
+          "selector": "h1:not(.visually-hidden)",
+          "family": "display, \"display Fallback\", Arial, Arial, sans-serif",
+          "weight": "500",
+          "size": "37.6px",
+          "tracking": "-1.692px",
+          "lineHeight": "38.352px",
+          "width": 354.8125
+        },
+        {
+          "selector": ".case-intro__description p",
+          "family": "Manrope, Arial, sans-serif",
+          "weight": "400",
+          "size": "15.2px",
+          "tracking": "normal",
+          "lineHeight": "25.84px",
+          "width": 324
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Manrope",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Manrope",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "display",
+          "weight": "400 700",
+          "style": "normal"
+        },
+        {
+          "family": "display Fallback",
+          "weight": "normal",
+          "style": "normal"
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "Image with src \"/work/teen-fiesta-website.png\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\"eager\"` property if this image is above the fold.\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading"
+  ],
+  "failed": []
+}

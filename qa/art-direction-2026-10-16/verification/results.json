@@ -1,0 +1,4140 @@
+{
+  "base": "http://127.0.0.1:3001",
+  "checks": [
+    {
+      "name": "HTTP /",
+      "pass": true,
+      "actual": 200
+    },
+    {
+      "name": "Desktop has exactly one cinematic pin",
+      "pass": true
+    },
+    {
+      "name": "Four canonical fallback mappings only",
+      "pass": true,
+      "actual": [
+        "/work/lane",
+        "/work/arcus",
+        "/work/teen-fiesta",
+        "/work/rewatch"
+      ]
+    },
+    {
+      "name": "Keyboard opens index",
+      "pass": true
+    },
+    {
+      "name": "Select lane",
+      "pass": true
+    },
+    {
+      "name": "Case link lane",
+      "pass": true
+    },
+    {
+      "name": "Select arcus",
+      "pass": true
+    },
+    {
+      "name": "Case link arcus",
+      "pass": true
+    },
+    {
+      "name": "Select teen-fiesta",
+      "pass": true
+    },
+    {
+      "name": "Case link teen-fiesta",
+      "pass": true
+    },
+    {
+      "name": "Select rewatch",
+      "pass": true
+    },
+    {
+      "name": "Case link rewatch",
+      "pass": true
+    },
+    {
+      "name": "Index selection cannot internally scroll hero",
+      "pass": true,
+      "actual": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "name": "Escape closes index and restores focus",
+      "pass": true
+    },
+    {
+      "name": "Native wheel scrubs pinned scene",
+      "pass": true,
+      "actual": {
+        "y": 720,
+        "heroTop": 0,
+        "progress": "matrix(0.5333, 0, 0, 1, 0, 0)"
+      }
+    },
+    {
+      "name": "Pin releases into About",
+      "pass": true
+    },
+    {
+      "name": "Reverse restores opening scene",
+      "pass": true,
+      "actual": {
+        "y": 0,
+        "opacity": 1
+      }
+    },
+    {
+      "name": "HTTP /about",
+      "pass": true,
+      "actual": 200
+    },
+    {
+      "name": "1440 /about no horizontal overflow",
+      "pass": true,
+      "actual": {
+        "width": 1440,
+        "documentWidth": 1440,
+        "headings": [
+          {
+            "text": "The detailsmake the feeling.",
+            "left": 60.46875,
+            "right": 593.6875
+          },
+          {
+            "text": "The feeling is in the behavior.",
+            "left": 330.890625,
+            "right": 1221.46875
+          },
+          {
+            "text": "Code can carry atmosphere.",
+            "left": 60.46875,
+            "right": 476.703125
+          },
+          {
+            "text": "Let's make something clear, useful, and hard to forget.",
+            "left": 60.46875,
+            "right": 1000.796875
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bricolage actually renders display",
+      "pass": true,
+      "actual": [
+        {
+          "familyName": "Bricolage Grotesque 96pt ExtraBold",
+          "postScriptName": "Bricolage-Grotesque-96pt-ExtraBold-96pt-Medium",
+          "isCustomFont": true,
+          "glyphCount": 27
+        }
+      ]
+    },
+    {
+      "name": "Instrument actually renders editorial",
+      "pass": true,
+      "actual": [
+        {
+          "familyName": "Instrument Serif",
+          "postScriptName": "InstrumentSerif-Italic",
+          "isCustomFont": true,
+          "glyphCount": 31
+        }
+      ]
+    },
+    {
+      "name": "Manrope actually renders body",
+      "pass": true,
+      "actual": [
+        {
+          "familyName": "Manrope ExtraLight",
+          "postScriptName": "ManropeExtraLight-Regular",
+          "isCustomFont": true,
+          "glyphCount": 100
+        }
+      ]
+    },
+    {
+      "name": "HTTP /contact",
+      "pass": true,
+      "actual": 200
+    },
+    {
+      "name": "1440 /contact no horizontal overflow",
+      "pass": true,
+      "actual": {
+        "width": 1440,
+        "documentWidth": 1440,
+        "headings": [
+          {
+            "text": "What are youthinking about?",
+            "left": 60.46875,
+            "right": 899.390625
+          },
+          {
+            "text": "Give the ideasomewhere to start.",
+            "left": 60.46875,
+            "right": 385.875
+          }
+        ]
+      }
+    },
+    {
+      "name": "HTTP /work/lane",
+      "pass": true,
+      "actual": 200
+    },
+    {
+      "name": "1440 /work/lane no horizontal overflow",
+      "pass": true,
+      "actual": {
+        "width": 1440,
+        "documentWidth": 1440,
+        "headings": [
+          {
+            "text": "LANE",
+            "left": 60.46875,
+            "right": 431.5625
+          },
+          {
+            "text": "A campaign archive for independent nights in Agra. One browsing system gives seven distinct event identities room to lead.",
+            "left": 330.890625,
+            "right": 1150.5
+          },
+          {
+            "text": "ARCUS",
+            "left": 108.46875,
+            "right": 580.953125
+          }
+        ]
+      }
+    },
+    {
+      "name": "/work/lane gallery advances",
+      "pass": true
+    },
+    {
+      "name": "/work/lane keyboard gallery reverses",
+      "pass": true
+    },
+    {
+      "name": "/work/lane image loaded",
+      "pass": true
+    },
+    {
+      "name": "HTTP /work/arcus",
+      "pass": true,
+      "actual": 200
+    },
+    {
+      "name": "1440 /work/arcus no horizontal overflow",
+      "pass": true,
+      "actual": {
+        "width": 1440,
+        "documentWidth": 1440,
+        "headings": [
+          {
+            "text": "ARCUS",
+            "left": 60.46875,
+            "right": 555.578125
+          },
+          {
+            "text": "A strength-training interface built around the next session. Desktop and mobile dashboards put workout entry ahead of secondary tools.",
+            "left": 330.890625,
+            "right": 1178.578125
+          },
+          {
+            "text": "TEEN FIESTA",
+            "left": 108.46875,
+            "right": 911.9375
+          }
+        ]
+      }
+    },
+    {
+      "name": "/work/arcus gallery advances",
+      "pass": true
+    },
+    {
+      "name": "/work/arcus keyboard gallery reverses",
+      "pass": true
+    },
+    {
+      "name": "/work/arcus image loaded",
+      "pass": true
+    },
+    {
+      "name": "HTTP /work/teen-fiesta",
+      "pass": true,
+      "actual": 200
+    },
+    {
+      "name": "1440 /work/teen-fiesta no horizontal overflow",
+      "pass": true,
+      "actual": {
+        "width": 1440,
+        "documentWidth": 1440,
+        "headings": [
+          {
+            "text": "A website builtfor the event.",
+            "left": 60.46875,
+            "right": 832.703125
+          },
+          {
+            "text": "Identity, information and media.",
+            "left": 330.890625,
+            "right": 1140.515625
+          },
+          {
+            "text": "Rewatch",
+            "left": 108.46875,
+            "right": 682.953125
+          }
+        ]
+      }
+    },
+    {
+      "name": "/work/teen-fiesta gallery advances",
+      "pass": true
+    },
+    {
+      "name": "/work/teen-fiesta keyboard gallery reverses",
+      "pass": true
+    },
+    {
+      "name": "/work/teen-fiesta image loaded",
+      "pass": true
+    },
+    {
+      "name": "HTTP /work/rewatch",
+      "pass": true,
+      "actual": 200
+    },
+    {
+      "name": "1440 /work/rewatch no horizontal overflow",
+      "pass": true,
+      "actual": {
+        "width": 1440,
+        "documentWidth": 1440,
+        "headings": [
+          {
+            "text": "Rewatch",
+            "left": 60.46875,
+            "right": 660.625
+          },
+          {
+            "text": "A media discovery product with an editorial opening. Search, category navigation and a catalog preview give desktop and mobile users a clear starting point.",
+            "left": 330.890625,
+            "right": 1173.53125
+          },
+          {
+            "text": "LANE",
+            "left": 108.46875,
+            "right": 463.453125
+          }
+        ]
+      }
+    },
+    {
+      "name": "/work/rewatch gallery advances",
+      "pass": true
+    },
+    {
+      "name": "/work/rewatch keyboard gallery reverses",
+      "pass": true
+    },
+    {
+      "name": "/work/rewatch image loaded",
+      "pass": true
+    },
+    {
+      "name": "HTTP /",
+      "pass": true,
+      "actual": 200
+    },
+    {
+      "name": "1024 / no horizontal overflow",
+      "pass": true,
+      "actual": {
+        "width": 1024,
+        "documentWidth": 1024,
+        "headings": [
+          {
+            "text": "The feeling isin the behavior.",
+            "left": 43,
+            "right": 408.765625
+          },
+          {
+            "text": "What are youthinking about?",
+            "left": 43,
+            "right": 549.734375
+          }
+        ]
+      }
+    },
+    {
+      "name": "HTTP /about",
+      "pass": true,
+      "actual": 200
+    },
+    {
+      "name": "1024 /about no horizontal overflow",
+      "pass": true,
+      "actual": {
+        "width": 1024,
+        "documentWidth": 1024,
+        "headings": [
+          {
+            "text": "The detailsmake the feeling.",
+            "left": 43,
+            "right": 425.3125
+          },
+          {
+            "text": "The feeling is in the behavior.",
+            "left": 246.75,
+            "right": 876.96875
+          },
+          {
+            "text": "Code can carry atmosphere.",
+            "left": 43,
+            "right": 349.59375
+          },
+          {
+            "text": "Let's make something clear, useful, and hard to forget.",
+            "left": 43,
+            "right": 787.15625
+          }
+        ]
+      }
+    },
+    {
+      "name": "HTTP /contact",
+      "pass": true,
+      "actual": 200
+    },
+    {
+      "name": "1024 /contact no horizontal overflow",
+      "pass": true,
+      "actual": {
+        "width": 1024,
+        "documentWidth": 1024,
+        "headings": [
+          {
+            "text": "What are youthinking about?",
+            "left": 43,
+            "right": 637.328125
+          },
+          {
+            "text": "Give the ideasomewhere to start.",
+            "left": 43,
+            "right": 272.640625
+          }
+        ]
+      }
+    },
+    {
+      "name": "HTTP /work/lane",
+      "pass": true,
+      "actual": 200
+    },
+    {
+      "name": "1024 /work/lane no horizontal overflow",
+      "pass": true,
+      "actual": {
+        "width": 1024,
+        "documentWidth": 1024,
+        "headings": [
+          {
+            "text": "LANE",
+            "left": 43,
+            "right": 308.625
+          },
+          {
+            "text": "A campaign archive for independent nights in Agra. One browsing system gives seven distinct event identities room to lead.",
+            "left": 246.75,
+            "right": 853.046875
+          },
+          {
+            "text": "ARCUS",
+            "left": 91,
+            "right": 427.21875
+          }
+        ]
+      }
+    },
+    {
+      "name": "HTTP /work/arcus",
+      "pass": true,
+      "actual": 200
+    },
+    {
+      "name": "1024 /work/arcus no horizontal overflow",
+      "pass": true,
+      "actual": {
+        "width": 1024,
+        "documentWidth": 1024,
+        "headings": [
+          {
+            "text": "ARCUS",
+            "left": 43,
+            "right": 396.53125
+          },
+          {
+            "text": "A strength-training interface built around the next session. Desktop and mobile dashboards put workout entry ahead of secondary tools.",
+            "left": 246.75,
+            "right": 873.5625
+          },
+          {
+            "text": "TEEN FIESTA",
+            "left": 91,
+            "right": 660.671875
+          }
+        ]
+      }
+    },
+    {
+      "name": "HTTP /work/teen-fiesta",
+      "pass": true,
+      "actual": 200
+    },
+    {
+      "name": "1024 /work/teen-fiesta no horizontal overflow",
+      "pass": true,
+      "actual": {
+        "width": 1024,
+        "documentWidth": 1024,
+        "headings": [
+          {
+            "text": "A website builtfor the event.",
+            "left": 43,
+            "right": 586.59375
+          },
+          {
+            "text": "Identity, information and media.",
+            "left": 246.75,
+            "right": 841.921875
+          },
+          {
+            "text": "Rewatch",
+            "left": 91,
+            "right": 499.703125
+          }
+        ]
+      }
+    },
+    {
+      "name": "HTTP /work/rewatch",
+      "pass": true,
+      "actual": 200
+    },
+    {
+      "name": "1024 /work/rewatch no horizontal overflow",
+      "pass": true,
+      "actual": {
+        "width": 1024,
+        "documentWidth": 1024,
+        "headings": [
+          {
+            "text": "Rewatch",
+            "left": 43,
+            "right": 472.328125
+          },
+          {
+            "text": "A media discovery product with an editorial opening. Search, category navigation and a catalog preview give desktop and mobile users a clear starting point.",
+            "left": 246.75,
+            "right": 864.8125
+          },
+          {
+            "text": "LANE",
+            "left": 91,
+            "right": 342.96875
+          }
+        ]
+      }
+    },
+    {
+      "name": "HTTP /",
+      "pass": true,
+      "actual": 200
+    },
+    {
+      "name": "1920 / no horizontal overflow",
+      "pass": true,
+      "actual": {
+        "width": 1920,
+        "documentWidth": 1920,
+        "headings": [
+          {
+            "text": "The feeling isin the behavior.",
+            "left": 80.625,
+            "right": 669.75
+          },
+          {
+            "text": "What are youthinking about?",
+            "left": 80.625,
+            "right": 860.640625
+          }
+        ]
+      }
+    },
+    {
+      "name": "HTTP /about",
+      "pass": true,
+      "actual": 200
+    },
+    {
+      "name": "1920 /about no horizontal overflow",
+      "pass": true,
+      "actual": {
+        "width": 1920,
+        "documentWidth": 1920,
+        "headings": [
+          {
+            "text": "The detailsmake the feeling.",
+            "left": 80.625,
+            "right": 1034.953125
+          },
+          {
+            "text": "The feeling is in the behavior.",
+            "left": 428,
+            "right": 1454.921875
+          },
+          {
+            "text": "Code can carry atmosphere.",
+            "left": 80.625,
+            "right": 639.15625
+          },
+          {
+            "text": "Let's make something clear, useful, and hard to forget.",
+            "left": 80.625,
+            "right": 1214.875
+          }
+        ]
+      }
+    },
+    {
+      "name": "HTTP /contact",
+      "pass": true,
+      "actual": 200
+    },
+    {
+      "name": "1920 /contact no horizontal overflow",
+      "pass": true,
+      "actual": {
+        "width": 1920,
+        "documentWidth": 1920,
+        "headings": [
+          {
+            "text": "What are youthinking about?",
+            "left": 80.625,
+            "right": 1032.640625
+          },
+          {
+            "text": "Give the ideasomewhere to start.",
+            "left": 80.625,
+            "right": 622.359375
+          }
+        ]
+      }
+    },
+    {
+      "name": "HTTP /work/lane",
+      "pass": true,
+      "actual": 200
+    },
+    {
+      "name": "1920 /work/lane no horizontal overflow",
+      "pass": true,
+      "actual": {
+        "width": 1920,
+        "documentWidth": 1920,
+        "headings": [
+          {
+            "text": "LANE",
+            "left": 80.625,
+            "right": 524.109375
+          },
+          {
+            "text": "A campaign archive for independent nights in Agra. One browsing system gives seven distinct event identities room to lead.",
+            "left": 428,
+            "right": 1337.328125
+          },
+          {
+            "text": "ARCUS",
+            "left": 128.625,
+            "right": 653.828125
+          }
+        ]
+      }
+    },
+    {
+      "name": "HTTP /work/arcus",
+      "pass": true,
+      "actual": 200
+    },
+    {
+      "name": "1920 /work/arcus no horizontal overflow",
+      "pass": true,
+      "actual": {
+        "width": 1920,
+        "documentWidth": 1920,
+        "headings": [
+          {
+            "text": "ARCUS",
+            "left": 80.625,
+            "right": 673.234375
+          },
+          {
+            "text": "A strength-training interface built around the next session. Desktop and mobile dashboards put workout entry ahead of secondary tools.",
+            "left": 428,
+            "right": 1368.953125
+          },
+          {
+            "text": "TEEN FIESTA",
+            "left": 128.625,
+            "right": 1019.46875
+          }
+        ]
+      }
+    },
+    {
+      "name": "HTTP /work/teen-fiesta",
+      "pass": true,
+      "actual": 200
+    },
+    {
+      "name": "1920 /work/teen-fiesta no horizontal overflow",
+      "pass": true,
+      "actual": {
+        "width": 1920,
+        "documentWidth": 1920,
+        "headings": [
+          {
+            "text": "A website builtfor the event.",
+            "left": 80.625,
+            "right": 1116.671875
+          },
+          {
+            "text": "Identity, information and media.",
+            "left": 428,
+            "right": 1321.03125
+          },
+          {
+            "text": "Rewatch",
+            "left": 128.625,
+            "right": 766.71875
+          }
+        ]
+      }
+    },
+    {
+      "name": "HTTP /work/rewatch",
+      "pass": true,
+      "actual": 200
+    },
+    {
+      "name": "1920 /work/rewatch no horizontal overflow",
+      "pass": true,
+      "actual": {
+        "width": 1920,
+        "documentWidth": 1920,
+        "headings": [
+          {
+            "text": "Rewatch",
+            "left": 80.625,
+            "right": 795.46875
+          },
+          {
+            "text": "A media discovery product with an editorial opening. Search, category navigation and a catalog preview give desktop and mobile users a clear starting point.",
+            "left": 428,
+            "right": 1362.71875
+          },
+          {
+            "text": "LANE",
+            "left": 128.625,
+            "right": 522.390625
+          }
+        ]
+      }
+    },
+    {
+      "name": "HTTP /",
+      "pass": true,
+      "actual": 200
+    },
+    {
+      "name": "390 / no horizontal overflow",
+      "pass": true,
+      "actual": {
+        "width": 390,
+        "documentWidth": 390,
+        "headings": [
+          {
+            "text": "The feeling isin the behavior.",
+            "left": 17.59375,
+            "right": 312.046875
+          },
+          {
+            "text": "What are youthinking about?",
+            "left": 17.59375,
+            "right": 332.203125
+          }
+        ]
+      }
+    },
+    {
+      "name": "HTTP /about",
+      "pass": true,
+      "actual": 200
+    },
+    {
+      "name": "390 /about no horizontal overflow",
+      "pass": true,
+      "actual": {
+        "width": 390,
+        "documentWidth": 390,
+        "headings": [
+          {
+            "text": "The detailsmake the feeling.",
+            "left": 17.59375,
+            "right": 271.046875
+          },
+          {
+            "text": "The feeling is in the behavior.",
+            "left": 17.59375,
+            "right": 282.765625
+          },
+          {
+            "text": "Code can carry atmosphere.",
+            "left": 17.59375,
+            "right": 298.375
+          },
+          {
+            "text": "Let's make something clear, useful, and hard to forget.",
+            "left": 17.59375,
+            "right": 334.046875
+          }
+        ]
+      }
+    },
+    {
+      "name": "HTTP /contact",
+      "pass": true,
+      "actual": 200
+    },
+    {
+      "name": "390 /contact no horizontal overflow",
+      "pass": true,
+      "actual": {
+        "width": 390,
+        "documentWidth": 390,
+        "headings": [
+          {
+            "text": "What are youthinking about?",
+            "left": 17.59375,
+            "right": 357.0625
+          },
+          {
+            "text": "Give the ideasomewhere to start.",
+            "left": 17.59375,
+            "right": 292.21875
+          }
+        ]
+      }
+    },
+    {
+      "name": "HTTP /work/lane",
+      "pass": true,
+      "actual": 200
+    },
+    {
+      "name": "390 /work/lane no horizontal overflow",
+      "pass": true,
+      "actual": {
+        "width": 390,
+        "documentWidth": 390,
+        "headings": [
+          {
+            "text": "LANE",
+            "left": 17.59375,
+            "right": 168.15625
+          },
+          {
+            "text": "A campaign archive for independent nights in Agra. One browsing system gives seven distinct event identities room to lead.",
+            "left": 17.59375,
+            "right": 332.609375
+          },
+          {
+            "text": "ARCUS",
+            "left": 36.78125,
+            "right": 220.1875
+          }
+        ]
+      }
+    },
+    {
+      "name": "HTTP /work/arcus",
+      "pass": true,
+      "actual": 200
+    },
+    {
+      "name": "390 /work/arcus no horizontal overflow",
+      "pass": true,
+      "actual": {
+        "width": 390,
+        "documentWidth": 390,
+        "headings": [
+          {
+            "text": "ARCUS",
+            "left": 17.59375,
+            "right": 218.296875
+          },
+          {
+            "text": "A strength-training interface built around the next session. Desktop and mobile dashboards put workout entry ahead of secondary tools.",
+            "left": 17.59375,
+            "right": 369.609375
+          },
+          {
+            "text": "TEEN FIESTA",
+            "left": 36.78125,
+            "right": 352.0625
+          }
+        ]
+      }
+    },
+    {
+      "name": "HTTP /work/teen-fiesta",
+      "pass": true,
+      "actual": 200
+    },
+    {
+      "name": "390 /work/teen-fiesta no horizontal overflow",
+      "pass": true,
+      "actual": {
+        "width": 390,
+        "documentWidth": 390,
+        "headings": [
+          {
+            "text": "A website builtfor the event.",
+            "left": 17.59375,
+            "right": 372.40625
+          },
+          {
+            "text": "Identity, information and media.",
+            "left": 17.59375,
+            "right": 344.609375
+          },
+          {
+            "text": "Rewatch",
+            "left": 36.78125,
+            "right": 261.15625
+          }
+        ]
+      }
+    },
+    {
+      "name": "HTTP /work/rewatch",
+      "pass": true,
+      "actual": 200
+    },
+    {
+      "name": "390 /work/rewatch no horizontal overflow",
+      "pass": true,
+      "actual": {
+        "width": 390,
+        "documentWidth": 390,
+        "headings": [
+          {
+            "text": "Rewatch",
+            "left": 17.59375,
+            "right": 260.578125
+          },
+          {
+            "text": "A media discovery product with an editorial opening. Search, category navigation and a catalog preview give desktop and mobile users a clear starting point.",
+            "left": 17.59375,
+            "right": 363.609375
+          },
+          {
+            "text": "LANE",
+            "left": 36.78125,
+            "right": 175.703125
+          }
+        ]
+      }
+    },
+    {
+      "name": "HTTP /",
+      "pass": true,
+      "actual": 200
+    },
+    {
+      "name": "320 / no horizontal overflow",
+      "pass": true,
+      "actual": {
+        "width": 320,
+        "documentWidth": 320,
+        "headings": [
+          {
+            "text": "The feeling isin the behavior.",
+            "left": 17.59375,
+            "right": 271.359375
+          },
+          {
+            "text": "What are youthinking about?",
+            "left": 17.59375,
+            "right": 295.875
+          }
+        ]
+      }
+    },
+    {
+      "name": "HTTP /about",
+      "pass": true,
+      "actual": 200
+    },
+    {
+      "name": "320 /about no horizontal overflow",
+      "pass": true,
+      "actual": {
+        "width": 320,
+        "documentWidth": 320,
+        "headings": [
+          {
+            "text": "The detailsmake the feeling.",
+            "left": 17.59375,
+            "right": 271.046875
+          },
+          {
+            "text": "The feeling is in the behavior.",
+            "left": 17.59375,
+            "right": 282.765625
+          },
+          {
+            "text": "Code can carry atmosphere.",
+            "left": 17.59375,
+            "right": 298.375
+          },
+          {
+            "text": "Let's make something clear, useful, and hard to forget.",
+            "left": 17.59375,
+            "right": 249.359375
+          }
+        ]
+      }
+    },
+    {
+      "name": "HTTP /contact",
+      "pass": true,
+      "actual": 200
+    },
+    {
+      "name": "320 /contact no horizontal overflow",
+      "pass": true,
+      "actual": {
+        "width": 320,
+        "documentWidth": 320,
+        "headings": [
+          {
+            "text": "What are youthinking about?",
+            "left": 17.59375,
+            "right": 248.578125
+          },
+          {
+            "text": "Give the ideasomewhere to start.",
+            "left": 17.59375,
+            "right": 284.84375
+          }
+        ]
+      }
+    },
+    {
+      "name": "HTTP /work/lane",
+      "pass": true,
+      "actual": 200
+    },
+    {
+      "name": "320 /work/lane no horizontal overflow",
+      "pass": true,
+      "actual": {
+        "width": 320,
+        "documentWidth": 320,
+        "headings": [
+          {
+            "text": "LANE",
+            "left": 17.59375,
+            "right": 165.46875
+          },
+          {
+            "text": "A campaign archive for independent nights in Agra. One browsing system gives seven distinct event identities room to lead.",
+            "left": 17.59375,
+            "right": 283.796875
+          },
+          {
+            "text": "ARCUS",
+            "left": 36.78125,
+            "right": 220.1875
+          }
+        ]
+      }
+    },
+    {
+      "name": "HTTP /work/arcus",
+      "pass": true,
+      "actual": 200
+    },
+    {
+      "name": "320 /work/arcus no horizontal overflow",
+      "pass": true,
+      "actual": {
+        "width": 320,
+        "documentWidth": 320,
+        "headings": [
+          {
+            "text": "ARCUS",
+            "left": 17.59375,
+            "right": 213.6875
+          },
+          {
+            "text": "A strength-training interface built around the next session. Desktop and mobile dashboards put workout entry ahead of secondary tools.",
+            "left": 17.59375,
+            "right": 297.234375
+          },
+          {
+            "text": "TEEN FIESTA",
+            "left": 36.78125,
+            "right": 205.671875
+          }
+        ]
+      }
+    },
+    {
+      "name": "HTTP /work/teen-fiesta",
+      "pass": true,
+      "actual": 200
+    },
+    {
+      "name": "320 /work/teen-fiesta no horizontal overflow",
+      "pass": true,
+      "actual": {
+        "width": 320,
+        "documentWidth": 320,
+        "headings": [
+          {
+            "text": "A website builtfor the event.",
+            "left": 17.59375,
+            "right": 302.40625
+          },
+          {
+            "text": "Identity, information and media.",
+            "left": 17.59375,
+            "right": 287.359375
+          },
+          {
+            "text": "Rewatch",
+            "left": 36.78125,
+            "right": 261.15625
+          }
+        ]
+      }
+    },
+    {
+      "name": "HTTP /work/rewatch",
+      "pass": true,
+      "actual": 200
+    },
+    {
+      "name": "320 /work/rewatch no horizontal overflow",
+      "pass": true,
+      "actual": {
+        "width": 320,
+        "documentWidth": 320,
+        "headings": [
+          {
+            "text": "Rewatch",
+            "left": 17.59375,
+            "right": 258.109375
+          },
+          {
+            "text": "A media discovery product with an editorial opening. Search, category navigation and a catalog preview give desktop and mobile users a clear starting point.",
+            "left": 17.59375,
+            "right": 295.921875
+          },
+          {
+            "text": "LANE",
+            "left": 36.78125,
+            "right": 175.703125
+          }
+        ]
+      }
+    },
+    {
+      "name": "HTTP /",
+      "pass": true,
+      "actual": 200
+    },
+    {
+      "name": "Client route removes cinematic pin",
+      "pass": true
+    },
+    {
+      "name": "Client remount restores one pin and one canvas",
+      "pass": true
+    },
+    {
+      "name": "HTTP /",
+      "pass": true,
+      "actual": 200
+    },
+    {
+      "name": "Reduced motion from initial load suppresses pin and Lenis",
+      "pass": true,
+      "actual": {
+        "media": true,
+        "pins": 0,
+        "transientPins": 0,
+        "lenis": false
+      }
+    },
+    {
+      "name": "Reduced natural scrolling",
+      "pass": true
+    },
+    {
+      "name": "HTTP /about",
+      "pass": true,
+      "actual": 200
+    },
+    {
+      "name": "Reduced ambient field static",
+      "pass": true,
+      "actual": {
+        "animation": "none",
+        "transform": "none"
+      }
+    },
+    {
+      "name": "HTTP /work/teen-fiesta",
+      "pass": true,
+      "actual": 200
+    },
+    {
+      "name": "Reduced gallery switches without travel/fade",
+      "pass": true,
+      "actual": {
+        "opacity": "1",
+        "transform": "none"
+      }
+    },
+    {
+      "name": "Reduced gallery keyboard works",
+      "pass": true
+    },
+    {
+      "name": "HTTP /",
+      "pass": true,
+      "actual": 200
+    },
+    {
+      "name": "Reduced keyboard project selection",
+      "pass": true
+    },
+    {
+      "name": "Reduced case link works",
+      "pass": true
+    },
+    {
+      "name": "HTTP /",
+      "pass": true,
+      "actual": 200
+    },
+    {
+      "name": "Mobile has no cinematic pin",
+      "pass": true
+    },
+    {
+      "name": "Touch scroll passes through scene naturally",
+      "pass": true,
+      "actual": 369
+    },
+    {
+      "name": "HTTP /",
+      "pass": true,
+      "actual": 200
+    },
+    {
+      "name": "WebGL failure shows four accessible fallback links",
+      "pass": true
+    },
+    {
+      "name": "WebGL failure creates no pin",
+      "pass": true
+    },
+    {
+      "name": "Fallback index still navigates to case",
+      "pass": true
+    },
+    {
+      "name": "No unexpected browser application errors",
+      "pass": true,
+      "actual": []
+    },
+    {
+      "name": "No failed asset or route responses",
+      "pass": true,
+      "actual": []
+    },
+    {
+      "name": "All fonts served locally",
+      "pass": true,
+      "actual": [
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+          "status": 200
+        },
+        {
+          "label": "standard",
+          "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+          "status": 200
+        },
+        {
+          "label": "reduced",
+          "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+          "status": 200
+        },
+        {
+          "label": "reduced",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+          "status": 200
+        },
+        {
+          "label": "reduced",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+          "status": 200
+        },
+        {
+          "label": "reduced",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+          "status": 200
+        },
+        {
+          "label": "reduced",
+          "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+          "status": 200
+        },
+        {
+          "label": "reduced",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+          "status": 200
+        },
+        {
+          "label": "reduced",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+          "status": 200
+        },
+        {
+          "label": "reduced",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+          "status": 200
+        },
+        {
+          "label": "reduced",
+          "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+          "status": 200
+        },
+        {
+          "label": "reduced",
+          "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+          "status": 200
+        },
+        {
+          "label": "reduced",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+          "status": 200
+        },
+        {
+          "label": "reduced",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+          "status": 200
+        },
+        {
+          "label": "reduced",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+          "status": 200
+        },
+        {
+          "label": "reduced",
+          "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+          "status": 200
+        },
+        {
+          "label": "reduced",
+          "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+          "status": 200
+        },
+        {
+          "label": "reduced",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+          "status": 200
+        },
+        {
+          "label": "reduced",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+          "status": 200
+        },
+        {
+          "label": "reduced",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+          "status": 200
+        },
+        {
+          "label": "reduced",
+          "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+          "status": 200
+        },
+        {
+          "label": "mobile",
+          "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+          "status": 200
+        },
+        {
+          "label": "mobile",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+          "status": 200
+        },
+        {
+          "label": "mobile",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+          "status": 200
+        },
+        {
+          "label": "mobile",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+          "status": 200
+        },
+        {
+          "label": "deliberate-webgl-failure",
+          "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+          "status": 200
+        },
+        {
+          "label": "deliberate-webgl-failure",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+          "status": 200
+        },
+        {
+          "label": "deliberate-webgl-failure",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+          "status": 200
+        },
+        {
+          "label": "deliberate-webgl-failure",
+          "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+          "status": 200
+        }
+      ]
+    }
+  ],
+  "consoleErrors": [
+    {
+      "label": "deliberate-webgl-failure",
+      "expected": true,
+      "message": "THREE.WebGLRenderer: THREE.WebGLRenderer: Error creating WebGL context."
+    },
+    {
+      "label": "deliberate-webgl-failure",
+      "expected": true,
+      "message": "Error: THREE.WebGLRenderer: Error creating WebGL context.\n    at new e.s.k (http://127.0.0.1:3001/_next/static/chunks/2x7salnjgwilf.js:342:95653)\n    at h (http://127.0.0.1:3001/_next/static/chunks/2x7salnjgwilf.js:353:31543)\n    at Object.configure (http://127.0.0.1:3001/_next/static/chunks/2x7salnjgwilf.js:353:31680)\n    at http://127.0.0.1:3001/_next/static/chunks/2x7salnjgwilf.js:353:33609\n    at iE (http://127.0.0.1:3001/_next/static/chunks/0s7mvllxht1mo.js:1:113726)\n    at un (http://127.0.0.1:3001/_next/static/chunks/0s7mvllxht1mo.js:1:124338)\n    at uv (http://127.0.0.1:3001/_next/static/chunks/0s7mvllxht1mo.js:1:137942)\n    at un (http://127.0.0.1:3001/_next/static/chunks/0s7mvllxht1mo.js:1:126683)\n    at uv (http://127.0.0.1:3001/_next/static/chunks/0s7mvllxht1mo.js:1:137942)\n    at un (http://127.0.0.1:3001/_next/static/chunks/0s7mvllxht1mo.js:1:124362)"
+    }
+  ],
+  "warnings": [],
+  "failedRequests": [],
+  "fontRequests": [
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+      "status": 200
+    },
+    {
+      "label": "standard",
+      "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+      "status": 200
+    },
+    {
+      "label": "reduced",
+      "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+      "status": 200
+    },
+    {
+      "label": "reduced",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+      "status": 200
+    },
+    {
+      "label": "reduced",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+      "status": 200
+    },
+    {
+      "label": "reduced",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+      "status": 200
+    },
+    {
+      "label": "reduced",
+      "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+      "status": 200
+    },
+    {
+      "label": "reduced",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+      "status": 200
+    },
+    {
+      "label": "reduced",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+      "status": 200
+    },
+    {
+      "label": "reduced",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+      "status": 200
+    },
+    {
+      "label": "reduced",
+      "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+      "status": 200
+    },
+    {
+      "label": "reduced",
+      "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+      "status": 200
+    },
+    {
+      "label": "reduced",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+      "status": 200
+    },
+    {
+      "label": "reduced",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+      "status": 200
+    },
+    {
+      "label": "reduced",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+      "status": 200
+    },
+    {
+      "label": "reduced",
+      "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+      "status": 200
+    },
+    {
+      "label": "reduced",
+      "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+      "status": 200
+    },
+    {
+      "label": "reduced",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+      "status": 200
+    },
+    {
+      "label": "reduced",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+      "status": 200
+    },
+    {
+      "label": "reduced",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+      "status": 200
+    },
+    {
+      "label": "reduced",
+      "url": "http://127.0.0.1:3001/_next/static/media/instrument_serif_latin_italic-s.1bk2-9tco4m7m.woff2",
+      "status": 200
+    },
+    {
+      "label": "mobile",
+      "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+      "status": 200
+    },
+    {
+      "label": "mobile",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+      "status": 200
+    },
+    {
+      "label": "mobile",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+      "status": 200
+    },
+    {
+      "label": "mobile",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+      "status": 200
+    },
+    {
+      "label": "deliberate-webgl-failure",
+      "url": "http://127.0.0.1:3001/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2",
+      "status": 200
+    },
+    {
+      "label": "deliberate-webgl-failure",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+      "status": 200
+    },
+    {
+      "label": "deliberate-webgl-failure",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+      "status": 200
+    },
+    {
+      "label": "deliberate-webgl-failure",
+      "url": "http://127.0.0.1:3001/_next/static/media/manrope-latin-700-normal.22dwiag9_pj68.woff2",
+      "status": 200
+    }
+  ],
+  "fonts": [
+    {
+      "selector": "h1",
+      "fonts": [
+        {
+          "familyName": "Bricolage Grotesque 96pt ExtraBold",
+          "postScriptName": "Bricolage-Grotesque-96pt-ExtraBold-96pt-Medium",
+          "isCustomFont": true,
+          "glyphCount": 27
+        }
+      ]
+    },
+    {
+      "selector": ".about-lead h2",
+      "fonts": [
+        {
+          "familyName": "Instrument Serif",
+          "postScriptName": "InstrumentSerif-Italic",
+          "isCustomFont": true,
+          "glyphCount": 31
+        }
+      ]
+    },
+    {
+      "selector": ".page-intro__summary",
+      "fonts": [
+        {
+          "familyName": "Manrope ExtraLight",
+          "postScriptName": "ManropeExtraLight-Regular",
+          "isCustomFont": true,
+          "glyphCount": 100
+        }
+      ]
+    }
+  ],
+  "layouts": [
+    {
+      "label": "1440 /about",
+      "width": 1440,
+      "documentWidth": 1440,
+      "headings": [
+        {
+          "text": "The detailsmake the feeling.",
+          "left": 60.46875,
+          "right": 593.6875
+        },
+        {
+          "text": "The feeling is in the behavior.",
+          "left": 330.890625,
+          "right": 1221.46875
+        },
+        {
+          "text": "Code can carry atmosphere.",
+          "left": 60.46875,
+          "right": 476.703125
+        },
+        {
+          "text": "Let's make something clear, useful, and hard to forget.",
+          "left": 60.46875,
+          "right": 1000.796875
+        }
+      ]
+    },
+    {
+      "label": "1440 /contact",
+      "width": 1440,
+      "documentWidth": 1440,
+      "headings": [
+        {
+          "text": "What are youthinking about?",
+          "left": 60.46875,
+          "right": 899.390625
+        },
+        {
+          "text": "Give the ideasomewhere to start.",
+          "left": 60.46875,
+          "right": 385.875
+        }
+      ]
+    },
+    {
+      "label": "1440 /work/lane",
+      "width": 1440,
+      "documentWidth": 1440,
+      "headings": [
+        {
+          "text": "LANE",
+          "left": 60.46875,
+          "right": 431.5625
+        },
+        {
+          "text": "A campaign archive for independent nights in Agra. One browsing system gives seven distinct event identities room to lead.",
+          "left": 330.890625,
+          "right": 1150.5
+        },
+        {
+          "text": "ARCUS",
+          "left": 108.46875,
+          "right": 580.953125
+        }
+      ]
+    },
+    {
+      "label": "1440 /work/arcus",
+      "width": 1440,
+      "documentWidth": 1440,
+      "headings": [
+        {
+          "text": "ARCUS",
+          "left": 60.46875,
+          "right": 555.578125
+        },
+        {
+          "text": "A strength-training interface built around the next session. Desktop and mobile dashboards put workout entry ahead of secondary tools.",
+          "left": 330.890625,
+          "right": 1178.578125
+        },
+        {
+          "text": "TEEN FIESTA",
+          "left": 108.46875,
+          "right": 911.9375
+        }
+      ]
+    },
+    {
+      "label": "1440 /work/teen-fiesta",
+      "width": 1440,
+      "documentWidth": 1440,
+      "headings": [
+        {
+          "text": "A website builtfor the event.",
+          "left": 60.46875,
+          "right": 832.703125
+        },
+        {
+          "text": "Identity, information and media.",
+          "left": 330.890625,
+          "right": 1140.515625
+        },
+        {
+          "text": "Rewatch",
+          "left": 108.46875,
+          "right": 682.953125
+        }
+      ]
+    },
+    {
+      "label": "1440 /work/rewatch",
+      "width": 1440,
+      "documentWidth": 1440,
+      "headings": [
+        {
+          "text": "Rewatch",
+          "left": 60.46875,
+          "right": 660.625
+        },
+        {
+          "text": "A media discovery product with an editorial opening. Search, category navigation and a catalog preview give desktop and mobile users a clear starting point.",
+          "left": 330.890625,
+          "right": 1173.53125
+        },
+        {
+          "text": "LANE",
+          "left": 108.46875,
+          "right": 463.453125
+        }
+      ]
+    },
+    {
+      "label": "1024 /",
+      "width": 1024,
+      "documentWidth": 1024,
+      "headings": [
+        {
+          "text": "The feeling isin the behavior.",
+          "left": 43,
+          "right": 408.765625
+        },
+        {
+          "text": "What are youthinking about?",
+          "left": 43,
+          "right": 549.734375
+        }
+      ]
+    },
+    {
+      "label": "1024 /about",
+      "width": 1024,
+      "documentWidth": 1024,
+      "headings": [
+        {
+          "text": "The detailsmake the feeling.",
+          "left": 43,
+          "right": 425.3125
+        },
+        {
+          "text": "The feeling is in the behavior.",
+          "left": 246.75,
+          "right": 876.96875
+        },
+        {
+          "text": "Code can carry atmosphere.",
+          "left": 43,
+          "right": 349.59375
+        },
+        {
+          "text": "Let's make something clear, useful, and hard to forget.",
+          "left": 43,
+          "right": 787.15625
+        }
+      ]
+    },
+    {
+      "label": "1024 /contact",
+      "width": 1024,
+      "documentWidth": 1024,
+      "headings": [
+        {
+          "text": "What are youthinking about?",
+          "left": 43,
+          "right": 637.328125
+        },
+        {
+          "text": "Give the ideasomewhere to start.",
+          "left": 43,
+          "right": 272.640625
+        }
+      ]
+    },
+    {
+      "label": "1024 /work/lane",
+      "width": 1024,
+      "documentWidth": 1024,
+      "headings": [
+        {
+          "text": "LANE",
+          "left": 43,
+          "right": 308.625
+        },
+        {
+          "text": "A campaign archive for independent nights in Agra. One browsing system gives seven distinct event identities room to lead.",
+          "left": 246.75,
+          "right": 853.046875
+        },
+        {
+          "text": "ARCUS",
+          "left": 91,
+          "right": 427.21875
+        }
+      ]
+    },
+    {
+      "label": "1024 /work/arcus",
+      "width": 1024,
+      "documentWidth": 1024,
+      "headings": [
+        {
+          "text": "ARCUS",
+          "left": 43,
+          "right": 396.53125
+        },
+        {
+          "text": "A strength-training interface built around the next session. Desktop and mobile dashboards put workout entry ahead of secondary tools.",
+          "left": 246.75,
+          "right": 873.5625
+        },
+        {
+          "text": "TEEN FIESTA",
+          "left": 91,
+          "right": 660.671875
+        }
+      ]
+    },
+    {
+      "label": "1024 /work/teen-fiesta",
+      "width": 1024,
+      "documentWidth": 1024,
+      "headings": [
+        {
+          "text": "A website builtfor the event.",
+          "left": 43,
+          "right": 586.59375
+        },
+        {
+          "text": "Identity, information and media.",
+          "left": 246.75,
+          "right": 841.921875
+        },
+        {
+          "text": "Rewatch",
+          "left": 91,
+          "right": 499.703125
+        }
+      ]
+    },
+    {
+      "label": "1024 /work/rewatch",
+      "width": 1024,
+      "documentWidth": 1024,
+      "headings": [
+        {
+          "text": "Rewatch",
+          "left": 43,
+          "right": 472.328125
+        },
+        {
+          "text": "A media discovery product with an editorial opening. Search, category navigation and a catalog preview give desktop and mobile users a clear starting point.",
+          "left": 246.75,
+          "right": 864.8125
+        },
+        {
+          "text": "LANE",
+          "left": 91,
+          "right": 342.96875
+        }
+      ]
+    },
+    {
+      "label": "1920 /",
+      "width": 1920,
+      "documentWidth": 1920,
+      "headings": [
+        {
+          "text": "The feeling isin the behavior.",
+          "left": 80.625,
+          "right": 669.75
+        },
+        {
+          "text": "What are youthinking about?",
+          "left": 80.625,
+          "right": 860.640625
+        }
+      ]
+    },
+    {
+      "label": "1920 /about",
+      "width": 1920,
+      "documentWidth": 1920,
+      "headings": [
+        {
+          "text": "The detailsmake the feeling.",
+          "left": 80.625,
+          "right": 1034.953125
+        },
+        {
+          "text": "The feeling is in the behavior.",
+          "left": 428,
+          "right": 1454.921875
+        },
+        {
+          "text": "Code can carry atmosphere.",
+          "left": 80.625,
+          "right": 639.15625
+        },
+        {
+          "text": "Let's make something clear, useful, and hard to forget.",
+          "left": 80.625,
+          "right": 1214.875
+        }
+      ]
+    },
+    {
+      "label": "1920 /contact",
+      "width": 1920,
+      "documentWidth": 1920,
+      "headings": [
+        {
+          "text": "What are youthinking about?",
+          "left": 80.625,
+          "right": 1032.640625
+        },
+        {
+          "text": "Give the ideasomewhere to start.",
+          "left": 80.625,
+          "right": 622.359375
+        }
+      ]
+    },
+    {
+      "label": "1920 /work/lane",
+      "width": 1920,
+      "documentWidth": 1920,
+      "headings": [
+        {
+          "text": "LANE",
+          "left": 80.625,
+          "right": 524.109375
+        },
+        {
+          "text": "A campaign archive for independent nights in Agra. One browsing system gives seven distinct event identities room to lead.",
+          "left": 428,
+          "right": 1337.328125
+        },
+        {
+          "text": "ARCUS",
+          "left": 128.625,
+          "right": 653.828125
+        }
+      ]
+    },
+    {
+      "label": "1920 /work/arcus",
+      "width": 1920,
+      "documentWidth": 1920,
+      "headings": [
+        {
+          "text": "ARCUS",
+          "left": 80.625,
+          "right": 673.234375
+        },
+        {
+          "text": "A strength-training interface built around the next session. Desktop and mobile dashboards put workout entry ahead of secondary tools.",
+          "left": 428,
+          "right": 1368.953125
+        },
+        {
+          "text": "TEEN FIESTA",
+          "left": 128.625,
+          "right": 1019.46875
+        }
+      ]
+    },
+    {
+      "label": "1920 /work/teen-fiesta",
+      "width": 1920,
+      "documentWidth": 1920,
+      "headings": [
+        {
+          "text": "A website builtfor the event.",
+          "left": 80.625,
+          "right": 1116.671875
+        },
+        {
+          "text": "Identity, information and media.",
+          "left": 428,
+          "right": 1321.03125
+        },
+        {
+          "text": "Rewatch",
+          "left": 128.625,
+          "right": 766.71875
+        }
+      ]
+    },
+    {
+      "label": "1920 /work/rewatch",
+      "width": 1920,
+      "documentWidth": 1920,
+      "headings": [
+        {
+          "text": "Rewatch",
+          "left": 80.625,
+          "right": 795.46875
+        },
+        {
+          "text": "A media discovery product with an editorial opening. Search, category navigation and a catalog preview give desktop and mobile users a clear starting point.",
+          "left": 428,
+          "right": 1362.71875
+        },
+        {
+          "text": "LANE",
+          "left": 128.625,
+          "right": 522.390625
+        }
+      ]
+    },
+    {
+      "label": "390 /",
+      "width": 390,
+      "documentWidth": 390,
+      "headings": [
+        {
+          "text": "The feeling isin the behavior.",
+          "left": 17.59375,
+          "right": 312.046875
+        },
+        {
+          "text": "What are youthinking about?",
+          "left": 17.59375,
+          "right": 332.203125
+        }
+      ]
+    },
+    {
+      "label": "390 /about",
+      "width": 390,
+      "documentWidth": 390,
+      "headings": [
+        {
+          "text": "The detailsmake the feeling.",
+          "left": 17.59375,
+          "right": 271.046875
+        },
+        {
+          "text": "The feeling is in the behavior.",
+          "left": 17.59375,
+          "right": 282.765625
+        },
+        {
+          "text": "Code can carry atmosphere.",
+          "left": 17.59375,
+          "right": 298.375
+        },
+        {
+          "text": "Let's make something clear, useful, and hard to forget.",
+          "left": 17.59375,
+          "right": 334.046875
+        }
+      ]
+    },
+    {
+      "label": "390 /contact",
+      "width": 390,
+      "documentWidth": 390,
+      "headings": [
+        {
+          "text": "What are youthinking about?",
+          "left": 17.59375,
+          "right": 357.0625
+        },
+        {
+          "text": "Give the ideasomewhere to start.",
+          "left": 17.59375,
+          "right": 292.21875
+        }
+      ]
+    },
+    {
+      "label": "390 /work/lane",
+      "width": 390,
+      "documentWidth": 390,
+      "headings": [
+        {
+          "text": "LANE",
+          "left": 17.59375,
+          "right": 168.15625
+        },
+        {
+          "text": "A campaign archive for independent nights in Agra. One browsing system gives seven distinct event identities room to lead.",
+          "left": 17.59375,
+          "right": 332.609375
+        },
+        {
+          "text": "ARCUS",
+          "left": 36.78125,
+          "right": 220.1875
+        }
+      ]
+    },
+    {
+      "label": "390 /work/arcus",
+      "width": 390,
+      "documentWidth": 390,
+      "headings": [
+        {
+          "text": "ARCUS",
+          "left": 17.59375,
+          "right": 218.296875
+        },
+        {
+          "text": "A strength-training interface built around the next session. Desktop and mobile dashboards put workout entry ahead of secondary tools.",
+          "left": 17.59375,
+          "right": 369.609375
+        },
+        {
+          "text": "TEEN FIESTA",
+          "left": 36.78125,
+          "right": 352.0625
+        }
+      ]
+    },
+    {
+      "label": "390 /work/teen-fiesta",
+      "width": 390,
+      "documentWidth": 390,
+      "headings": [
+        {
+          "text": "A website builtfor the event.",
+          "left": 17.59375,
+          "right": 372.40625
+        },
+        {
+          "text": "Identity, information and media.",
+          "left": 17.59375,
+          "right": 344.609375
+        },
+        {
+          "text": "Rewatch",
+          "left": 36.78125,
+          "right": 261.15625
+        }
+      ]
+    },
+    {
+      "label": "390 /work/rewatch",
+      "width": 390,
+      "documentWidth": 390,
+      "headings": [
+        {
+          "text": "Rewatch",
+          "left": 17.59375,
+          "right": 260.578125
+        },
+        {
+          "text": "A media discovery product with an editorial opening. Search, category navigation and a catalog preview give desktop and mobile users a clear starting point.",
+          "left": 17.59375,
+          "right": 363.609375
+        },
+        {
+          "text": "LANE",
+          "left": 36.78125,
+          "right": 175.703125
+        }
+      ]
+    },
+    {
+      "label": "320 /",
+      "width": 320,
+      "documentWidth": 320,
+      "headings": [
+        {
+          "text": "The feeling isin the behavior.",
+          "left": 17.59375,
+          "right": 271.359375
+        },
+        {
+          "text": "What are youthinking about?",
+          "left": 17.59375,
+          "right": 295.875
+        }
+      ]
+    },
+    {
+      "label": "320 /about",
+      "width": 320,
+      "documentWidth": 320,
+      "headings": [
+        {
+          "text": "The detailsmake the feeling.",
+          "left": 17.59375,
+          "right": 271.046875
+        },
+        {
+          "text": "The feeling is in the behavior.",
+          "left": 17.59375,
+          "right": 282.765625
+        },
+        {
+          "text": "Code can carry atmosphere.",
+          "left": 17.59375,
+          "right": 298.375
+        },
+        {
+          "text": "Let's make something clear, useful, and hard to forget.",
+          "left": 17.59375,
+          "right": 249.359375
+        }
+      ]
+    },
+    {
+      "label": "320 /contact",
+      "width": 320,
+      "documentWidth": 320,
+      "headings": [
+        {
+          "text": "What are youthinking about?",
+          "left": 17.59375,
+          "right": 248.578125
+        },
+        {
+          "text": "Give the ideasomewhere to start.",
+          "left": 17.59375,
+          "right": 284.84375
+        }
+      ]
+    },
+    {
+      "label": "320 /work/lane",
+      "width": 320,
+      "documentWidth": 320,
+      "headings": [
+        {
+          "text": "LANE",
+          "left": 17.59375,
+          "right": 165.46875
+        },
+        {
+          "text": "A campaign archive for independent nights in Agra. One browsing system gives seven distinct event identities room to lead.",
+          "left": 17.59375,
+          "right": 283.796875
+        },
+        {
+          "text": "ARCUS",
+          "left": 36.78125,
+          "right": 220.1875
+        }
+      ]
+    },
+    {
+      "label": "320 /work/arcus",
+      "width": 320,
+      "documentWidth": 320,
+      "headings": [
+        {
+          "text": "ARCUS",
+          "left": 17.59375,
+          "right": 213.6875
+        },
+        {
+          "text": "A strength-training interface built around the next session. Desktop and mobile dashboards put workout entry ahead of secondary tools.",
+          "left": 17.59375,
+          "right": 297.234375
+        },
+        {
+          "text": "TEEN FIESTA",
+          "left": 36.78125,
+          "right": 205.671875
+        }
+      ]
+    },
+    {
+      "label": "320 /work/teen-fiesta",
+      "width": 320,
+      "documentWidth": 320,
+      "headings": [
+        {
+          "text": "A website builtfor the event.",
+          "left": 17.59375,
+          "right": 302.40625
+        },
+        {
+          "text": "Identity, information and media.",
+          "left": 17.59375,
+          "right": 287.359375
+        },
+        {
+          "text": "Rewatch",
+          "left": 36.78125,
+          "right": 261.15625
+        }
+      ]
+    },
+    {
+      "label": "320 /work/rewatch",
+      "width": 320,
+      "documentWidth": 320,
+      "headings": [
+        {
+          "text": "Rewatch",
+          "left": 17.59375,
+          "right": 258.109375
+        },
+        {
+          "text": "A media discovery product with an editorial opening. Search, category navigation and a catalog preview give desktop and mobile users a clear starting point.",
+          "left": 17.59375,
+          "right": 295.921875
+        },
+        {
+          "text": "LANE",
+          "left": 36.78125,
+          "right": 175.703125
+        }
+      ]
+    }
+  ]
+}
