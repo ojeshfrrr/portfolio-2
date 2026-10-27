@@ -1,25 +1,33 @@
 import Link from "next/link";
-import { AmbientField } from "@/components/ambient-field";
-import { PortalHero } from "@/components/portal-hero";
+import { IdentityStage } from "@/components/identity-stage";
 import { HomeScroll } from "@/components/home-scroll";
 import { projects } from "@/lib/projects";
 import { site } from "@/lib/site";
+import { desktopProjects, profile } from "@/lib/profile";
+import styles from "@/components/profile.module.css";
+import { Atmosphere } from "@/components/atmosphere";
+import { SelectedRepositories } from "@/components/selected-repositories";
 
 export default function HomePage() {
   return (
-    <div className="page-home">
-      <PortalHero projects={projects} />
+    <div className="page-home page-home--identity">
+      <IdentityStage projects={projects} />
       <HomeScroll />
-      <section className="home-about" id="about" aria-labelledby="home-about-title">
-        <AmbientField />
-        <p className="eyebrow">About the practice</p>
-        <div data-home-about>
-          <h2 id="home-about-title">The feeling is<br />in the behavior.</h2>
-          <div className="home-about__copy"><p>I&apos;m Ojesh — a creative developer working where visual identity, interaction, and useful software meet.</p><p>I move between expressive campaign worlds and software people return to. A page should reward attention without making a task harder.</p><Link className="text-link" href="/about">More about my practice <span aria-hidden="true">↗</span></Link></div>
+      <section className={`home-about ${styles.homeSection}`} id="about" aria-labelledby="home-about-title">
+        <Atmosphere variant="profile" />
+        <div className={styles.homeMeta}><p>Ojesh / {profile.location}</p><a href={site.githubUrl} rel="noreferrer" target="_blank">@{profile.handle} <span aria-hidden="true">↗</span></a></div>
+        <div className={styles.homeGrid} data-home-about>
+          <h2 className={styles.homeHeading} id="home-about-title">Curiosity,<br />put to work.</h2>
+          <div className={`home-about__copy ${styles.homeCopy}`}>
+            <p>I&apos;m Ojesh. {profile.introduction}</p>
+            <p>{profile.description} The work above explores the web side; <a href={desktopProjects[0].url} rel="noreferrer" target="_blank">ClickForge</a> is one of my Windows tools.</p>
+            <div className={styles.homeActions}><Link className={styles.textLink} href="/about">More about me <span aria-hidden="true">↗</span></Link><a className={styles.textLink} href={site.githubUrl} rel="noreferrer" target="_blank">Projects on GitHub <span aria-hidden="true">↗</span></a></div>
+          </div>
         </div>
       </section>
+      <SelectedRepositories />
       <section className="home-contact" id="contact" aria-labelledby="home-contact-title">
-        <AmbientField className="ambient-field--contact" />
+        <Atmosphere variant="closing" />
         <div className="home-contact__inner" data-home-contact>
           <p className="eyebrow">Have a good problem?</p>
           <h2 id="home-contact-title">What are you<br />thinking about?</h2>
