@@ -33,12 +33,12 @@ export function SiteHeader() {
   }, [menuOpen]);
 
   return (
-    <header className={"site-header" + (pathname === "/" ? " site-header--spatial" : "")}>
+    <header className={"site-header" + (pathname === "/" ? " site-header--identity" : "")}>
       <Link className="site-wordmark" href="/" aria-label="Ojesh — home">
         ojesh<span>.</span>
       </Link>
 
-      <p className="site-header__role">Creative developer</p>
+      <p className="site-header__role">Web &amp; Windows projects</p>
 
       <nav className="site-nav" aria-label="Main navigation">
         {links.slice(1).map((link) => (

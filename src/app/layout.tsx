@@ -34,7 +34,7 @@ const editorial = localFont({
 export const metadata: Metadata = {
   metadataBase: new URL(site.origin),
   title: {
-    default: "Ojesh — Creative Developer",
+    default: "Ojesh — Web & Windows Projects",
     template: "%s — Ojesh",
   },
   description: site.description,
@@ -42,12 +42,12 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     siteName: site.name,
-    title: "Ojesh — Creative Developer",
+    title: "Ojesh — Web & Windows Projects",
     description: site.description,
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ojesh — Creative Developer",
+    title: "Ojesh — Web & Windows Projects",
     description: site.description,
   },
 };

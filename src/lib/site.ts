@@ -16,9 +16,9 @@ const publicOrigin = validPublicOrigin ?? "http://127.0.0.1:3000";
 
 export const site = {
   name: "Ojesh",
-  role: "Creative developer",
+  role: "Web & Windows projects",
   description:
-    "Creative development for products with a pulse and campaigns with a point of view.",
+    "Ojesh, based in India. Building with TypeScript and C#, from web experiences to native Windows tools.",
   origin: publicOrigin,
   hasPublicOrigin: Boolean(validPublicOrigin),
   contactEmail:
