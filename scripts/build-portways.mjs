@@ -1,6 +1,6 @@
 import { spawnSync } from "node:child_process";
-import { readdir, stat, writeFile } from "node:fs/promises";
-import { dirname, join, resolve } from "node:path";
+import { copyFile, readdir, stat, writeFile } from "node:fs/promises";
+import { dirname, join, relative, resolve, sep } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
@@ -20,6 +20,33 @@ if (build.error) throw build.error;
 if (build.status !== 0) process.exit(build.status ?? 1);
 
 const output = join(root, "out");
+
+// Next 16.4's exporter passes Windows-relative segment paths to a helper that
+// replaces forward slashes only. Preserve its output and add the flat filenames
+// requested by the browser, e.g. __next.work.__PAGE__.txt.
+async function segmentFiles(directory) {
+  const paths = [];
+  for (const entry of await readdir(directory, { withFileTypes: true })) {
+    const path = join(directory, entry.name);
+    if (entry.isDirectory()) paths.push(...await segmentFiles(path));
+    else if (entry.isFile() && entry.name.endsWith(".txt")) paths.push(path);
+  }
+  return paths;
+}
+async function normalizeWindowsSegments(directory) {
+  for (const entry of await readdir(directory, { withFileTypes: true })) {
+    if (!entry.isDirectory()) continue;
+    const path = join(directory, entry.name);
+    if (entry.name.startsWith("__next.")) {
+      for (const file of await segmentFiles(path)) {
+        const suffix = relative(path, file).split(sep).join(".");
+        await copyFile(file, join(directory, `${entry.name}.${suffix}`));
+      }
+    } else await normalizeWindowsSegments(path);
+  }
+}
+if (process.platform === "win32") await normalizeWindowsSegments(output);
+
 for (const page of ["index.html", "about/index.html", "contact/index.html", "work/index.html", "work/lane/index.html", "work/arcus/index.html", "work/teen-fiesta/index.html", "work/rewatch/index.html", "404.html", "robots.txt", "sitemap.xml", "work/case-studies/teen-fiesta-film.mp4"]) {
   if (!(await stat(join(output, page))).isFile()) throw new Error(`Missing exported file: ${page}`);
 }

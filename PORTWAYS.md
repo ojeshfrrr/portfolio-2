@@ -4,6 +4,8 @@ The [current Portways hosting guide](https://portways.app/docs/host-a-site.md) a
 
 This portfolio supports that mode through Next.js static export. All pages and project routes are generated at build time, including explicitly static sitemap and robots routes. Directory-style routes support static hosting; `next/image` serves the existing local assets directly in this mode. The contact composer continues to prepare a message in the visitor's email app.
 
+The build helper also adds normalized navigation-segment filenames on Windows. The installed Next.js 16.4 exporter otherwise creates nested `__next.*` directories where its browser client requests dotted `.txt` filenames. This compatibility step copies the generated payloads to those expected names without modifying the installed package or the payload contents.
+
 ## Build and publish
 
 Commit source changes, then run in PowerShell:
