@@ -1,0 +1,8 @@
+:HL["/_next/static/chunks/0z-xyb1yu6i4r.css","style"]
+:HL["/_next/static/chunks/34ujfc5hxzwvo.css","style"]
+:HL["/_next/static/chunks/2ihcv2hhujqqp.css","style"]
+:HL["/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+3:[["children",{"s":"__PAGE__","h":160}]]
+2:[["children",{"s":{"n":"slug","t":"d","k":"lane","s":[]},"h":96,"c":"$Q3"}]]
+1:[["children",{"s":"work","h":96,"c":"$Q2"}]]
+0:{"b":"wKWOlHxPmPiyNDDsvuhdN","t":{"t":{"s":"","h":80,"c":"$Q1"}}}

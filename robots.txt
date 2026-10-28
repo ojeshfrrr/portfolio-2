@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://ojesh-portfolio.portways.app/sitemap.xml
