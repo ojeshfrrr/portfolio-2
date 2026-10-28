@@ -9,6 +9,10 @@ A personal portfolio built with Next.js App Router and TypeScript. The homepage 
 
 Open http://127.0.0.1:3000.
 
+## Portways
+
+See [PORTWAYS.md](PORTWAYS.md) for the verified static-hosting requirements and the `build:portways` / `publish:portways` workflow.
+
 ## Checks
 
     npm run lint
