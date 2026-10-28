@@ -7,6 +7,8 @@
     "postinstall": "node scripts/patch-fiber-timer.mjs",
     "dev": "next dev --hostname 127.0.0.1",
     "build": "next build",
+    "build:portways": "node scripts/build-portways.mjs",
+    "publish:portways": "node scripts/publish-portways.mjs",
     "start": "next start --hostname 127.0.0.1",
     "lint": "eslint .",
     "check": "tsc --noEmit"
