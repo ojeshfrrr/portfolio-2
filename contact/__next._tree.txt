@@ -4,4 +4,4 @@
 :HL["/_next/static/media/bricolage_grotesque_latin-s.p.2ej1fmte5yjhi.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 2:[["children",{"s":"__PAGE__","h":160}]]
 1:[["children",{"s":"contact","h":96,"c":"$Q2"}]]
-0:{"b":"wKWOlHxPmPiyNDDsvuhdN","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"ZCFdSSKHvKhibiwPj0Zx8","t":{"t":{"s":"","h":80,"c":"$Q1"}}}

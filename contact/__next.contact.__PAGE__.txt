@@ -1,0 +1,46 @@
+1:"$Sreact.fragment"
+2:"/_next/static/chunks/42onvq6nokjl2.js"
+3:"/_next/static/chunks/2gxsugcmirqi4.js"
+4:"/_next/static/chunks/35oekjpqw8549.js"
+5:"/_next/static/chunks/3al76tavzal3o.js"
+6:"/_next/static/chunks/0icqp5p40c_j3.js"
+7:"ProjectEntryProvider"
+8:I[92386,["$2","$3","$4","$5","$6"],"$7"]
+9:I[52504,["$2","$3","$4","$5","$6"],"SmoothScroll"]
+a:I[3020,["$2","$3","$4","$5","$6"],"SiteHeader"]
+b:I[39756,["$2","$3","$4","$5","$6"],"default"]
+c:I[37457,["$2","$3","$4","$5","$6"],"default"]
+d:"/_next/static/chunks/2y3qkxb--xz8k.js"
+e:I[22016,["$2","$3","$4","$5","$6","$d"],""]
+f:I[33967,["$2","$3","$4","$5","$6"],"ScrollReveals"]
+16:I[75874,["$2","$3","$4","$5","$6","$d"],"ContactComposer"]
+1d:"ViewportBoundary"
+1e:I[97367,["$2","$3","$4","$5","$6"],"$1d"]
+1f:"MetadataBoundary"
+20:I[97367,["$2","$3","$4","$5","$6"],"$1f"]
+21:"$Sreact.suspense"
+22:I[27201,["$2","$3","$4","$5","$6"],"IconMark"]
+:HL["/_next/static/chunks/0z-xyb1yu6i4r.css","style"]
+:HL["/_next/static/chunks/34ujfc5hxzwvo.css","style"]
+:HL["/_next/static/chunks/2ihcv2hhujqqp.css","style"]
+11:X
+14:X
+14:C
+15:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[["$","div",null,{"className":"page-contact","children":[["$","section",null,{"className":"contact-intro","children":[["$","span",null,{"aria-hidden":"true","className":"_4rJmDW_surface","data-atmosphere":"closing","children":[["$","span",null,{"className":"_4rJmDW_light"}],["$","span",null,{"className":"_4rJmDW_plane"}],["$","span",null,{"className":"_4rJmDW_mesh"}]]}],["$","p",null,{"className":"eyebrow","children":"Contact / Start a conversation"}],["$","h1",null,{"children":["What are you",["$","br",null,{}],"thinking about?"]}],["$","p",null,{"children":"Share the early thought, the almost-finished brief, or the part that still needs solving."}],["$","a",null,{"className":"contact-email","href":"mailto:workwithovio@gmail.com","children":["workwithovio@gmail.com",["$","span",null,{"aria-hidden":"true","children":"↗"}]]}]]}],["$","section",null,{"aria-labelledby":"contact-note-title","className":"contact-workbench","children":[["$","span",null,{"aria-hidden":"true","className":"_4rJmDW_surface","data-atmosphere":"grid","children":[["$","span",null,{"className":"_4rJmDW_light"}],["$","span",null,{"className":"_4rJmDW_plane"}],["$","span",null,{"className":"_4rJmDW_mesh"}]]}],["$","div",null,{"className":"contact-workbench__intro","children":[["$","p",null,{"className":"eyebrow","children":"A short brief / 01"}],["$","h2",null,{"id":"contact-note-title","children":["Give the idea",["$","br",null,{}],"somewhere to start."]}],["$","p",null,{"children":"A few lines are enough. The useful detail is usually the one you are still figuring out."}]]}],["$","$L16",null,{}]]}],["$","section",null,{"className":"contact-details section-wrap","children":[["$","span",null,{"aria-hidden":"true","className":"_4rJmDW_surface","data-atmosphere":"editorial","children":[["$","span",null,{"className":"_4rJmDW_light"}],["$","span",null,{"className":"_4rJmDW_plane"}],"$L17"]}],"$L18","$L19"]}]]}],["$L1a"],"$L1b"]}],"p":"$@1c","v":null,"s":"$11"}}]]
+12:[["children",{"s":"contact","h":96,"d":{"r":["$","$1","c",{"children":[null,["$","$Lb",null,{"parallelRouterKey":"children","template":["$","$Lc",null,{}]}]]}],"p":"$@13","v":"$14","s":"$11"},"c":"$Q15"}]]
+0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0z-xyb1yu6i4r.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/34ujfc5hxzwvo.css","precedence":"next"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/2ihcv2hhujqqp.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/42onvq6nokjl2.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/2gxsugcmirqi4.js","async":true}],["$","script","script-2",{"src":"/_next/static/chunks/35oekjpqw8549.js","async":true}],["$","script","script-3",{"src":"/_next/static/chunks/3al76tavzal3o.js","async":true}],["$","script","script-4",{"src":"/_next/static/chunks/0icqp5p40c_j3.js","async":true}]],["$","html",null,{"lang":"en","className":"X5FWMq_variable EEVDxG_variable","children":["$","body",null,{"children":[["$","a",null,{"className":"skip-link","href":"#main-content","children":"Skip to content"}],["$","$L8",null,{"children":[["$","$L9",null,{}],["$","$La",null,{}],["$","main",null,{"id":"main-content","children":["$","$Lb",null,{"parallelRouterKey":"children","template":["$","$Lc",null,{}],"notFound":[["$","div",null,{"className":"not-found","children":[["$","p",null,{"className":"eyebrow","children":"404 / No page here"}],["$","h1",null,{"children":"That frame is empty."}],["$","$Le",null,{"className":"button button--primary","href":"/work","children":["Browse the work ",["$","span",null,{"aria-hidden":"true","children":"↗"}]]}]]}],[]]}]}],["$","footer",null,{"className":"site-footer","children":[["$","span",null,{"aria-hidden":"true","className":"_4rJmDW_surface","data-atmosphere":"closing","children":[["$","span",null,{"className":"_4rJmDW_light"}],["$","span",null,{"className":"_4rJmDW_plane"}],["$","span",null,{"className":"_4rJmDW_mesh"}]]}],["$","div",null,{"className":"site-footer__top","children":[["$","div",null,{"children":[["$","p",null,{"className":"eyebrow","children":"Have something in mind?"}],["$","$Le",null,{"className":"site-footer__cta","href":"/contact","children":["Let's talk ",["$","span",null,{"aria-hidden":"true","children":"↗"}]]}]]}],["$","a",null,{"className":"text-link","href":"mailto:workwithovio@gmail.com","children":"workwithovio@gmail.com"}]]}],["$","div",null,{"className":"site-footer__bottom","children":[["$","span",null,{"children":"© 2026 Ojesh"}],["$","a",null,{"href":"https://github.com/ojeshfrrr","rel":"noreferrer","target":"_blank","children":["GitHub ",["$","span",null,{"aria-hidden":"true","children":"↗"}]]}],["$","$Le",null,{"href":"/work","children":"Selected work"}]]}]]}],["$","$Lf",null,{}]]}]]}]}]]}],"p":"$@10","v":null,"s":"$11"},"c":"$Q12"},"h":{"r":["$","$1","h",{"children":[null,["$","$L1e",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#09090b"}]]}],["$","$L20",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$21",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Contact — Ojesh"}],["$","meta","1",{"name":"description","content":"Start a conversation with Ojesh about a digital project."}],["$","meta","2",{"name":"application-name","content":"Ojesh"}],["$","meta","3",{"property":"og:title","content":"Ojesh — Web & Windows Projects"}],["$","meta","4",{"property":"og:description","content":"Ojesh, based in India. Building with TypeScript and C#, from web experiences to native Windows tools."}],["$","meta","5",{"property":"og:site_name","content":"Ojesh"}],["$","meta","6",{"property":"og:type","content":"website"}],["$","meta","7",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","8",{"name":"twitter:title","content":"Ojesh — Web & Windows Projects"}],["$","meta","9",{"name":"twitter:description","content":"Ojesh, based in India. Building with TypeScript and C#, from web experiences to native Windows tools."}],["$","link","10",{"rel":"icon","href":"/icon.svg?icon.2itvzbwnqsixr.svg","sizes":"any","type":"image/svg+xml"}],["$","$L22","11",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@23","v":null,"s":"$11"}},"a":"$@24","u":"$@25","b":"ZCFdSSKHvKhibiwPj0Zx8"}
+26:I[97367,["$2","$3","$4","$5","$6"],"OutletBoundary"]
+17:["$","span",null,{"className":"_4rJmDW_mesh"}]
+18:["$","div",null,{"children":[["$","p",null,{"className":"eyebrow","children":"A few useful links"}],["$","a",null,{"className":"text-link","href":"https://github.com/ojeshfrrr","rel":"noreferrer","target":"_blank","children":["GitHub ",["$","span",null,{"aria-hidden":"true","children":"↗"}]]}],["$","$Le",null,{"className":"text-link","href":"/work","children":["Selected work ",["$","span",null,{"aria-hidden":"true","children":"↗"}]]}]]}]
+19:["$","p",null,{"className":"contact-note","children":"Your email app will open a new message to this address."}]
+1a:["$","script","script-0",{"src":"/_next/static/chunks/2y3qkxb--xz8k.js","async":true}]
+1b:["$","$L26",null,{"children":["$","$21",null,{"name":"Next.MetadataOutlet","children":"$@27"}]}]
+11:300
+27:null
+25:true
+11:C
+24:0
+13:"$undefined"
+10:"$undefined"
+23:"$undefined"
+1c:"$undefined"
