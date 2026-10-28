@@ -1,0 +1,11 @@
+[
+  {
+    "sha": "5ca971f4ddf7cda45dae32c69e60224791d6194f",
+    "short_sha": "5ca971f",
+    "ref": "codex/portways-static",
+    "environment": "production",
+    "url": "https://ojesh-portfolio.portways.app",
+    "deployment_id": 376,
+    "deployed_at": "2026-10-28T06:50:14.613Z"
+  }
+]
